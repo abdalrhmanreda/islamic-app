@@ -1,0 +1,1327 @@
+{
+  "أدعية للصلاة": [
+    {
+      "ID": 16,
+      "TITLE": "دعاء الاستفتاح",
+      "eng_title": "",
+      "slug": "دعاء الاستفتاح",
+      "isFavorite": false,
+      "CATEGORY": "متنوع- الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_017.mp3",
+      "TEXT": [
+        {
+          "ID": 27,
+          "ARABIC_TEXT": " ((اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنْ خَطَايَايَ كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْني مِنْ خَطَايَايَ، بِالثَّلْجِ وَالْماءِ وَالْبَرَدِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/27.mp3"
+        },
+        {
+          "ID": 28,
+          "ARABIC_TEXT": "((سُبْحانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبارَكَ اسْمُكَ، وَتَعَالَى جَدُّكَ، وَلاَ إِلَهَ غَيْرُكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/28.mp3"
+        },
+        {
+          "ID": 29,
+          "ARABIC_TEXT": "((وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَوَاتِ وَالأَرْضَ حَنِيفَاً وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلاَتِي، وَنُسُكِي، وَمَحْيَايَ، وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ، لاَ شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ. اللَّهُمَّ أَنْتَ المَلِكُ لاَ إِلَهَ إِلاَّ أَنْتَ، أَنْتَ رَبِّي وَأَنَا عَبْدُكَ، ظَلَمْتُ نَفْسِي وَاعْتَرَفْتُ بِذَنْبِي فَاغْفِرْ لِي ذُنُوبي جَمِيعَاً إِنَّهُ لاَ يَغْفِرُ الذُّنوبَ إِلاَّ أَنْتَ. وَاهْدِنِي لِأَحْسَنِ الأَخْلاقِ لاَ يَهْدِي لِأَحْسَنِها إِلاَّ أَنْتَ، وَاصْرِفْ عَنِّي سَيِّئَهَا، لاَ يَصْرِفُ عَنِّي سَيِّئَهَا إِلاَّ أَنْتَ، لَبَّيْكَ وَسَعْدَيْكَ، وَالخَيْرُ كُلُّهُ بِيَـــــــدَيْكَ، وَالشَّـــــرُّ لَيْسَ إِلَيْــــــكَ، أَنَا بِكَ وَإِلَيْكَ، تَبارَكْتَ وَتَعَالَيْتَ، أَسْتَغْفِرُكَ وَأَتوبُ إِلَيْكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/29.mp3"
+        },
+        {
+          "ID": 30,
+          "ARABIC_TEXT": "((اللَّهُمَّ رَبَّ جِبْرَائِيلَ، وَمِيْكَائِيلَ، وَإِسْرَافِيلَ، فَاطِرَ السَّمَوَاتِ وَالأَرْضِ، عَالِمَ الغَيْبِ وَالشَّهَادَةِ أَنْتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ. اهْدِنِي لِمَا اخْتُلِفَ فِيهِ مِنَ الْحَقِّ بِإِذْنِكَ إِنَّكَ تَهْدِي مَنْ تَشَاءُ إِلَى صِرَاطٍ مُسْتَقيمٍ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/30.mp3"
+        },
+        {
+          "ID": 31,
+          "ARABIC_TEXT": "((اللَّهُ أَكْبَرُ كَبِيرَاً، اللَّهُ أَكْبَرُ كَبِيراً، اللَّهُ أَكْبَرُ كَبِيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَالْحَمْدُ لِلَّهِ كَثيراً، وَسُبْحَانَ اللَّهِ بُكْرَةً وَأَصِيلاً)) ثَلاثاً ((أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ: مِنْ نَفْخِهِ، وَنَفْثِهِ، وَهَمْزِهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/31.mp3"
+        },
+        {
+          "ID": 32,
+          "ARABIC_TEXT": "((اللَّهُمَّ لَكَ الْحَمْدُ، أَنْتَ نُورُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ، وَلَكَ الْحَمْدُ أَنْتَ قَيِّمُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ، [وَلَكَ الْحَمْدُ أَنْتَ رَبُّ السَّمَواتِ وَالأَرْضِ وَمَنْ فِيهِنَّ] [وَلَكَ الْحَمْدُ لَكَ مُلْكُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ] [وَلَكَ الْحَمْدُ أَنْتَ مَلِكُ السَّمَوَاتِ وَالأَرْضِ] [وَلَكَ الْحَمْدُ] [أَنْتَ الْحَقُّ، وَوَعْدُكَ الْحَقُّ، وَقَوْلُكَ الْحَقُّ، وَلِقاؤُكَ الْحَقُّ، وَالْجَنَّةُ حَقٌّ، وَالنَّارُ حَقٌّ، وَالنَّبِيُّونَ حَقٌّ، وَمحَمَّدٌ صلى الله عليه وسلم حَقٌّ، وَالسّاعَةُ حَقٌّ] [اللَّهُمَّ لَكَ أَسْلَمتُ، وَعَلَيْكَ تَوَكَّلْتُ، وَبِكَ آمَنْتُ، وَإِلَيْكَ أَنَبْتُ، وَبِكَ خاصَمْتُ، وَإِلَيْكَ حاكَمْتُ. فَاغْفِرْ لِي مَا قَدَّمْتُ، وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ، وَمَا أَعْلَنْتُ] [وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي] [أَنْتَ المُقَدِّمُ، وَأَنْتَ المُؤَخِّرُ لاَ إِلَهَ إِلاَّ أَنْتَ] [أَنْتَ إِلَهِي لاَ إِلَهَ إِلاَّ أَنْتَ] [وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ])).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/32.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 17,
+      "TITLE": "دعاء الركوع",
+      "eng_title": "",
+      "slug": "دعاء الركوع",
+      "isFavorite": false,
+      "CATEGORY": "أثناء الصلاة",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_018.mp3",
+      "TEXT": [
+        {
+          "ID": 33,
+          "ARABIC_TEXT": "((سُبْحانَ رَبِّيَ الْعَظِيمِ)). ثلاث مرَّاتٍ.",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 3,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/33.mp3"
+        },
+        {
+          "ID": 34,
+          "ARABIC_TEXT": "((سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/34.mp3"
+        },
+        {
+          "ID": 35,
+          "ARABIC_TEXT": "((سُبُّوُحٌ، قُدُّوسٌ، رَبُّ المَلاَئِكَةِ وَالرُّوحِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/35.mp3"
+        },
+        {
+          "ID": 36,
+          "ARABIC_TEXT": "((اللَّهُمَّ لَكَ رَكَعْتُ، وَبِكَ آمَنْتُ، وَلَكَ أَسْلَمْتُ، خَشَعَ لَكَ سَمْعِي، وَبَصَرِي، وَمُخِّي، وَعَــــظْمِي، وَعَصَبِي، [وَمَا استَقَلَّتْ بِهِ قَدَمِي])).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/36.mp3"
+        },
+        {
+          "ID": 37,
+          "ARABIC_TEXT": "((سُبْحَانَ ذِي الْجَبَرُوتِ، وَالْمَلَكُوتِ، وَالْكِبْرِيَاءِ، وَالْعَظَمَةِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/37.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 18,
+      "TITLE": "دعاء الرفع من الركوع",
+      "eng_title": "دعاء الرفع من الركوع",
+      "slug": "دعاء الرفع من الركوع",
+      "isFavorite": false,
+      "CATEGORY": "أثناء الصلاة",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_019.mp3",
+      "TEXT": [
+        {
+          "ID": 38,
+          "ARABIC_TEXT": "((سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/38.mp3"
+        },
+        {
+          "ID": 39,
+          "ARABIC_TEXT": "((رَبَّنَا وَلَكَ الْحَمْدُ، حَمْداً كَثيراً طَيِّباً مُبارَكاً فِيهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/39.mp3"
+        },
+        {
+          "ID": 40,
+          "ARABIC_TEXT": "((مِلْءَ السَّمَوَاتِ وَمِلْءَ الأَرْضِ، وَمَا بَيْنَهُمَا، وَمِلْءَ مَا شِئْتَ مِنْ شَيءٍ بَعْدُ. أَهلَ الثَّناءِ وَالْمَجْدِ، أَحَقُّ مَا قَالَ الْعَبْدُ، وَكُلُّنَا لَكَ عَبْدٌ. اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ، وَلاَ مُعْطِيَ لِمَا مَنَعْتَ، وَلاَ يَنْفَعُ ذَا الجَدِّ مِنْكَ الجَدُّ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/40.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 19,
+      "TITLE": "دعاء السجود",
+      "eng_title": "دعاء السجود",
+      "slug": "دعاء السجود",
+      "isFavorite": false,
+      "CATEGORY": "أثناء الصلاة",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_020.mp3",
+      "TEXT": [
+        {
+          "ID": 41,
+          "ARABIC_TEXT": "((سُبْحَانَ رَبِّيَ الأَعْلَى)) ثلاث مرَّاتٍ.",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 3,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/41.mp3"
+        },
+        {
+          "ID": 42,
+          "ARABIC_TEXT": "((سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ، اللَّهُمَّ اغْفِرْ لِي)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/42.mp3"
+        },
+        {
+          "ID": 43,
+          "ARABIC_TEXT": "((سُبوحٌ، قُدُّوسٌ، رَبُّ الْمَلَائِكَةِ وَالرُّوحِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/43.mp3"
+        },
+        {
+          "ID": 44,
+          "ARABIC_TEXT": "((اللَّهُمَّ لَكَ سَجَدْتُ وَبِكَ آمَنْتُ، وَلَكَ أَسْلَمْتُ، سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ، وَصَوَّرَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ، تَبَارَكَ اللَّهُ أَحْسنُ الْخَالِقينَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/44.mp3"
+        },
+        {
+          "ID": 45,
+          "ARABIC_TEXT": "((سُبْحَانَ ذِي الْجَبَرُوتِ، وَالْمَلَكُوتِ، وَالْكِبْرِيَاءِ، وَالْعَظَمَةِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/45.mp3"
+        },
+        {
+          "ID": 46,
+          "ARABIC_TEXT": "((اللَّهُمَّ اغْفِرْ لِي ذَنْبِي كُلَّهُ: دِقَّهُ وَجِلَّهُ، وَأَوَّلَهُ وَآخِرَهُ، وَعَلاَنِيَّتَهُ وَسِرَّهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/46.mp3"
+        },
+        {
+          "ID": 47,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَعُوذُ بِرِضَاكَ مِنْ سَخَطِكَ، وَبِمُعَافَاتِكَ مِنْ عُقوبَتِكَ، وَأَعُوذُ بِكَ مِنْكَ، لاَ أُحْصِي ثَنَاءً عَلَيْكَ، أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/47.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 20,
+      "TITLE": "دعاء الجلسة بين السجدتين",
+      "eng_title": "",
+      "slug": "دعاء الجلسة بين السجدتين",
+      "isFavorite": false,
+      "CATEGORY": "أثناء الصلاة",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_021.mp3",
+      "TEXT": [
+        {
+          "ID": 48,
+          "ARABIC_TEXT": "((رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/48.mp3"
+        },
+        {
+          "ID": 49,
+          "ARABIC_TEXT": "((اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَاهْدِنِي، وَاجْبُرْنِي، وَعَافِنِي، وَارْزُقْنِي، وَارْفَعْنِي)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/49.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 21,
+      "TITLE": "دعاء سجود التلاوة",
+      "eng_title": "",
+      "slug": "دعاء سجود التلاوة",
+      "isFavorite": false,
+      "CATEGORY": "أثناء الصلاة",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_022.mp3",
+      "TEXT": [
+        {
+          "ID": 50,
+          "ARABIC_TEXT": "((سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ، ﴿فَتَبارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ﴾)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/50.mp3"
+        },
+        {
+          "ID": 51,
+          "ARABIC_TEXT": "((اللَّهُمَّ اكْتُبْ لِي بِهَا عِنْدَكَ أَجْراً، وَضَعْ عَنِّي بِهَا وِزْراً، وَاجْعَلْهَا لِي عِنْدَكَ ذُخْراً، وَتَقَبَّلْهَا مِنِّي كَمَا تَقَبَّلْتَهَا مِنْ عَبْدِكَ دَاوُدَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/51.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 24,
+      "TITLE": "الدعاء بعد التشهد الأخير قبل السلام",
+      "eng_title": "",
+      "slug": "الدعاء بعد التشهد الأخير قبل السلام",
+      "isFavorite": false,
+      "CATEGORY": "أثناء الصلاة",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_025.mp3",
+      "TEXT": [
+        {
+          "ID": 55,
+          "ARABIC_TEXT": "((اللَّهُــمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، وَمِنْ عَذَابِ جَهَنَّمَ، وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ، وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/55.mp3"
+        },
+        {
+          "ID": 56,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَعوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، وَأَعوذُ بِكَ مِنْ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ، وَأَعوذُ بِكَ مِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ. اللَّهُمَّ إِنِّي أَعوذُ بِكَ مِنَ الْمَأْثَمِ وَالْمَغْرَمِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/56.mp3"
+        },
+        {
+          "ID": 57,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْماً كَثِيراً، وَلاَ يَغْفِرُ الذُّنوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ وَارْحَمْنِي، إِنَّكَ أَنْتَ الغَفورُ الرَّحيمُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/57.mp3"
+        },
+        {
+          "ID": 58,
+          "ARABIC_TEXT": "((اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ، وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ، وَمَا أَعْلَنْتُ، وَمَا أَسْرَفْتُ، وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي. أَنْتَ الْمُقَدِّمُ، وَأَنْتَ الْمُؤَخِّرُ لاَ إِلَهَ إِلاَّ أَنْتَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/58.mp3"
+        },
+        {
+          "ID": 59,
+          "ARABIC_TEXT": "((اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ، وَشُكْرِكَ، وَحُسْنِ عِبادَتِكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/59.mp3"
+        },
+        {
+          "ID": 60,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبُخْلِ، وَأَعوذُ بِكَ مِنَ الْجُبْنِ، وَأَعُوذُ بِكَ مِنْ أَنْ أُرَدَّ إِلَى أَرْذَلِ الْعُمُرِ، وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الدُّنْيَا وَعَذَابِ الْقَبْرِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/60.mp3"
+        },
+        {
+          "ID": 61,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/61.mp3"
+        },
+        {
+          "ID": 62,
+          "ARABIC_TEXT": "((اللَّهُمَّ بِعِلْمِكَ الغَيْبَ وَقُدْرَتِكَ عَلَى الْخَلقِ أَحْيِنِي مَا عَلِمْتَ الْحَيَاةَ خَيْراً لِي، وَتَوَفَّنِي إِذَا عَلِمْتَ الْوَفَاةَ خَيْراً لِي، اللَّهُمَّ إِنِّي أَسْأَلُكَ خَشْيَتَكَ فِي الْغَيْبِ وَالشَّهَادَةِ، وَأَسْأَلُكَ كَلِمَةَ الْحَقِّ فِي الرِّضَا وَالْغَضَبِ، وَأَسْأَلُكَ الْقَصْدَ فِي الْغِنَى وَالْفَقْرِ، وَأَسْأَلُكَ نَعِيماً لاَ يَنْفَدُ، وَأَسْأَلُكَ قُرَّةَ عَيْنٍ لاَ تَنْقَطِعُ، وَأَسْأَلُكَ الرِّضَا بَعْدَ الْقَضَاءِ، وَأَسْــــأَلُكَ بَرْدَ الْعَيْشِ بَعْدَ الْمَوْتِ، وَأَسْأَلُكَ لَذَّةَ النَّظَرِ إِلَى وَجْهِكَ، وَالشَّوْقَ إِلَى لِقائِكَ فِي غَيرِ ضَرَّاءَ مُضِرَّةٍ، وَلاَ فِتْنَةٍ مُضِلَّةٍ، اللَّهُمَّ زَيِّنَا بِزِينَةِ الإِيمَانِ، وَاجْعَلْنَا هُدَاةً مُهْتَدِينَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/62.mp3"
+        },
+        {
+          "ID": 63,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَسْأَلُكَ يَا أَللَّهُ بِأَنَّكَ الْوَاحِدُ الْأَحَدُ الصَّمَدُ الَّذِي لَمْ يَلِدْ وَلَمْ يولَدْ، وَلَمْ يَكنْ لَهُ كُفُواً أَحَدٌ، أَنْ تَغْفِرَ لِي ذُنُوبِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِّيمُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/63.mp3"
+        },
+        {
+          "ID": 64,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ الْحَمْدَ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، الْمَنَّانُ، يَا بَدِيعَ السَّمَوَاتِ وَالْأَرْضِ يَا ذَا الْجَلاَلِ وَالْإِكْرَامِ، يَا حَيُّ يَا قَيُّومُ إِنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/64.mp3"
+        },
+        {
+          "ID": 65,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّي أَشْهَدُ أَنَّكَ أَنْتَ اللَّهُ لاَ إِلَهَ إِلاَّ أَنْتَ الْأَحَدُ الصَّمَدُ الَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُواً أَحَدٌ)) .",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/65.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 26,
+      "TITLE": "دعاء صلاة الاستخارة",
+      "eng_title": "",
+      "slug": "دعاء صلاة الاستخارة",
+      "isFavorite": false,
+      "CATEGORY": "متنوع - الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_027.mp3",
+      "TEXT": [
+        {
+          "ID": 74,
+          "ARABIC_TEXT": "قَالَ جَابرُ بْنُ عَبْدِ اللَّهِ رَضِيَ اللَّهُ عَنْهُمَا: كَانَ رسُولُ اللَّهِ صلى الله عليه وسلم يُعَلِّمُنَا الْاسْتِخَارَةَ فِي الْأُمُورِ كُلِّهَا كَمَا يُعَلِّمُنَا السُّورَةَ مِنَ الْقُرْآنِ، يَقُولُ: ((إِذَا هَمَّ أَحَدُكُمْ بِالْأَمْرِ فَلْيَرْكَعْ رَكْعَتَيْنِ مِنْ غَيْرِ الْفَرِيضَةِ، ثُمَّ لْيَقُلْ: اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ العَظِيمِ؛ فَإِنَّكَ تَقْدِرُ وَلاَ أَقْدِرُ، وَتَعْلَمُ وَلاَ أَعْلَمُ، وَأَنْتَ عَلاَّمُ الغُيُوبِ، اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأمْرَ - وَيُسَمِّي حَاجَتَهُ - خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي – أَوْ قَالَ: عَاجِلِهِ وَآجِلِهِ - فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثمَّ بَارِكْ لِي فِيهِ، وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي – أَوْ قَالَ: عَاجِلِهِ وَآجِلِهِ – فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ أَرْضِنِي بِهِ)).وَمَا نَدِمَ مَنِ اسْتَخَارَ الْخَالِقَ، وَشَاوَرَ الْمَخْلُوقِينَ الْمُؤْمِنِينَ وَتَثَبَّتَ فِي أَمْرِهِ، فَقَدْ قَالَ اللَّه تعالى: ﴿وَشاوِرْهُمْ فِي الْأَمْرِ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ﴾ .",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/74.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 42,
+      "TITLE": "دعاء الوسوسة في الصلاة و القراءة",
+      "eng_title": "",
+      "slug": "عاء الوسوسة في الصلاة و القراءة",
+      "isFavorite": false,
+      "CATEGORY": "أثناء الصلاة",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_043.mp3",
+      "TEXT": [
+        {
+          "ID": 138,
+          "ARABIC_TEXT": "((أَعُوذُ بِاللَّهِ مِنَ الشَّيطَانِ الرَّجِيمِ، وَاتْفُلْ عَلَى يَسَارِكَ (ثلاثاً))).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/138.mp3"
+        }
+      ]
+    }
+  ],
+  "أدعية للميت": [
+    {
+      "ID": 54,
+      "TITLE": "الدعاء عند إغماض الميت",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_055.mp3",
+      "TEXT": [
+        {
+          "ID": 155,
+          "ARABIC_TEXT": "((اللَّهُمَّ اغْفِرْ لِفُلاَنٍ (بِاسْمِهِ) وَارْفَعْ دَرَجَتَهُ فِي الْمَهْدِيِّينَ، وَاخْلُفْهُ فِي عَقِبِهِ فِي الْغَابِرِينَ، وَاغْفِرْ لَنَا وَلَهُ  يَا رَبَّ الْعَالَمِينَ، وَافْسَحْ لَهُ فِي قَبْرِهِ، وَنَوِّرْ لَهُ فِيهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/155.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 55,
+      "TITLE": "الدعاء للميت في الصلاة عليه",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_056.mp3",
+      "TEXT": [
+        {
+          "ID": 156,
+          "ARABIC_TEXT": "((اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ، وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ مِنَ الْخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهُ دَاراً خَيْراً مِنْ دَارِهِ، وَأَهْلاً خَيْراً مِنْ أَهْلِهِ، وَزَوْجَاً خَيْراً مِنْ زَوْجِهِ، وَأَدْخِلْهُ الْجَنَّةَ، وَأَعِذْهُ مِنْ عَذَابِ القَبْرِ [وَعَذَابِ النَّارِ])).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/156.mp3"
+        },
+        {
+          "ID": 157,
+          "ARABIC_TEXT": "((اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا، وَشَاهِدِنَا وَغَائِبِنَا، وَصَغِيرِنَا وَكَبيرِنَا، وَذَكَرِنَا وَأُنْثَانَا. اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الْإِسْلاَمِ، وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الإِيمَانِ، اللَّهُمَّ لاَ تَحْرِمْنَا أَجْرَهُ، وَلاَ تُضِلَّنَا بَعْدَهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/157.mp3"
+        },
+        {
+          "ID": 158,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنَّ فُلاَنَ بْنَ فُلاَنٍ فِي ذِمَّتِكَ، وَحَبْلِ جِوَارِكَ، فَقِهِ مِنْ فِتْنَةِ الْقَبْرِ، وَعَذَابِ النَّارِ، وَأَنْتَ أَهْلُ الْوَفَاءِ وَالْحَقِّ، فَاغْفِرْ لَهُ وَارْحَمْهُ إِنَّكَ أَنْتَ الغَفُورُ الرَّحيمُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/158.mp3"
+        },
+        {
+          "ID": 159,
+          "ARABIC_TEXT": "((اللَّهُمَّ عَبْدُكَ وَابْنُ أَمَتِكَ احْتَاجَ إِلَى رَحْمَتِكَ، وَأَنْتَ غَنِيٌّ عَنْ عَذَابِهِ، إِنْ كَانَ مُحْسِناً فَزِدْ فِي حَسَنَاتِهِ، وَإِنْ كَانَ مُسِيئاً فَتَجَاوَزْ عَنْهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/159.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 56,
+      "TITLE": "الدعاء للفرط في الصلاة عليه",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_057.mp3",
+      "TEXT": [
+        {
+          "ID": 160,
+          "ARABIC_TEXT": "((اللَّهُمَّ أَعِذْهُ مِنْ عَذَابِ القَبْرِ)) وإن قال: ((اللَّهُمَّ اجْعَلْهُ فَرَطاً وَذُخْراً لِوَالِدَيْهِ، وَشَفِيعاً مُجَاباً، اللَّهُمَّ ثَقِّلْ بِهِ مَوَازِينَهُمَا، وَأَعْظِمْ بِهِ أُجورَهُمَا، وَأَلْحِقْهُ بِصَالِحِ الْمُؤْمِنِينَ، وَاجْعَلْهُ فِي كَفَالَةِ إِبْرَاهِيمَ، وَقِهِ بِرَحْمَتِكَ عَذَابَ الْجَحِيمِ، وَأَبْدِلْهُ دَاراً خَيْراً مِنْ دَارِهِ، وَأَهْلاً خَيْراً مِنْ أَهْلِهِ، اللَّهُمَّ اغْفِرْ لِأَسْلاَفِنَا، وَأَفْرَاطِنَا، وَمَنْ سَبَقَنَا بِالْإِيمَانِ)) إن قال ذلك فَحَسَنٌ.",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/160.mp3"
+        },
+        {
+          "ID": 161,
+          "ARABIC_TEXT": "((اللَّهُمَّ اجْعَلْهُ لَنَا فَرَطاً، وَسَلَفاً، وَأَجْراً)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/161.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 57,
+      "TITLE": "دعاء التعزية",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_058.mp3",
+      "TEXT": [
+        {
+          "ID": 162,
+          "ARABIC_TEXT": "((إِنَّ للَّهِ مَا أَخَذَ، وَلَهُ مَا أَعْطَى، وَكُلُّ شَيْءٍ عِنْدَهُ بِأَجَلٍ مُسَمَّى... فَلْتَصْبِرْ وَلْتَحْتَسِبْ)). وَإِنْ قَالَ: ((أَعْظَمَ اللَّهُ أَجْرَكَ، وَأَحْسَنَ عَزَاءَكَ، وَغَفَرَ لِمَيِّتِكَ)) فَحَسَنٌ.",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/162.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 58,
+      "TITLE": "الدعاء عند إدخال الميت القبر",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_059.mp3",
+      "TEXT": [
+        {
+          "ID": 163,
+          "ARABIC_TEXT": "((بِسْمِ اللَّهِ وَعَلَى سُنَّةِ رَسُولِ اللَّهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/163.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 59,
+      "TITLE": "الدعاء بعد دفن الميت",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_060.mp3",
+      "TEXT": [
+        {
+          "ID": 164,
+          "ARABIC_TEXT": "((اللَّهُمَّ اغْفِرْ لَهُ، اللَّهُمَّ ثَبِّتْهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/164.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 60,
+      "TITLE": "دعاء زيارة القبور",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_061.mp3",
+      "TEXT": [
+        {
+          "ID": 165,
+          "ARABIC_TEXT": "((السَّلاَمُ عَلَيْكُمْ أَهْلَ الدِّيَارِ، مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللَّهُ بِكُمْ لاَحِقُونَ، [وَيَرْحَمُ اللَّهُ الْمُسْتَقدِمِينَ مِنَّا وَالْمُسْتأْخِرِينَ] أَسْاَلُ اللَّهَ لَنَا وَلَكُمُ الْعَافِيَةَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/165.mp3"
+        }
+      ]
+    }
+  ],
+  "أدعية للسفر": [
+    {
+      "ID": 95,
+      "TITLE": "دعاء الركوب",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_096.mp3",
+      "TEXT": [
+        {
+          "ID": 206,
+          "ARABIC_TEXT": "((بِسْمِ اللَّهِ، وَالْحَمْدُ للَّهِ ﴿سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ﴾، ((الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، الْحَمْدُ لِلَّهِ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، سُبْحَانَكَ اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي فَاغْفِرْ لِي؛ فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/206.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 96,
+      "TITLE": "دعاء السفر",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_097.mp3",
+      "TEXT": [
+        {
+          "ID": 207,
+          "ARABIC_TEXT": "اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، ﴿سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ * وَإِنَّا إِلَى رَبِّنَا لَمُنقَلِبُونَ﴾ ((اللَّهُمَّ إِنّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا البِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى، اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ، اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ، وَالْخَليفَةُ فِي الْأَهْلِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ، وَكَآبَةِ الْمَنْظَرِ، وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالْأَهْلِ))، وإذا رَجَعَ قَالَهُنَّ وَزَادَ فِيهِنَّ: ((آيِبُونَ، تائِبُونَ، عَابِدُونَ، لِرَبِّنَا حَامِدُونَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/207.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 97,
+      "TITLE": "دعاء دخول القرية أو البلدة",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_098.mp3",
+      "TEXT": [
+        {
+          "ID": 208,
+          "ARABIC_TEXT": "((اللَّهُمَّ رَبَّ السَّمَوَاتِ السَّبْعِ وَمَا أَظْلَلْنَ، وَرَبَّ الأَرَضِينَ السَّبْعِ وَمَا أَقْلَلْنَ، وَرَبَّ الشَّياطِينِ وَمَا أَضْلَلْنَ، وَرَبَّ الرِّيَاحِ وَمَا ذَرَيْنَ، أَسْأَلُكَ خَيْرَ هَذِهِ الْقَرْيَةِ، وَخَيْرَ أَهْلِهَا، وَخَيْرَ مَا فِيهَا، وَأَعُوذُ بِكَ مِنْ شَرِّهَا، وَشَرِّ أَهْلِهَا، وَشَرِّ مَا فِيهَا)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/208.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 98,
+      "TITLE": "دعاء دخول السوق",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_099.mp3",
+      "TEXT": [
+        {
+          "ID": 209,
+          "ARABIC_TEXT": "((لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لاِ يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/209.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 99,
+      "TITLE": "الدعاء إذا تعس المركوب",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_100.mp3",
+      "TEXT": [
+        {
+          "ID": 210,
+          "ARABIC_TEXT": "((بِسْمِ اللَّهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/210.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 100,
+      "TITLE": "دعاء المسافر للمقيم",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_101.mp3",
+      "TEXT": [
+        {
+          "ID": 211,
+          "ARABIC_TEXT": "((أَسْتَوْدِعُكُمُ اللَّهَ الَّذِي لاَ تَضِيعُ وَدَائِعُهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/211.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 101,
+      "TITLE": "دعاء المقيم للمسافر",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_102.mp3",
+      "TEXT": [
+        {
+          "ID": 212,
+          "ARABIC_TEXT": "(( أَسْتَوْدِعُ اللَّهَ دِينَكَ، وَأَمَانَتَكَ، وَخَوَاتِيمَ عَمَلِكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/212.mp3"
+        },
+        {
+          "ID": 213,
+          "ARABIC_TEXT": "((زَوَّدَكَ اللَّهُ التَّقْوَى، وَغَفَرَ ذَنْبَكَ، وَيَسَّرَ لَكَ الخَيْرَ حَيْثُ ما كُنْتَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/213.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 103,
+      "TITLE": "دعاء المسافر إذا أسحر",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_104.mp3",
+      "TEXT": [
+        {
+          "ID": 215,
+          "ARABIC_TEXT": "((سَمَّعَ سَامِعٌ بِحَمْدِ اللَّهِ، وَحُسْنِ بَلاَئِهِ عَلَيْنَا، رَبَّنَا صاحِبْنَا، وَأَفْضِلْ عَلَيْنَا، عَائِذاً بِاللَّهِ مِنَ النَّارِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/215.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 1044,
+      "TITLE": "الدعاء إذا نزل مترلا في سفر أو غيره",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_105.mp3",
+      "TEXT": [
+        {
+          "ID": 216,
+          "ARABIC_TEXT": "((أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/216.mp3"
+        }
+      ]
+    }
+  ],
+  "أدعية للطعام": [
+    {
+      "ID": 67,
+      "TITLE": "دعاء رؤية الهلال",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_068.mp3",
+      "TEXT": [
+        {
+          "ID": 175,
+          "ARABIC_TEXT": "((اللَّهُ أَكْبَرُ، اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ، وَالسَّلاَمَةِ وَالْإِسْلاَمِ، وَالتَّوْفِيقِ لِمَا تُحِبُّ رَبَّنَا وَتَرْضَى، رَبُّنَا وَرَبُّكَ اللَّهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/175.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 68,
+      "TITLE": "الدعاء عند إفطار الصائم",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_069.mp3",
+      "TEXT": [
+        {
+          "ID": 176,
+          "ARABIC_TEXT": "((ذَهَبَ الظَّمَأُ وَابْتَلَّتِ العُرُوقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/176.mp3"
+        },
+        {
+          "ID": 177,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَسْأَلُكَ بِرَحْمَتِكَ الَّتِي وَسِعَتْ كُلَّ شَيْءٍ أَنْ تَغْفِرَ لِي)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/177.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 69,
+      "TITLE": "الدعاء قبل الطعام",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_070.mp3",
+      "TEXT": [
+        {
+          "ID": 178,
+          "ARABIC_TEXT": "((إِذَا أَكَلَ أَحَدُكُمْ طَعَاماً فَلْيَقُلْ بِسْمِ اللَّهِ، فَإِنْ نَسِيَ فِي أَوَّلِهِ فَلْيَقُلْ بسمِ اللَّهِ فِي أَوَّلِهِ وَآخِرِهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/178.mp3"
+        },
+        {
+          "ID": 179,
+          "ARABIC_TEXT": "((مَنْ أَطْعَمَهُ اللَّهُ الطَّعَامَ فَلْيَقُلْ: اللَّهُمَّ بَارِكْ لَنَا فِيهِ وَأَطْعِمْنَا خَيْراً مِنْهُ، وَمَنْ سَقَاهُ اللَّهُ لَبَناً فَلْيَقُلْ اللَّهُمَّ بَارِكْ لَنَا فِيهِ وَزِدْنَا مِنْهُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/179.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 70,
+      "TITLE": "الدعاء عند الفراغ من الطعام",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_071.mp3",
+      "TEXT": [
+        {
+          "ID": 180,
+          "ARABIC_TEXT": " ((الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا، وَرَزَقَنِيهِ، مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّةٍ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/180.mp3"
+        },
+        {
+          "ID": 181,
+          "ARABIC_TEXT": "((الْحَمْدُ لِلَّهِ حَمْداً كَثِيراً طَيِّباً مُبَارَكاً فِيهِ، غَيْرَ [مَكْفِيٍّ وَلاَ ] مُوَدَّعٍ، وَلاَ مُسْتَغْنَىً عَنْهُ رَبَّنَا)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/181.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 71,
+      "TITLE": "دعاء الضيف لصاحب الطعام",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_072.mp3",
+      "TEXT": [
+        {
+          "ID": 182,
+          "ARABIC_TEXT": " ((اللَّهُمَّ بَارِكْ لَهُمْ فِيمَا رَزَقْتَهُم، وَاغْفِرْ لَهُمْ وَارْحَمْهُمْ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/182.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 74,
+      "TITLE": "دعاء الصائم إذا حضر الطعام ولم يفطر",
+      "eng_title": "",
+      "slug": "ما يقول ويفعل من أذنب ذنبا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_075.mp3",
+      "TEXT": [
+        {
+          "ID": 185,
+          "ARABIC_TEXT": "((إِذَا دُعِيَ أَحَدُكُمْ فَلْيُجِبْ، فَإِنْ كَانَ صَائِماً فَلْيُصَلِّ، وَإِنْ كَانَ مُفْطِراً فَلْيَطْعَمْ)) ، وَمَعْنَى فَلْيُصَلِّ أَيْ فَلْيَدْعُ.",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/185.mp3"
+        }
+      ]
+    }
+  ],
+  "أدعية متنوعة": [
+    {
+      "ID": 12,
+      "TITLE": "دعاء الذهاب إلى المسجد",
+      "eng_title": "",
+      "slug": "دعاء_الذهاب_إلى_المسجد",
+      "isFavorite": false,
+      "CATEGORY": "المسجد",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_013.mp3",
+      "TEXT": [
+        {
+          "ID": 19,
+          "ARABIC_TEXT": "(اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُوراً، وَفِي لِسَانِي نُوراً، وَفِي سَمْعِي نُوراً، وَفِي بَصَرِي نُوراً، وَمِنْ فَوْقِي نُوراً، وَمِنْ تَحْتِي نُوراً، وَعَنْ يَمِينِي نُوراً، وَعَنْ شِمَالِي نُوراً، وَمِنْ أَمَامِي نُوراً، وَمِنْ خَلْفِي نُوراً، وَاجْعَلْ فِي نَفْسِي نُوراً، وَأَعْظِمْ لِي نُوراً، وَعَظِّم لِي نُوراً، وَاجْعَلْ لِي نُوراً، وَاجْعَلْنِي نُوراً، اللَّهُمَّ أَعْطِنِي نُوراً، وَاجْعَلْ فِي عَصَبِي نُوراً، وَفِي لَحْمِي نُوراً، وَفِي دَمِي نُوراً، وَفِي شَعْرِي نُوراً، وَفِي بَشَرِي نُوراً)([اللَّهُمَّ اجْعَلْ لِي نُوراً فِي قَبْرِي... وَنُوراً فِي عِظَامِي])[(وَزِدْنِي نُوراً، وَزِدْنِي نُوراً، وَزِدْنِي نُوراً)][(وَهَبْ لِي نُوراً عَلَى نُورٍ)]",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/19.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 13,
+      "TITLE": "دعاء دخول المسجد",
+      "eng_title": "",
+      "slug": "دعاء_دخول_المسجد",
+      "isFavorite": false,
+      "CATEGORY": "المسجد",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_014.mp3",
+      "TEXT": [
+        {
+          "ID": 20,
+          "ARABIC_TEXT": "(يَبْدَأُ بِرِجْلِهِ الْيُمْنَى) ، وَيَقُولُ: ((أَعُوذُ بِاللَّهِ العَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ، مِنَ الشَّيْطَانِ الرَّجِيمِ))  [بِسْمِ اللَّهِ، وَالصَّلَاةُ] [وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ]  ((اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/20.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 14,
+      "TITLE": "دعاء الخروج من المسجد",
+      "eng_title": "",
+      "slug": "دعاء_الخروج_من_المسجد",
+      "isFavorite": false,
+      "CATEGORY": "المسجد",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_015.mp3",
+      "TEXT": [
+        {
+          "ID": 21,
+          "ARABIC_TEXT": "((يَبْدَأُ بِرِجْلِهِ الْيُسْرَى))  وَيَقُولُ: ((بِسْمِ اللَّهِ وَالصّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِك، اللَّهُمَّ اعْصِمْنِي مِنَ الشَّيْطَانِ الرَّجِيمِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/21.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 2,
+      "TITLE": "دعاء ُلبْس الثوب",
+      "eng_title": "",
+      "slug": "دعاء ُلبْس الثوب",
+      "isFavorite": false,
+      "CATEGORY": "متنوع- اللباس",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_003.mp3",
+      "TEXT": [
+        {
+          "ID": 5,
+          "ARABIC_TEXT": "(الْحَمْدُ للَّهِ الَّذِي كَسَانِي هَذَا (الثَّوْبَ) وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلاَ قُوَّة...)",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/5.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "TITLE": "دعاء ُلبْس الثوب الجديد",
+      "eng_title": "",
+      "slug": "دعاء ُلبْس الثوب الجديد",
+      "isFavorite": false,
+      "CATEGORY": "متنوع- اللباس",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_004.mp3",
+      "TEXT": [
+        {
+          "ID": 6,
+          "ARABIC_TEXT": "( اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/6.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "TITLE": "الدعاء لمن لبس ثوبا جديدا",
+      "eng_title": "",
+      "slug": "الدعاء لمن لبس ثوبا جديدا",
+      "isFavorite": false,
+      "CATEGORY": "متنوع- اللباس",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_005.mp3",
+      "TEXT": [
+        {
+          "ID": 7,
+          "ARABIC_TEXT": "(تُبْلِي وَيُخْلِفُ اللَّهُ تَعَالَى)",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/7.mp3"
+        },
+        {
+          "ID": 8,
+          "ARABIC_TEXT": "(اِلْبَسْ جَدِيداً وَعِشْ حَمِيداً وَمُتْ شَهِيداً).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/8.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 29,
+      "TITLE": "الدعاء إذا تقلب ليلا",
+      "eng_title": "",
+      "slug": "الدعاء إذا تقلب اليل",
+      "isFavorite": false,
+      "CATEGORY": "متنوع - الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_030.mp3",
+      "TEXT": [
+        {
+          "ID": 112,
+          "ARABIC_TEXT": "((لاَ إِلَهَ إِلاَّ اللَّهُ الْوَاحِدُ الْقَهّارُ، رَبُّ السَّمَوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الْعَزيزُ الْغَفَّارُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/112.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 30,
+      "TITLE": "دعاء الفزع في النوم و من بُلِيَ بالوحشة",
+      "eng_title": "",
+      "slug": "دعاء الفزع في النوم و من بُلِيَ بالوحشة",
+      "isFavorite": false,
+      "CATEGORY": "متنوع - الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_031.mp3",
+      "TEXT": [
+        {
+          "ID": 113,
+          "ARABIC_TEXT": "((أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ غَضَبِهِ وَعِقَابِهِ، وَشَرِّ عِبَادِهِ، وَمِنْ هَمَزَاتِ الشَّياطِينِ وَأَنْ يَحْضُرُونِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/113.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 32,
+      "TITLE": "دعاء قنوت الوتر",
+      "eng_title": "",
+      "slug": "دعاء قنوت الوتر",
+      "isFavorite": false,
+      "CATEGORY": "متنوع - الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_033.mp3",
+      "TEXT": [
+        {
+          "ID": 116,
+          "ARABIC_TEXT": "((اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ، وَعَافِنِي فِيمَنْ عَافَيْتَ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ، وَقِنِي شَرَّ مَا قَضَيْتَ؛ فَإِنَّكَ تَقْضِي وَلاَ يُقْضَى عَلَيْكَ، إِنَّهُ لاَ يَذِلُّ مَنْ وَالَيْتَ، [وَلاَ يَعِزُّ مَنْ عَادَيْتَ]، تَبارَكْتَ رَبَّنا وَتَعَالَيْتَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/116.mp3"
+        },
+        {
+          "ID": 117,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَعُوذُ بِرِضَاكَ مِنْ سَخَطِكَ، وَبِمُعَافَاتِكَ مِنْ عُقُوبَتِكَ، وَأَعُــــوذُ بِكَ مِنْكَ، لاَ أُحْصِي ثَنَاءً عَلَيْكَ، أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/117.mp3"
+        },
+        {
+          "ID": 118,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِيَّاكَ نعْبُدُ، وَلَكَ نُصَلِّي وَنَسْجُدُ، وَإِلَيْكَ نَسْعَى وَنَحْفِدُ، نَرْجُو رَحْمَتَكَ، وَنَخْشَى عَذَابَكَ، إِنَّ عَذَابَكَ بِالكَافِرِينَ مُلْحَقٌ. اللَّهُمَّ إِنَّا نَسْتَعينُكَ، وَنَسْتَغْفِرُكَ، وَنُثْنِي عَلَيْكَ الْخَيْرَ، وَلاَ نَكْفُرُكَ، وَنُؤْمِنُ بِكَ، وَنَخْضَعُ لَكَ، وَنَخْلَعُ مَنْ يَكْفرُكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/118.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 34,
+      "TITLE": "دعاء الهم والحزن",
+      "eng_title": "",
+      "slug": "دعاء الهم والحزن",
+      "isFavorite": false,
+      "CATEGORY": "الحزن والكرب",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_035.mp3",
+      "TEXT": [
+        {
+          "ID": 120,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُــــلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ أَحَداً مِنْ خَلْقِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ القُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلاَءَ حُزْنِي، وَذَهَابَ هَمِّي)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/120.mp3"
+        },
+        {
+          "ID": 121,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/121.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 35,
+      "TITLE": "دعاء الكرب",
+      "eng_title": "",
+      "slug": "دعاء الكرب",
+      "isFavorite": false,
+      "CATEGORY": "الحزن والكرب",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_036.mp3",
+      "TEXT": [
+        {
+          "ID": 122,
+          "ARABIC_TEXT": "((لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/122.mp3"
+        },
+        {
+          "ID": 123,
+          "ARABIC_TEXT": "((اللَّهُمَّ رَحْمَتَكَ أَرْجُو، فَلاَ تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لاَ إِلَهَ إِلاَّ أَنْتَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/123.mp3"
+        },
+        {
+          "ID": 124,
+          "ARABIC_TEXT": "((لاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظّالِمِينَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/124.mp3"
+        },
+        {
+          "ID": 125,
+          "ARABIC_TEXT": "((اللَّهُ اللَّهُ رَبِّي لاَ أُشْرِكُ بِهِ شَيْئاً)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/125.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 36,
+      "TITLE": "دعاء لقاء العدو و ذي السلطان",
+      "eng_title": "",
+      "slug": "دعاء الكرب",
+      "isFavorite": false,
+      "CATEGORY": "متنوع الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_037.mp3",
+      "TEXT": [
+        {
+          "ID": 126,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنَّا نَجْعَلُكَ فِي نُحُورِهِم، وَنَعُوذُ بِكَ مِنْ شُرُورِهِمْ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/126.mp3"
+        },
+        {
+          "ID": 127,
+          "ARABIC_TEXT": "((اللَّهُمَّ أَنْتَ عَضُدِي، وَأَنْتَ نَصِيرِي، بِكَ أَحُولُ وَبِكَ أَصُولُ، وَبِكَ أُقاتِلُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/127.mp3"
+        },
+        {
+          "ID": 128,
+          "ARABIC_TEXT": "((حَسْبُنا اللَّهُ وَنِعْمَ الْوَكِيلُ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/128.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 37,
+      "TITLE": "دعاء من خاف ظلم السلطان",
+      "eng_title": "",
+      "slug": "دعاء من خاف ظلم السلطان",
+      "isFavorite": false,
+      "CATEGORY": "متنوع الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_038.mp3",
+      "TEXT": [
+        {
+          "ID": 129,
+          "ARABIC_TEXT": "((اللَّهُمَّ ربَّ السَّمَوَاتِ السَّبْعِ، وَرَبَّ الْعَرْشِ الْعَظِيمِ، كُنْ لِي جَاراً مِنْ فُلاَنِ بْنِ فُلاَنٍ، وَأَحْزَابِهِ مِنْ خَلاَئِقِكَ، أَنْ يَفْرُطَ عَلَيَّ أَحَدٌ مِنْهُمْ أَوْ يَطْغَى، عَزَّ جَارُكَ، وَجَلَّ ثَنَاؤُكَ، وَلاَ إِلَهَ إِلاَّ أَنْتَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/129.mp3"
+        },
+        {
+          "ID": 130,
+          "ARABIC_TEXT": "((اللَّهُ أَكْبَرُ، اللَّهُ أَعَزُّ مِنْ خَلْقِهِ جَمِيعاً، اللَّهُ أَعَزُّ مِمَّا أَخَافُ وَأَحْذَرُ، أَعُوذُ بِاللَّهِ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ، الْمُمْسِكِ السَّمَوَاتِ السَّبْعِ أَنْ يَقَعْنَ عَلَى الْأَرْضِ إِلاَّ بِإِذْنِهِ، مِنْ شَرِّ عَبْدِكَ فُلاَنٍ، وَجُنُودِهِ وَأَتْبَاعِهِ وَأَشْيَاعِهِ، مِنْ الْجِنِّ وَالإِنْسِ، اللَّهُمَّ كُنْ لِي جَاراً مِنْ شَرِّهِمْ، جَلَّ ثَنَاؤُكَ وَعَزَّ جَارُكَ، وَتَبَارَكَ اسْمُكَ، وَلاَ إِلَهَ غَيْرُكَ)) (ثلاثَ مرَّاتٍ).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/130.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 38,
+      "TITLE": "الدعاء على العدو",
+      "eng_title": "",
+      "slug": "الدعاء على العدو",
+      "isFavorite": false,
+      "CATEGORY": "متنوع الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_039.mp3",
+      "TEXT": [
+        {
+          "ID": 131,
+          "ARABIC_TEXT": "((اللَّهُمَّ مُنْزِلَ الْكِتَابِ، سَرِيعَ الْحِسَابِ، اهْزِمِ الأَحْزَابَ، اللَّهُمَّ اهزِمْهُمْ وَزَلْزِلْهُمْ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/131.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 40,
+      "TITLE": "دعاء من أصابه وسوسة في الإيمان",
+      "eng_title": "",
+      "slug": "دعاء من أصابه وسوسة في الإيمان",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_041.mp3",
+      "TEXT": [
+        {
+          "ID": 133,
+          "ARABIC_TEXT": "((يَسْتَعِيذُ بِاللَّهِ و يَنْتَهِي عَمَّا شك فِيهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/133.mp3"
+        },
+        {
+          "ID": 134,
+          "ARABIC_TEXT": "((يَقُولُ: ((آمَنْتُ بِاللَّهِ وَرُسُلِهِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/134.mp3"
+        },
+        {
+          "ID": 135,
+          "ARABIC_TEXT": "((يَقْرَأُ قَوْلَهُ تَعَالَى: ﴿هُوَ الْأوَّلُ وَالْآخِرُ وَالظّاهِرُ وَالْباطِنُ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ﴾)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/135.mp3"
+        }
+      ]
+    },
+    {
+      "ID": 41,
+      "TITLE": "دعاء قضاء الدين",
+      "eng_title": "",
+      "slug": "دعاء قضاء الدين",
+      "isFavorite": false,
+      "CATEGORY": "متنوع-الأحوال",
+      "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_042.mp3",
+      "TEXT": [
+        {
+          "ID": 136,
+          "ARABIC_TEXT": "((اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكِ عَمَّنْ سِوَاكَ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/136.mp3"
+        },
+        {
+          "ID": 137,
+          "ARABIC_TEXT": "((اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ)).",
+          "LANGUAGE_ARABIC_TRANSLATED_TEXT": "",
+          "TRANSLATED_TEXT": "",
+          "REPEAT": 1,
+          "AUDIO": "http://www.hisnmuslim.com/audio/ar/137.mp3"
+        },
+        {
+          "ID": 43,
+          "TITLE": "دعاء من استصعب عليه أمر",
+          "eng_title": "",
+          "slug": "دعاء من استصعب عليه أمر",
+          "isFavorite": false,
+          "CATEGORY": "متنوع-الأحوال",
+          "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_044.mp3",
+          "TEXT": "http://www.hisnmuslim.com/api/ar/43.json"
+        },
+        {
+          "ID": 45,
+          "TITLE": "دعاء طرد الشيطان و وساوسه",
+          "eng_title": "",
+          "slug": "ما يقول ويفعل من أذنب ذنبا",
+          "isFavorite": false,
+          "CATEGORY": "متنوع-الأحوال",
+          "AUDIO_URL": "http://www.hisnmuslim.com/audio/ar/ar_7esn_AlMoslem_by_Doors_046.mp3",
+          "TEXT": "http://www.hisnmuslim.com/api/ar/45.json"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,730 @@
+{
+  "videos": [
+    {
+      "id": 102,
+      "reciter_name": "ماهر المعيقلي",
+      "videos": [
+        {
+          "id": 15,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/maher.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/maher-2.jpeg"
+        },
+        {
+          "id": 29,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/maher2.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/maher2.jpg"
+        },
+        {
+          "id": 68,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/maher.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/maher-4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "reciter_name": "محمد اللحيدان",
+      "videos": [
+        {
+          "id": 51,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/luhidan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/luhidan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "reciter_name": "محمد أيوب",
+      "videos": [
+        {
+          "id": 62,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/ayyub.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/ayyub.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "reciter_name": "محمد صديق المنشاوي",
+      "videos": [
+        {
+          "id": 23,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/minsh.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/minsh.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "reciter_name": "خالد المهنا",
+      "videos": [
+        {
+          "id": 63,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/mohna.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mohna.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "reciter_name": "خالد الجليل",
+      "videos": [
+        {
+          "id": 77,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/jleel.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/jleel.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "reciter_name": "خالد القحطاني",
+      "videos": [
+        {
+          "id": 42,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/qht.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/qht.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21148,
+      "reciter_name": "عبدالبديع غيلان",
+      "videos": [
+        {
+          "id": 84,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/a_ghailan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/a-ghailan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21149,
+      "reciter_name": "عبدالحكيم الصافي",
+      "videos": [
+        {
+          "id": 87,
+          "video_type": 4,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/safi.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/safi.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21150,
+      "reciter_name": "محمد كمال هاشم",
+      "videos": [
+        {
+          "id": 86,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/m_hashim.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/m-hashim.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21151,
+      "reciter_name": "بندر نعمان",
+      "videos": [
+        {
+          "id": 32,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/noman.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/noman.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21152,
+      "reciter_name": "أحمد نصر",
+      "videos": [
+        {
+          "id": 34,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/nasser.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/nasser.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21153,
+      "reciter_name": "عبدالرحمن السلمي",
+      "videos": [
+        {
+          "id": 48,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/sulami.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/sulami.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21154,
+      "reciter_name": "عبدالعزيز العيدان",
+      "videos": [
+        {
+          "id": 56,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/eidan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/eidan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21155,
+      "reciter_name": "عبدالله الحارثي",
+      "videos": [
+        {
+          "id": 57,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/a_harthi.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/a-harthi.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21156,
+      "reciter_name": "عمر النبراوي",
+      "videos": [
+        {
+          "id": 59,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/nabrawi.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/nabrawi.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21158,
+      "reciter_name": "محمد النقيدان",
+      "videos": [
+        {
+          "id": 61,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/nogaidan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/nogaidan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21159,
+      "reciter_name": "منصور الزهراني",
+      "videos": [
+        {
+          "id": 64,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/m_zahrani.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/m-zahrani.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21160,
+      "reciter_name": "نايف السالم",
+      "videos": [
+        {
+          "id": 65,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/n_salem.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/n-salem.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21161,
+      "reciter_name": "وليد السعيدان",
+      "videos": [
+        {
+          "id": 66,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/w_saedan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/w-saedan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21162,
+      "reciter_name": "صالح الأنصاري",
+      "videos": [
+        {
+          "id": 69,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/s_ansari.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/s-ansari.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21163,
+      "reciter_name": "أحمد النويصري",
+      "videos": [
+        {
+          "id": 70,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/a_nwaisry.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/a-nwaisry-1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "reciter_name": "بندر بليله",
+      "videos": [
+        {
+          "id": 74,
+          "video_type": 4,
+          "video_url": "https://upload.mp3quran.net/group3_ramadan/balilah.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/balilah.jpeg"
+        },
+        {
+          "id": 85,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/balilah.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/balilah-1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "reciter_name": "وديع اليمني",
+      "videos": [
+        {
+          "id": 27,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/wadee.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/wadee.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "reciter_name": "رعد محمد الكردي",
+      "videos": [
+        {
+          "id": 79,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/kurdi.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/kurdi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "reciter_name": "خالد الغامدي",
+      "videos": [
+        {
+          "id": 30,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/khalid_ghamdi.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/khalid-ghamdi.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "reciter_name": "هزاع البلوشي",
+      "videos": [
+        {
+          "id": 75,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/hazza.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/hazza.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "reciter_name": "عبدالرحمن الماجد",
+      "videos": [
+        {
+          "id": 47,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/a_majed.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/a-majed.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "reciter_name": "سلمان العتيبي",
+      "videos": [
+        {
+          "id": 25,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/salman.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/salaman2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "reciter_name": "عبدالله الموسى",
+      "videos": [
+        {
+          "id": 40,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/mousa.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mousa.jpeg"
+        },
+        {
+          "id": 67,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/mousa.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mousa-1.jpeg"
+        },
+        {
+          "id": 71,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/mousa2.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mousa2.jpeg"
+        },
+        {
+          "id": 72,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/mousa3.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mousa3.jpeg"
+        },
+        {
+          "id": 83,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/mousa4.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mousa4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "reciter_name": "عبدالله الخلف",
+      "videos": [
+        {
+          "id": 35,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/khalf.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/khalf.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "reciter_name": "منصور السالمي",
+      "videos": [
+        {
+          "id": 22,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/mansour.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mansour.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "reciter_name": "ناصر العصفور",
+      "videos": [
+        {
+          "id": 50,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/osfor.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/osfor.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "reciter_name": "ناصر الماجد",
+      "videos": [
+        {
+          "id": 31,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/nasser_almajed.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/nasser-almajed-1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "reciter_name": "بدر التركي",
+      "videos": [
+        {
+          "id": 36,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/bader.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/bader.jpeg"
+        },
+        {
+          "id": 82,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/bader.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/bader-1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "reciter_name": "عمر الدريويز",
+      "videos": [
+        {
+          "id": 81,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/darweez.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/darweez.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "reciter_name": "هيثم الدخين",
+      "videos": [
+        {
+          "id": 21,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/h_dukhain.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/dokeen.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "reciter_name": "سعد الغامدي",
+      "videos": [
+        {
+          "id": 39,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/s_gmd.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/s-gmd.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "reciter_name": "سعود الشريم",
+      "videos": [
+        {
+          "id": 41,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/shur.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/shur.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "reciter_name": "شيرزاد عبدالرحمن طاهر",
+      "videos": [
+        {
+          "id": 26,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/tahir.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/shirazad2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "reciter_name": "شيخ أبو بكر الشاطري",
+      "videos": [
+        {
+          "id": 38,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/shatri.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/shatri.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "reciter_name": "صالح الصاهود",
+      "videos": [
+        {
+          "id": 45,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/sahood.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/sahood.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "reciter_name": "صالح الهبدان",
+      "videos": [
+        {
+          "id": 46,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/habdan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/habdan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "reciter_name": "عادل ريان",
+      "videos": [
+        {
+          "id": 43,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/ryan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/ryan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "reciter_name": "أحمد بن علي العجمي",
+      "videos": [
+        {
+          "id": 53,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/ajm.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/ajm.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "reciter_name": "عبدالباسط عبدالصمد",
+      "videos": [
+        {
+          "id": 37,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/basit.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/basit.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "reciter_name": "عبدالرحمن السديس",
+      "videos": [
+        {
+          "id": 54,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/sds.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/sds.jpeg"
+        },
+        {
+          "id": 80,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/sds.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/sds-1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "reciter_name": "عبدالعزيز الزهراني",
+      "videos": [
+        {
+          "id": 49,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/zahrani.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/zahrani.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "reciter_name": "عبدالله بصفر",
+      "videos": [
+        {
+          "id": 52,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/bsfr.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/bsfr.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "reciter_name": "عبدالله عواد الجهني",
+      "videos": [
+        {
+          "id": 44,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/jhn.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/jhn.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "reciter_name": "عبدالله غيلان",
+      "videos": [
+        {
+          "id": 76,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/ghailan.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/ghailan.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "reciter_name": "عبدالمحسن الحارثي",
+      "videos": [
+        {
+          "id": 55,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/mohsin_harthi.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/mohsin-harthi.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "reciter_name": "علي بن عبدالرحمن الحذيفي",
+      "videos": [
+        {
+          "id": 58,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/hthfi.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/hthfi.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "reciter_name": "فارس عباد",
+      "videos": [
+        {
+          "id": 60,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/frs_a.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/frs-a.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "reciter_name": "ياسر الدوسري",
+      "videos": [
+        {
+          "id": 33,
+          "video_type": 2,
+          "video_url": "https://upload.mp3quran.net/group1_pbuh/yasser.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/yasser.jpeg"
+        },
+        {
+          "id": 78,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/yasser.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/yasser.jpg"
+        },
+        {
+          "id": 88,
+          "video_type": 3,
+          "video_url": "https://upload.mp3quran.net/group2_nafhat/yasser2.mp4",
+          "video_thumb_url": "https://www.mp3quran.net/uploads/videos/md/yasser2.jpeg"
+        }
+      ]
+    }
+  ]
+}
