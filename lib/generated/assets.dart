@@ -2,7 +2,6 @@
 class Assets {
   Assets._();
 
-  static const String assetsQuran = 'assets/quran.pdf';
   static const String azkarMoringAzker = 'assets/azkar/moring_azker.svg';
   static const String azkarNightAzker = 'assets/azkar/night_azker.svg';
   static const String azkarPray = 'assets/azkar/pray.svg';
@@ -33,11 +32,11 @@ class Assets {
   static const String iconsTheHolyQuran = 'assets/icons/the_holy_quran.svg';
   static const String images88802 = 'assets/images/888-02.png';
   static const String imagesBasmala = 'assets/images/Basmala.png';
+  static const String imagesBg = 'assets/images/bg.png';
   static const String imagesQuranImage = 'assets/images/quran_image.png';
   static const String imagesSplash = 'assets/images/splash.png';
   static const String locationLocation = 'assets/images/location/location.svg';
   static const String logoLogo = 'assets/images/logo/logo.svg';
-  static const String muslimAppAssetsQuran = 'assets/quran.pdf';
   static const String noInternetNoInternet =
       'assets/no_internet/no_internet.json';
   static const String onBoardingOnBorading =

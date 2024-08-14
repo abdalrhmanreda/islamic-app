@@ -2,6 +2,7 @@ import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:muslim_app/features/home/ui/screens/home_screen.dart';
 
 import '../../../config/colors/app_colors.dart';
 import '../../about_app/ui/screens/about_app_screen.dart';
@@ -17,8 +18,8 @@ class LayoutScreen extends StatefulWidget {
 class _LayoutScreenState extends State<LayoutScreen> {
   int _currentIndex = 0;
 
-  final List<Widget> _screens = [
-    AboutAppScreen(),
+  final List<Widget> _screens = const [
+    HomeScreen(),
     RadioScreen(),
     AboutAppScreen(),
   ];

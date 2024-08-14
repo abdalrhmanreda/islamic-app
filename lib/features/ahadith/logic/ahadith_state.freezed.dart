@@ -22,6 +22,8 @@ mixin _$AhadithState<T> {
     required TResult Function() loading,
     required TResult Function(T data) loaded,
     required TResult Function(String message) error,
+    required TResult Function() getBooks,
+    required TResult Function() getImamBooks,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -30,6 +32,8 @@ mixin _$AhadithState<T> {
     TResult? Function()? loading,
     TResult? Function(T data)? loaded,
     TResult? Function(String message)? error,
+    TResult? Function()? getBooks,
+    TResult? Function()? getImamBooks,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -38,6 +42,8 @@ mixin _$AhadithState<T> {
     TResult Function()? loading,
     TResult Function(T data)? loaded,
     TResult Function(String message)? error,
+    TResult Function()? getBooks,
+    TResult Function()? getImamBooks,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -47,6 +53,8 @@ mixin _$AhadithState<T> {
     required TResult Function(Loading<T> value) loading,
     required TResult Function(Loaded<T> value) loaded,
     required TResult Function(Error<T> value) error,
+    required TResult Function(GetBooks<T> value) getBooks,
+    required TResult Function(GetImamBooks<T> value) getImamBooks,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -55,6 +63,8 @@ mixin _$AhadithState<T> {
     TResult? Function(Loading<T> value)? loading,
     TResult? Function(Loaded<T> value)? loaded,
     TResult? Function(Error<T> value)? error,
+    TResult? Function(GetBooks<T> value)? getBooks,
+    TResult? Function(GetImamBooks<T> value)? getImamBooks,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -63,6 +73,8 @@ mixin _$AhadithState<T> {
     TResult Function(Loading<T> value)? loading,
     TResult Function(Loaded<T> value)? loaded,
     TResult Function(Error<T> value)? error,
+    TResult Function(GetBooks<T> value)? getBooks,
+    TResult Function(GetImamBooks<T> value)? getImamBooks,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -128,6 +140,8 @@ class _$InitialImpl<T> implements Initial<T> {
     required TResult Function() loading,
     required TResult Function(T data) loaded,
     required TResult Function(String message) error,
+    required TResult Function() getBooks,
+    required TResult Function() getImamBooks,
   }) {
     return initial();
   }
@@ -139,6 +153,8 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult? Function()? loading,
     TResult? Function(T data)? loaded,
     TResult? Function(String message)? error,
+    TResult? Function()? getBooks,
+    TResult? Function()? getImamBooks,
   }) {
     return initial?.call();
   }
@@ -150,6 +166,8 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult Function()? loading,
     TResult Function(T data)? loaded,
     TResult Function(String message)? error,
+    TResult Function()? getBooks,
+    TResult Function()? getImamBooks,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -165,6 +183,8 @@ class _$InitialImpl<T> implements Initial<T> {
     required TResult Function(Loading<T> value) loading,
     required TResult Function(Loaded<T> value) loaded,
     required TResult Function(Error<T> value) error,
+    required TResult Function(GetBooks<T> value) getBooks,
+    required TResult Function(GetImamBooks<T> value) getImamBooks,
   }) {
     return initial(this);
   }
@@ -176,6 +196,8 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult? Function(Loading<T> value)? loading,
     TResult? Function(Loaded<T> value)? loaded,
     TResult? Function(Error<T> value)? error,
+    TResult? Function(GetBooks<T> value)? getBooks,
+    TResult? Function(GetImamBooks<T> value)? getImamBooks,
   }) {
     return initial?.call(this);
   }
@@ -187,6 +209,8 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult Function(Loading<T> value)? loading,
     TResult Function(Loaded<T> value)? loaded,
     TResult Function(Error<T> value)? error,
+    TResult Function(GetBooks<T> value)? getBooks,
+    TResult Function(GetImamBooks<T> value)? getImamBooks,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -242,6 +266,8 @@ class _$LoadingImpl<T> implements Loading<T> {
     required TResult Function() loading,
     required TResult Function(T data) loaded,
     required TResult Function(String message) error,
+    required TResult Function() getBooks,
+    required TResult Function() getImamBooks,
   }) {
     return loading();
   }
@@ -253,6 +279,8 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult? Function()? loading,
     TResult? Function(T data)? loaded,
     TResult? Function(String message)? error,
+    TResult? Function()? getBooks,
+    TResult? Function()? getImamBooks,
   }) {
     return loading?.call();
   }
@@ -264,6 +292,8 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult Function()? loading,
     TResult Function(T data)? loaded,
     TResult Function(String message)? error,
+    TResult Function()? getBooks,
+    TResult Function()? getImamBooks,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -279,6 +309,8 @@ class _$LoadingImpl<T> implements Loading<T> {
     required TResult Function(Loading<T> value) loading,
     required TResult Function(Loaded<T> value) loaded,
     required TResult Function(Error<T> value) error,
+    required TResult Function(GetBooks<T> value) getBooks,
+    required TResult Function(GetImamBooks<T> value) getImamBooks,
   }) {
     return loading(this);
   }
@@ -290,6 +322,8 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult? Function(Loading<T> value)? loading,
     TResult? Function(Loaded<T> value)? loaded,
     TResult? Function(Error<T> value)? error,
+    TResult? Function(GetBooks<T> value)? getBooks,
+    TResult? Function(GetImamBooks<T> value)? getImamBooks,
   }) {
     return loading?.call(this);
   }
@@ -301,6 +335,8 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult Function(Loading<T> value)? loading,
     TResult Function(Loaded<T> value)? loaded,
     TResult Function(Error<T> value)? error,
+    TResult Function(GetBooks<T> value)? getBooks,
+    TResult Function(GetImamBooks<T> value)? getImamBooks,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -383,6 +419,8 @@ class _$LoadedImpl<T> implements Loaded<T> {
     required TResult Function() loading,
     required TResult Function(T data) loaded,
     required TResult Function(String message) error,
+    required TResult Function() getBooks,
+    required TResult Function() getImamBooks,
   }) {
     return loaded(data);
   }
@@ -394,6 +432,8 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult? Function()? loading,
     TResult? Function(T data)? loaded,
     TResult? Function(String message)? error,
+    TResult? Function()? getBooks,
+    TResult? Function()? getImamBooks,
   }) {
     return loaded?.call(data);
   }
@@ -405,6 +445,8 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult Function()? loading,
     TResult Function(T data)? loaded,
     TResult Function(String message)? error,
+    TResult Function()? getBooks,
+    TResult Function()? getImamBooks,
     required TResult orElse(),
   }) {
     if (loaded != null) {
@@ -420,6 +462,8 @@ class _$LoadedImpl<T> implements Loaded<T> {
     required TResult Function(Loading<T> value) loading,
     required TResult Function(Loaded<T> value) loaded,
     required TResult Function(Error<T> value) error,
+    required TResult Function(GetBooks<T> value) getBooks,
+    required TResult Function(GetImamBooks<T> value) getImamBooks,
   }) {
     return loaded(this);
   }
@@ -431,6 +475,8 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult? Function(Loading<T> value)? loading,
     TResult? Function(Loaded<T> value)? loaded,
     TResult? Function(Error<T> value)? error,
+    TResult? Function(GetBooks<T> value)? getBooks,
+    TResult? Function(GetImamBooks<T> value)? getImamBooks,
   }) {
     return loaded?.call(this);
   }
@@ -442,6 +488,8 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult Function(Loading<T> value)? loading,
     TResult Function(Loaded<T> value)? loaded,
     TResult Function(Error<T> value)? error,
+    TResult Function(GetBooks<T> value)? getBooks,
+    TResult Function(GetImamBooks<T> value)? getImamBooks,
     required TResult orElse(),
   }) {
     if (loaded != null) {
@@ -528,6 +576,8 @@ class _$ErrorImpl<T> implements Error<T> {
     required TResult Function() loading,
     required TResult Function(T data) loaded,
     required TResult Function(String message) error,
+    required TResult Function() getBooks,
+    required TResult Function() getImamBooks,
   }) {
     return error(message);
   }
@@ -539,6 +589,8 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult? Function()? loading,
     TResult? Function(T data)? loaded,
     TResult? Function(String message)? error,
+    TResult? Function()? getBooks,
+    TResult? Function()? getImamBooks,
   }) {
     return error?.call(message);
   }
@@ -550,6 +602,8 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult Function()? loading,
     TResult Function(T data)? loaded,
     TResult Function(String message)? error,
+    TResult Function()? getBooks,
+    TResult Function()? getImamBooks,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -565,6 +619,8 @@ class _$ErrorImpl<T> implements Error<T> {
     required TResult Function(Loading<T> value) loading,
     required TResult Function(Loaded<T> value) loaded,
     required TResult Function(Error<T> value) error,
+    required TResult Function(GetBooks<T> value) getBooks,
+    required TResult Function(GetImamBooks<T> value) getImamBooks,
   }) {
     return error(this);
   }
@@ -576,6 +632,8 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult? Function(Loading<T> value)? loading,
     TResult? Function(Loaded<T> value)? loaded,
     TResult? Function(Error<T> value)? error,
+    TResult? Function(GetBooks<T> value)? getBooks,
+    TResult? Function(GetImamBooks<T> value)? getImamBooks,
   }) {
     return error?.call(this);
   }
@@ -587,6 +645,8 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult Function(Loading<T> value)? loading,
     TResult Function(Loaded<T> value)? loaded,
     TResult Function(Error<T> value)? error,
+    TResult Function(GetBooks<T> value)? getBooks,
+    TResult Function(GetImamBooks<T> value)? getImamBooks,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -603,4 +663,256 @@ abstract class Error<T> implements AhadithState<T> {
   @JsonKey(ignore: true)
   _$$ErrorImplCopyWith<T, _$ErrorImpl<T>> get copyWith =>
       throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class _$$GetBooksImplCopyWith<T, $Res> {
+  factory _$$GetBooksImplCopyWith(
+          _$GetBooksImpl<T> value, $Res Function(_$GetBooksImpl<T>) then) =
+      __$$GetBooksImplCopyWithImpl<T, $Res>;
+}
+
+/// @nodoc
+class __$$GetBooksImplCopyWithImpl<T, $Res>
+    extends _$AhadithStateCopyWithImpl<T, $Res, _$GetBooksImpl<T>>
+    implements _$$GetBooksImplCopyWith<T, $Res> {
+  __$$GetBooksImplCopyWithImpl(
+      _$GetBooksImpl<T> _value, $Res Function(_$GetBooksImpl<T>) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$GetBooksImpl<T> implements GetBooks<T> {
+  const _$GetBooksImpl();
+
+  @override
+  String toString() {
+    return 'AhadithState<$T>.getBooks()';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$GetBooksImpl<T>);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() loading,
+    required TResult Function(T data) loaded,
+    required TResult Function(String message) error,
+    required TResult Function() getBooks,
+    required TResult Function() getImamBooks,
+  }) {
+    return getBooks();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(T data)? loaded,
+    TResult? Function(String message)? error,
+    TResult? Function()? getBooks,
+    TResult? Function()? getImamBooks,
+  }) {
+    return getBooks?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? loading,
+    TResult Function(T data)? loaded,
+    TResult Function(String message)? error,
+    TResult Function()? getBooks,
+    TResult Function()? getImamBooks,
+    required TResult orElse(),
+  }) {
+    if (getBooks != null) {
+      return getBooks();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(Initial<T> value) initial,
+    required TResult Function(Loading<T> value) loading,
+    required TResult Function(Loaded<T> value) loaded,
+    required TResult Function(Error<T> value) error,
+    required TResult Function(GetBooks<T> value) getBooks,
+    required TResult Function(GetImamBooks<T> value) getImamBooks,
+  }) {
+    return getBooks(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(Initial<T> value)? initial,
+    TResult? Function(Loading<T> value)? loading,
+    TResult? Function(Loaded<T> value)? loaded,
+    TResult? Function(Error<T> value)? error,
+    TResult? Function(GetBooks<T> value)? getBooks,
+    TResult? Function(GetImamBooks<T> value)? getImamBooks,
+  }) {
+    return getBooks?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(Initial<T> value)? initial,
+    TResult Function(Loading<T> value)? loading,
+    TResult Function(Loaded<T> value)? loaded,
+    TResult Function(Error<T> value)? error,
+    TResult Function(GetBooks<T> value)? getBooks,
+    TResult Function(GetImamBooks<T> value)? getImamBooks,
+    required TResult orElse(),
+  }) {
+    if (getBooks != null) {
+      return getBooks(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class GetBooks<T> implements AhadithState<T> {
+  const factory GetBooks() = _$GetBooksImpl<T>;
+}
+
+/// @nodoc
+abstract class _$$GetImamBooksImplCopyWith<T, $Res> {
+  factory _$$GetImamBooksImplCopyWith(_$GetImamBooksImpl<T> value,
+          $Res Function(_$GetImamBooksImpl<T>) then) =
+      __$$GetImamBooksImplCopyWithImpl<T, $Res>;
+}
+
+/// @nodoc
+class __$$GetImamBooksImplCopyWithImpl<T, $Res>
+    extends _$AhadithStateCopyWithImpl<T, $Res, _$GetImamBooksImpl<T>>
+    implements _$$GetImamBooksImplCopyWith<T, $Res> {
+  __$$GetImamBooksImplCopyWithImpl(
+      _$GetImamBooksImpl<T> _value, $Res Function(_$GetImamBooksImpl<T>) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$GetImamBooksImpl<T> implements GetImamBooks<T> {
+  const _$GetImamBooksImpl();
+
+  @override
+  String toString() {
+    return 'AhadithState<$T>.getImamBooks()';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$GetImamBooksImpl<T>);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() loading,
+    required TResult Function(T data) loaded,
+    required TResult Function(String message) error,
+    required TResult Function() getBooks,
+    required TResult Function() getImamBooks,
+  }) {
+    return getImamBooks();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(T data)? loaded,
+    TResult? Function(String message)? error,
+    TResult? Function()? getBooks,
+    TResult? Function()? getImamBooks,
+  }) {
+    return getImamBooks?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? loading,
+    TResult Function(T data)? loaded,
+    TResult Function(String message)? error,
+    TResult Function()? getBooks,
+    TResult Function()? getImamBooks,
+    required TResult orElse(),
+  }) {
+    if (getImamBooks != null) {
+      return getImamBooks();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(Initial<T> value) initial,
+    required TResult Function(Loading<T> value) loading,
+    required TResult Function(Loaded<T> value) loaded,
+    required TResult Function(Error<T> value) error,
+    required TResult Function(GetBooks<T> value) getBooks,
+    required TResult Function(GetImamBooks<T> value) getImamBooks,
+  }) {
+    return getImamBooks(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(Initial<T> value)? initial,
+    TResult? Function(Loading<T> value)? loading,
+    TResult? Function(Loaded<T> value)? loaded,
+    TResult? Function(Error<T> value)? error,
+    TResult? Function(GetBooks<T> value)? getBooks,
+    TResult? Function(GetImamBooks<T> value)? getImamBooks,
+  }) {
+    return getImamBooks?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(Initial<T> value)? initial,
+    TResult Function(Loading<T> value)? loading,
+    TResult Function(Loaded<T> value)? loaded,
+    TResult Function(Error<T> value)? error,
+    TResult Function(GetBooks<T> value)? getBooks,
+    TResult Function(GetImamBooks<T> value)? getImamBooks,
+    required TResult orElse(),
+  }) {
+    if (getImamBooks != null) {
+      return getImamBooks(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class GetImamBooks<T> implements AhadithState<T> {
+  const factory GetImamBooks() = _$GetImamBooksImpl<T>;
 }

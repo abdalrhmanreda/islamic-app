@@ -34,48 +34,31 @@ class PrayerItem extends StatelessWidget {
           horizontal: 15.w,
         ),
         margin: EdgeInsets.symmetric(
-          vertical: 10.h,
+          vertical: 5.h,
           horizontal: 10.w,
         ),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10.r),
-          color: AppColors.kWhiteColor,
-          boxShadow: const [
-            BoxShadow(
-              color: Colors.black12,
-              blurRadius: 5,
-              offset: Offset(0, 2),
-            ),
-          ],
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Container(
-                  constraints: BoxConstraints(
-                      maxWidth: AppConstant.deviceWidth(context) / 1.5),
-                  child: Text(
-                    prayer.title!,
-                    style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                          fontSize: 18.sp,
-                          fontWeight: FontWeightHelper.regular,
-                        ),
-                  ),
-                ),
-                Spacing.verticalSpace(5),
-                Text(
-                  prayer.category ?? 'Unknown Category',
-                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                        fontSize: 14.sp,
-                        color: AppColors.kGreyColor,
-                      ),
-                ),
-              ],
+            Container(
+              constraints: BoxConstraints(
+                  maxWidth: AppConstant.deviceWidth(context) / 1.5),
+              child: Text(
+                prayer.title!,
+                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                      fontSize: 18.sp,
+                      fontWeight: FontWeightHelper.regular,
+                    ),
+              ),
             ),
-            const Spacer(),
+            Spacing.verticalSpace(5),
+            Text(
+              prayer.category ?? 'Unknown Category',
+              style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                    fontSize: 14.sp,
+                    color: AppColors.kGreyColor,
+                  ),
+            ),
           ],
         ),
       ),
