@@ -36,7 +36,7 @@ class AhadithItem extends StatelessWidget {
           vertical: 5.h,
           horizontal: 10.w,
         ),
-        width: MediaQuery.of(context).size.width / 2,
+        width: MediaQuery.of(context).size.width / 2.5,
         decoration: BoxDecoration(
           color: (AppColors.kWhiteColor),
           borderRadius: BorderRadius.circular(15),

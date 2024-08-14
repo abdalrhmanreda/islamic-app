@@ -8,7 +8,6 @@ import '../../../../config/themes/font_weight.dart';
 import '../../../../core/components/custom_divider.dart';
 import '../../../../core/constant/app_constant.dart';
 import '../../../../core/helpers/spacing.dart';
-import '../../../../core/methods/app_functions/app_functions.dart';
 import '../../data/models/zaker_mode.dart';
 import '../../logic/azkar_cubit.dart';
 import '../../logic/azkar_state.dart';
@@ -66,20 +65,16 @@ class AzkarItem extends StatelessWidget {
                 children: [
                   Row(
                     children: [
-                      IconButton(
-                        onPressed: () {
-                          context.read<AzkarCubit>().addToFavorite(
-                                AppFunctions.zakerCategory(
-                                    zakerModel.category!),
-                                index,
-                              );
-                        },
-                        icon: context.watch<AzkarCubit>().isFavorite(index)
-                            ? const Icon(
-                                Iconsax.heart_bold,
-                                color: AppColors.kPrimaryColor,
-                              )
-                            : const Icon(Iconsax.heart_outline),
+                      Transform.rotate(
+                        angle: -45,
+                        child: IconButton(
+                          onPressed: () {
+                            context.read<AzkarCubit>().shareZaker(
+                                  zakerModel.content!,
+                                );
+                          },
+                          icon: const Icon(Iconsax.direct_right_outline),
+                        ),
                       ),
                       CopyZaker(zakerModel: zakerModel),
                     ],

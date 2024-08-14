@@ -15,10 +15,10 @@ class FeatureItem extends StatelessWidget {
     required this.widget,
     this.args,
   });
+
   final String image;
   final String title;
   final String widget;
-
   final dynamic args;
 
   @override
@@ -27,42 +27,41 @@ class FeatureItem extends StatelessWidget {
       onTap: () {
         context.navigateToWidgetByNamed(context, widget, arguments: args);
       },
-      child: Container(
-        alignment: Alignment.center,
-        padding: EdgeInsets.symmetric(
-          vertical: 10.h,
-          horizontal: 10.w,
-        ),
-        margin: EdgeInsets.symmetric(
-          vertical: 5.h,
-          horizontal: 10.w,
-        ),
-        width: MediaQuery.of(context).size.width / 2,
-        decoration: BoxDecoration(
-          color: (AppColors.kWhiteColor),
-          borderRadius: BorderRadius.circular(15),
-        ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            CircleAvatar(
-              radius: 35,
-              backgroundColor: (AppColors.kCircleAvatarColor),
+      child: Column(
+        children: [
+          Container(
+            alignment: Alignment.center,
+            padding: EdgeInsets.symmetric(
+              vertical: 15.h,
+            ),
+            margin: EdgeInsets.symmetric(
+              horizontal: 10.w,
+            ),
+            decoration: BoxDecoration(
+              color: AppColors.kWhiteColor,
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: CircleAvatar(
+              radius: 30.r,
+              backgroundColor: AppColors.kCircleAvatarColor,
               child: SvgPicture.asset(
                 image,
-                height: 40.h,
+                height: 30.w,
               ),
             ),
-            Spacing.verticalSpace(15),
-            Text(
-              title,
-              style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                    fontSize: 16.sp,
-                    fontWeight: FontWeightHelper.medium,
-                  ),
-            )
-          ],
-        ),
+          ),
+          Spacing.verticalSpace(5),
+          Text(
+            title,
+            maxLines: 3,
+            overflow: TextOverflow.ellipsis, // Ensures text doesn't overflow
+            textAlign: TextAlign.center, // Center-aligns the text
+            style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                  fontSize: 15.sp,
+                  fontWeight: FontWeightHelper.medium,
+                ),
+          ),
+        ],
       ),
     );
   }

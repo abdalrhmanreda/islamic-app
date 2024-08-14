@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:share_plus/share_plus.dart';
 
-import '../../../core/helpers/local_data_base.dart';
 import '../../../generated/assets.dart';
 import '../data/models/azkar_model.dart';
 import '../data/models/zaker_mode.dart';
@@ -91,48 +91,7 @@ class AzkarCubit extends Cubit<AzkarState> {
     });
   }
 
-  LocalDatabase localDatabase = LocalDatabase();
-  void addToFavorite(String category, int index) {
-    if (!isFavorite(index)) {
-      emit(const AzkarState.loading());
-      localDatabase.insert({
-        'zakerIndex': index,
-        'category': category,
-      }, 'azkar').then((value) {
-        getFavorite();
-        emit(AzkarState.addToFavorite(category));
-      }).catchError((e) {
-        emit(AzkarState.error(e.toString()));
-      });
-    } else {
-      removeFromFavorite(index);
-    }
-  }
-
-  void removeFromFavorite(int index) {
-    emit(const AzkarState.loading());
-    localDatabase
-        .delete('azkar', column: 'zakerIndex', value: index)
-        .then((value) {
-      getFavorite();
-      emit(AzkarState.removeFromFavorite(index));
-    }).catchError((e) {
-      emit(AzkarState.error(e.toString()));
-    });
-  }
-
-  List<int> favoriteAzkarIndex = [];
-  void getFavorite() {
-    emit(const AzkarState.loading());
-    localDatabase.queryAllFromTable('azkar').then((value) {
-      favoriteAzkarIndex = value.map((e) => e['zakerIndex'] as int).toList();
-      emit(AzkarState.getFavorite(favoriteAzkarIndex));
-    }).catchError((e) {
-      emit(AzkarState.error(e.toString()));
-    });
-  }
-
-  bool isFavorite(int index) {
-    return favoriteAzkarIndex.contains(index);
+  void shareZaker(String text) async {
+    await Share.share(text);
   }
 }

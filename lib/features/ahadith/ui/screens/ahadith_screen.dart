@@ -4,8 +4,6 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:muslim_app/core/helpers/extensions.dart';
 
 import '../../../../core/components/custom_sliver_app_bar.dart';
-import '../../../../core/components/progress_indector.dart';
-import '../../../../core/helpers/spacing.dart';
 import '../../../../generated/assets.dart';
 import '../../logic/ahadith_cubit.dart';
 import '../../logic/ahadith_state.dart';
@@ -18,24 +16,8 @@ class AhadithScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<AhadithCubit, AhadithState>(
-      listener: (context, state) {
-        // يمكن إضافة منطق المستمع هنا إذا لزم الأمر
-      },
-      builder: (context, state) {
-        if (state is Loading) {
-          return Scaffold(
-            body: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const CustomLoadingIndicator(),
-                  Spacing.verticalSpace(15),
-                  Text(AppLocalizations.of(context)!.waitAhadithLoading)
-                ],
-              ),
-            ),
-          );
-        } else if (state is Loaded) {
+        listener: (context, state) {},
+        builder: (context, state) {
           return Scaffold(
             body: CustomScrollView(
               scrollDirection: Axis.vertical,
@@ -71,8 +53,6 @@ class AhadithScreen extends StatelessWidget {
                                     .read<AhadithCubit>()
                                     .ahadithBooks(context)[index]
                                     .title,
-                                ahadith:
-                                    context.read<AhadithCubit>().books[index],
                                 imamModel: context
                                     .read<AhadithCubit>()
                                     .imams(context)[index],
@@ -87,19 +67,13 @@ class AhadithScreen extends StatelessWidget {
                   ),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
-                    childAspectRatio: 1,
+                    mainAxisSpacing: 10,
+                    childAspectRatio: 1.2,
                   ),
                 ),
               ],
             ),
           );
-        } else {
-          return Center(
-            child: Text(AppLocalizations.of(context)!.thereErrorDuringLoading,
-                style: const TextStyle(fontSize: 20)),
-          );
-        }
-      },
-    );
+        });
   }
 }

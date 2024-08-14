@@ -13,7 +13,7 @@ class PrayerListScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(prayers.first.title!),
       ),
-      body: ListView.builder(
+      body: ListView.separated(
         itemCount: prayers.length,
         itemBuilder: (context, index) {
           final prayer = prayers[index];
@@ -21,6 +21,7 @@ class PrayerListScreen extends StatelessWidget {
             prayer: prayer,
           );
         },
+        separatorBuilder: (context, index) => const Divider(),
       ),
     );
   }
