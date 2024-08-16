@@ -25,6 +25,9 @@ mixin _$HomeState<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -36,6 +39,9 @@ mixin _$HomeState<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -47,6 +53,9 @@ mixin _$HomeState<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -59,6 +68,9 @@ mixin _$HomeState<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -70,6 +82,9 @@ mixin _$HomeState<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -81,6 +96,9 @@ mixin _$HomeState<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -149,6 +167,9 @@ class _$InitialImpl<T> implements Initial<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) {
     return initial();
   }
@@ -163,6 +184,9 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) {
     return initial?.call();
   }
@@ -177,6 +201,9 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -195,6 +222,9 @@ class _$InitialImpl<T> implements Initial<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) {
     return initial(this);
   }
@@ -209,6 +239,9 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) {
     return initial?.call(this);
   }
@@ -223,6 +256,9 @@ class _$InitialImpl<T> implements Initial<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -281,6 +317,9 @@ class _$LoadingImpl<T> implements Loading<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) {
     return loading();
   }
@@ -295,6 +334,9 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) {
     return loading?.call();
   }
@@ -309,6 +351,9 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -327,6 +372,9 @@ class _$LoadingImpl<T> implements Loading<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) {
     return loading(this);
   }
@@ -341,6 +389,9 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) {
     return loading?.call(this);
   }
@@ -355,6 +406,9 @@ class _$LoadingImpl<T> implements Loading<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -440,6 +494,9 @@ class _$LoadedImpl<T> implements Loaded<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) {
     return loaded(data);
   }
@@ -454,6 +511,9 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) {
     return loaded?.call(data);
   }
@@ -468,6 +528,9 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (loaded != null) {
@@ -486,6 +549,9 @@ class _$LoadedImpl<T> implements Loaded<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) {
     return loaded(this);
   }
@@ -500,6 +566,9 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) {
     return loaded?.call(this);
   }
@@ -514,6 +583,9 @@ class _$LoadedImpl<T> implements Loaded<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (loaded != null) {
@@ -603,6 +675,9 @@ class _$ErrorImpl<T> implements Error<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) {
     return error(message);
   }
@@ -617,6 +692,9 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) {
     return error?.call(message);
   }
@@ -631,6 +709,9 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -649,6 +730,9 @@ class _$ErrorImpl<T> implements Error<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) {
     return error(this);
   }
@@ -663,6 +747,9 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) {
     return error?.call(this);
   }
@@ -677,6 +764,9 @@ class _$ErrorImpl<T> implements Error<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -768,6 +858,9 @@ class _$FindNextPrayerImpl<T> implements FindNextPrayer<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) {
     return findNextPrayer(data);
   }
@@ -782,6 +875,9 @@ class _$FindNextPrayerImpl<T> implements FindNextPrayer<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) {
     return findNextPrayer?.call(data);
   }
@@ -796,6 +892,9 @@ class _$FindNextPrayerImpl<T> implements FindNextPrayer<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (findNextPrayer != null) {
@@ -814,6 +913,9 @@ class _$FindNextPrayerImpl<T> implements FindNextPrayer<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) {
     return findNextPrayer(this);
   }
@@ -828,6 +930,9 @@ class _$FindNextPrayerImpl<T> implements FindNextPrayer<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) {
     return findNextPrayer?.call(this);
   }
@@ -842,6 +947,9 @@ class _$FindNextPrayerImpl<T> implements FindNextPrayer<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (findNextPrayer != null) {
@@ -906,6 +1014,9 @@ class _$SendNotificationImpl<T> implements SendNotification<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) {
     return sendNotification();
   }
@@ -920,6 +1031,9 @@ class _$SendNotificationImpl<T> implements SendNotification<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) {
     return sendNotification?.call();
   }
@@ -934,6 +1048,9 @@ class _$SendNotificationImpl<T> implements SendNotification<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (sendNotification != null) {
@@ -952,6 +1069,9 @@ class _$SendNotificationImpl<T> implements SendNotification<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) {
     return sendNotification(this);
   }
@@ -966,6 +1086,9 @@ class _$SendNotificationImpl<T> implements SendNotification<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) {
     return sendNotification?.call(this);
   }
@@ -980,6 +1103,9 @@ class _$SendNotificationImpl<T> implements SendNotification<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (sendNotification != null) {
@@ -1038,6 +1164,9 @@ class _$LoadDataImpl<T> implements LoadData<T> {
     required TResult Function(T data) findNextPrayer,
     required TResult Function() sendNotification,
     required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
   }) {
     return loadData();
   }
@@ -1052,6 +1181,9 @@ class _$LoadDataImpl<T> implements LoadData<T> {
     TResult? Function(T data)? findNextPrayer,
     TResult? Function()? sendNotification,
     TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
   }) {
     return loadData?.call();
   }
@@ -1066,6 +1198,9 @@ class _$LoadDataImpl<T> implements LoadData<T> {
     TResult Function(T data)? findNextPrayer,
     TResult Function()? sendNotification,
     TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (loadData != null) {
@@ -1084,6 +1219,9 @@ class _$LoadDataImpl<T> implements LoadData<T> {
     required TResult Function(FindNextPrayer<T> value) findNextPrayer,
     required TResult Function(SendNotification<T> value) sendNotification,
     required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
   }) {
     return loadData(this);
   }
@@ -1098,6 +1236,9 @@ class _$LoadDataImpl<T> implements LoadData<T> {
     TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult? Function(SendNotification<T> value)? sendNotification,
     TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
   }) {
     return loadData?.call(this);
   }
@@ -1112,6 +1253,9 @@ class _$LoadDataImpl<T> implements LoadData<T> {
     TResult Function(FindNextPrayer<T> value)? findNextPrayer,
     TResult Function(SendNotification<T> value)? sendNotification,
     TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
     required TResult orElse(),
   }) {
     if (loadData != null) {
@@ -1123,4 +1267,554 @@ class _$LoadDataImpl<T> implements LoadData<T> {
 
 abstract class LoadData<T> implements HomeState<T> {
   const factory LoadData() = _$LoadDataImpl<T>;
+}
+
+/// @nodoc
+abstract class _$$MonthChangedImplCopyWith<T, $Res> {
+  factory _$$MonthChangedImplCopyWith(_$MonthChangedImpl<T> value,
+          $Res Function(_$MonthChangedImpl<T>) then) =
+      __$$MonthChangedImplCopyWithImpl<T, $Res>;
+  @useResult
+  $Res call({DateTime newMonth});
+}
+
+/// @nodoc
+class __$$MonthChangedImplCopyWithImpl<T, $Res>
+    extends _$HomeStateCopyWithImpl<T, $Res, _$MonthChangedImpl<T>>
+    implements _$$MonthChangedImplCopyWith<T, $Res> {
+  __$$MonthChangedImplCopyWithImpl(
+      _$MonthChangedImpl<T> _value, $Res Function(_$MonthChangedImpl<T>) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? newMonth = null,
+  }) {
+    return _then(_$MonthChangedImpl<T>(
+      null == newMonth
+          ? _value.newMonth
+          : newMonth // ignore: cast_nullable_to_non_nullable
+              as DateTime,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$MonthChangedImpl<T> implements MonthChanged<T> {
+  const _$MonthChangedImpl(this.newMonth);
+
+  @override
+  final DateTime newMonth;
+
+  @override
+  String toString() {
+    return 'HomeState<$T>.monthChanged(newMonth: $newMonth)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$MonthChangedImpl<T> &&
+            (identical(other.newMonth, newMonth) ||
+                other.newMonth == newMonth));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, newMonth);
+
+  @JsonKey(ignore: true)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$MonthChangedImplCopyWith<T, _$MonthChangedImpl<T>> get copyWith =>
+      __$$MonthChangedImplCopyWithImpl<T, _$MonthChangedImpl<T>>(
+          this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() loading,
+    required TResult Function(T data) loaded,
+    required TResult Function(String message) error,
+    required TResult Function(T data) findNextPrayer,
+    required TResult Function() sendNotification,
+    required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
+  }) {
+    return monthChanged(newMonth);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(T data)? loaded,
+    TResult? Function(String message)? error,
+    TResult? Function(T data)? findNextPrayer,
+    TResult? Function()? sendNotification,
+    TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
+  }) {
+    return monthChanged?.call(newMonth);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? loading,
+    TResult Function(T data)? loaded,
+    TResult Function(String message)? error,
+    TResult Function(T data)? findNextPrayer,
+    TResult Function()? sendNotification,
+    TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
+    required TResult orElse(),
+  }) {
+    if (monthChanged != null) {
+      return monthChanged(newMonth);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(Initial<T> value) initial,
+    required TResult Function(Loading<T> value) loading,
+    required TResult Function(Loaded<T> value) loaded,
+    required TResult Function(Error<T> value) error,
+    required TResult Function(FindNextPrayer<T> value) findNextPrayer,
+    required TResult Function(SendNotification<T> value) sendNotification,
+    required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
+  }) {
+    return monthChanged(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(Initial<T> value)? initial,
+    TResult? Function(Loading<T> value)? loading,
+    TResult? Function(Loaded<T> value)? loaded,
+    TResult? Function(Error<T> value)? error,
+    TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
+    TResult? Function(SendNotification<T> value)? sendNotification,
+    TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
+  }) {
+    return monthChanged?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(Initial<T> value)? initial,
+    TResult Function(Loading<T> value)? loading,
+    TResult Function(Loaded<T> value)? loaded,
+    TResult Function(Error<T> value)? error,
+    TResult Function(FindNextPrayer<T> value)? findNextPrayer,
+    TResult Function(SendNotification<T> value)? sendNotification,
+    TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
+    required TResult orElse(),
+  }) {
+    if (monthChanged != null) {
+      return monthChanged(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class MonthChanged<T> implements HomeState<T> {
+  const factory MonthChanged(final DateTime newMonth) = _$MonthChangedImpl<T>;
+
+  DateTime get newMonth;
+  @JsonKey(ignore: true)
+  _$$MonthChangedImplCopyWith<T, _$MonthChangedImpl<T>> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class _$$DaySelectedImplCopyWith<T, $Res> {
+  factory _$$DaySelectedImplCopyWith(_$DaySelectedImpl<T> value,
+          $Res Function(_$DaySelectedImpl<T>) then) =
+      __$$DaySelectedImplCopyWithImpl<T, $Res>;
+  @useResult
+  $Res call({DateTime selectedDay});
+}
+
+/// @nodoc
+class __$$DaySelectedImplCopyWithImpl<T, $Res>
+    extends _$HomeStateCopyWithImpl<T, $Res, _$DaySelectedImpl<T>>
+    implements _$$DaySelectedImplCopyWith<T, $Res> {
+  __$$DaySelectedImplCopyWithImpl(
+      _$DaySelectedImpl<T> _value, $Res Function(_$DaySelectedImpl<T>) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? selectedDay = null,
+  }) {
+    return _then(_$DaySelectedImpl<T>(
+      null == selectedDay
+          ? _value.selectedDay
+          : selectedDay // ignore: cast_nullable_to_non_nullable
+              as DateTime,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$DaySelectedImpl<T> implements DaySelected<T> {
+  const _$DaySelectedImpl(this.selectedDay);
+
+  @override
+  final DateTime selectedDay;
+
+  @override
+  String toString() {
+    return 'HomeState<$T>.daySelected(selectedDay: $selectedDay)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$DaySelectedImpl<T> &&
+            (identical(other.selectedDay, selectedDay) ||
+                other.selectedDay == selectedDay));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, selectedDay);
+
+  @JsonKey(ignore: true)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$DaySelectedImplCopyWith<T, _$DaySelectedImpl<T>> get copyWith =>
+      __$$DaySelectedImplCopyWithImpl<T, _$DaySelectedImpl<T>>(
+          this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() loading,
+    required TResult Function(T data) loaded,
+    required TResult Function(String message) error,
+    required TResult Function(T data) findNextPrayer,
+    required TResult Function() sendNotification,
+    required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
+  }) {
+    return daySelected(selectedDay);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(T data)? loaded,
+    TResult? Function(String message)? error,
+    TResult? Function(T data)? findNextPrayer,
+    TResult? Function()? sendNotification,
+    TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
+  }) {
+    return daySelected?.call(selectedDay);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? loading,
+    TResult Function(T data)? loaded,
+    TResult Function(String message)? error,
+    TResult Function(T data)? findNextPrayer,
+    TResult Function()? sendNotification,
+    TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
+    required TResult orElse(),
+  }) {
+    if (daySelected != null) {
+      return daySelected(selectedDay);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(Initial<T> value) initial,
+    required TResult Function(Loading<T> value) loading,
+    required TResult Function(Loaded<T> value) loaded,
+    required TResult Function(Error<T> value) error,
+    required TResult Function(FindNextPrayer<T> value) findNextPrayer,
+    required TResult Function(SendNotification<T> value) sendNotification,
+    required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
+  }) {
+    return daySelected(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(Initial<T> value)? initial,
+    TResult? Function(Loading<T> value)? loading,
+    TResult? Function(Loaded<T> value)? loaded,
+    TResult? Function(Error<T> value)? error,
+    TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
+    TResult? Function(SendNotification<T> value)? sendNotification,
+    TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
+  }) {
+    return daySelected?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(Initial<T> value)? initial,
+    TResult Function(Loading<T> value)? loading,
+    TResult Function(Loaded<T> value)? loaded,
+    TResult Function(Error<T> value)? error,
+    TResult Function(FindNextPrayer<T> value)? findNextPrayer,
+    TResult Function(SendNotification<T> value)? sendNotification,
+    TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
+    required TResult orElse(),
+  }) {
+    if (daySelected != null) {
+      return daySelected(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class DaySelected<T> implements HomeState<T> {
+  const factory DaySelected(final DateTime selectedDay) = _$DaySelectedImpl<T>;
+
+  DateTime get selectedDay;
+  @JsonKey(ignore: true)
+  _$$DaySelectedImplCopyWith<T, _$DaySelectedImpl<T>> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class _$$PrayerTimeSelectedImplCopyWith<T, $Res> {
+  factory _$$PrayerTimeSelectedImplCopyWith(_$PrayerTimeSelectedImpl<T> value,
+          $Res Function(_$PrayerTimeSelectedImpl<T>) then) =
+      __$$PrayerTimeSelectedImplCopyWithImpl<T, $Res>;
+  @useResult
+  $Res call({DateTime selectedTime});
+}
+
+/// @nodoc
+class __$$PrayerTimeSelectedImplCopyWithImpl<T, $Res>
+    extends _$HomeStateCopyWithImpl<T, $Res, _$PrayerTimeSelectedImpl<T>>
+    implements _$$PrayerTimeSelectedImplCopyWith<T, $Res> {
+  __$$PrayerTimeSelectedImplCopyWithImpl(_$PrayerTimeSelectedImpl<T> _value,
+      $Res Function(_$PrayerTimeSelectedImpl<T>) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? selectedTime = null,
+  }) {
+    return _then(_$PrayerTimeSelectedImpl<T>(
+      null == selectedTime
+          ? _value.selectedTime
+          : selectedTime // ignore: cast_nullable_to_non_nullable
+              as DateTime,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$PrayerTimeSelectedImpl<T> implements PrayerTimeSelected<T> {
+  const _$PrayerTimeSelectedImpl(this.selectedTime);
+
+  @override
+  final DateTime selectedTime;
+
+  @override
+  String toString() {
+    return 'HomeState<$T>.prayerTimeSelected(selectedTime: $selectedTime)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$PrayerTimeSelectedImpl<T> &&
+            (identical(other.selectedTime, selectedTime) ||
+                other.selectedTime == selectedTime));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, selectedTime);
+
+  @JsonKey(ignore: true)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$PrayerTimeSelectedImplCopyWith<T, _$PrayerTimeSelectedImpl<T>>
+      get copyWith => __$$PrayerTimeSelectedImplCopyWithImpl<T,
+          _$PrayerTimeSelectedImpl<T>>(this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() loading,
+    required TResult Function(T data) loaded,
+    required TResult Function(String message) error,
+    required TResult Function(T data) findNextPrayer,
+    required TResult Function() sendNotification,
+    required TResult Function() loadData,
+    required TResult Function(DateTime newMonth) monthChanged,
+    required TResult Function(DateTime selectedDay) daySelected,
+    required TResult Function(DateTime selectedTime) prayerTimeSelected,
+  }) {
+    return prayerTimeSelected(selectedTime);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(T data)? loaded,
+    TResult? Function(String message)? error,
+    TResult? Function(T data)? findNextPrayer,
+    TResult? Function()? sendNotification,
+    TResult? Function()? loadData,
+    TResult? Function(DateTime newMonth)? monthChanged,
+    TResult? Function(DateTime selectedDay)? daySelected,
+    TResult? Function(DateTime selectedTime)? prayerTimeSelected,
+  }) {
+    return prayerTimeSelected?.call(selectedTime);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? loading,
+    TResult Function(T data)? loaded,
+    TResult Function(String message)? error,
+    TResult Function(T data)? findNextPrayer,
+    TResult Function()? sendNotification,
+    TResult Function()? loadData,
+    TResult Function(DateTime newMonth)? monthChanged,
+    TResult Function(DateTime selectedDay)? daySelected,
+    TResult Function(DateTime selectedTime)? prayerTimeSelected,
+    required TResult orElse(),
+  }) {
+    if (prayerTimeSelected != null) {
+      return prayerTimeSelected(selectedTime);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(Initial<T> value) initial,
+    required TResult Function(Loading<T> value) loading,
+    required TResult Function(Loaded<T> value) loaded,
+    required TResult Function(Error<T> value) error,
+    required TResult Function(FindNextPrayer<T> value) findNextPrayer,
+    required TResult Function(SendNotification<T> value) sendNotification,
+    required TResult Function(LoadData<T> value) loadData,
+    required TResult Function(MonthChanged<T> value) monthChanged,
+    required TResult Function(DaySelected<T> value) daySelected,
+    required TResult Function(PrayerTimeSelected<T> value) prayerTimeSelected,
+  }) {
+    return prayerTimeSelected(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(Initial<T> value)? initial,
+    TResult? Function(Loading<T> value)? loading,
+    TResult? Function(Loaded<T> value)? loaded,
+    TResult? Function(Error<T> value)? error,
+    TResult? Function(FindNextPrayer<T> value)? findNextPrayer,
+    TResult? Function(SendNotification<T> value)? sendNotification,
+    TResult? Function(LoadData<T> value)? loadData,
+    TResult? Function(MonthChanged<T> value)? monthChanged,
+    TResult? Function(DaySelected<T> value)? daySelected,
+    TResult? Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
+  }) {
+    return prayerTimeSelected?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(Initial<T> value)? initial,
+    TResult Function(Loading<T> value)? loading,
+    TResult Function(Loaded<T> value)? loaded,
+    TResult Function(Error<T> value)? error,
+    TResult Function(FindNextPrayer<T> value)? findNextPrayer,
+    TResult Function(SendNotification<T> value)? sendNotification,
+    TResult Function(LoadData<T> value)? loadData,
+    TResult Function(MonthChanged<T> value)? monthChanged,
+    TResult Function(DaySelected<T> value)? daySelected,
+    TResult Function(PrayerTimeSelected<T> value)? prayerTimeSelected,
+    required TResult orElse(),
+  }) {
+    if (prayerTimeSelected != null) {
+      return prayerTimeSelected(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class PrayerTimeSelected<T> implements HomeState<T> {
+  const factory PrayerTimeSelected(final DateTime selectedTime) =
+      _$PrayerTimeSelectedImpl<T>;
+
+  DateTime get selectedTime;
+  @JsonKey(ignore: true)
+  _$$PrayerTimeSelectedImplCopyWith<T, _$PrayerTimeSelectedImpl<T>>
+      get copyWith => throw _privateConstructorUsedError;
 }

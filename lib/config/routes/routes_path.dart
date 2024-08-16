@@ -21,4 +21,5 @@ class RoutePath {
   static const String radioScreen = '/radioScreen';
   static const String namesOfAlluh = '/namesOfAlluh';
   static const String tafsirScreen = '/tafsirScreen';
+  static const String quranTest = '/quranTest';
 }

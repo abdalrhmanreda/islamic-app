@@ -148,7 +148,9 @@
   "rateApp": "تقييم التطبيق" ,
   "contectWithDeveloper": "للتواصل مع المطور" ,
   "searchWithPageNumberOrSurahNameOrAya": "ابحث باسم السورة أو بالآية",
-  "hadith": "حديث"
+  "hadith": "حديث",
+  "loadingBooks": "جاري تحميل الكتب" ,
+  "features": "الميزات"
 
 
 

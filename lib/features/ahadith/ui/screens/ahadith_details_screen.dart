@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:muslim_app/core/helpers/extensions.dart';
+import 'package:muslim_app/core/helpers/spacing.dart';
 import 'package:muslim_app/features/ahadith/logic/ahadith_cubit.dart';
 import 'package:muslim_app/features/ahadith/logic/ahadith_state.dart';
 
@@ -42,55 +43,68 @@ class AhadithDetailsScreen extends StatelessWidget {
                   .toList()
               : imamBooks;
 
+          // Display loading indicator if the state is Loading and books are not yet loaded
+          if (state is Loading && imamBooks.isEmpty) {
+            return Scaffold(
+              body: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const CustomLoadingIndicator(),
+                    Spacing.verticalSpace(15),
+                    Text(AppLocalizations.of(context)!.loadingBooks),
+                  ],
+                ),
+              ),
+            );
+          }
+
+          // Display content if books are loaded
           return Scaffold(
-            body: state is Loading && imamBooks.isEmpty
-                ? const Center(
-                    child: CustomLoadingIndicator(),
-                  )
-                : CustomScrollView(
-                    slivers: [
-                      CustomImamAppBar(title: title, imamModel: imamModel),
-                      SliverToBoxAdapter(
-                        child: Column(
-                          children: List.generate(
-                            filteredImamBooks.length,
-                            (index) {
-                              final book = filteredImamBooks[index];
-                              return Column(
-                                children: [
-                                  ListTile(
-                                    onTap: () {
-                                      // Navigate to the BookHadithsScreen
-                                      context.navigateToWidget(
-                                          context,
-                                          BookHadithsScreen(
-                                            hadithsCount: book.numberOfHadith,
-                                            bookNumber: book.bookNumber,
-                                            title: book.book[1].name,
-                                            immamName: imamModel.immamName,
-                                          ));
-                                    },
-                                    title: Text(
-                                      Arabic_Tools()
-                                          .RemoveTashkeel(book.book[1].name),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                    subtitle: Text(
-                                      '${book.numberOfHadith} ${AppLocalizations.of(context)!.hadith}',
-                                    ),
-                                    trailing:
-                                        const Icon(Icons.arrow_forward_ios),
+            body: CustomScrollView(
+              slivers: [
+                CustomImamAppBar(title: title, imamModel: imamModel),
+                SliverToBoxAdapter(
+                  child: Column(
+                    children: List.generate(
+                      filteredImamBooks.length,
+                      (index) {
+                        final book = filteredImamBooks[index];
+                        return Column(
+                          children: [
+                            ListTile(
+                              onTap: () {
+                                // Navigate to the BookHadithsScreen
+                                context.navigateToWidget(
+                                  context,
+                                  BookHadithsScreen(
+                                    hadithsCount: book.numberOfHadith,
+                                    bookNumber: book.bookNumber,
+                                    title: book.book[1].name,
+                                    immamName: imamModel.immamName,
                                   ),
-                                  const Divider(),
-                                ],
-                              );
-                            },
-                          ),
-                        ),
-                      ),
-                    ],
+                                );
+                              },
+                              title: Text(
+                                Arabic_Tools()
+                                    .RemoveTashkeel(book.book[1].name),
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                              subtitle: Text(
+                                '${book.numberOfHadith} ${AppLocalizations.of(context)!.hadith}',
+                              ),
+                              trailing: const Icon(Icons.arrow_forward_ios),
+                            ),
+                            const Divider(),
+                          ],
+                        );
+                      },
+                    ),
                   ),
+                ),
+              ],
+            ),
           );
         },
       ),

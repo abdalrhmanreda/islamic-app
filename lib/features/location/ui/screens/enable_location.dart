@@ -4,11 +4,11 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:muslim_app/core/helpers/extensions.dart';
 
+import '../../../../config/routes/routes_path.dart';
 import '../../../../core/components/custom_button.dart';
 import '../../../../core/constant/app_constant.dart';
 import '../../../../core/helpers/spacing.dart';
 import '../../../../generated/assets.dart';
-import '../../../layout/ui/layout_screen.dart';
 import '../../../on_boarding/data/model/on_boarding_item_content.dart';
 import '../../../on_boarding/ui/widgets/on_boarding_item.dart';
 import '../../logic/location_cubit.dart';
@@ -27,7 +27,7 @@ class EnableLocation extends StatelessWidget {
       body: BlocConsumer<LocationCubit, LocationState>(
         listener: (context, state) {
           if (state is Success) {
-            context.navigateAndFinish(context, const LayoutScreen());
+            context.navigateAndFinishNyNamed(context, RoutePath.layout);
           }
           // TODO: implement listener
         },

@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
@@ -21,19 +22,23 @@ class NotificationService {
         InitializationSettings(
             android: initializationSettingsAndroid,
             iOS: initializationSettingsIOS);
+
     await flutterLocalNotificationsPlugin.initialize(
       initializationSettings,
       onDidReceiveBackgroundNotificationResponse: onDidReceiveNotification,
       onDidReceiveNotificationResponse: onDidReceiveNotification,
     );
 
-    final androidPlugin =
-        flutterLocalNotificationsPlugin.resolvePlatformSpecificImplementation<
-            AndroidFlutterLocalNotificationsPlugin>();
+    // Check if the app is ready before requesting permissions
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final androidPlugin =
+          flutterLocalNotificationsPlugin.resolvePlatformSpecificImplementation<
+              AndroidFlutterLocalNotificationsPlugin>();
 
-    if (androidPlugin != null) {
-      await androidPlugin.requestNotificationsPermission();
-    }
+      if (androidPlugin != null) {
+        await androidPlugin.requestNotificationsPermission();
+      }
+    });
 
     tz.initializeTimeZones();
   }

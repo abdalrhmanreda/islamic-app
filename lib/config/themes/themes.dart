@@ -82,7 +82,7 @@ class Style {
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
-        textStyle: MaterialStateProperty.all(
+        textStyle: WidgetStateProperty.all(
           isArabic()
               ? GoogleFonts.elMessiri(
                   color: AppColors.kPrimaryColor,
@@ -187,7 +187,7 @@ class Style {
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
-        textStyle: MaterialStateProperty.all(
+        textStyle: WidgetStateProperty.all(
           GoogleFonts.elMessiri(
             color: AppColors.kWhiteColor,
           ),

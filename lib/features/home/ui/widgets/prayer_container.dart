@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl/intl.dart';
 
 import '../../../../config/colors/app_colors.dart';
@@ -42,22 +41,18 @@ class PrayerContainer extends StatelessWidget {
           height: AppConstant.deviceHeight(context) / 4,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
-            gradient: LinearGradient(
-              colors: [
+            image: DecorationImage(
+              image: const AssetImage(Assets.images2840Photoroom),
+              colorFilter: ColorFilter.mode(
                 AppColors.kButtonColor.withOpacity(.7),
-                AppColors.kButtonColor.withOpacity(.8),
-              ],
+                BlendMode.srcOver,
+              ),
+              fit: BoxFit.cover,
             ),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              SvgPicture.asset(
-                Assets.logoLogo,
-                width: 100.w,
-                height: 100.h,
-                color: AppColors.kWhiteColor,
-              ),
               Expanded(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,

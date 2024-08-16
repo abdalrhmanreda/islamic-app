@@ -7,11 +7,10 @@ class TafseerModel {
     if (json['result'] != null) {
       result = <Result>[];
       json['result'].forEach((v) {
-        result!.add(new Result.fromJson(v));
+        result!.add(Result.fromJson(v));
       });
     }
   }
-
 }
 
 class Result {
@@ -24,11 +23,11 @@ class Result {
 
   Result(
       {this.id,
-        this.sura,
-        this.aya,
-        this.arabicText,
-        this.translation,
-        this.footnotes});
+      this.sura,
+      this.aya,
+      this.arabicText,
+      this.translation,
+      this.footnotes});
 
   Result.fromJson(Map<String, dynamic> json) {
     id = json['id'];
@@ -38,5 +37,4 @@ class Result {
     translation = json['translation'];
     footnotes = json['footnotes'];
   }
-
 }
