@@ -11,4 +11,8 @@ class HomeState<T> with _$HomeState<T> {
   const factory HomeState.findNextPrayer(T data) = FindNextPrayer<T>;
   const factory HomeState.sendNotification() = SendNotification<T>;
   const factory HomeState.loadData() = LoadData<T>;
+  const factory HomeState.monthChanged(DateTime newMonth) = MonthChanged<T>;
+  const factory HomeState.daySelected(DateTime selectedDay) = DaySelected<T>;
+  const factory HomeState.prayerTimeSelected(DateTime selectedTime) =
+      PrayerTimeSelected<T>;
 }

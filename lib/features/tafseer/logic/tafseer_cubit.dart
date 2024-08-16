@@ -65,7 +65,6 @@ class TafseerCubit extends Cubit<TafseerState> {
       final XFile xFile = XFile(imagePath);
       await Share.shareXFiles([xFile], text: tafseer);
     } catch (e) {
-      print('Error: $e');
       emit(TafseerError(e.toString()));
     }
   }

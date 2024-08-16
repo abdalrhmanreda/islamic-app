@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../animation/animation_navigate.dart';
-
 extension Navigation on BuildContext {
   Future<dynamic> navigateToWidget(context, widget) =>
       Navigator.push(context, MaterialPageRoute(builder: (context) => widget));
@@ -15,12 +13,6 @@ extension Navigation on BuildContext {
         routeName,
         (Route<dynamic> route) => false,
         arguments: arguments,
-      );
-  Future<dynamic> navigateAndFinish(context, Widget widget) =>
-      Navigator.pushAndRemoveUntil(
-        context,
-        ScaleTransition1(widget),
-        (Route<dynamic> route) => false,
       );
 
   Future<dynamic> navigateAndReplacement(context, String routeName,

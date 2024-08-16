@@ -30,6 +30,7 @@ class Assets {
   static const String iconsQibla = 'assets/icons/qibla.svg';
   static const String iconsTasbih = 'assets/icons/tasbih.svg';
   static const String iconsTheHolyQuran = 'assets/icons/the_holy_quran.svg';
+  static const String images2840Photoroom = 'assets/images/prayer_timing.png';
   static const String images88802 = 'assets/images/888-02.png';
   static const String imagesBasmala = 'assets/images/Basmala.png';
   static const String imagesBg = 'assets/images/bg.png';

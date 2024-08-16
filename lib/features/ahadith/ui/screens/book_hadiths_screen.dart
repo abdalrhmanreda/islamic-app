@@ -1,13 +1,12 @@
 import 'package:arabic_tools/arabic_tools.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hadith/classes.dart';
 import 'package:hadith/hadith.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:muslim_app/config/colors/app_colors.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:muslim_app/core/constant/app_constant.dart';
 
 class BookHadithsScreen extends StatelessWidget {
   const BookHadithsScreen({

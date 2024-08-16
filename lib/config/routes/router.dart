@@ -11,11 +11,15 @@ import 'package:muslim_app/features/tafseer/ui/screens/tafseer_screen.dart';
 
 import '../../features/ahadith/logic/ahadith_cubit.dart';
 import '../../features/ahadith/ui/screens/ahadith_screen.dart';
+import '../../features/home/logic/home_cubit.dart';
 import '../../features/layout/ui/layout_screen.dart';
+import '../../features/list_of_surahs/data/models/surha.dart';
+import '../../features/list_of_surahs/ui/screens/surahs_list.dart';
 import '../../features/location/logic/location_cubit.dart';
 import '../../features/names_of_alluh/logic/names_of_alluh_cubit.dart';
 import '../../features/names_of_alluh/ui/screens/names_of_alluh.dart';
 import '../../features/on_boarding/ui/screens/on_boarding_screen.dart';
+import '../../features/prayer_timings/ui/screens/prayer_timings_screen.dart';
 import '../../features/prayers/data/models/prayer_model.dart';
 import '../../features/prayers/logic/prayers_cubit.dart';
 import '../../features/prayers/ui/screens/prayer_list_screen.dart';
@@ -99,6 +103,20 @@ class AppRouter {
           builder: (_) => BlocProvider(
               create: (context) => getIt<AhadithCubit>(),
               child: const AhadithScreen()),
+        );
+      case RoutePath.prayerScreen:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+              create: (context) => getIt<HomeCubit>()
+                ..getPrayerTimesForSelectedDay()
+                ..getLocation(context),
+              child: const PrayerTimingsScreen()),
+        );
+      case RoutePath.quran:
+        return MaterialPageRoute(
+          builder: (_) => SurahsList(
+            surahs: arguments as List<Surah>,
+          ),
         );
     }
     return null;

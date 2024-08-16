@@ -19,6 +19,7 @@ class HomeBody extends StatefulWidget {
 class _HomeBodyState extends State<HomeBody> {
   @override
   void initState() {
+    super.initState();
     // Initialize the state
     context.read<HomeCubit>().position == null
         ? context.read<HomeCubit>().getLocation(context)
@@ -39,39 +40,35 @@ class _HomeBodyState extends State<HomeBody> {
                   children: [
                     const PrayerContainer(),
                     Spacing.verticalSpace(10),
-                    // Constrain the height of the GridView to prevent overflow
-                    ConstrainedBox(
-                      constraints: BoxConstraints(
-                        maxHeight: MediaQuery.of(context).size.height - 200,
-                      ),
-                      child: GridView.builder(
-                        shrinkWrap: true,
-                        physics: const NeverScrollableScrollPhysics(),
-                        itemCount: featuredItems(context).length,
-                        gridDelegate:
-                            const SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 3,
-                          mainAxisSpacing: 5,
-                          crossAxisSpacing: 15,
-                          childAspectRatio: .95,
-                        ),
-                        itemBuilder: (context, index) {
-                          final feature = featuredItems(context)[index];
 
-                          return index == 0
-                              ? FeatureItem(
-                                  image: feature.image,
-                                  title: feature.title,
-                                  widget: feature.widget,
-                                  args: context.read<HomeCubit>().surahs,
-                                )
-                              : FeatureItem(
-                                  image: feature.image,
-                                  title: feature.title,
-                                  widget: feature.widget,
-                                );
-                        },
+                    // Constrain the height of the GridView to prevent overflow
+                    GridView.builder(
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemCount: featuredItems(context).length,
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 3,
+                        mainAxisSpacing: 5,
+                        crossAxisSpacing: 15,
+                        childAspectRatio: .95,
                       ),
+                      itemBuilder: (context, index) {
+                        final feature = featuredItems(context)[index];
+
+                        return index == 0
+                            ? FeatureItem(
+                                image: feature.image,
+                                title: feature.title,
+                                widget: feature.widget,
+                                args: context.read<HomeCubit>().surahs,
+                              )
+                            : FeatureItem(
+                                image: feature.image,
+                                title: feature.title,
+                                widget: feature.widget,
+                              );
+                      },
                     ),
                   ],
                 ),

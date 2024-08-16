@@ -7,13 +7,12 @@ import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';
 import 'core/cache/hive_cache.dart';
 import 'core/di/dependancy_injection.dart';
-import 'core/helpers/notifcation_services.dart';
 import 'core/observer/bloc_observer.dart';
 import 'muslim_app.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await NotificationService.init();
+  // await NotificationService.init();
   tz.initializeTimeZones();
   await setupGetIt();
   await Hive.initFlutter();

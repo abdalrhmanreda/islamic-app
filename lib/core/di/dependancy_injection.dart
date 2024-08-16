@@ -5,6 +5,7 @@ import 'package:get_it/get_it.dart';
 
 import '../../features/ahadith/logic/ahadith_cubit.dart';
 import '../../features/azkar/logic/azkar_cubit.dart';
+import '../../features/home/logic/home_cubit.dart';
 import '../../features/location/logic/location_cubit.dart';
 import '../../features/names_of_alluh/logic/names_of_alluh_cubit.dart';
 import '../../features/prayers/logic/prayers_cubit.dart';
@@ -21,7 +22,7 @@ Future<void> setupGetIt() async {
   Dio dio = await DioFactory.initDio();
   getIt.registerLazySingleton<ApiService>(() => ApiService(dio));
   //
-  // getIt.registerFactory<HomeCubit>(() => HomeCubit());
+  getIt.registerFactory<HomeCubit>(() => HomeCubit());
   getIt.registerFactory<LocationCubit>(() => LocationCubit());
   getIt.registerFactory<RadioCubit>(() => RadioCubit());
   getIt.registerFactory<TasbeehCubit>(() => TasbeehCubit());

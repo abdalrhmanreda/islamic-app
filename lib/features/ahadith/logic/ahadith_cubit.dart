@@ -12,6 +12,45 @@ import 'ahadith_state.dart';
 class AhadithCubit extends Cubit<AhadithState> {
   AhadithCubit() : super(const AhadithState.initial());
 
+  List<Book> imamBooks = [];
+
+  Future<void> getImamBooks(String imam) async {
+    imamBooks = [];
+    emit(const Loading());
+
+    try {
+      // Simulate a delay for debugging purposes
+      await Future.delayed(Duration(seconds: 1)); // Remove in production
+
+      switch (imam) {
+        case 'imamBukhari':
+          imamBooks = getBooks(Collections.bukhari);
+          break;
+        case 'imamMuslim':
+          imamBooks = getBooks(Collections.muslim);
+          break;
+        case 'imamTirmidhi':
+          imamBooks = getBooks(Collections.tirmidhi);
+          break;
+        case 'imamAbuDawood':
+          imamBooks = getBooks(Collections.abudawud);
+          break;
+        case 'imamNasai':
+          imamBooks = getBooks(Collections.nasai);
+          break;
+        case 'imamIbnMajah':
+          imamBooks = getBooks(Collections.ibnmajah);
+          break;
+        default:
+          throw Exception("Imam not recognized");
+      }
+
+      emit(Loaded(imamBooks));
+    } catch (e) {
+      emit(Error(e.toString()));
+    }
+  }
+
   List<FeatureModel> ahadithBooks(context) => [
         FeatureModel(
           title: AppLocalizations.of(context)!.imamBukhari,
@@ -44,45 +83,6 @@ class AhadithCubit extends Cubit<AhadithState> {
           widget: RoutePath.ahadithDetailsScreen,
         ),
       ];
-  List<Book> imamBooks = [];
-  void getImamBooks(String imam) {
-    imamBooks = [];
-    emit(const Loading());
-    try {
-      switch (imam) {
-        case 'imamBukhari':
-          imamBooks = getBooks(Collections.bukhari);
-          break;
-
-        case 'imamMuslim':
-          imamBooks = getBooks(Collections.muslim);
-          break;
-
-        case 'imamTirmidhi':
-          imamBooks = getBooks(Collections.tirmidhi);
-          break;
-
-        case 'imamAbuDawood':
-          imamBooks = getBooks(Collections.abudawud);
-          break;
-
-        case 'imamNasai':
-          imamBooks = getBooks(Collections.nasai);
-          break;
-
-        case 'imamIbnMajah':
-          imamBooks = getBooks(Collections.ibnmajah);
-          break;
-
-        default:
-          print("Imam not recognized");
-          return;
-      }
-      emit(Loaded(imamBooks));
-    } catch (e) {
-      emit(Error(e.toString()));
-    }
-  }
 
   List<ImamModel> imams(context) => [
         ImamModel(

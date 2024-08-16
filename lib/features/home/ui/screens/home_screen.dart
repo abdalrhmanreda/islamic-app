@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: BlocProvider(
-        create: (context) => HomeCubit(),
+        create: (context) => HomeCubit()..getLocation(context),
         child: const HomeBody(),
       ),
     );

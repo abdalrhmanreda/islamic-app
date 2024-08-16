@@ -11,8 +11,8 @@ import 'package:intl/intl.dart';
 import '../../../core/helpers/notifcation_services.dart';
 import '../../../core/methods/get_current_location/get_current_location.dart';
 import '../../../generated/assets.dart';
+import '../../list_of_surahs/data/models/surha.dart';
 import '../../prayer_timings/data/models/prayer_timing_model.dart';
-import '../data/model/surha.dart';
 import 'home_state.dart';
 
 class HomeCubit extends Cubit<HomeState> {
@@ -20,19 +20,19 @@ class HomeCubit extends Cubit<HomeState> {
 
   Position? position;
   String address = '';
+  DateTime currentDate = DateTime.now();
+  PrayerTimes? mainPrayerTimes;
 
   void getLocation(context) async {
     emit(const HomeState.loading());
     GetCurrentLocation().getCurrentPosition().then((value) {
       position = value;
-      print(position);
       GetCurrentLocation()
           .getAddressFromCoordinates(
               position!.latitude, position!.longitude, 'ar')
           .then((value) {
         address = value;
         getPrayerTimes();
-        sendNotification();
       });
       loadJsonAsset();
       emit(HomeState.loaded(position));
@@ -41,17 +41,39 @@ class HomeCubit extends Cubit<HomeState> {
     });
   }
 
-  PrayerTimes getPrayerTimes() {
+  PrayerTimes getPrayerTimes({DateTime? date}) {
     Coordinates coordinates =
         Coordinates(position!.latitude, position!.longitude);
-    var date = DateTime.now();
+    var dateNow = DateTime.now();
     var params = CalculationMethod.egyptian();
     var prayerTimes = PrayerTimes(
       coordinates: coordinates,
-      date: date,
+      date: date ?? dateNow,
       calculationParameters: params,
     );
+    mainPrayerTimes = prayerTimes;
+    print(mainPrayerTimes?.fajr);
+
     return prayerTimes;
+  }
+
+  void getPrayerTimesForSelectedDay({DateTime? date}) async {
+    emit(const HomeState.loading());
+    try {
+      Position position = await GetCurrentLocation().getCurrentPosition();
+      Coordinates coordinates =
+          Coordinates(position.latitude, position.longitude);
+      var dateNow = DateTime.now();
+      var params = CalculationMethod.egyptian();
+      mainPrayerTimes = PrayerTimes(
+        coordinates: coordinates,
+        date: date ?? dateNow,
+        calculationParameters: params,
+      );
+      emit(HomeState.prayerTimeSelected(mainPrayerTimes!.fajr!.toLocal()));
+    } catch (e) {
+      emit(HomeState.error(e.toString()));
+    }
   }
 
   DateTime? nextPrayerTime;
@@ -65,77 +87,63 @@ class HomeCubit extends Cubit<HomeState> {
     return nextPrayerTime;
   }
 
-  List<PrayerTimingModel> prayers(context) => [
+  int get currentDay => currentDate.day;
+
+  int get currentYear => currentDate.year; // Add this getter
+
+  int get currentMonth => currentDate.month; // Add this getter
+
+  void selectDay(int day) {
+    currentDate = DateTime(currentDate.year, currentDate.month, day);
+    emit(HomeState.daySelected(currentDate));
+  }
+
+  List<PrayerTimingModel> prayers(
+    context,
+  ) =>
+      [
         PrayerTimingModel(
           img: Assets.prayerTimingsFajr,
           prayerName: AppLocalizations.of(context)!.fajr,
           prayerTime:
-              DateFormat('hh:mm a').format(getPrayerTimes().fajr!.toLocal()),
+              DateFormat('hh:mm a').format(mainPrayerTimes!.fajr!.toLocal()),
         ),
         PrayerTimingModel(
           img: Assets.prayerTimingsSunset,
           prayerName: AppLocalizations.of(context)!.shuruq,
           prayerTime:
-              DateFormat('hh:mm a').format(getPrayerTimes().sunrise!.toLocal()),
+              DateFormat('hh:mm a').format(mainPrayerTimes!.sunrise!.toLocal()),
         ),
         PrayerTimingModel(
           img: Assets.prayerTimingsDhuhr,
           prayerName: AppLocalizations.of(context)!.dhuhr,
           prayerTime:
-              DateFormat('hh:mm a').format(getPrayerTimes().dhuhr!.toLocal()),
+              DateFormat('hh:mm a').format(mainPrayerTimes!.dhuhr!.toLocal()),
         ),
         PrayerTimingModel(
           img: Assets.prayerTimingsAsr,
           prayerName: AppLocalizations.of(context)!.asr,
           prayerTime:
-              DateFormat('hh:mm a').format(getPrayerTimes().asr!.toLocal()),
+              DateFormat('hh:mm a').format(mainPrayerTimes!.asr!.toLocal()),
         ),
         PrayerTimingModel(
           img: Assets.prayerTimingsSunset,
           prayerName: AppLocalizations.of(context)!.maghrib,
           prayerTime:
-              DateFormat('hh:mm a').format(getPrayerTimes().maghrib!.toLocal()),
+              DateFormat('hh:mm a').format(mainPrayerTimes!.maghrib!.toLocal()),
         ),
         PrayerTimingModel(
           img: Assets.prayerTimingsAsha,
           prayerName: AppLocalizations.of(context)!.isha,
           prayerTime:
-              DateFormat('hh:mm a').format(getPrayerTimes().isha!.toLocal()),
+              DateFormat('hh:mm a').format(mainPrayerTimes!.isha!.toLocal()),
         ),
       ];
 
   final azkar = [
-    "سُبْحَانَ اللَّهِ",
-    "صلي علي النبي",
-    "الْحَمْدُ لِلَّهِ",
-    "اللهُ أَكْبَرُ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلُّ شَيْءِ قَدِيرِ.",
-    "سُبْحَانَ اللَّهِ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "سُبْحَانَ اللهِ العَظِيمِ وَبِحَمْدِهِ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ ، سُبْحَانَ اللَّهِ الْعَظِيمِ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "لا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "الْحَمْدُ للّهِ رَبِّ الْعَالَمِينَ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "الْلَّهُم صَلِّ وَسَلِم وَبَارِك عَلَى سَيِّدِنَا مُحَمَّد",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "أستغفر الله",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "سُبْحَانَ الْلَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا الْلَّهُ، وَالْلَّهُ أَكْبَرُ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "لَا إِلَهَ إِلَّا اللَّهُ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
-    "الْلَّهُ أَكْبَرُ",
-    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    // Your list of azkar...
   ];
+
   void sendNotification() {
     final Random random = Random();
     final int randomIndex = random.nextInt(azkar.length);

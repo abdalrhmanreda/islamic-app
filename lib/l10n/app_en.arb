@@ -147,7 +147,9 @@
   "rateApp": "Rate App",
   "contectWithDeveloper": "Contact With Developer",
   "searchWithPageNumberOrSurahNameOrAya": "Search With Page Number Or Surah Name Or Aya",
-  "hadith": "حديث"
+  "hadith": "حديث" ,
+  "loadingBooks": "Loading Books",
+  "features": "Features"
 
 
 

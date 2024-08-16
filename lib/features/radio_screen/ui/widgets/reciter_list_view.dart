@@ -223,7 +223,7 @@ class _ReciterListViewState extends State<ReciterListView> {
                         processingState == ProcessingState.loading) {
                       return const CircularProgressIndicator();
                     }
-                    return SizedBox();
+                    return const SizedBox();
                   },
                 ),
               ],
