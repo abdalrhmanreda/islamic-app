@@ -26,6 +26,7 @@ class MuslimApp extends StatelessWidget {
            SafeArea(
              top: false,
              bottom: true,
+
              child: MaterialApp(
               locale: const Locale('ar', 'EG'),
               localizationsDelegates: AppLocalizations.localizationsDelegates,
