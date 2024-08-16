@@ -4,15 +4,12 @@ import 'dart:math';
 import 'package:adhan_dart/adhan_dart.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:intl/intl.dart';
 
 import '../../../core/helpers/notifcation_services.dart';
 import '../../../core/methods/get_current_location/get_current_location.dart';
 import '../../../generated/assets.dart';
 import '../../list_of_surahs/data/models/surha.dart';
-import '../../prayer_timings/data/models/prayer_timing_model.dart';
 import 'home_state.dart';
 
 class HomeCubit extends Cubit<HomeState> {
@@ -98,47 +95,7 @@ class HomeCubit extends Cubit<HomeState> {
     emit(HomeState.daySelected(currentDate));
   }
 
-  List<PrayerTimingModel> prayers(
-    context,
-  ) =>
-      [
-        PrayerTimingModel(
-          img: Assets.prayerTimingsFajr,
-          prayerName: AppLocalizations.of(context)!.fajr,
-          prayerTime:
-              DateFormat('hh:mm a').format(mainPrayerTimes!.fajr!.toLocal()),
-        ),
-        PrayerTimingModel(
-          img: Assets.prayerTimingsSunset,
-          prayerName: AppLocalizations.of(context)!.shuruq,
-          prayerTime:
-              DateFormat('hh:mm a').format(mainPrayerTimes!.sunrise!.toLocal()),
-        ),
-        PrayerTimingModel(
-          img: Assets.prayerTimingsDhuhr,
-          prayerName: AppLocalizations.of(context)!.dhuhr,
-          prayerTime:
-              DateFormat('hh:mm a').format(mainPrayerTimes!.dhuhr!.toLocal()),
-        ),
-        PrayerTimingModel(
-          img: Assets.prayerTimingsAsr,
-          prayerName: AppLocalizations.of(context)!.asr,
-          prayerTime:
-              DateFormat('hh:mm a').format(mainPrayerTimes!.asr!.toLocal()),
-        ),
-        PrayerTimingModel(
-          img: Assets.prayerTimingsSunset,
-          prayerName: AppLocalizations.of(context)!.maghrib,
-          prayerTime:
-              DateFormat('hh:mm a').format(mainPrayerTimes!.maghrib!.toLocal()),
-        ),
-        PrayerTimingModel(
-          img: Assets.prayerTimingsAsha,
-          prayerName: AppLocalizations.of(context)!.isha,
-          prayerTime:
-              DateFormat('hh:mm a').format(mainPrayerTimes!.isha!.toLocal()),
-        ),
-      ];
+
 
   final azkar = [
     // Your list of azkar...

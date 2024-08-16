@@ -22,19 +22,23 @@ class MuslimApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (context, child) => Directionality(
         textDirection: TextDirection.rtl,
-        child: SafeArea(
-          child: MaterialApp(
-            locale: const Locale('ar', 'EG'),
-            localizationsDelegates: AppLocalizations.localizationsDelegates,
-            supportedLocales: AppLocalizations.supportedLocales,
-            debugShowCheckedModeBanner: false,
-            onGenerateRoute: appRouter.generateRoute,
-            theme: Style.lightTheme,
-            darkTheme: Style.darkTheme,
-            themeMode: ThemeMode.light,
-            initialRoute: initRoute,
-          ),
-        ),
+        child:
+           SafeArea(
+             top: false,
+             bottom: true,
+             child: MaterialApp(
+              locale: const Locale('ar', 'EG'),
+              localizationsDelegates: AppLocalizations.localizationsDelegates,
+              supportedLocales: AppLocalizations.supportedLocales,
+              debugShowCheckedModeBanner: false,
+              onGenerateRoute: appRouter.generateRoute,
+              theme: Style.lightTheme,
+              darkTheme: Style.darkTheme,
+              themeMode: ThemeMode.light,
+              initialRoute: initRoute,
+
+                     ),
+           ),
       ),
     );
   }

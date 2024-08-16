@@ -2,7 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
+   <key>NSLocationWhenInUseUsageDescription</key>
+   <string>We need your location to show nearby places.</string>
+
+   <key>NSLocationAlwaysUsageDescription</key>
+   <string>We need your location to track your movements in the background.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>We need access to motion data to determine the Qiblah direction accurately.</string>
+
+    <key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Muslim App</string>

@@ -21,9 +21,9 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(
-        top: 2,
-        left: 5.w,
-        right: 5.w,
+        top: 15.w,
+        left: 10.w,
+        right: 10.w,
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -202,6 +202,16 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
+                        Spacing.verticalSpace(10),
+                        Text(
+                          getVerse(e["surah"], i),
+                          style: TextStyle(
+                            fontSize: 20.sp,
+                            fontFamily: 'Amiri',
+                          ),
+                        ),
+                        Spacing.verticalSpace(10),
+
                       ],
                     );
                   });
@@ -235,9 +245,9 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                 ? 28
                 : index == 145 || index == 201
                     ? index == 532 || index == 533
-                        ? 23.2
-                        : 23.2
-                    : 23.2,
+                        ? 23.sp
+                        : 23.sp
+                    : 23.sp,
             backgroundColor: _getBackgroundColor(e["surah"], i),
           ),
         ));

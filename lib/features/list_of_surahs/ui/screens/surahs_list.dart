@@ -167,7 +167,17 @@ class _SurahsListState extends State<SurahsList> {
                 itemBuilder: (context, index) {
                   final ayat = ayatFiltered!["result"][index];
                   return GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      context.navigateToWidget(
+                        context,
+                        SurahDetailsScreen(
+                          pageNumber: getPageNumber(ayatFiltered!['result'][index]['surah'], ayatFiltered!['result'][index]['verse']),
+                          shouldHighlightText: true,
+                          highlightVerse: getVerse(ayatFiltered!['result'][index]['surah'], ayatFiltered!['result'][index]['verse']),
+                          jsonData: widget.surahs,
+                        ),
+                      );
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                         color: AppColors.kCircleAvatarColor,
