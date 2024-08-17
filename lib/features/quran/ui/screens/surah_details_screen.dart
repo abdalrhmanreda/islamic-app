@@ -1,9 +1,11 @@
 import 'dart:async';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:muslim_app/config/colors/app_colors.dart';
 import 'package:quran/quran.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
@@ -194,6 +196,8 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                           ),
                         ),
                         Spacing.verticalSpace(10),
+                    Column(
+                      children: [
                         Text(
                           widget.jsonData[getPageData(index)[0]['surah'] - 1]
                               .name,
@@ -211,6 +215,12 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                           ),
                         ),
                         Spacing.verticalSpace(10),
+
+
+
+
+                      ],
+                    ),
 
                       ],
                     );

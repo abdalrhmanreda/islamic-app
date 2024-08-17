@@ -140,6 +140,7 @@ dependencies:
   syncfusion_flutter_gauges: ^26.2.8
   hadith: ^1.0.0
   date_picker_timeline: ^1.2.6
+  awesome_notifications: ^0.9.3+1
 
 
 
