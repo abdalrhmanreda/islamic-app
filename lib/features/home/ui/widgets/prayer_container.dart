@@ -30,14 +30,27 @@ class PrayerContainer extends StatelessWidget {
         PrayerTimes prayerTimes = context.read<HomeCubit>().getPrayerTimes();
         var next = prayerTimes.nextPrayer();
         var nextPrayerTime = prayerTimes.timeForPrayer(next)!.toLocal();
-        return GestureDetector(
-          onTap: () {
-            context.navigateToWidgetByNamed(context, RoutePath.prayerScreen);
-          },
-          child: Container(
-            padding: EdgeInsets.symmetric(
-              horizontal: 10.w,
-              vertical: 10.h,
+        return Container(
+          padding: EdgeInsets.symmetric(
+            horizontal: 10.w,
+            vertical: 10.h,
+          ),
+          margin: EdgeInsets.symmetric(
+            vertical: 10.h,
+            horizontal: 10.w,
+          ),
+          width: AppConstant.deviceWidth(context),
+          height: AppConstant.deviceHeight(context) / 4,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            image: DecorationImage(
+              image: const AssetImage(Assets.imagesPrayerTiming),
+              colorFilter: ColorFilter.mode(
+                AppColors.kButtonColor.withOpacity(.7),
+                BlendMode.srcOver,
+              ),
+              fit: BoxFit.cover,
+
             ),
             margin: EdgeInsets.symmetric(
               vertical: 10.h,

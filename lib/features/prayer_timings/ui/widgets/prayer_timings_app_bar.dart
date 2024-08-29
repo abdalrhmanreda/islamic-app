@@ -45,7 +45,7 @@ class PrayerTimingsAppBar extends StatelessWidget {
         background: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage(Assets.images2840Photoroom),
+              image: AssetImage(Assets.imagesPrayerTiming),
               fit: BoxFit.cover,
             ),
           ),

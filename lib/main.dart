@@ -11,9 +11,8 @@ import 'core/observer/bloc_observer.dart';
 import 'muslim_app.dart';
 
 void main() async {
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   // await NotificationService.init();
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  WidgetsFlutterBinding.ensureInitialized();
 
   tz.initializeTimeZones();
   await setupGetIt();

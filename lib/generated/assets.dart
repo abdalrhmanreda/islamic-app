@@ -30,10 +30,10 @@ class Assets {
   static const String iconsQibla = 'assets/icons/qibla.svg';
   static const String iconsTasbih = 'assets/icons/tasbih.svg';
   static const String iconsTheHolyQuran = 'assets/icons/the_holy_quran.svg';
-  static const String images2840Photoroom = 'assets/images/prayer_timing.png';
   static const String images88802 = 'assets/images/888-02.png';
   static const String imagesBasmala = 'assets/images/Basmala.png';
   static const String imagesBg = 'assets/images/bg.png';
+  static const String imagesPrayerTiming = 'assets/images/prayer_timing.png';
   static const String imagesQuranImage = 'assets/images/quran_image.png';
   static const String imagesSplash = 'assets/images/splash.png';
   static const String locationLocation = 'assets/images/location/location.svg';
@@ -1263,5 +1263,6 @@ class Assets {
       'assets/fonts/QCF2BSMLfonts/QCF2603.ttf';
   static const String qCF2BSMLfontsQCF2604 =
       'assets/fonts/QCF2BSMLfonts/QCF2604.ttf';
+  static const String splashSplash = 'assets/splash/splash.png';
   static const String tasbeehTabeeh = 'assets/tasbeeh/tabeeh.json';
 }

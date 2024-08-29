@@ -1,14 +1,32 @@
-# flutter_native_splash-development.yaml
- flutter_native_splash:
-    color: "#00494b"
-    image: assets/images/logo.png
-    branding: assets/images/logo.png
-    color_dark: "#121212"
-    image_dark: assets/logo-development.png
-    branding_dark: assets/branding-development.png
+flutter_native_splash:
 
-    android_12:
-      image: assets/images/logo.png
-      icon_background_color: "#00494b"
-      image_dark: assets/images/logo.png
-      icon_background_color_dark: "#121212"
+
+  color: "#00494b"
+
+  image: assets/images/splash.png
+
+  #branding: assets/dart.png
+
+  # To position the branding image at the bottom of the screen you can use bottom, bottomRight,
+  # and bottomLeft. The default values is bottom if not specified or specified something else.
+  #branding_mode: bottom
+
+  # The color_dark, background_image_dark, image_dark, branding_dark are parameters that set the background
+  # and image when the device is in dark mode. If they are not specified, the app will use the
+  # parameters from above. If the image_dark parameter is specified, color_dark or
+  # background_image_dark must be specified.  color_dark and background_image_dark cannot both be
+  # set.
+  #color_dark: "#042a49"
+  #background_image_dark: "assets/dark-background.png"
+  #image_dark: assets/splash-invert.png
+  #branding_dark: assets/dart_dark.png
+
+  # From Android 12 onwards, the splash screen is handled differently than in previous versions.
+  # Please visit https://developer.android.com/guide/topics/ui/splash-screen
+  # Following are specific parameters for Android 12+.
+  android_12:
+    image: assets/images/splash.png
+    color: "#00494b"
+
+
+
