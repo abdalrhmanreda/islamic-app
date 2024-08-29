@@ -42,7 +42,7 @@ class PrayerContainer extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             image: DecorationImage(
-              image: const AssetImage(Assets.images2840Photoroom),
+              image: const AssetImage(Assets.imagesPrayerTiming),
               colorFilter: ColorFilter.mode(
                 AppColors.kButtonColor.withOpacity(.7),
                 BlendMode.srcOver,
