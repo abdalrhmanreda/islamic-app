@@ -23,7 +23,7 @@ class Style {
         fontSize: 16.sp,
       ),
       systemOverlayStyle: const SystemUiOverlayStyle(
-        statusBarColor: AppColors.kPrimaryColor,
+        statusBarColor: AppColors.kScaffoldBackGroundColor,
         statusBarBrightness: Brightness.light,
       ),
     ),

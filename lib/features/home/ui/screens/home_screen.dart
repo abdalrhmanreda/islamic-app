@@ -10,6 +10,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        toolbarHeight: 20,
+      ),
       body: BlocProvider(
         create: (context) => HomeCubit()..getLocation(context),
         child: const HomeBody(),

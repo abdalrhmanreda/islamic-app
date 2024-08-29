@@ -1,9 +1,11 @@
 import 'dart:async';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:muslim_app/config/colors/app_colors.dart';
 import 'package:quran/quran.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
@@ -194,6 +196,8 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                           ),
                         ),
                         Spacing.verticalSpace(10),
+                    Column(
+                      children: [
                         Text(
                           widget.jsonData[getPageData(index)[0]['surah'] - 1]
                               .name,
@@ -202,6 +206,22 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
+                        Spacing.verticalSpace(10),
+                        Text(
+                          getVerse(e["surah"], i),
+                          style: TextStyle(
+                            fontSize: 20.sp,
+                            fontFamily: 'Amiri',
+                          ),
+                        ),
+                        Spacing.verticalSpace(10),
+
+
+
+
+                      ],
+                    ),
+
                       ],
                     );
                   });
@@ -235,9 +255,9 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                 ? 28
                 : index == 145 || index == 201
                     ? index == 532 || index == 533
-                        ? 23.2
-                        : 23.2
-                    : 23.2,
+                        ? 23.sp
+                        : 23.sp
+                    : 23.sp,
             backgroundColor: _getBackgroundColor(e["surah"], i),
           ),
         ));

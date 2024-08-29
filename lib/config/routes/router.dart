@@ -11,7 +11,6 @@ import 'package:muslim_app/features/tafseer/ui/screens/tafseer_screen.dart';
 
 import '../../features/ahadith/logic/ahadith_cubit.dart';
 import '../../features/ahadith/ui/screens/ahadith_screen.dart';
-import '../../features/home/logic/home_cubit.dart';
 import '../../features/layout/ui/layout_screen.dart';
 import '../../features/list_of_surahs/data/models/surha.dart';
 import '../../features/list_of_surahs/ui/screens/surahs_list.dart';
@@ -106,11 +105,7 @@ class AppRouter {
         );
       case RoutePath.prayerScreen:
         return MaterialPageRoute(
-          builder: (_) => BlocProvider(
-              create: (context) => getIt<HomeCubit>()
-                ..getPrayerTimesForSelectedDay()
-                ..getLocation(context),
-              child: const PrayerTimingsScreen()),
+          builder: (_) => const PrayerTimingsScreen(),
         );
       case RoutePath.quran:
         return MaterialPageRoute(

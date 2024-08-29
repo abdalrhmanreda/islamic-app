@@ -45,10 +45,14 @@ class _LayoutScreenState extends State<LayoutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       extendBody: true,
       body: _screens[_currentIndex],
       bottomNavigationBar: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding:  EdgeInsets.symmetric(
+          horizontal: 15.w,
+          vertical: 10.h,
+        ),
         child: CustomNavigationBar(
           borderRadius: Radius.circular(15.r),
           currentIndex: _currentIndex,

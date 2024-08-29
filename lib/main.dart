@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:timezone/data/latest.dart' as tz;
-
 import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';
 import 'core/cache/hive_cache.dart';
@@ -14,6 +13,7 @@ import 'muslim_app.dart';
 void main() async {
   // await NotificationService.init();
   WidgetsFlutterBinding.ensureInitialized();
+
   tz.initializeTimeZones();
   await setupGetIt();
   await Hive.initFlutter();
