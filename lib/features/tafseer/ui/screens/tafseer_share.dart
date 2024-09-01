@@ -17,6 +17,7 @@ import '../../data/repo/tafseer_repo.dart';
 
 class ShareTafseer extends StatelessWidget {
   const ShareTafseer({super.key, required this.ayaTafseer});
+
   final Result ayaTafseer;
 
   @override

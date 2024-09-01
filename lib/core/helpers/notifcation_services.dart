@@ -104,7 +104,8 @@ class NotificationService {
           channelDescription: 'your_channel_description',
           importance: Importance.max,
           priority: Priority.high,
-          icon: '@mipmap/ic_launcher', // Use your icon name
+          icon: '@mipmap/ic_launcher',
+          // Use your icon name
           ongoing: true, // This will pin the notification
         ),
       ),
@@ -124,7 +125,8 @@ class NotificationService {
           channelDescription: 'your_channel_description',
           importance: Importance.max,
           priority: Priority.high,
-          icon: '@mipmap/ic_launcher', // Use your icon name
+          icon: '@mipmap/ic_launcher',
+          // Use your icon name
           ongoing: true, // This will pin the notification
         ),
       ),
@@ -180,7 +182,8 @@ class NotificationService {
     for (int i = 0; i < 24 * 4; i++) {
       await flutterLocalNotificationsPlugin.zonedSchedule(
         i,
-        'وَذَكِّرْ فَإِنَّ الذِّكْرَىٰ تَنفَعُ الْمُؤْمِنِينَ', // Use the default title
+        'وَذَكِّرْ فَإِنَّ الذِّكْرَىٰ تَنفَعُ الْمُؤْمِنِينَ',
+        // Use the default title
         body,
         tz.TZDateTime.from(
             firstNotificationTime.add(Duration(minutes: 15 * i)), tz.local),

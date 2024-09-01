@@ -15,6 +15,7 @@ class TasbeehButtons extends StatelessWidget {
     super.key,
     required this.pageController,
   });
+
   final PageController pageController;
 
   @override

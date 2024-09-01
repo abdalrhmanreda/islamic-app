@@ -17,7 +17,7 @@ class PrayerTimingsScreen extends StatefulWidget {
 }
 
 class _PrayerTimingsScreenState extends State<PrayerTimingsScreen> {
-  DateTime selectedDate = DateTime.now()  ;
+  DateTime selectedDate = DateTime.now();
 
   @override
   Widget build(BuildContext context) {
@@ -35,54 +35,55 @@ class _PrayerTimingsScreenState extends State<PrayerTimingsScreen> {
           return Scaffold(
             body: prayerTimes != null
                 ? CustomScrollView(
-              slivers: [
-                const PrayerTimingsAppBar(),
-                SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: DatePicker(
-                      DateTime.now(),
-                      locale: 'ar',
-                      height: 95.h,
-                      dateTextStyle: const TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
+                    slivers: [
+                      const PrayerTimingsAppBar(),
+                      SliverToBoxAdapter(
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: DatePicker(
+                            DateTime.now(),
+                            locale: 'ar',
+                            height: 95.h,
+                            dateTextStyle: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                            dayTextStyle: TextStyle(
+                              fontSize: 12.sp,
+                            ),
+                            initialSelectedDate: selectedDate,
+                            selectionColor: AppColors.kPrimaryColor,
+                            selectedTextColor: AppColors.kCircleAvatarColor,
+                            onDateChange: (date) {
+                              setState(() {
+                                selectedDate = date;
+                                prayerCubit.getPrayerTimes(date: selectedDate);
+                              });
+                            },
+                            width: 60.w,
+                            daysCount: 7,
+                            calendarType: CalendarType.gregorianDate,
+                            deactivatedColor:
+                                AppColors.kPrimaryColor.withOpacity(.5),
+                          ),
+                        ),
                       ),
-                      dayTextStyle: TextStyle(
-                        fontSize: 12.sp,
+                      SliverList(
+                        delegate: SliverChildBuilderDelegate(
+                          (context, index) {
+                            return PrayerTimingItem(
+                              key: ValueKey(index),
+                              index: index,
+                            );
+                          },
+                          childCount: prayers.length,
+                        ),
                       ),
-                      initialSelectedDate: selectedDate,
-                      selectionColor: AppColors.kPrimaryColor,
-                      selectedTextColor: AppColors.kCircleAvatarColor,
-                      onDateChange: (date) {
-                        setState(() {
-                          selectedDate = date;
-                          prayerCubit.getPrayerTimes(date: selectedDate);
-                        });
-                      },
-                      width: 60.w,
-                      daysCount: 7,
-                      calendarType: CalendarType.gregorianDate,
-                      deactivatedColor: AppColors.kPrimaryColor.withOpacity(.5),
-                    ),
-                  ),
-                ),
-                SliverList(
-                  delegate: SliverChildBuilderDelegate(
-                        (context, index) {
-                      return PrayerTimingItem(
-                        key: ValueKey(index),
-                        index: index,
-                      );
-                    },
-                    childCount: prayers.length,
-                  ),
-                ),
-              ],
-            )
+                    ],
+                  )
                 : const Center(
-              child: CustomLoadingIndicator(),
-            ),
+                    child: CustomLoadingIndicator(),
+                  ),
           );
         },
       ),

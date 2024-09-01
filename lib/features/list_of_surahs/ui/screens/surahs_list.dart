@@ -16,6 +16,7 @@ import '../widgets/surahs_part.dart';
 
 class SurahsList extends StatefulWidget {
   const SurahsList({super.key, required this.surahs});
+
   final List<Surah> surahs;
 
   @override
@@ -171,9 +172,13 @@ class _SurahsListState extends State<SurahsList> {
                       context.navigateToWidget(
                         context,
                         SurahDetailsScreen(
-                          pageNumber: getPageNumber(ayatFiltered!['result'][index]['surah'], ayatFiltered!['result'][index]['verse']),
+                          pageNumber: getPageNumber(
+                              ayatFiltered!['result'][index]['surah'],
+                              ayatFiltered!['result'][index]['verse']),
                           shouldHighlightText: true,
-                          highlightVerse: getVerse(ayatFiltered!['result'][index]['surah'], ayatFiltered!['result'][index]['verse']),
+                          highlightVerse: getVerse(
+                              ayatFiltered!['result'][index]['surah'],
+                              ayatFiltered!['result'][index]['verse']),
                           jsonData: widget.surahs,
                         ),
                       );

@@ -8,6 +8,7 @@ import '../../data/model/on_boarding_item_content.dart';
 class OnBoardingItem extends StatelessWidget {
   final OnBoardingItemContent onBoardingItemContent;
   final BuildContext context;
+
   const OnBoardingItem({
     super.key,
     required this.onBoardingItemContent,

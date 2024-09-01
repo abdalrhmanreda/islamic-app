@@ -9,6 +9,7 @@ class CustomSmoothIndicator extends StatelessWidget {
     required this.pageController,
     required this.count,
   });
+
   final PageController pageController;
   final int count;
 

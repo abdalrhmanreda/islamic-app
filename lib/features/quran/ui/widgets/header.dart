@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:icons_plus/icons_plus.dart';
-import 'package:quran/juz_data.dart';
 import 'package:quran/quran.dart';
 
-import '../../../../config/colors/app_colors.dart';
 import '../screens/surah_details_screen.dart';
 
 class Header extends StatelessWidget {
@@ -36,8 +33,6 @@ class Header extends StatelessWidget {
               fontSize: 22.sp,
             ),
           ),
-
-
         ],
       ),
     );

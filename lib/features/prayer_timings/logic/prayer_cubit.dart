@@ -13,6 +13,7 @@ class PrayerCubit extends Cubit<PrayerState> {
   PrayerCubit() : super(PrayerInitial());
 
   DateTime currentDate = DateTime.now();
+
   int get currentDay => currentDate.day;
 
   int get currentYear => currentDate.year; // Add this getter
@@ -24,24 +25,31 @@ class PrayerCubit extends Cubit<PrayerState> {
     emit(DaySeleceted(currentDate));
   }
 
-  PrayerTimes ?prayerTimes;
-  void getPrayerTimes({ DateTime? date}) async{
+  PrayerTimes? prayerTimes;
+
+  void getPrayerTimes({DateTime? date}) async {
     emit(PrayerLoading());
     try {
-      Position position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+      Position position = await Geolocator.getCurrentPosition(
+          desiredAccuracy: LocationAccuracy.high);
       final calculationMethod = CalculationMethod.egyptian();
       final coordinates = Coordinates(position.latitude, position.longitude);
-      prayerTimes = PrayerTimes(coordinates: coordinates, date: date ?? DateTime.now(), calculationParameters: calculationMethod, );
+      prayerTimes = PrayerTimes(
+        coordinates: coordinates,
+        date: date ?? DateTime.now(),
+        calculationParameters: calculationMethod,
+      );
       emit(PrayerLoaded(prayerTimes!));
     } catch (e) {
       emit(PrayerError(e.toString()));
     }
   }
+
   DateTime? nextPrayerTime;
 
   List<PrayerTimingModel> prayers(
-      context,
-      ) =>
+    context,
+  ) =>
       [
         PrayerTimingModel(
           img: Assets.prayerTimingsFajr,

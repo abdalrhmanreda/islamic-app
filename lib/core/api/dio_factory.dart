@@ -5,6 +5,7 @@ import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
 class DioFactory {
   DioFactory._();
+
   static Dio? dio;
 
   static Future<Dio> initDio() async {

@@ -26,6 +26,7 @@ class TasbeehCubit extends Cubit<TasbeehState> {
   }
 
   int count = 0;
+
   void increaseCount() {
     count++;
     emit(TasbeehState.loaded(count));

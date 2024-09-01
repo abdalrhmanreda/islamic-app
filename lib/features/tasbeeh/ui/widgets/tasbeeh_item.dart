@@ -13,9 +13,11 @@ class TasbeehItem extends StatelessWidget {
     required this.count,
     required this.description,
   });
+
   final String tasbeeh;
   final int count;
   final String description;
+
   @override
   Widget build(BuildContext context) {
     return Column(

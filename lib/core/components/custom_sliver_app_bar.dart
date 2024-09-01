@@ -13,6 +13,7 @@ class CustomSliverAppBar extends StatelessWidget {
     required this.image,
     required this.description,
   });
+
   final String title;
   final String image;
   final String description;

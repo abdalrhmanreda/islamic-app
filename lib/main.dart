@@ -1,18 +1,19 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:timezone/data/latest.dart' as tz;
+
 import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';
 import 'core/cache/hive_cache.dart';
 import 'core/di/dependancy_injection.dart';
+import 'core/helpers/local_notify.dart';
 import 'core/observer/bloc_observer.dart';
 import 'muslim_app.dart';
 
 void main() async {
-  // await NotificationService.init();
   WidgetsFlutterBinding.ensureInitialized();
+  NotificationService().requestPermissions();
 
   tz.initializeTimeZones();
   await setupGetIt();

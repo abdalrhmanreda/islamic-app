@@ -14,6 +14,7 @@ class AhadithItem extends StatelessWidget {
     required this.widget,
     required this.onTap,
   });
+
   final String image;
   final String title;
   final String widget;

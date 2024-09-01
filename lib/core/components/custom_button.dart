@@ -27,6 +27,7 @@ class CustomButton extends StatelessWidget {
     this.textStyle,
     this.edgeInsets,
   });
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

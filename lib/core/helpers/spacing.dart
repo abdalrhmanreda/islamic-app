@@ -5,6 +5,7 @@ class Spacing {
   static verticalSpace(double height) => SizedBox(
         height: height.h,
       );
+
   static horizontalSpace(double width) => SizedBox(
         width: width.w,
       );

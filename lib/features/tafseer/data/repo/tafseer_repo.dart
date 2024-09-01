@@ -3,6 +3,7 @@ import '../../../../core/api/api_service.dart';
 
 class TafseerRepo {
   final ApiService _apiService;
+
   TafseerRepo(this._apiService);
 
   Future<ApiResult> getTafseer(int index) async {

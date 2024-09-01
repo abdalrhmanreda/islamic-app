@@ -11,6 +11,7 @@ import '../screens/tafseer_details.dart';
 
 class TafseerListItem extends StatelessWidget {
   const TafseerListItem({super.key, required this.index});
+
   final int index;
 
   @override

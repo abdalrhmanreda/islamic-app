@@ -10,6 +10,7 @@ class SmallButton extends StatelessWidget {
     required this.icon,
     required this.onTap,
   });
+
   final IconData icon;
   final VoidCallback onTap;
 

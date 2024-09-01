@@ -44,12 +44,14 @@ class RadioCubit extends Cubit<RadioState> {
   }
 
   int currentIndex = 0;
+
   void toggleIndex(int index) {
     currentIndex = index;
     emit(ToggleState());
   }
 
   var searchController = TextEditingController();
+
   void searchReciter(String query) {
     try {
       query = query.toLowerCase().trim();
@@ -68,18 +70,18 @@ class RadioCubit extends Cubit<RadioState> {
       emit(RadioError(e.toString()));
     }
   }
-  //
-  // List<ReciterModel> videos = [];
-  // void getVideos() {
-  //   emit(GetVideoLoadingState());
-  //   rootBundle.loadString(Assets.dataVideos).then((value) {
-  //     var data = jsonDecode(value);
-  //     var reciterDataList = data['videos'] as List<dynamic>;
-  //     videos = reciterDataList.map((e) => ReciterModel.fromJson(e)).toList();
-  //     emit(GetVideoLoadedState(videos: videos));
-  //   }).catchError((e) {
-  //     print(e.toString());
-  //     emit(GetVideoErrorState(e.toString()));
-  //   });
-  // }
+//
+// List<ReciterModel> videos = [];
+// void getVideos() {
+//   emit(GetVideoLoadingState());
+//   rootBundle.loadString(Assets.dataVideos).then((value) {
+//     var data = jsonDecode(value);
+//     var reciterDataList = data['videos'] as List<dynamic>;
+//     videos = reciterDataList.map((e) => ReciterModel.fromJson(e)).toList();
+//     emit(GetVideoLoadedState(videos: videos));
+//   }).catchError((e) {
+//     print(e.toString());
+//     emit(GetVideoErrorState(e.toString()));
+//   });
+// }
 }

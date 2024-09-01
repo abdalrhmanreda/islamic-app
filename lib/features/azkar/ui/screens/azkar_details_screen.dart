@@ -8,6 +8,7 @@ import '../widgets/azkar_item.dart';
 
 class AzkarDetailsScreen extends StatelessWidget {
   const AzkarDetailsScreen({super.key, required this.azkar});
+
   final List<ZakerModel> azkar;
 
   @override

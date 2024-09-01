@@ -1,34 +1,43 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';
-import 'package:muslim_app/config/routes/routes_path.dart';
 import 'package:muslim_app/core/helpers/extensions.dart';
-import 'package:muslim_app/features/prayer_timings/logic/prayer_cubit.dart';
-import 'package:muslim_app/generated/assets.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:hijri/digits_converter.dart';
+import 'package:hijri/hijri_array.dart';
+import 'package:hijri/hijri_calendar.dart';
 import '../../../../config/colors/app_colors.dart';
+import '../../../../config/routes/routes_path.dart';
 import '../../../../config/themes/font_weight.dart';
 import '../../../../core/constant/app_constant.dart';
+import '../../../../core/helpers/local_notify.dart';
 import '../../../../core/helpers/spacing.dart';
-import '../../../../core/methods/app_functions/app_functions.dart';
-import '../../../home/ui/widgets/counter.dart';
+import '../../../../generated/assets.dart';
 
-class PrayerTimingsAppBar extends StatelessWidget {
-  const PrayerTimingsAppBar({super.key});
+class CalendarSliverAppBar extends StatelessWidget {
+  const CalendarSliverAppBar({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
+    HijriCalendar.setLocal('ar'); // Set the local to Arabic
+    String formattedDate =
+        DateFormat('EEEE, dd MMMM yyyy', 'ar').format(DateTime.now());
+
+    // Get the current date in Hijri
+    String hijriDate =
+        HijriCalendar.fromDate(DateTime.now()).toFormat("dd MMMM yyyy");
     return SliverAppBar(
       title: Text(
-        AppLocalizations.of(context)!.prayerTimingsButton,
+        AppLocalizations.of(context)!.calendar,
         style: Theme.of(context).textTheme.bodyMedium!.copyWith(
               color: AppColors.kWhiteColor,
               fontWeight: FontWeightHelper.regular,
               fontSize: 18.sp,
             ),
       ),
+      backgroundColor: AppColors.kPrimaryColor,
       pinned: true,
       automaticallyImplyLeading: true,
       leading: IconButton(
@@ -58,13 +67,13 @@ class PrayerTimingsAppBar extends StatelessWidget {
               padding: EdgeInsets.only(
                 left: 10.w,
                 right: 10.w,
-                top: 50.h,
+                top: 60.h,
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    '${AppLocalizations.of(context)!.homeContainerTitle}${AppFunctions.prayerTimeToString(context.read<PrayerCubit>().prayerTimes!.nextPrayer(), context)} ${AppLocalizations.of(context)!.onTime}',
+                    AppLocalizations.of(context)!.calendar,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                           color: AppColors.kWhiteColor,
                           fontWeight: FontWeightHelper.bold,
@@ -73,32 +82,21 @@ class PrayerTimingsAppBar extends StatelessWidget {
                   ),
                   Spacing.verticalSpace(5),
                   Text(
-                    DateFormat('hh:mm a')
-                        .format(context
-                            .read<PrayerCubit>()
-                            .prayerTimes!
-                            .timeForPrayer(
-                              context
-                                  .read<PrayerCubit>()
-                                  .prayerTimes!
-                                  .nextPrayer(),
-                            )!
-                            .toLocal())
-                        .toString(),
+                    hijriDate,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                           color: AppColors.kWhiteColor,
                           fontWeight: FontWeightHelper.bold,
-                          fontSize: 25.sp,
+                          fontSize: 19.sp,
                         ),
                   ),
                   Spacing.verticalSpace(5),
-                  CountdownText(
-                    targetTime: context
-                        .read<PrayerCubit>()
-                        .prayerTimes!
-                        .timeForPrayer(
-                          context.read<PrayerCubit>().prayerTimes!.nextPrayer(),
-                        )!,
+                  Text(
+                    formattedDate,
+                    style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                          color: AppColors.kWhiteColor,
+                          fontWeight: FontWeightHelper.bold,
+                          fontSize: 19.sp,
+                        ),
                   ),
                 ],
               ),

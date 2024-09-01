@@ -13,6 +13,7 @@ import '../widgets/share_container.dart';
 
 class ShareAya extends StatelessWidget {
   const ShareAya({super.key, required this.shareModel});
+
   final ShareModel shareModel;
 
   @override

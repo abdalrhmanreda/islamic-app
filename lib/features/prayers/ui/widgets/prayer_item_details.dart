@@ -16,6 +16,7 @@ import '../../logic/prayers_state.dart';
 
 class PrayerItemDetails extends StatelessWidget {
   const PrayerItemDetails({super.key, required this.prayer});
+
   final PrayerContentModel prayer;
 
   @override
