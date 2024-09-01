@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../../../../config/themes/font_weight.dart';
 
 class CustomExpandable extends StatefulWidget {
   final String title;
@@ -62,8 +65,10 @@ class _CustomExpandableState extends State<CustomExpandable>
               children: [
                 Text(
                   widget.title,
-                  style: const TextStyle(
-                      fontSize: 16, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    fontSize: 18.sp,
+                    fontWeight: FontWeightHelper.regular,
+                  ),
                 ),
                 RotationTransition(
                   turns: _iconRotation,

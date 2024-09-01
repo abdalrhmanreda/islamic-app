@@ -150,5 +150,9 @@
   "hadith": "حديث",
   "loadingBooks": "جاري تحميل الكتب",
   "features": "الميزات",
-  "calendar": "التقويم الهجري"
+  "calendar": "التقويم الهجري" ,
+  "rookie": "الرقية الشرعية",
+  "ayat": "اليات الواردة ",
+  "wardPraise": " السنة النبوية",
+  "rookiaCopyToClipboard": "تم نسخ الرقية إلى الحافظة"
 }

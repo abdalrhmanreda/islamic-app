@@ -55,4 +55,9 @@ List<FeatureModel> featuredItems(context) => [
         image: Assets.iconsTimeAndDate,
         widget: RoutePath.calendarScreen,
       ),
+      FeatureModel(
+        title: AppLocalizations.of(context)!.rookie,
+        image: Assets.iconsRokia,
+        widget: RoutePath.rookiaScreen,
+      ),
     ];

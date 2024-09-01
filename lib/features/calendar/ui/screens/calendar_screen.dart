@@ -112,7 +112,7 @@ class CalendarScreen extends StatelessWidget {
                     children: [
                       Text(
                         hijriEvent.description,
-                        style: const TextStyle(fontSize: 16),
+                        style: const TextStyle(fontSize: 17),
                       ),
                       Spacing.verticalSpace(5),
                       Text(
