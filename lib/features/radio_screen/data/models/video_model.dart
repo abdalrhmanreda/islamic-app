@@ -1,4 +1,3 @@
-
 class ReciterModel {
   final int id;
   final String reciterName;
@@ -12,7 +11,8 @@ class ReciterModel {
 
   factory ReciterModel.fromJson(Map<String, dynamic> json) {
     var videoList = json['videos'] as List;
-    List<VideoModel> videos = videoList.map((i) => VideoModel.fromJson(i)).toList();
+    List<VideoModel> videos =
+        videoList.map((i) => VideoModel.fromJson(i)).toList();
 
     return ReciterModel(
       id: json['id'],

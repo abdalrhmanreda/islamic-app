@@ -6,46 +6,55 @@ class Loading extends SurahDetailsState {}
 
 class Loaded extends SurahDetailsState {
   dynamic data;
+
   Loaded(this.data);
 }
 
 class Error extends SurahDetailsState {
   final String message;
+
   Error(this.message);
 }
 
 class SurahDetailsLoaded extends SurahDetailsState {
   final bool data;
+
   SurahDetailsLoaded(this.data);
 }
 
 class ChangeCurrentIndex extends SurahDetailsState {
   final int index;
+
   ChangeCurrentIndex(this.index);
 }
 
 class ChangeReciter extends SurahDetailsState {
   dynamic data;
+
   ChangeReciter(this.data);
 }
 
 class ChangeTranslation extends SurahDetailsState {
   dynamic data;
+
   ChangeTranslation(this.data);
 }
 
 class ChangeFontSize extends SurahDetailsState {
   dynamic data;
+
   ChangeFontSize(this.data);
 }
 
 class ChangeFontFamily extends SurahDetailsState {
   dynamic data;
+
   ChangeFontFamily(this.data);
 }
 
 class GetSuraFavoriteStatus extends SurahDetailsState {
   dynamic data;
+
   GetSuraFavoriteStatus(this.data);
 }
 

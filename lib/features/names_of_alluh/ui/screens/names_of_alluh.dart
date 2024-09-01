@@ -34,10 +34,12 @@ class NamesOfAlluh extends StatelessWidget {
               itemCount: context.read<NamesOfAlluhCubit>().namesOfAlluh.length,
               itemBuilder: (context, index) {
                 return FlipCard(
-                  fill: Fill
-                      .fillBack, // Fill the back side of the card to make in the same size as the front.
-                  direction: FlipDirection.HORIZONTAL, // default
-                  side: CardSide.FRONT, // The side to initially display.
+                  fill: Fill.fillBack,
+                  // Fill the back side of the card to make in the same size as the front.
+                  direction: FlipDirection.HORIZONTAL,
+                  // default
+                  side: CardSide.FRONT,
+                  // The side to initially display.
                   front: FrontSide(
                     index: index,
                   ),

@@ -11,6 +11,7 @@ import '../data/models/prayer_model.dart';
 
 class PrayersCubit extends Cubit<PrayersState> {
   PrayersCubit() : super(const PrayersState.initial());
+
   List<AzkarModel> prayers(context) => [
         AzkarModel(
           title: AppLocalizations.of(context)!.prayerFood,
@@ -38,6 +39,7 @@ class PrayersCubit extends Cubit<PrayersState> {
   List<PrayerModel> prayersForTravel = [];
   List<PrayerModel> prayersForFood = [];
   List<PrayerModel> variousSupplications = [];
+
   void getPrayers() {
     emit(const PrayersState.loading());
     rootBundle.loadString(Assets.dataPrayers).then((value) {

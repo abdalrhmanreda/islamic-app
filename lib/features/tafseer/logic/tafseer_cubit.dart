@@ -15,6 +15,7 @@ part 'tafseer_state.dart';
 
 class TafseerCubit extends Cubit<TafseerState> {
   final TafseerRepo _tafseerRepo;
+
   TafseerCubit(this._tafseerRepo) : super(TafseerInitial());
 
   void getTafseer(int index) async {

@@ -6,7 +6,7 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 
-import '../../../core/helpers/notifcation_services.dart';
+import '../../../core/helpers/local_notify.dart';
 import '../../../core/methods/get_current_location/get_current_location.dart';
 import '../../../generated/assets.dart';
 import '../../list_of_surahs/data/models/surha.dart';
@@ -32,6 +32,7 @@ class HomeCubit extends Cubit<HomeState> {
         getPrayerTimes();
       });
       loadJsonAsset();
+      sendNotification();
       emit(HomeState.loaded(position));
     }).catchError((e) {
       emit(HomeState.error(e.toString()));
@@ -95,24 +96,8 @@ class HomeCubit extends Cubit<HomeState> {
     emit(HomeState.daySelected(currentDate));
   }
 
-
-
-  final azkar = [
-    // Your list of azkar...
-  ];
-
-  void sendNotification() {
-    final Random random = Random();
-    final int randomIndex = random.nextInt(azkar.length);
-    final String randomAzkar = azkar[randomIndex];
-
-    NotificationService.scheduleNotificationEvery15Minutes(
-      randomAzkar,
-    );
-    emit(const HomeState.sendNotification());
-  }
-
   List<Surah> surahs = [];
+
   Future<void> loadJsonAsset() async {
     try {
       final String jsonString = await rootBundle.loadString(Assets.dataSurahs);
@@ -124,5 +109,49 @@ class HomeCubit extends Cubit<HomeState> {
       emit(HomeState.error(e.toString()));
     }
     // Initialize filteredData with all surahs
+  }
+
+  final azkar = [
+    "سُبْحَانَ اللَّهِ",
+    "صلي علي النبي",
+    "الْحَمْدُ لِلَّهِ",
+    "اللهُ أَكْبَرُ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلُّ شَيْءِ قَدِيرِ.",
+    "سُبْحَانَ اللَّهِ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "سُبْحَانَ اللهِ العَظِيمِ وَبِحَمْدِهِ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ ، سُبْحَانَ اللَّهِ الْعَظِيمِ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "لا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "الْحَمْدُ للّهِ رَبِّ الْعَالَمِينَ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "الْلَّهُم صَلِّ وَسَلِم وَبَارِك عَلَى سَيِّدِنَا مُحَمَّد",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "أستغفر الله",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "سُبْحَانَ الْلَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا الْلَّهُ، وَالْلَّهُ أَكْبَرُ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "لَا إِلَهَ إِلَّا اللَّهُ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+    "الْلَّهُ أَكْبَرُ",
+    "اللهم صلي وسلم وبارك علي سيدنا محمد",
+  ];
+
+  void sendNotification() {
+    final Random random = Random();
+    final int randomIndex = random.nextInt(azkar.length);
+    final String randomAzkar = azkar[randomIndex];
+
+    NotificationService().scheduleRepeatingNotification(
+      body: randomAzkar,
+    );
+    emit(const HomeState.sendNotification());
   }
 }

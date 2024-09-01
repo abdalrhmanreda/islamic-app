@@ -11,6 +11,7 @@ class FrontSide extends StatelessWidget {
     super.key,
     required this.index,
   });
+
   final int index;
 
   @override

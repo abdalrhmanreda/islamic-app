@@ -20,6 +20,7 @@ class SurahDetailsCubit extends Cubit<SurahDetailsState> {
   SurahDetailsCubit() : super(Initial());
 
   final GlobalKey _globalKey = GlobalKey();
+
   GlobalKey get globalKey => _globalKey;
 
   int selectedAyaIndex = 0;

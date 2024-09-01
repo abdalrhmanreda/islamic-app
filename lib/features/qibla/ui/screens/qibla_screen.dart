@@ -30,7 +30,6 @@ class _QiblahScreenState extends State<QiblahScreen>
     }
   }
 
-
   @override
   void initState() {
     _requestPermissions();

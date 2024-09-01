@@ -15,6 +15,7 @@ class CustomTextButton extends StatelessWidget {
   final String text;
   final double? fontSize;
   final FontWeight? fontWeight;
+
   @override
   Widget build(BuildContext context) {
     return TextButton(

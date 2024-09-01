@@ -14,6 +14,7 @@ class LocationCubit extends Cubit<LocationState> {
   String address = '';
 
   final _qiblaDirectionController = StreamController<double>.broadcast();
+
   Stream<double> get qiblaDirectionStream => _qiblaDirectionController.stream;
 
   void getLocation({bool? isQibla}) async {

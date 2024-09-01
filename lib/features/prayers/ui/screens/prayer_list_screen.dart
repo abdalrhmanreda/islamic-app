@@ -5,6 +5,7 @@ import '../widgets/prayer_item.dart';
 
 class PrayerListScreen extends StatelessWidget {
   const PrayerListScreen({super.key, required this.prayers});
+
   final List<PrayerModel> prayers;
 
   @override

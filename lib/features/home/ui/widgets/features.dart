@@ -50,4 +50,9 @@ List<FeatureModel> featuredItems(context) => [
         image: Assets.iconsAllah,
         widget: RoutePath.namesOfAlluh,
       ),
+      FeatureModel(
+        title: AppLocalizations.of(context)!.calendar,
+        image: Assets.iconsTimeAndDate,
+        widget: RoutePath.calendarScreen,
+      ),
     ];

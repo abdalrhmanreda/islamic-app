@@ -4,6 +4,7 @@ import '../../../../generated/assets.dart';
 
 class Basmallah extends StatefulWidget {
   int index;
+
   Basmallah({super.key, required this.index});
 
   @override

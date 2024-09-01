@@ -9,6 +9,7 @@ import '../../data/model/share_model.dart';
 
 class BuildShareButton extends StatelessWidget {
   const BuildShareButton({super.key, required this.surah, required this.index});
+
   final int surah;
   final int index;
 

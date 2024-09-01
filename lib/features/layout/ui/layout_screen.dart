@@ -45,11 +45,10 @@ class _LayoutScreenState extends State<LayoutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       extendBody: true,
       body: _screens[_currentIndex],
       bottomNavigationBar: Padding(
-        padding:  EdgeInsets.symmetric(
+        padding: EdgeInsets.symmetric(
           horizontal: 15.w,
           vertical: 10.h,
         ),

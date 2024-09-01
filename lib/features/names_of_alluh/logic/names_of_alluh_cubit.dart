@@ -11,6 +11,7 @@ class NamesOfAlluhCubit extends Cubit<NamesOfAlluhState> {
   NamesOfAlluhCubit() : super(const NamesOfAlluhState.initial());
 
   List<NameModel> namesOfAlluh = [];
+
   void getNamesOfAlluh() {
     emit(const NamesOfAlluhState.loading());
     rootBundle.loadString(Assets.dataNamesOfAlluh).then((value) {

@@ -27,6 +27,7 @@ mixin _$PrayersState<T> {
     required TResult Function(List<T> data) favoriteList,
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
@@ -50,6 +51,7 @@ mixin _$PrayersState<T> {
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(Initial<T> value) initial,
@@ -61,6 +63,7 @@ mixin _$PrayersState<T> {
     required TResult Function(FavoriteList<T> value) favoriteList,
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(Initial<T> value)? initial,
@@ -98,9 +101,9 @@ class _$PrayersStateCopyWithImpl<T, $Res, $Val extends PrayersState<T>>
     implements $PrayersStateCopyWith<T, $Res> {
   _$PrayersStateCopyWithImpl(this._value, this._then);
 
-  // ignore: unused_field
+// ignore: unused_field
   final $Val _value;
-  // ignore: unused_field
+// ignore: unused_field
   final $Res Function($Val) _then;
 }
 
@@ -1000,7 +1003,7 @@ class _$FavoriteListImpl<T> implements FavoriteList<T> {
   @override
   List<T> get data {
     if (_data is EqualUnmodifiableListView) return _data;
-    // ignore: implicit_dynamic_type
+// ignore: implicit_dynamic_type
     return EqualUnmodifiableListView(_data);
   }
 

@@ -30,7 +30,8 @@ class PrayerTimingItem extends StatelessWidget {
 
         // Ensure prayerTimes and prayers are not null
         if (prayerTimes == null || prayers.isEmpty) {
-          return const SizedBox.shrink(); // Return an empty widget if data is not available
+          return const SizedBox
+              .shrink(); // Return an empty widget if data is not available
         }
 
         // Get the corresponding prayer time based on the index
@@ -59,8 +60,8 @@ class PrayerTimingItem extends StatelessWidget {
         }
 
         // Format the prayer time
-        final formattedTime = DateFormat('hh:mm a').format(DateTime.parse(prayerTime).toLocal());
-
+        final formattedTime =
+            DateFormat('hh:mm a').format(DateTime.parse(prayerTime).toLocal());
 
         return Container(
           margin: EdgeInsets.symmetric(
@@ -89,17 +90,17 @@ class PrayerTimingItem extends StatelessWidget {
               Text(
                 prayers[index].prayerName,
                 style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                  fontSize: 16.sp,
-                  fontWeight: FontWeightHelper.semiBold,
-                ),
+                      fontSize: 16.sp,
+                      fontWeight: FontWeightHelper.semiBold,
+                    ),
               ),
               const Spacer(),
               Text(
                 formattedTime,
                 style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                  fontSize: 16.sp,
-                  fontWeight: FontWeightHelper.semiBold,
-                ),
+                      fontSize: 16.sp,
+                      fontWeight: FontWeightHelper.semiBold,
+                    ),
               ),
             ],
           ),

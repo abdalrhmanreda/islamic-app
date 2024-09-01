@@ -24,6 +24,7 @@ mixin _$LocationState<T> {
     required TResult Function(String message) error,
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
@@ -41,6 +42,7 @@ mixin _$LocationState<T> {
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(Initial<T> value) initial,
@@ -49,6 +51,7 @@ mixin _$LocationState<T> {
     required TResult Function(Error<T> value) error,
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(Initial<T> value)? initial,
@@ -80,9 +83,9 @@ class _$LocationStateCopyWithImpl<T, $Res, $Val extends LocationState<T>>
     implements $LocationStateCopyWith<T, $Res> {
   _$LocationStateCopyWithImpl(this._value, this._then);
 
-  // ignore: unused_field
+// ignore: unused_field
   final $Val _value;
-  // ignore: unused_field
+// ignore: unused_field
   final $Res Function($Val) _then;
 }
 

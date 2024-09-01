@@ -28,6 +28,7 @@ mixin _$AzkarState<T> {
     required TResult Function(T data) getFavorite,
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
@@ -53,6 +54,7 @@ mixin _$AzkarState<T> {
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(Initial<T> value) initial,
@@ -65,6 +67,7 @@ mixin _$AzkarState<T> {
     required TResult Function(GetFavorite<T> value) getFavorite,
   }) =>
       throw _privateConstructorUsedError;
+
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(Initial<T> value)? initial,
@@ -104,9 +107,9 @@ class _$AzkarStateCopyWithImpl<T, $Res, $Val extends AzkarState<T>>
     implements $AzkarStateCopyWith<T, $Res> {
   _$AzkarStateCopyWithImpl(this._value, this._then);
 
-  // ignore: unused_field
+// ignore: unused_field
   final $Val _value;
-  // ignore: unused_field
+// ignore: unused_field
   final $Res Function($Val) _then;
 }
 

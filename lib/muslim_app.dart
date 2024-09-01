@@ -7,11 +7,13 @@ import 'config/themes/themes.dart';
 
 class MuslimApp extends StatelessWidget {
   final AppRouter appRouter;
+
   const MuslimApp({
     super.key,
     required this.initRoute,
     required this.appRouter,
   });
+
   final String initRoute;
 
   @override
@@ -22,24 +24,21 @@ class MuslimApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (context, child) => Directionality(
         textDirection: TextDirection.rtl,
-        child:
-           SafeArea(
-             top: false,
-             bottom: true,
-
-             child: MaterialApp(
-              locale: const Locale('ar', 'EG'),
-              localizationsDelegates: AppLocalizations.localizationsDelegates,
-              supportedLocales: AppLocalizations.supportedLocales,
-              debugShowCheckedModeBanner: false,
-              onGenerateRoute: appRouter.generateRoute,
-              theme: Style.lightTheme,
-              darkTheme: Style.darkTheme,
-              themeMode: ThemeMode.light,
-              initialRoute: initRoute,
-
-                     ),
-           ),
+        child: SafeArea(
+          top: false,
+          bottom: true,
+          child: MaterialApp(
+            locale: const Locale('ar', 'EG'),
+            localizationsDelegates: AppLocalizations.localizationsDelegates,
+            supportedLocales: AppLocalizations.supportedLocales,
+            debugShowCheckedModeBanner: false,
+            onGenerateRoute: appRouter.generateRoute,
+            theme: Style.lightTheme,
+            darkTheme: Style.darkTheme,
+            themeMode: ThemeMode.light,
+            initialRoute: initRoute,
+          ),
+        ),
       ),
     );
   }

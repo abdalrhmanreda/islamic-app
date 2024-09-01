@@ -30,9 +30,11 @@ class Assets {
   static const String iconsQibla = 'assets/icons/qibla.svg';
   static const String iconsTasbih = 'assets/icons/tasbih.svg';
   static const String iconsTheHolyQuran = 'assets/icons/the_holy_quran.svg';
+  static const String iconsTimeAndDate = 'assets/icons/time-and-date.svg';
   static const String images88802 = 'assets/images/888-02.png';
   static const String imagesBasmala = 'assets/images/Basmala.png';
   static const String imagesBg = 'assets/images/bg.png';
+  static const String imagesLogo = 'assets/images/logo.png';
   static const String imagesPrayerTiming = 'assets/images/prayer_timing.png';
   static const String imagesQuranImage = 'assets/images/quran_image.png';
   static const String imagesSplash = 'assets/images/splash.png';

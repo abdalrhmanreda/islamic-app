@@ -11,6 +11,7 @@ import 'package:muslim_app/features/tafseer/ui/screens/tafseer_screen.dart';
 
 import '../../features/ahadith/logic/ahadith_cubit.dart';
 import '../../features/ahadith/ui/screens/ahadith_screen.dart';
+import '../../features/calendar/ui/screens/calendar_screen.dart';
 import '../../features/layout/ui/layout_screen.dart';
 import '../../features/list_of_surahs/data/models/surha.dart';
 import '../../features/list_of_surahs/ui/screens/surahs_list.dart';
@@ -112,6 +113,10 @@ class AppRouter {
           builder: (_) => SurahsList(
             surahs: arguments as List<Surah>,
           ),
+        );
+      case RoutePath.calendarScreen:
+        return MaterialPageRoute(
+          builder: (_) => const CalendarScreen(),
         );
     }
     return null;
