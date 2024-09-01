@@ -15,8 +15,7 @@ class Assets {
   static const String dataSurahs = 'assets/data/surahs.json';
   static const String dataVideos = 'assets/data/videos.json';
   static const String fontsAmiriQuran = 'assets/fonts/amiri_quran.ttf';
-  static const String fontsUthmanicHafs1Ver08 =
-      'assets/fonts/UthmanicHafs1Ver08.otf';
+  static const String fontsUthmanicHafs1Ver08 = 'assets/fonts/UthmanicHafs1Ver08.otf';
   static const String iconsAllah = 'assets/icons/Allah.svg';
   static const String iconsEndOfVerse = 'assets/icons/end_of_verse.svg';
   static const String iconsExplanation = 'assets/icons/explanation.svg';
@@ -28,6 +27,7 @@ class Assets {
   static const String iconsMoon = 'assets/icons/moon.svg';
   static const String iconsMosque = 'assets/icons/mosque.svg';
   static const String iconsQibla = 'assets/icons/qibla.svg';
+  static const String iconsRokia = 'assets/icons/rokia.svg';
   static const String iconsTasbih = 'assets/icons/tasbih.svg';
   static const String iconsTheHolyQuran = 'assets/icons/the_holy_quran.svg';
   static const String iconsTimeAndDate = 'assets/icons/time-and-date.svg';
@@ -40,14 +40,10 @@ class Assets {
   static const String imagesSplash = 'assets/images/splash.png';
   static const String locationLocation = 'assets/images/location/location.svg';
   static const String logoLogo = 'assets/images/logo/logo.svg';
-  static const String noInternetNoInternet =
-      'assets/no_internet/no_internet.json';
-  static const String onBoardingOnBorading =
-      'assets/images/on_boarding/on_borading.svg';
-  static const String onBoardingOnBorading2 =
-      'assets/images/on_boarding/on_borading2.svg';
-  static const String onBoardingOnBorading3 =
-      'assets/images/on_boarding/on_borading3.svg';
+  static const String noInternetNoInternet = 'assets/no_internet/no_internet.json';
+  static const String onBoardingOnBorading = 'assets/images/on_boarding/on_borading.svg';
+  static const String onBoardingOnBorading2 = 'assets/images/on_boarding/on_borading2.svg';
+  static const String onBoardingOnBorading3 = 'assets/images/on_boarding/on_borading3.svg';
   static const String prayerTimingsAsha = 'assets/prayer_timings/asha.svg';
   static const String prayerTimingsAsr = 'assets/prayer_timings/asr.svg';
   static const String prayerTimingsDhuhr = 'assets/prayer_timings/dhuhr.svg';
@@ -57,1214 +53,611 @@ class Assets {
   static const String prayersPlane = 'assets/prayers/plane.svg';
   static const String prayersPrayer = 'assets/prayers/prayer.svg';
   static const String prayersVegetable = 'assets/prayers/vegetable.svg';
-  static const String qCF2BSMLfontsQCF2001 =
-      'assets/fonts/QCF2BSMLfonts/QCF2001.ttf';
-  static const String qCF2BSMLfontsQCF2002 =
-      'assets/fonts/QCF2BSMLfonts/QCF2002.ttf';
-  static const String qCF2BSMLfontsQCF2003 =
-      'assets/fonts/QCF2BSMLfonts/QCF2003.ttf';
-  static const String qCF2BSMLfontsQCF2004 =
-      'assets/fonts/QCF2BSMLfonts/QCF2004.ttf';
-  static const String qCF2BSMLfontsQCF2005 =
-      'assets/fonts/QCF2BSMLfonts/QCF2005.ttf';
-  static const String qCF2BSMLfontsQCF2006 =
-      'assets/fonts/QCF2BSMLfonts/QCF2006.ttf';
-  static const String qCF2BSMLfontsQCF2007 =
-      'assets/fonts/QCF2BSMLfonts/QCF2007.ttf';
-  static const String qCF2BSMLfontsQCF2008 =
-      'assets/fonts/QCF2BSMLfonts/QCF2008.ttf';
-  static const String qCF2BSMLfontsQCF2009 =
-      'assets/fonts/QCF2BSMLfonts/QCF2009.ttf';
-  static const String qCF2BSMLfontsQCF2010 =
-      'assets/fonts/QCF2BSMLfonts/QCF2010.ttf';
-  static const String qCF2BSMLfontsQCF2011 =
-      'assets/fonts/QCF2BSMLfonts/QCF2011.ttf';
-  static const String qCF2BSMLfontsQCF2012 =
-      'assets/fonts/QCF2BSMLfonts/QCF2012.ttf';
-  static const String qCF2BSMLfontsQCF2013 =
-      'assets/fonts/QCF2BSMLfonts/QCF2013.ttf';
-  static const String qCF2BSMLfontsQCF2014 =
-      'assets/fonts/QCF2BSMLfonts/QCF2014.ttf';
-  static const String qCF2BSMLfontsQCF2015 =
-      'assets/fonts/QCF2BSMLfonts/QCF2015.ttf';
-  static const String qCF2BSMLfontsQCF2016 =
-      'assets/fonts/QCF2BSMLfonts/QCF2016.ttf';
-  static const String qCF2BSMLfontsQCF2017 =
-      'assets/fonts/QCF2BSMLfonts/QCF2017.ttf';
-  static const String qCF2BSMLfontsQCF2018 =
-      'assets/fonts/QCF2BSMLfonts/QCF2018.ttf';
-  static const String qCF2BSMLfontsQCF2019 =
-      'assets/fonts/QCF2BSMLfonts/QCF2019.ttf';
-  static const String qCF2BSMLfontsQCF2020 =
-      'assets/fonts/QCF2BSMLfonts/QCF2020.ttf';
-  static const String qCF2BSMLfontsQCF2021 =
-      'assets/fonts/QCF2BSMLfonts/QCF2021.ttf';
-  static const String qCF2BSMLfontsQCF2022 =
-      'assets/fonts/QCF2BSMLfonts/QCF2022.ttf';
-  static const String qCF2BSMLfontsQCF2023 =
-      'assets/fonts/QCF2BSMLfonts/QCF2023.ttf';
-  static const String qCF2BSMLfontsQCF2024 =
-      'assets/fonts/QCF2BSMLfonts/QCF2024.ttf';
-  static const String qCF2BSMLfontsQCF2025 =
-      'assets/fonts/QCF2BSMLfonts/QCF2025.ttf';
-  static const String qCF2BSMLfontsQCF2026 =
-      'assets/fonts/QCF2BSMLfonts/QCF2026.ttf';
-  static const String qCF2BSMLfontsQCF2027 =
-      'assets/fonts/QCF2BSMLfonts/QCF2027.ttf';
-  static const String qCF2BSMLfontsQCF2028 =
-      'assets/fonts/QCF2BSMLfonts/QCF2028.ttf';
-  static const String qCF2BSMLfontsQCF2029 =
-      'assets/fonts/QCF2BSMLfonts/QCF2029.ttf';
-  static const String qCF2BSMLfontsQCF2030 =
-      'assets/fonts/QCF2BSMLfonts/QCF2030.ttf';
-  static const String qCF2BSMLfontsQCF2031 =
-      'assets/fonts/QCF2BSMLfonts/QCF2031.ttf';
-  static const String qCF2BSMLfontsQCF2032 =
-      'assets/fonts/QCF2BSMLfonts/QCF2032.ttf';
-  static const String qCF2BSMLfontsQCF2033 =
-      'assets/fonts/QCF2BSMLfonts/QCF2033.ttf';
-  static const String qCF2BSMLfontsQCF2034 =
-      'assets/fonts/QCF2BSMLfonts/QCF2034.ttf';
-  static const String qCF2BSMLfontsQCF2035 =
-      'assets/fonts/QCF2BSMLfonts/QCF2035.ttf';
-  static const String qCF2BSMLfontsQCF2036 =
-      'assets/fonts/QCF2BSMLfonts/QCF2036.ttf';
-  static const String qCF2BSMLfontsQCF2037 =
-      'assets/fonts/QCF2BSMLfonts/QCF2037.ttf';
-  static const String qCF2BSMLfontsQCF2038 =
-      'assets/fonts/QCF2BSMLfonts/QCF2038.ttf';
-  static const String qCF2BSMLfontsQCF2039 =
-      'assets/fonts/QCF2BSMLfonts/QCF2039.ttf';
-  static const String qCF2BSMLfontsQCF2040 =
-      'assets/fonts/QCF2BSMLfonts/QCF2040.ttf';
-  static const String qCF2BSMLfontsQCF2041 =
-      'assets/fonts/QCF2BSMLfonts/QCF2041.ttf';
-  static const String qCF2BSMLfontsQCF2042 =
-      'assets/fonts/QCF2BSMLfonts/QCF2042.ttf';
-  static const String qCF2BSMLfontsQCF2043 =
-      'assets/fonts/QCF2BSMLfonts/QCF2043.ttf';
-  static const String qCF2BSMLfontsQCF2044 =
-      'assets/fonts/QCF2BSMLfonts/QCF2044.ttf';
-  static const String qCF2BSMLfontsQCF2045 =
-      'assets/fonts/QCF2BSMLfonts/QCF2045.ttf';
-  static const String qCF2BSMLfontsQCF2046 =
-      'assets/fonts/QCF2BSMLfonts/QCF2046.ttf';
-  static const String qCF2BSMLfontsQCF2047 =
-      'assets/fonts/QCF2BSMLfonts/QCF2047.ttf';
-  static const String qCF2BSMLfontsQCF2048 =
-      'assets/fonts/QCF2BSMLfonts/QCF2048.ttf';
-  static const String qCF2BSMLfontsQCF2049 =
-      'assets/fonts/QCF2BSMLfonts/QCF2049.ttf';
-  static const String qCF2BSMLfontsQCF2050 =
-      'assets/fonts/QCF2BSMLfonts/QCF2050.ttf';
-  static const String qCF2BSMLfontsQCF2051 =
-      'assets/fonts/QCF2BSMLfonts/QCF2051.ttf';
-  static const String qCF2BSMLfontsQCF2052 =
-      'assets/fonts/QCF2BSMLfonts/QCF2052.ttf';
-  static const String qCF2BSMLfontsQCF2053 =
-      'assets/fonts/QCF2BSMLfonts/QCF2053.ttf';
-  static const String qCF2BSMLfontsQCF2054 =
-      'assets/fonts/QCF2BSMLfonts/QCF2054.ttf';
-  static const String qCF2BSMLfontsQCF2055 =
-      'assets/fonts/QCF2BSMLfonts/QCF2055.ttf';
-  static const String qCF2BSMLfontsQCF2056 =
-      'assets/fonts/QCF2BSMLfonts/QCF2056.ttf';
-  static const String qCF2BSMLfontsQCF2057 =
-      'assets/fonts/QCF2BSMLfonts/QCF2057.ttf';
-  static const String qCF2BSMLfontsQCF2058 =
-      'assets/fonts/QCF2BSMLfonts/QCF2058.ttf';
-  static const String qCF2BSMLfontsQCF2059 =
-      'assets/fonts/QCF2BSMLfonts/QCF2059.ttf';
-  static const String qCF2BSMLfontsQCF2060 =
-      'assets/fonts/QCF2BSMLfonts/QCF2060.ttf';
-  static const String qCF2BSMLfontsQCF2061 =
-      'assets/fonts/QCF2BSMLfonts/QCF2061.ttf';
-  static const String qCF2BSMLfontsQCF2062 =
-      'assets/fonts/QCF2BSMLfonts/QCF2062.ttf';
-  static const String qCF2BSMLfontsQCF2063 =
-      'assets/fonts/QCF2BSMLfonts/QCF2063.ttf';
-  static const String qCF2BSMLfontsQCF2064 =
-      'assets/fonts/QCF2BSMLfonts/QCF2064.ttf';
-  static const String qCF2BSMLfontsQCF2065 =
-      'assets/fonts/QCF2BSMLfonts/QCF2065.ttf';
-  static const String qCF2BSMLfontsQCF2066 =
-      'assets/fonts/QCF2BSMLfonts/QCF2066.ttf';
-  static const String qCF2BSMLfontsQCF2067 =
-      'assets/fonts/QCF2BSMLfonts/QCF2067.ttf';
-  static const String qCF2BSMLfontsQCF2068 =
-      'assets/fonts/QCF2BSMLfonts/QCF2068.ttf';
-  static const String qCF2BSMLfontsQCF2069 =
-      'assets/fonts/QCF2BSMLfonts/QCF2069.ttf';
-  static const String qCF2BSMLfontsQCF2070 =
-      'assets/fonts/QCF2BSMLfonts/QCF2070.ttf';
-  static const String qCF2BSMLfontsQCF2071 =
-      'assets/fonts/QCF2BSMLfonts/QCF2071.ttf';
-  static const String qCF2BSMLfontsQCF2072 =
-      'assets/fonts/QCF2BSMLfonts/QCF2072.ttf';
-  static const String qCF2BSMLfontsQCF2073 =
-      'assets/fonts/QCF2BSMLfonts/QCF2073.ttf';
-  static const String qCF2BSMLfontsQCF2074 =
-      'assets/fonts/QCF2BSMLfonts/QCF2074.ttf';
-  static const String qCF2BSMLfontsQCF2075 =
-      'assets/fonts/QCF2BSMLfonts/QCF2075.ttf';
-  static const String qCF2BSMLfontsQCF2076 =
-      'assets/fonts/QCF2BSMLfonts/QCF2076.ttf';
-  static const String qCF2BSMLfontsQCF2077 =
-      'assets/fonts/QCF2BSMLfonts/QCF2077.ttf';
-  static const String qCF2BSMLfontsQCF2078 =
-      'assets/fonts/QCF2BSMLfonts/QCF2078.ttf';
-  static const String qCF2BSMLfontsQCF2079 =
-      'assets/fonts/QCF2BSMLfonts/QCF2079.ttf';
-  static const String qCF2BSMLfontsQCF2080 =
-      'assets/fonts/QCF2BSMLfonts/QCF2080.ttf';
-  static const String qCF2BSMLfontsQCF2081 =
-      'assets/fonts/QCF2BSMLfonts/QCF2081.ttf';
-  static const String qCF2BSMLfontsQCF2082 =
-      'assets/fonts/QCF2BSMLfonts/QCF2082.ttf';
-  static const String qCF2BSMLfontsQCF2083 =
-      'assets/fonts/QCF2BSMLfonts/QCF2083.ttf';
-  static const String qCF2BSMLfontsQCF2084 =
-      'assets/fonts/QCF2BSMLfonts/QCF2084.ttf';
-  static const String qCF2BSMLfontsQCF2085 =
-      'assets/fonts/QCF2BSMLfonts/QCF2085.ttf';
-  static const String qCF2BSMLfontsQCF2086 =
-      'assets/fonts/QCF2BSMLfonts/QCF2086.ttf';
-  static const String qCF2BSMLfontsQCF2087 =
-      'assets/fonts/QCF2BSMLfonts/QCF2087.ttf';
-  static const String qCF2BSMLfontsQCF2088 =
-      'assets/fonts/QCF2BSMLfonts/QCF2088.ttf';
-  static const String qCF2BSMLfontsQCF2089 =
-      'assets/fonts/QCF2BSMLfonts/QCF2089.ttf';
-  static const String qCF2BSMLfontsQCF2090 =
-      'assets/fonts/QCF2BSMLfonts/QCF2090.ttf';
-  static const String qCF2BSMLfontsQCF2091 =
-      'assets/fonts/QCF2BSMLfonts/QCF2091.ttf';
-  static const String qCF2BSMLfontsQCF2092 =
-      'assets/fonts/QCF2BSMLfonts/QCF2092.ttf';
-  static const String qCF2BSMLfontsQCF2093 =
-      'assets/fonts/QCF2BSMLfonts/QCF2093.ttf';
-  static const String qCF2BSMLfontsQCF2094 =
-      'assets/fonts/QCF2BSMLfonts/QCF2094.ttf';
-  static const String qCF2BSMLfontsQCF2095 =
-      'assets/fonts/QCF2BSMLfonts/QCF2095.ttf';
-  static const String qCF2BSMLfontsQCF2096 =
-      'assets/fonts/QCF2BSMLfonts/QCF2096.ttf';
-  static const String qCF2BSMLfontsQCF2097 =
-      'assets/fonts/QCF2BSMLfonts/QCF2097.ttf';
-  static const String qCF2BSMLfontsQCF2098 =
-      'assets/fonts/QCF2BSMLfonts/QCF2098.ttf';
-  static const String qCF2BSMLfontsQCF2099 =
-      'assets/fonts/QCF2BSMLfonts/QCF2099.ttf';
-  static const String qCF2BSMLfontsQCF2100 =
-      'assets/fonts/QCF2BSMLfonts/QCF2100.ttf';
-  static const String qCF2BSMLfontsQCF2101 =
-      'assets/fonts/QCF2BSMLfonts/QCF2101.ttf';
-  static const String qCF2BSMLfontsQCF2102 =
-      'assets/fonts/QCF2BSMLfonts/QCF2102.ttf';
-  static const String qCF2BSMLfontsQCF2103 =
-      'assets/fonts/QCF2BSMLfonts/QCF2103.ttf';
-  static const String qCF2BSMLfontsQCF2104 =
-      'assets/fonts/QCF2BSMLfonts/QCF2104.ttf';
-  static const String qCF2BSMLfontsQCF2105 =
-      'assets/fonts/QCF2BSMLfonts/QCF2105.ttf';
-  static const String qCF2BSMLfontsQCF2106 =
-      'assets/fonts/QCF2BSMLfonts/QCF2106.ttf';
-  static const String qCF2BSMLfontsQCF2107 =
-      'assets/fonts/QCF2BSMLfonts/QCF2107.ttf';
-  static const String qCF2BSMLfontsQCF2108 =
-      'assets/fonts/QCF2BSMLfonts/QCF2108.ttf';
-  static const String qCF2BSMLfontsQCF2109 =
-      'assets/fonts/QCF2BSMLfonts/QCF2109.ttf';
-  static const String qCF2BSMLfontsQCF2110 =
-      'assets/fonts/QCF2BSMLfonts/QCF2110.ttf';
-  static const String qCF2BSMLfontsQCF2111 =
-      'assets/fonts/QCF2BSMLfonts/QCF2111.ttf';
-  static const String qCF2BSMLfontsQCF2112 =
-      'assets/fonts/QCF2BSMLfonts/QCF2112.ttf';
-  static const String qCF2BSMLfontsQCF2113 =
-      'assets/fonts/QCF2BSMLfonts/QCF2113.ttf';
-  static const String qCF2BSMLfontsQCF2114 =
-      'assets/fonts/QCF2BSMLfonts/QCF2114.ttf';
-  static const String qCF2BSMLfontsQCF2115 =
-      'assets/fonts/QCF2BSMLfonts/QCF2115.ttf';
-  static const String qCF2BSMLfontsQCF2116 =
-      'assets/fonts/QCF2BSMLfonts/QCF2116.ttf';
-  static const String qCF2BSMLfontsQCF2117 =
-      'assets/fonts/QCF2BSMLfonts/QCF2117.ttf';
-  static const String qCF2BSMLfontsQCF2118 =
-      'assets/fonts/QCF2BSMLfonts/QCF2118.ttf';
-  static const String qCF2BSMLfontsQCF2119 =
-      'assets/fonts/QCF2BSMLfonts/QCF2119.ttf';
-  static const String qCF2BSMLfontsQCF2120 =
-      'assets/fonts/QCF2BSMLfonts/QCF2120.ttf';
-  static const String qCF2BSMLfontsQCF2121 =
-      'assets/fonts/QCF2BSMLfonts/QCF2121.ttf';
-  static const String qCF2BSMLfontsQCF2122 =
-      'assets/fonts/QCF2BSMLfonts/QCF2122.ttf';
-  static const String qCF2BSMLfontsQCF2123 =
-      'assets/fonts/QCF2BSMLfonts/QCF2123.ttf';
-  static const String qCF2BSMLfontsQCF2124 =
-      'assets/fonts/QCF2BSMLfonts/QCF2124.ttf';
-  static const String qCF2BSMLfontsQCF2125 =
-      'assets/fonts/QCF2BSMLfonts/QCF2125.ttf';
-  static const String qCF2BSMLfontsQCF2126 =
-      'assets/fonts/QCF2BSMLfonts/QCF2126.ttf';
-  static const String qCF2BSMLfontsQCF2127 =
-      'assets/fonts/QCF2BSMLfonts/QCF2127.ttf';
-  static const String qCF2BSMLfontsQCF2128 =
-      'assets/fonts/QCF2BSMLfonts/QCF2128.ttf';
-  static const String qCF2BSMLfontsQCF2129 =
-      'assets/fonts/QCF2BSMLfonts/QCF2129.ttf';
-  static const String qCF2BSMLfontsQCF2130 =
-      'assets/fonts/QCF2BSMLfonts/QCF2130.ttf';
-  static const String qCF2BSMLfontsQCF2131 =
-      'assets/fonts/QCF2BSMLfonts/QCF2131.ttf';
-  static const String qCF2BSMLfontsQCF2132 =
-      'assets/fonts/QCF2BSMLfonts/QCF2132.ttf';
-  static const String qCF2BSMLfontsQCF2133 =
-      'assets/fonts/QCF2BSMLfonts/QCF2133.ttf';
-  static const String qCF2BSMLfontsQCF2134 =
-      'assets/fonts/QCF2BSMLfonts/QCF2134.ttf';
-  static const String qCF2BSMLfontsQCF2135 =
-      'assets/fonts/QCF2BSMLfonts/QCF2135.ttf';
-  static const String qCF2BSMLfontsQCF2136 =
-      'assets/fonts/QCF2BSMLfonts/QCF2136.ttf';
-  static const String qCF2BSMLfontsQCF2137 =
-      'assets/fonts/QCF2BSMLfonts/QCF2137.ttf';
-  static const String qCF2BSMLfontsQCF2138 =
-      'assets/fonts/QCF2BSMLfonts/QCF2138.ttf';
-  static const String qCF2BSMLfontsQCF2139 =
-      'assets/fonts/QCF2BSMLfonts/QCF2139.ttf';
-  static const String qCF2BSMLfontsQCF2140 =
-      'assets/fonts/QCF2BSMLfonts/QCF2140.ttf';
-  static const String qCF2BSMLfontsQCF2141 =
-      'assets/fonts/QCF2BSMLfonts/QCF2141.ttf';
-  static const String qCF2BSMLfontsQCF2142 =
-      'assets/fonts/QCF2BSMLfonts/QCF2142.ttf';
-  static const String qCF2BSMLfontsQCF2143 =
-      'assets/fonts/QCF2BSMLfonts/QCF2143.ttf';
-  static const String qCF2BSMLfontsQCF2144 =
-      'assets/fonts/QCF2BSMLfonts/QCF2144.ttf';
-  static const String qCF2BSMLfontsQCF2145 =
-      'assets/fonts/QCF2BSMLfonts/QCF2145.ttf';
-  static const String qCF2BSMLfontsQCF2146 =
-      'assets/fonts/QCF2BSMLfonts/QCF2146.ttf';
-  static const String qCF2BSMLfontsQCF2147 =
-      'assets/fonts/QCF2BSMLfonts/QCF2147.ttf';
-  static const String qCF2BSMLfontsQCF2148 =
-      'assets/fonts/QCF2BSMLfonts/QCF2148.ttf';
-  static const String qCF2BSMLfontsQCF2149 =
-      'assets/fonts/QCF2BSMLfonts/QCF2149.ttf';
-  static const String qCF2BSMLfontsQCF2150 =
-      'assets/fonts/QCF2BSMLfonts/QCF2150.ttf';
-  static const String qCF2BSMLfontsQCF2151 =
-      'assets/fonts/QCF2BSMLfonts/QCF2151.ttf';
-  static const String qCF2BSMLfontsQCF2152 =
-      'assets/fonts/QCF2BSMLfonts/QCF2152.ttf';
-  static const String qCF2BSMLfontsQCF2153 =
-      'assets/fonts/QCF2BSMLfonts/QCF2153.ttf';
-  static const String qCF2BSMLfontsQCF2154 =
-      'assets/fonts/QCF2BSMLfonts/QCF2154.ttf';
-  static const String qCF2BSMLfontsQCF2155 =
-      'assets/fonts/QCF2BSMLfonts/QCF2155.ttf';
-  static const String qCF2BSMLfontsQCF2156 =
-      'assets/fonts/QCF2BSMLfonts/QCF2156.ttf';
-  static const String qCF2BSMLfontsQCF2157 =
-      'assets/fonts/QCF2BSMLfonts/QCF2157.ttf';
-  static const String qCF2BSMLfontsQCF2158 =
-      'assets/fonts/QCF2BSMLfonts/QCF2158.ttf';
-  static const String qCF2BSMLfontsQCF2159 =
-      'assets/fonts/QCF2BSMLfonts/QCF2159.ttf';
-  static const String qCF2BSMLfontsQCF2160 =
-      'assets/fonts/QCF2BSMLfonts/QCF2160.ttf';
-  static const String qCF2BSMLfontsQCF2161 =
-      'assets/fonts/QCF2BSMLfonts/QCF2161.ttf';
-  static const String qCF2BSMLfontsQCF2162 =
-      'assets/fonts/QCF2BSMLfonts/QCF2162.ttf';
-  static const String qCF2BSMLfontsQCF2163 =
-      'assets/fonts/QCF2BSMLfonts/QCF2163.ttf';
-  static const String qCF2BSMLfontsQCF2164 =
-      'assets/fonts/QCF2BSMLfonts/QCF2164.ttf';
-  static const String qCF2BSMLfontsQCF2165 =
-      'assets/fonts/QCF2BSMLfonts/QCF2165.ttf';
-  static const String qCF2BSMLfontsQCF2166 =
-      'assets/fonts/QCF2BSMLfonts/QCF2166.ttf';
-  static const String qCF2BSMLfontsQCF2167 =
-      'assets/fonts/QCF2BSMLfonts/QCF2167.ttf';
-  static const String qCF2BSMLfontsQCF2168 =
-      'assets/fonts/QCF2BSMLfonts/QCF2168.ttf';
-  static const String qCF2BSMLfontsQCF2169 =
-      'assets/fonts/QCF2BSMLfonts/QCF2169.ttf';
-  static const String qCF2BSMLfontsQCF2170 =
-      'assets/fonts/QCF2BSMLfonts/QCF2170.ttf';
-  static const String qCF2BSMLfontsQCF2171 =
-      'assets/fonts/QCF2BSMLfonts/QCF2171.ttf';
-  static const String qCF2BSMLfontsQCF2172 =
-      'assets/fonts/QCF2BSMLfonts/QCF2172.ttf';
-  static const String qCF2BSMLfontsQCF2173 =
-      'assets/fonts/QCF2BSMLfonts/QCF2173.ttf';
-  static const String qCF2BSMLfontsQCF2174 =
-      'assets/fonts/QCF2BSMLfonts/QCF2174.ttf';
-  static const String qCF2BSMLfontsQCF2175 =
-      'assets/fonts/QCF2BSMLfonts/QCF2175.ttf';
-  static const String qCF2BSMLfontsQCF2176 =
-      'assets/fonts/QCF2BSMLfonts/QCF2176.ttf';
-  static const String qCF2BSMLfontsQCF2177 =
-      'assets/fonts/QCF2BSMLfonts/QCF2177.ttf';
-  static const String qCF2BSMLfontsQCF2178 =
-      'assets/fonts/QCF2BSMLfonts/QCF2178.ttf';
-  static const String qCF2BSMLfontsQCF2179 =
-      'assets/fonts/QCF2BSMLfonts/QCF2179.ttf';
-  static const String qCF2BSMLfontsQCF2180 =
-      'assets/fonts/QCF2BSMLfonts/QCF2180.ttf';
-  static const String qCF2BSMLfontsQCF2181 =
-      'assets/fonts/QCF2BSMLfonts/QCF2181.ttf';
-  static const String qCF2BSMLfontsQCF2182 =
-      'assets/fonts/QCF2BSMLfonts/QCF2182.ttf';
-  static const String qCF2BSMLfontsQCF2183 =
-      'assets/fonts/QCF2BSMLfonts/QCF2183.ttf';
-  static const String qCF2BSMLfontsQCF2184 =
-      'assets/fonts/QCF2BSMLfonts/QCF2184.ttf';
-  static const String qCF2BSMLfontsQCF2185 =
-      'assets/fonts/QCF2BSMLfonts/QCF2185.ttf';
-  static const String qCF2BSMLfontsQCF2186 =
-      'assets/fonts/QCF2BSMLfonts/QCF2186.ttf';
-  static const String qCF2BSMLfontsQCF2187 =
-      'assets/fonts/QCF2BSMLfonts/QCF2187.ttf';
-  static const String qCF2BSMLfontsQCF2188 =
-      'assets/fonts/QCF2BSMLfonts/QCF2188.ttf';
-  static const String qCF2BSMLfontsQCF2189 =
-      'assets/fonts/QCF2BSMLfonts/QCF2189.ttf';
-  static const String qCF2BSMLfontsQCF2190 =
-      'assets/fonts/QCF2BSMLfonts/QCF2190.ttf';
-  static const String qCF2BSMLfontsQCF2191 =
-      'assets/fonts/QCF2BSMLfonts/QCF2191.ttf';
-  static const String qCF2BSMLfontsQCF2192 =
-      'assets/fonts/QCF2BSMLfonts/QCF2192.ttf';
-  static const String qCF2BSMLfontsQCF2193 =
-      'assets/fonts/QCF2BSMLfonts/QCF2193.ttf';
-  static const String qCF2BSMLfontsQCF2194 =
-      'assets/fonts/QCF2BSMLfonts/QCF2194.ttf';
-  static const String qCF2BSMLfontsQCF2195 =
-      'assets/fonts/QCF2BSMLfonts/QCF2195.ttf';
-  static const String qCF2BSMLfontsQCF2196 =
-      'assets/fonts/QCF2BSMLfonts/QCF2196.ttf';
-  static const String qCF2BSMLfontsQCF2197 =
-      'assets/fonts/QCF2BSMLfonts/QCF2197.ttf';
-  static const String qCF2BSMLfontsQCF2198 =
-      'assets/fonts/QCF2BSMLfonts/QCF2198.ttf';
-  static const String qCF2BSMLfontsQCF2199 =
-      'assets/fonts/QCF2BSMLfonts/QCF2199.ttf';
-  static const String qCF2BSMLfontsQCF2200 =
-      'assets/fonts/QCF2BSMLfonts/QCF2200.ttf';
-  static const String qCF2BSMLfontsQCF2201 =
-      'assets/fonts/QCF2BSMLfonts/QCF2201.ttf';
-  static const String qCF2BSMLfontsQCF2202 =
-      'assets/fonts/QCF2BSMLfonts/QCF2202.ttf';
-  static const String qCF2BSMLfontsQCF2203 =
-      'assets/fonts/QCF2BSMLfonts/QCF2203.ttf';
-  static const String qCF2BSMLfontsQCF2204 =
-      'assets/fonts/QCF2BSMLfonts/QCF2204.ttf';
-  static const String qCF2BSMLfontsQCF2205 =
-      'assets/fonts/QCF2BSMLfonts/QCF2205.ttf';
-  static const String qCF2BSMLfontsQCF2206 =
-      'assets/fonts/QCF2BSMLfonts/QCF2206.ttf';
-  static const String qCF2BSMLfontsQCF2207 =
-      'assets/fonts/QCF2BSMLfonts/QCF2207.ttf';
-  static const String qCF2BSMLfontsQCF2208 =
-      'assets/fonts/QCF2BSMLfonts/QCF2208.ttf';
-  static const String qCF2BSMLfontsQCF2209 =
-      'assets/fonts/QCF2BSMLfonts/QCF2209.ttf';
-  static const String qCF2BSMLfontsQCF2210 =
-      'assets/fonts/QCF2BSMLfonts/QCF2210.ttf';
-  static const String qCF2BSMLfontsQCF2211 =
-      'assets/fonts/QCF2BSMLfonts/QCF2211.ttf';
-  static const String qCF2BSMLfontsQCF2212 =
-      'assets/fonts/QCF2BSMLfonts/QCF2212.ttf';
-  static const String qCF2BSMLfontsQCF2213 =
-      'assets/fonts/QCF2BSMLfonts/QCF2213.ttf';
-  static const String qCF2BSMLfontsQCF2214 =
-      'assets/fonts/QCF2BSMLfonts/QCF2214.ttf';
-  static const String qCF2BSMLfontsQCF2215 =
-      'assets/fonts/QCF2BSMLfonts/QCF2215.ttf';
-  static const String qCF2BSMLfontsQCF2216 =
-      'assets/fonts/QCF2BSMLfonts/QCF2216.ttf';
-  static const String qCF2BSMLfontsQCF2217 =
-      'assets/fonts/QCF2BSMLfonts/QCF2217.ttf';
-  static const String qCF2BSMLfontsQCF2218 =
-      'assets/fonts/QCF2BSMLfonts/QCF2218.ttf';
-  static const String qCF2BSMLfontsQCF2219 =
-      'assets/fonts/QCF2BSMLfonts/QCF2219.ttf';
-  static const String qCF2BSMLfontsQCF2220 =
-      'assets/fonts/QCF2BSMLfonts/QCF2220.ttf';
-  static const String qCF2BSMLfontsQCF2221 =
-      'assets/fonts/QCF2BSMLfonts/QCF2221.ttf';
-  static const String qCF2BSMLfontsQCF2222 =
-      'assets/fonts/QCF2BSMLfonts/QCF2222.ttf';
-  static const String qCF2BSMLfontsQCF2223 =
-      'assets/fonts/QCF2BSMLfonts/QCF2223.ttf';
-  static const String qCF2BSMLfontsQCF2224 =
-      'assets/fonts/QCF2BSMLfonts/QCF2224.ttf';
-  static const String qCF2BSMLfontsQCF2225 =
-      'assets/fonts/QCF2BSMLfonts/QCF2225.ttf';
-  static const String qCF2BSMLfontsQCF2226 =
-      'assets/fonts/QCF2BSMLfonts/QCF2226.ttf';
-  static const String qCF2BSMLfontsQCF2227 =
-      'assets/fonts/QCF2BSMLfonts/QCF2227.ttf';
-  static const String qCF2BSMLfontsQCF2228 =
-      'assets/fonts/QCF2BSMLfonts/QCF2228.ttf';
-  static const String qCF2BSMLfontsQCF2229 =
-      'assets/fonts/QCF2BSMLfonts/QCF2229.ttf';
-  static const String qCF2BSMLfontsQCF2230 =
-      'assets/fonts/QCF2BSMLfonts/QCF2230.ttf';
-  static const String qCF2BSMLfontsQCF2231 =
-      'assets/fonts/QCF2BSMLfonts/QCF2231.ttf';
-  static const String qCF2BSMLfontsQCF2232 =
-      'assets/fonts/QCF2BSMLfonts/QCF2232.ttf';
-  static const String qCF2BSMLfontsQCF2233 =
-      'assets/fonts/QCF2BSMLfonts/QCF2233.ttf';
-  static const String qCF2BSMLfontsQCF2234 =
-      'assets/fonts/QCF2BSMLfonts/QCF2234.ttf';
-  static const String qCF2BSMLfontsQCF2235 =
-      'assets/fonts/QCF2BSMLfonts/QCF2235.ttf';
-  static const String qCF2BSMLfontsQCF2236 =
-      'assets/fonts/QCF2BSMLfonts/QCF2236.ttf';
-  static const String qCF2BSMLfontsQCF2237 =
-      'assets/fonts/QCF2BSMLfonts/QCF2237.ttf';
-  static const String qCF2BSMLfontsQCF2238 =
-      'assets/fonts/QCF2BSMLfonts/QCF2238.ttf';
-  static const String qCF2BSMLfontsQCF2239 =
-      'assets/fonts/QCF2BSMLfonts/QCF2239.ttf';
-  static const String qCF2BSMLfontsQCF2240 =
-      'assets/fonts/QCF2BSMLfonts/QCF2240.ttf';
-  static const String qCF2BSMLfontsQCF2241 =
-      'assets/fonts/QCF2BSMLfonts/QCF2241.ttf';
-  static const String qCF2BSMLfontsQCF2242 =
-      'assets/fonts/QCF2BSMLfonts/QCF2242.ttf';
-  static const String qCF2BSMLfontsQCF2243 =
-      'assets/fonts/QCF2BSMLfonts/QCF2243.ttf';
-  static const String qCF2BSMLfontsQCF2244 =
-      'assets/fonts/QCF2BSMLfonts/QCF2244.ttf';
-  static const String qCF2BSMLfontsQCF2245 =
-      'assets/fonts/QCF2BSMLfonts/QCF2245.ttf';
-  static const String qCF2BSMLfontsQCF2246 =
-      'assets/fonts/QCF2BSMLfonts/QCF2246.ttf';
-  static const String qCF2BSMLfontsQCF2247 =
-      'assets/fonts/QCF2BSMLfonts/QCF2247.ttf';
-  static const String qCF2BSMLfontsQCF2248 =
-      'assets/fonts/QCF2BSMLfonts/QCF2248.ttf';
-  static const String qCF2BSMLfontsQCF2249 =
-      'assets/fonts/QCF2BSMLfonts/QCF2249.ttf';
-  static const String qCF2BSMLfontsQCF2250 =
-      'assets/fonts/QCF2BSMLfonts/QCF2250.ttf';
-  static const String qCF2BSMLfontsQCF2251 =
-      'assets/fonts/QCF2BSMLfonts/QCF2251.ttf';
-  static const String qCF2BSMLfontsQCF2252 =
-      'assets/fonts/QCF2BSMLfonts/QCF2252.ttf';
-  static const String qCF2BSMLfontsQCF2253 =
-      'assets/fonts/QCF2BSMLfonts/QCF2253.ttf';
-  static const String qCF2BSMLfontsQCF2254 =
-      'assets/fonts/QCF2BSMLfonts/QCF2254.ttf';
-  static const String qCF2BSMLfontsQCF2255 =
-      'assets/fonts/QCF2BSMLfonts/QCF2255.ttf';
-  static const String qCF2BSMLfontsQCF2256 =
-      'assets/fonts/QCF2BSMLfonts/QCF2256.ttf';
-  static const String qCF2BSMLfontsQCF2257 =
-      'assets/fonts/QCF2BSMLfonts/QCF2257.ttf';
-  static const String qCF2BSMLfontsQCF2258 =
-      'assets/fonts/QCF2BSMLfonts/QCF2258.ttf';
-  static const String qCF2BSMLfontsQCF2259 =
-      'assets/fonts/QCF2BSMLfonts/QCF2259.ttf';
-  static const String qCF2BSMLfontsQCF2260 =
-      'assets/fonts/QCF2BSMLfonts/QCF2260.ttf';
-  static const String qCF2BSMLfontsQCF2261 =
-      'assets/fonts/QCF2BSMLfonts/QCF2261.ttf';
-  static const String qCF2BSMLfontsQCF2262 =
-      'assets/fonts/QCF2BSMLfonts/QCF2262.ttf';
-  static const String qCF2BSMLfontsQCF2263 =
-      'assets/fonts/QCF2BSMLfonts/QCF2263.ttf';
-  static const String qCF2BSMLfontsQCF2264 =
-      'assets/fonts/QCF2BSMLfonts/QCF2264.ttf';
-  static const String qCF2BSMLfontsQCF2265 =
-      'assets/fonts/QCF2BSMLfonts/QCF2265.ttf';
-  static const String qCF2BSMLfontsQCF2266 =
-      'assets/fonts/QCF2BSMLfonts/QCF2266.ttf';
-  static const String qCF2BSMLfontsQCF2267 =
-      'assets/fonts/QCF2BSMLfonts/QCF2267.ttf';
-  static const String qCF2BSMLfontsQCF2268 =
-      'assets/fonts/QCF2BSMLfonts/QCF2268.ttf';
-  static const String qCF2BSMLfontsQCF2269 =
-      'assets/fonts/QCF2BSMLfonts/QCF2269.ttf';
-  static const String qCF2BSMLfontsQCF2270 =
-      'assets/fonts/QCF2BSMLfonts/QCF2270.ttf';
-  static const String qCF2BSMLfontsQCF2271 =
-      'assets/fonts/QCF2BSMLfonts/QCF2271.ttf';
-  static const String qCF2BSMLfontsQCF2272 =
-      'assets/fonts/QCF2BSMLfonts/QCF2272.ttf';
-  static const String qCF2BSMLfontsQCF2273 =
-      'assets/fonts/QCF2BSMLfonts/QCF2273.ttf';
-  static const String qCF2BSMLfontsQCF2274 =
-      'assets/fonts/QCF2BSMLfonts/QCF2274.ttf';
-  static const String qCF2BSMLfontsQCF2275 =
-      'assets/fonts/QCF2BSMLfonts/QCF2275.ttf';
-  static const String qCF2BSMLfontsQCF2276 =
-      'assets/fonts/QCF2BSMLfonts/QCF2276.ttf';
-  static const String qCF2BSMLfontsQCF2277 =
-      'assets/fonts/QCF2BSMLfonts/QCF2277.ttf';
-  static const String qCF2BSMLfontsQCF2278 =
-      'assets/fonts/QCF2BSMLfonts/QCF2278.ttf';
-  static const String qCF2BSMLfontsQCF2279 =
-      'assets/fonts/QCF2BSMLfonts/QCF2279.ttf';
-  static const String qCF2BSMLfontsQCF2280 =
-      'assets/fonts/QCF2BSMLfonts/QCF2280.ttf';
-  static const String qCF2BSMLfontsQCF2281 =
-      'assets/fonts/QCF2BSMLfonts/QCF2281.ttf';
-  static const String qCF2BSMLfontsQCF2282 =
-      'assets/fonts/QCF2BSMLfonts/QCF2282.ttf';
-  static const String qCF2BSMLfontsQCF2283 =
-      'assets/fonts/QCF2BSMLfonts/QCF2283.ttf';
-  static const String qCF2BSMLfontsQCF2284 =
-      'assets/fonts/QCF2BSMLfonts/QCF2284.ttf';
-  static const String qCF2BSMLfontsQCF2285 =
-      'assets/fonts/QCF2BSMLfonts/QCF2285.ttf';
-  static const String qCF2BSMLfontsQCF2286 =
-      'assets/fonts/QCF2BSMLfonts/QCF2286.ttf';
-  static const String qCF2BSMLfontsQCF2287 =
-      'assets/fonts/QCF2BSMLfonts/QCF2287.ttf';
-  static const String qCF2BSMLfontsQCF2288 =
-      'assets/fonts/QCF2BSMLfonts/QCF2288.ttf';
-  static const String qCF2BSMLfontsQCF2289 =
-      'assets/fonts/QCF2BSMLfonts/QCF2289.ttf';
-  static const String qCF2BSMLfontsQCF2290 =
-      'assets/fonts/QCF2BSMLfonts/QCF2290.ttf';
-  static const String qCF2BSMLfontsQCF2291 =
-      'assets/fonts/QCF2BSMLfonts/QCF2291.ttf';
-  static const String qCF2BSMLfontsQCF2292 =
-      'assets/fonts/QCF2BSMLfonts/QCF2292.ttf';
-  static const String qCF2BSMLfontsQCF2293 =
-      'assets/fonts/QCF2BSMLfonts/QCF2293.ttf';
-  static const String qCF2BSMLfontsQCF2294 =
-      'assets/fonts/QCF2BSMLfonts/QCF2294.ttf';
-  static const String qCF2BSMLfontsQCF2295 =
-      'assets/fonts/QCF2BSMLfonts/QCF2295.ttf';
-  static const String qCF2BSMLfontsQCF2296 =
-      'assets/fonts/QCF2BSMLfonts/QCF2296.ttf';
-  static const String qCF2BSMLfontsQCF2297 =
-      'assets/fonts/QCF2BSMLfonts/QCF2297.ttf';
-  static const String qCF2BSMLfontsQCF2298 =
-      'assets/fonts/QCF2BSMLfonts/QCF2298.ttf';
-  static const String qCF2BSMLfontsQCF2299 =
-      'assets/fonts/QCF2BSMLfonts/QCF2299.ttf';
-  static const String qCF2BSMLfontsQCF2300 =
-      'assets/fonts/QCF2BSMLfonts/QCF2300.ttf';
-  static const String qCF2BSMLfontsQCF2301 =
-      'assets/fonts/QCF2BSMLfonts/QCF2301.ttf';
-  static const String qCF2BSMLfontsQCF2302 =
-      'assets/fonts/QCF2BSMLfonts/QCF2302.ttf';
-  static const String qCF2BSMLfontsQCF2303 =
-      'assets/fonts/QCF2BSMLfonts/QCF2303.ttf';
-  static const String qCF2BSMLfontsQCF2304 =
-      'assets/fonts/QCF2BSMLfonts/QCF2304.ttf';
-  static const String qCF2BSMLfontsQCF2305 =
-      'assets/fonts/QCF2BSMLfonts/QCF2305.ttf';
-  static const String qCF2BSMLfontsQCF2306 =
-      'assets/fonts/QCF2BSMLfonts/QCF2306.ttf';
-  static const String qCF2BSMLfontsQCF2307 =
-      'assets/fonts/QCF2BSMLfonts/QCF2307.ttf';
-  static const String qCF2BSMLfontsQCF2308 =
-      'assets/fonts/QCF2BSMLfonts/QCF2308.ttf';
-  static const String qCF2BSMLfontsQCF2309 =
-      'assets/fonts/QCF2BSMLfonts/QCF2309.ttf';
-  static const String qCF2BSMLfontsQCF2310 =
-      'assets/fonts/QCF2BSMLfonts/QCF2310.ttf';
-  static const String qCF2BSMLfontsQCF2311 =
-      'assets/fonts/QCF2BSMLfonts/QCF2311.ttf';
-  static const String qCF2BSMLfontsQCF2312 =
-      'assets/fonts/QCF2BSMLfonts/QCF2312.ttf';
-  static const String qCF2BSMLfontsQCF2313 =
-      'assets/fonts/QCF2BSMLfonts/QCF2313.ttf';
-  static const String qCF2BSMLfontsQCF2314 =
-      'assets/fonts/QCF2BSMLfonts/QCF2314.ttf';
-  static const String qCF2BSMLfontsQCF2315 =
-      'assets/fonts/QCF2BSMLfonts/QCF2315.ttf';
-  static const String qCF2BSMLfontsQCF2316 =
-      'assets/fonts/QCF2BSMLfonts/QCF2316.ttf';
-  static const String qCF2BSMLfontsQCF2317 =
-      'assets/fonts/QCF2BSMLfonts/QCF2317.ttf';
-  static const String qCF2BSMLfontsQCF2318 =
-      'assets/fonts/QCF2BSMLfonts/QCF2318.ttf';
-  static const String qCF2BSMLfontsQCF2319 =
-      'assets/fonts/QCF2BSMLfonts/QCF2319.ttf';
-  static const String qCF2BSMLfontsQCF2320 =
-      'assets/fonts/QCF2BSMLfonts/QCF2320.ttf';
-  static const String qCF2BSMLfontsQCF2321 =
-      'assets/fonts/QCF2BSMLfonts/QCF2321.ttf';
-  static const String qCF2BSMLfontsQCF2322 =
-      'assets/fonts/QCF2BSMLfonts/QCF2322.ttf';
-  static const String qCF2BSMLfontsQCF2323 =
-      'assets/fonts/QCF2BSMLfonts/QCF2323.ttf';
-  static const String qCF2BSMLfontsQCF2324 =
-      'assets/fonts/QCF2BSMLfonts/QCF2324.ttf';
-  static const String qCF2BSMLfontsQCF2325 =
-      'assets/fonts/QCF2BSMLfonts/QCF2325.ttf';
-  static const String qCF2BSMLfontsQCF2326 =
-      'assets/fonts/QCF2BSMLfonts/QCF2326.ttf';
-  static const String qCF2BSMLfontsQCF2327 =
-      'assets/fonts/QCF2BSMLfonts/QCF2327.ttf';
-  static const String qCF2BSMLfontsQCF2328 =
-      'assets/fonts/QCF2BSMLfonts/QCF2328.ttf';
-  static const String qCF2BSMLfontsQCF2329 =
-      'assets/fonts/QCF2BSMLfonts/QCF2329.ttf';
-  static const String qCF2BSMLfontsQCF2330 =
-      'assets/fonts/QCF2BSMLfonts/QCF2330.ttf';
-  static const String qCF2BSMLfontsQCF2331 =
-      'assets/fonts/QCF2BSMLfonts/QCF2331.ttf';
-  static const String qCF2BSMLfontsQCF2332 =
-      'assets/fonts/QCF2BSMLfonts/QCF2332.ttf';
-  static const String qCF2BSMLfontsQCF2333 =
-      'assets/fonts/QCF2BSMLfonts/QCF2333.ttf';
-  static const String qCF2BSMLfontsQCF2334 =
-      'assets/fonts/QCF2BSMLfonts/QCF2334.ttf';
-  static const String qCF2BSMLfontsQCF2335 =
-      'assets/fonts/QCF2BSMLfonts/QCF2335.ttf';
-  static const String qCF2BSMLfontsQCF2336 =
-      'assets/fonts/QCF2BSMLfonts/QCF2336.ttf';
-  static const String qCF2BSMLfontsQCF2337 =
-      'assets/fonts/QCF2BSMLfonts/QCF2337.ttf';
-  static const String qCF2BSMLfontsQCF2338 =
-      'assets/fonts/QCF2BSMLfonts/QCF2338.ttf';
-  static const String qCF2BSMLfontsQCF2339 =
-      'assets/fonts/QCF2BSMLfonts/QCF2339.ttf';
-  static const String qCF2BSMLfontsQCF2340 =
-      'assets/fonts/QCF2BSMLfonts/QCF2340.ttf';
-  static const String qCF2BSMLfontsQCF2341 =
-      'assets/fonts/QCF2BSMLfonts/QCF2341.ttf';
-  static const String qCF2BSMLfontsQCF2342 =
-      'assets/fonts/QCF2BSMLfonts/QCF2342.ttf';
-  static const String qCF2BSMLfontsQCF2343 =
-      'assets/fonts/QCF2BSMLfonts/QCF2343.ttf';
-  static const String qCF2BSMLfontsQCF2344 =
-      'assets/fonts/QCF2BSMLfonts/QCF2344.ttf';
-  static const String qCF2BSMLfontsQCF2345 =
-      'assets/fonts/QCF2BSMLfonts/QCF2345.ttf';
-  static const String qCF2BSMLfontsQCF2346 =
-      'assets/fonts/QCF2BSMLfonts/QCF2346.ttf';
-  static const String qCF2BSMLfontsQCF2347 =
-      'assets/fonts/QCF2BSMLfonts/QCF2347.ttf';
-  static const String qCF2BSMLfontsQCF2348 =
-      'assets/fonts/QCF2BSMLfonts/QCF2348.ttf';
-  static const String qCF2BSMLfontsQCF2349 =
-      'assets/fonts/QCF2BSMLfonts/QCF2349.ttf';
-  static const String qCF2BSMLfontsQCF2350 =
-      'assets/fonts/QCF2BSMLfonts/QCF2350.ttf';
-  static const String qCF2BSMLfontsQCF2351 =
-      'assets/fonts/QCF2BSMLfonts/QCF2351.ttf';
-  static const String qCF2BSMLfontsQCF2352 =
-      'assets/fonts/QCF2BSMLfonts/QCF2352.ttf';
-  static const String qCF2BSMLfontsQCF2353 =
-      'assets/fonts/QCF2BSMLfonts/QCF2353.ttf';
-  static const String qCF2BSMLfontsQCF2354 =
-      'assets/fonts/QCF2BSMLfonts/QCF2354.ttf';
-  static const String qCF2BSMLfontsQCF2355 =
-      'assets/fonts/QCF2BSMLfonts/QCF2355.ttf';
-  static const String qCF2BSMLfontsQCF2356 =
-      'assets/fonts/QCF2BSMLfonts/QCF2356.ttf';
-  static const String qCF2BSMLfontsQCF2357 =
-      'assets/fonts/QCF2BSMLfonts/QCF2357.ttf';
-  static const String qCF2BSMLfontsQCF2358 =
-      'assets/fonts/QCF2BSMLfonts/QCF2358.ttf';
-  static const String qCF2BSMLfontsQCF2359 =
-      'assets/fonts/QCF2BSMLfonts/QCF2359.ttf';
-  static const String qCF2BSMLfontsQCF2360 =
-      'assets/fonts/QCF2BSMLfonts/QCF2360.ttf';
-  static const String qCF2BSMLfontsQCF2361 =
-      'assets/fonts/QCF2BSMLfonts/QCF2361.ttf';
-  static const String qCF2BSMLfontsQCF2362 =
-      'assets/fonts/QCF2BSMLfonts/QCF2362.ttf';
-  static const String qCF2BSMLfontsQCF2363 =
-      'assets/fonts/QCF2BSMLfonts/QCF2363.ttf';
-  static const String qCF2BSMLfontsQCF2364 =
-      'assets/fonts/QCF2BSMLfonts/QCF2364.ttf';
-  static const String qCF2BSMLfontsQCF2365 =
-      'assets/fonts/QCF2BSMLfonts/QCF2365.ttf';
-  static const String qCF2BSMLfontsQCF2366 =
-      'assets/fonts/QCF2BSMLfonts/QCF2366.ttf';
-  static const String qCF2BSMLfontsQCF2367 =
-      'assets/fonts/QCF2BSMLfonts/QCF2367.ttf';
-  static const String qCF2BSMLfontsQCF2368 =
-      'assets/fonts/QCF2BSMLfonts/QCF2368.ttf';
-  static const String qCF2BSMLfontsQCF2369 =
-      'assets/fonts/QCF2BSMLfonts/QCF2369.ttf';
-  static const String qCF2BSMLfontsQCF2370 =
-      'assets/fonts/QCF2BSMLfonts/QCF2370.ttf';
-  static const String qCF2BSMLfontsQCF2371 =
-      'assets/fonts/QCF2BSMLfonts/QCF2371.ttf';
-  static const String qCF2BSMLfontsQCF2372 =
-      'assets/fonts/QCF2BSMLfonts/QCF2372.ttf';
-  static const String qCF2BSMLfontsQCF2373 =
-      'assets/fonts/QCF2BSMLfonts/QCF2373.ttf';
-  static const String qCF2BSMLfontsQCF2374 =
-      'assets/fonts/QCF2BSMLfonts/QCF2374.ttf';
-  static const String qCF2BSMLfontsQCF2375 =
-      'assets/fonts/QCF2BSMLfonts/QCF2375.ttf';
-  static const String qCF2BSMLfontsQCF2376 =
-      'assets/fonts/QCF2BSMLfonts/QCF2376.ttf';
-  static const String qCF2BSMLfontsQCF2377 =
-      'assets/fonts/QCF2BSMLfonts/QCF2377.ttf';
-  static const String qCF2BSMLfontsQCF2378 =
-      'assets/fonts/QCF2BSMLfonts/QCF2378.ttf';
-  static const String qCF2BSMLfontsQCF2379 =
-      'assets/fonts/QCF2BSMLfonts/QCF2379.ttf';
-  static const String qCF2BSMLfontsQCF2380 =
-      'assets/fonts/QCF2BSMLfonts/QCF2380.ttf';
-  static const String qCF2BSMLfontsQCF2381 =
-      'assets/fonts/QCF2BSMLfonts/QCF2381.ttf';
-  static const String qCF2BSMLfontsQCF2382 =
-      'assets/fonts/QCF2BSMLfonts/QCF2382.ttf';
-  static const String qCF2BSMLfontsQCF2383 =
-      'assets/fonts/QCF2BSMLfonts/QCF2383.ttf';
-  static const String qCF2BSMLfontsQCF2384 =
-      'assets/fonts/QCF2BSMLfonts/QCF2384.ttf';
-  static const String qCF2BSMLfontsQCF2385 =
-      'assets/fonts/QCF2BSMLfonts/QCF2385.ttf';
-  static const String qCF2BSMLfontsQCF2386 =
-      'assets/fonts/QCF2BSMLfonts/QCF2386.ttf';
-  static const String qCF2BSMLfontsQCF2387 =
-      'assets/fonts/QCF2BSMLfonts/QCF2387.ttf';
-  static const String qCF2BSMLfontsQCF2388 =
-      'assets/fonts/QCF2BSMLfonts/QCF2388.ttf';
-  static const String qCF2BSMLfontsQCF2389 =
-      'assets/fonts/QCF2BSMLfonts/QCF2389.ttf';
-  static const String qCF2BSMLfontsQCF2390 =
-      'assets/fonts/QCF2BSMLfonts/QCF2390.ttf';
-  static const String qCF2BSMLfontsQCF2391 =
-      'assets/fonts/QCF2BSMLfonts/QCF2391.ttf';
-  static const String qCF2BSMLfontsQCF2392 =
-      'assets/fonts/QCF2BSMLfonts/QCF2392.ttf';
-  static const String qCF2BSMLfontsQCF2393 =
-      'assets/fonts/QCF2BSMLfonts/QCF2393.ttf';
-  static const String qCF2BSMLfontsQCF2394 =
-      'assets/fonts/QCF2BSMLfonts/QCF2394.ttf';
-  static const String qCF2BSMLfontsQCF2395 =
-      'assets/fonts/QCF2BSMLfonts/QCF2395.ttf';
-  static const String qCF2BSMLfontsQCF2396 =
-      'assets/fonts/QCF2BSMLfonts/QCF2396.ttf';
-  static const String qCF2BSMLfontsQCF2397 =
-      'assets/fonts/QCF2BSMLfonts/QCF2397.ttf';
-  static const String qCF2BSMLfontsQCF2398 =
-      'assets/fonts/QCF2BSMLfonts/QCF2398.ttf';
-  static const String qCF2BSMLfontsQCF2399 =
-      'assets/fonts/QCF2BSMLfonts/QCF2399.ttf';
-  static const String qCF2BSMLfontsQCF2400 =
-      'assets/fonts/QCF2BSMLfonts/QCF2400.ttf';
-  static const String qCF2BSMLfontsQCF2401 =
-      'assets/fonts/QCF2BSMLfonts/QCF2401.ttf';
-  static const String qCF2BSMLfontsQCF2402 =
-      'assets/fonts/QCF2BSMLfonts/QCF2402.ttf';
-  static const String qCF2BSMLfontsQCF2403 =
-      'assets/fonts/QCF2BSMLfonts/QCF2403.ttf';
-  static const String qCF2BSMLfontsQCF2404 =
-      'assets/fonts/QCF2BSMLfonts/QCF2404.ttf';
-  static const String qCF2BSMLfontsQCF2405 =
-      'assets/fonts/QCF2BSMLfonts/QCF2405.ttf';
-  static const String qCF2BSMLfontsQCF2406 =
-      'assets/fonts/QCF2BSMLfonts/QCF2406.ttf';
-  static const String qCF2BSMLfontsQCF2407 =
-      'assets/fonts/QCF2BSMLfonts/QCF2407.ttf';
-  static const String qCF2BSMLfontsQCF2408 =
-      'assets/fonts/QCF2BSMLfonts/QCF2408.ttf';
-  static const String qCF2BSMLfontsQCF2409 =
-      'assets/fonts/QCF2BSMLfonts/QCF2409.ttf';
-  static const String qCF2BSMLfontsQCF2410 =
-      'assets/fonts/QCF2BSMLfonts/QCF2410.ttf';
-  static const String qCF2BSMLfontsQCF2411 =
-      'assets/fonts/QCF2BSMLfonts/QCF2411.ttf';
-  static const String qCF2BSMLfontsQCF2412 =
-      'assets/fonts/QCF2BSMLfonts/QCF2412.ttf';
-  static const String qCF2BSMLfontsQCF2413 =
-      'assets/fonts/QCF2BSMLfonts/QCF2413.ttf';
-  static const String qCF2BSMLfontsQCF2414 =
-      'assets/fonts/QCF2BSMLfonts/QCF2414.ttf';
-  static const String qCF2BSMLfontsQCF2415 =
-      'assets/fonts/QCF2BSMLfonts/QCF2415.ttf';
-  static const String qCF2BSMLfontsQCF2416 =
-      'assets/fonts/QCF2BSMLfonts/QCF2416.ttf';
-  static const String qCF2BSMLfontsQCF2417 =
-      'assets/fonts/QCF2BSMLfonts/QCF2417.ttf';
-  static const String qCF2BSMLfontsQCF2418 =
-      'assets/fonts/QCF2BSMLfonts/QCF2418.ttf';
-  static const String qCF2BSMLfontsQCF2419 =
-      'assets/fonts/QCF2BSMLfonts/QCF2419.ttf';
-  static const String qCF2BSMLfontsQCF2420 =
-      'assets/fonts/QCF2BSMLfonts/QCF2420.ttf';
-  static const String qCF2BSMLfontsQCF2421 =
-      'assets/fonts/QCF2BSMLfonts/QCF2421.ttf';
-  static const String qCF2BSMLfontsQCF2422 =
-      'assets/fonts/QCF2BSMLfonts/QCF2422.ttf';
-  static const String qCF2BSMLfontsQCF2423 =
-      'assets/fonts/QCF2BSMLfonts/QCF2423.ttf';
-  static const String qCF2BSMLfontsQCF2424 =
-      'assets/fonts/QCF2BSMLfonts/QCF2424.ttf';
-  static const String qCF2BSMLfontsQCF2425 =
-      'assets/fonts/QCF2BSMLfonts/QCF2425.ttf';
-  static const String qCF2BSMLfontsQCF2426 =
-      'assets/fonts/QCF2BSMLfonts/QCF2426.ttf';
-  static const String qCF2BSMLfontsQCF2427 =
-      'assets/fonts/QCF2BSMLfonts/QCF2427.ttf';
-  static const String qCF2BSMLfontsQCF2428 =
-      'assets/fonts/QCF2BSMLfonts/QCF2428.ttf';
-  static const String qCF2BSMLfontsQCF2429 =
-      'assets/fonts/QCF2BSMLfonts/QCF2429.ttf';
-  static const String qCF2BSMLfontsQCF2430 =
-      'assets/fonts/QCF2BSMLfonts/QCF2430.ttf';
-  static const String qCF2BSMLfontsQCF2431 =
-      'assets/fonts/QCF2BSMLfonts/QCF2431.ttf';
-  static const String qCF2BSMLfontsQCF2432 =
-      'assets/fonts/QCF2BSMLfonts/QCF2432.ttf';
-  static const String qCF2BSMLfontsQCF2433 =
-      'assets/fonts/QCF2BSMLfonts/QCF2433.ttf';
-  static const String qCF2BSMLfontsQCF2434 =
-      'assets/fonts/QCF2BSMLfonts/QCF2434.ttf';
-  static const String qCF2BSMLfontsQCF2435 =
-      'assets/fonts/QCF2BSMLfonts/QCF2435.ttf';
-  static const String qCF2BSMLfontsQCF2436 =
-      'assets/fonts/QCF2BSMLfonts/QCF2436.ttf';
-  static const String qCF2BSMLfontsQCF2437 =
-      'assets/fonts/QCF2BSMLfonts/QCF2437.ttf';
-  static const String qCF2BSMLfontsQCF2438 =
-      'assets/fonts/QCF2BSMLfonts/QCF2438.ttf';
-  static const String qCF2BSMLfontsQCF2439 =
-      'assets/fonts/QCF2BSMLfonts/QCF2439.ttf';
-  static const String qCF2BSMLfontsQCF2440 =
-      'assets/fonts/QCF2BSMLfonts/QCF2440.ttf';
-  static const String qCF2BSMLfontsQCF2441 =
-      'assets/fonts/QCF2BSMLfonts/QCF2441.ttf';
-  static const String qCF2BSMLfontsQCF2442 =
-      'assets/fonts/QCF2BSMLfonts/QCF2442.ttf';
-  static const String qCF2BSMLfontsQCF2443 =
-      'assets/fonts/QCF2BSMLfonts/QCF2443.ttf';
-  static const String qCF2BSMLfontsQCF2444 =
-      'assets/fonts/QCF2BSMLfonts/QCF2444.ttf';
-  static const String qCF2BSMLfontsQCF2445 =
-      'assets/fonts/QCF2BSMLfonts/QCF2445.ttf';
-  static const String qCF2BSMLfontsQCF2446 =
-      'assets/fonts/QCF2BSMLfonts/QCF2446.ttf';
-  static const String qCF2BSMLfontsQCF2447 =
-      'assets/fonts/QCF2BSMLfonts/QCF2447.ttf';
-  static const String qCF2BSMLfontsQCF2448 =
-      'assets/fonts/QCF2BSMLfonts/QCF2448.ttf';
-  static const String qCF2BSMLfontsQCF2449 =
-      'assets/fonts/QCF2BSMLfonts/QCF2449.ttf';
-  static const String qCF2BSMLfontsQCF2450 =
-      'assets/fonts/QCF2BSMLfonts/QCF2450.ttf';
-  static const String qCF2BSMLfontsQCF2451 =
-      'assets/fonts/QCF2BSMLfonts/QCF2451.ttf';
-  static const String qCF2BSMLfontsQCF2452 =
-      'assets/fonts/QCF2BSMLfonts/QCF2452.ttf';
-  static const String qCF2BSMLfontsQCF2453 =
-      'assets/fonts/QCF2BSMLfonts/QCF2453.ttf';
-  static const String qCF2BSMLfontsQCF2454 =
-      'assets/fonts/QCF2BSMLfonts/QCF2454.ttf';
-  static const String qCF2BSMLfontsQCF2455 =
-      'assets/fonts/QCF2BSMLfonts/QCF2455.ttf';
-  static const String qCF2BSMLfontsQCF2456 =
-      'assets/fonts/QCF2BSMLfonts/QCF2456.ttf';
-  static const String qCF2BSMLfontsQCF2457 =
-      'assets/fonts/QCF2BSMLfonts/QCF2457.ttf';
-  static const String qCF2BSMLfontsQCF2458 =
-      'assets/fonts/QCF2BSMLfonts/QCF2458.ttf';
-  static const String qCF2BSMLfontsQCF2459 =
-      'assets/fonts/QCF2BSMLfonts/QCF2459.ttf';
-  static const String qCF2BSMLfontsQCF2460 =
-      'assets/fonts/QCF2BSMLfonts/QCF2460.ttf';
-  static const String qCF2BSMLfontsQCF2461 =
-      'assets/fonts/QCF2BSMLfonts/QCF2461.ttf';
-  static const String qCF2BSMLfontsQCF2462 =
-      'assets/fonts/QCF2BSMLfonts/QCF2462.ttf';
-  static const String qCF2BSMLfontsQCF2463 =
-      'assets/fonts/QCF2BSMLfonts/QCF2463.ttf';
-  static const String qCF2BSMLfontsQCF2464 =
-      'assets/fonts/QCF2BSMLfonts/QCF2464.ttf';
-  static const String qCF2BSMLfontsQCF2465 =
-      'assets/fonts/QCF2BSMLfonts/QCF2465.ttf';
-  static const String qCF2BSMLfontsQCF2466 =
-      'assets/fonts/QCF2BSMLfonts/QCF2466.ttf';
-  static const String qCF2BSMLfontsQCF2467 =
-      'assets/fonts/QCF2BSMLfonts/QCF2467.ttf';
-  static const String qCF2BSMLfontsQCF2468 =
-      'assets/fonts/QCF2BSMLfonts/QCF2468.ttf';
-  static const String qCF2BSMLfontsQCF2469 =
-      'assets/fonts/QCF2BSMLfonts/QCF2469.ttf';
-  static const String qCF2BSMLfontsQCF2470 =
-      'assets/fonts/QCF2BSMLfonts/QCF2470.ttf';
-  static const String qCF2BSMLfontsQCF2471 =
-      'assets/fonts/QCF2BSMLfonts/QCF2471.ttf';
-  static const String qCF2BSMLfontsQCF2472 =
-      'assets/fonts/QCF2BSMLfonts/QCF2472.ttf';
-  static const String qCF2BSMLfontsQCF2473 =
-      'assets/fonts/QCF2BSMLfonts/QCF2473.ttf';
-  static const String qCF2BSMLfontsQCF2474 =
-      'assets/fonts/QCF2BSMLfonts/QCF2474.ttf';
-  static const String qCF2BSMLfontsQCF2475 =
-      'assets/fonts/QCF2BSMLfonts/QCF2475.ttf';
-  static const String qCF2BSMLfontsQCF2476 =
-      'assets/fonts/QCF2BSMLfonts/QCF2476.ttf';
-  static const String qCF2BSMLfontsQCF2477 =
-      'assets/fonts/QCF2BSMLfonts/QCF2477.ttf';
-  static const String qCF2BSMLfontsQCF2478 =
-      'assets/fonts/QCF2BSMLfonts/QCF2478.ttf';
-  static const String qCF2BSMLfontsQCF2479 =
-      'assets/fonts/QCF2BSMLfonts/QCF2479.ttf';
-  static const String qCF2BSMLfontsQCF2480 =
-      'assets/fonts/QCF2BSMLfonts/QCF2480.ttf';
-  static const String qCF2BSMLfontsQCF2481 =
-      'assets/fonts/QCF2BSMLfonts/QCF2481.ttf';
-  static const String qCF2BSMLfontsQCF2482 =
-      'assets/fonts/QCF2BSMLfonts/QCF2482.ttf';
-  static const String qCF2BSMLfontsQCF2483 =
-      'assets/fonts/QCF2BSMLfonts/QCF2483.ttf';
-  static const String qCF2BSMLfontsQCF2484 =
-      'assets/fonts/QCF2BSMLfonts/QCF2484.ttf';
-  static const String qCF2BSMLfontsQCF2485 =
-      'assets/fonts/QCF2BSMLfonts/QCF2485.ttf';
-  static const String qCF2BSMLfontsQCF2486 =
-      'assets/fonts/QCF2BSMLfonts/QCF2486.ttf';
-  static const String qCF2BSMLfontsQCF2487 =
-      'assets/fonts/QCF2BSMLfonts/QCF2487.ttf';
-  static const String qCF2BSMLfontsQCF2488 =
-      'assets/fonts/QCF2BSMLfonts/QCF2488.ttf';
-  static const String qCF2BSMLfontsQCF2489 =
-      'assets/fonts/QCF2BSMLfonts/QCF2489.ttf';
-  static const String qCF2BSMLfontsQCF2490 =
-      'assets/fonts/QCF2BSMLfonts/QCF2490.ttf';
-  static const String qCF2BSMLfontsQCF2491 =
-      'assets/fonts/QCF2BSMLfonts/QCF2491.ttf';
-  static const String qCF2BSMLfontsQCF2492 =
-      'assets/fonts/QCF2BSMLfonts/QCF2492.ttf';
-  static const String qCF2BSMLfontsQCF2493 =
-      'assets/fonts/QCF2BSMLfonts/QCF2493.ttf';
-  static const String qCF2BSMLfontsQCF2494 =
-      'assets/fonts/QCF2BSMLfonts/QCF2494.ttf';
-  static const String qCF2BSMLfontsQCF2495 =
-      'assets/fonts/QCF2BSMLfonts/QCF2495.ttf';
-  static const String qCF2BSMLfontsQCF2496 =
-      'assets/fonts/QCF2BSMLfonts/QCF2496.ttf';
-  static const String qCF2BSMLfontsQCF2497 =
-      'assets/fonts/QCF2BSMLfonts/QCF2497.ttf';
-  static const String qCF2BSMLfontsQCF2498 =
-      'assets/fonts/QCF2BSMLfonts/QCF2498.ttf';
-  static const String qCF2BSMLfontsQCF2499 =
-      'assets/fonts/QCF2BSMLfonts/QCF2499.ttf';
-  static const String qCF2BSMLfontsQCF2500 =
-      'assets/fonts/QCF2BSMLfonts/QCF2500.ttf';
-  static const String qCF2BSMLfontsQCF2501 =
-      'assets/fonts/QCF2BSMLfonts/QCF2501.ttf';
-  static const String qCF2BSMLfontsQCF2502 =
-      'assets/fonts/QCF2BSMLfonts/QCF2502.ttf';
-  static const String qCF2BSMLfontsQCF2503 =
-      'assets/fonts/QCF2BSMLfonts/QCF2503.ttf';
-  static const String qCF2BSMLfontsQCF2504 =
-      'assets/fonts/QCF2BSMLfonts/QCF2504.ttf';
-  static const String qCF2BSMLfontsQCF2505 =
-      'assets/fonts/QCF2BSMLfonts/QCF2505.ttf';
-  static const String qCF2BSMLfontsQCF2506 =
-      'assets/fonts/QCF2BSMLfonts/QCF2506.ttf';
-  static const String qCF2BSMLfontsQCF2507 =
-      'assets/fonts/QCF2BSMLfonts/QCF2507.ttf';
-  static const String qCF2BSMLfontsQCF2508 =
-      'assets/fonts/QCF2BSMLfonts/QCF2508.ttf';
-  static const String qCF2BSMLfontsQCF2509 =
-      'assets/fonts/QCF2BSMLfonts/QCF2509.ttf';
-  static const String qCF2BSMLfontsQCF2510 =
-      'assets/fonts/QCF2BSMLfonts/QCF2510.ttf';
-  static const String qCF2BSMLfontsQCF2511 =
-      'assets/fonts/QCF2BSMLfonts/QCF2511.ttf';
-  static const String qCF2BSMLfontsQCF2512 =
-      'assets/fonts/QCF2BSMLfonts/QCF2512.ttf';
-  static const String qCF2BSMLfontsQCF2513 =
-      'assets/fonts/QCF2BSMLfonts/QCF2513.ttf';
-  static const String qCF2BSMLfontsQCF2514 =
-      'assets/fonts/QCF2BSMLfonts/QCF2514.ttf';
-  static const String qCF2BSMLfontsQCF2515 =
-      'assets/fonts/QCF2BSMLfonts/QCF2515.ttf';
-  static const String qCF2BSMLfontsQCF2516 =
-      'assets/fonts/QCF2BSMLfonts/QCF2516.ttf';
-  static const String qCF2BSMLfontsQCF2517 =
-      'assets/fonts/QCF2BSMLfonts/QCF2517.ttf';
-  static const String qCF2BSMLfontsQCF2518 =
-      'assets/fonts/QCF2BSMLfonts/QCF2518.ttf';
-  static const String qCF2BSMLfontsQCF2519 =
-      'assets/fonts/QCF2BSMLfonts/QCF2519.ttf';
-  static const String qCF2BSMLfontsQCF2520 =
-      'assets/fonts/QCF2BSMLfonts/QCF2520.ttf';
-  static const String qCF2BSMLfontsQCF2521 =
-      'assets/fonts/QCF2BSMLfonts/QCF2521.ttf';
-  static const String qCF2BSMLfontsQCF2522 =
-      'assets/fonts/QCF2BSMLfonts/QCF2522.ttf';
-  static const String qCF2BSMLfontsQCF2523 =
-      'assets/fonts/QCF2BSMLfonts/QCF2523.ttf';
-  static const String qCF2BSMLfontsQCF2524 =
-      'assets/fonts/QCF2BSMLfonts/QCF2524.ttf';
-  static const String qCF2BSMLfontsQCF2525 =
-      'assets/fonts/QCF2BSMLfonts/QCF2525.ttf';
-  static const String qCF2BSMLfontsQCF2526 =
-      'assets/fonts/QCF2BSMLfonts/QCF2526.ttf';
-  static const String qCF2BSMLfontsQCF2527 =
-      'assets/fonts/QCF2BSMLfonts/QCF2527.ttf';
-  static const String qCF2BSMLfontsQCF2528 =
-      'assets/fonts/QCF2BSMLfonts/QCF2528.ttf';
-  static const String qCF2BSMLfontsQCF2529 =
-      'assets/fonts/QCF2BSMLfonts/QCF2529.ttf';
-  static const String qCF2BSMLfontsQCF2530 =
-      'assets/fonts/QCF2BSMLfonts/QCF2530.ttf';
-  static const String qCF2BSMLfontsQCF2531 =
-      'assets/fonts/QCF2BSMLfonts/QCF2531.ttf';
-  static const String qCF2BSMLfontsQCF2532 =
-      'assets/fonts/QCF2BSMLfonts/QCF2532.ttf';
-  static const String qCF2BSMLfontsQCF2533 =
-      'assets/fonts/QCF2BSMLfonts/QCF2533.ttf';
-  static const String qCF2BSMLfontsQCF2534 =
-      'assets/fonts/QCF2BSMLfonts/QCF2534.ttf';
-  static const String qCF2BSMLfontsQCF2535 =
-      'assets/fonts/QCF2BSMLfonts/QCF2535.ttf';
-  static const String qCF2BSMLfontsQCF2536 =
-      'assets/fonts/QCF2BSMLfonts/QCF2536.ttf';
-  static const String qCF2BSMLfontsQCF2537 =
-      'assets/fonts/QCF2BSMLfonts/QCF2537.ttf';
-  static const String qCF2BSMLfontsQCF2538 =
-      'assets/fonts/QCF2BSMLfonts/QCF2538.ttf';
-  static const String qCF2BSMLfontsQCF2539 =
-      'assets/fonts/QCF2BSMLfonts/QCF2539.ttf';
-  static const String qCF2BSMLfontsQCF2540 =
-      'assets/fonts/QCF2BSMLfonts/QCF2540.ttf';
-  static const String qCF2BSMLfontsQCF2541 =
-      'assets/fonts/QCF2BSMLfonts/QCF2541.ttf';
-  static const String qCF2BSMLfontsQCF2542 =
-      'assets/fonts/QCF2BSMLfonts/QCF2542.ttf';
-  static const String qCF2BSMLfontsQCF2543 =
-      'assets/fonts/QCF2BSMLfonts/QCF2543.ttf';
-  static const String qCF2BSMLfontsQCF2544 =
-      'assets/fonts/QCF2BSMLfonts/QCF2544.ttf';
-  static const String qCF2BSMLfontsQCF2545 =
-      'assets/fonts/QCF2BSMLfonts/QCF2545.ttf';
-  static const String qCF2BSMLfontsQCF2546 =
-      'assets/fonts/QCF2BSMLfonts/QCF2546.ttf';
-  static const String qCF2BSMLfontsQCF2547 =
-      'assets/fonts/QCF2BSMLfonts/QCF2547.ttf';
-  static const String qCF2BSMLfontsQCF2548 =
-      'assets/fonts/QCF2BSMLfonts/QCF2548.ttf';
-  static const String qCF2BSMLfontsQCF2549 =
-      'assets/fonts/QCF2BSMLfonts/QCF2549.ttf';
-  static const String qCF2BSMLfontsQCF2550 =
-      'assets/fonts/QCF2BSMLfonts/QCF2550.ttf';
-  static const String qCF2BSMLfontsQCF2551 =
-      'assets/fonts/QCF2BSMLfonts/QCF2551.ttf';
-  static const String qCF2BSMLfontsQCF2552 =
-      'assets/fonts/QCF2BSMLfonts/QCF2552.ttf';
-  static const String qCF2BSMLfontsQCF2553 =
-      'assets/fonts/QCF2BSMLfonts/QCF2553.ttf';
-  static const String qCF2BSMLfontsQCF2554 =
-      'assets/fonts/QCF2BSMLfonts/QCF2554.ttf';
-  static const String qCF2BSMLfontsQCF2555 =
-      'assets/fonts/QCF2BSMLfonts/QCF2555.ttf';
-  static const String qCF2BSMLfontsQCF2556 =
-      'assets/fonts/QCF2BSMLfonts/QCF2556.ttf';
-  static const String qCF2BSMLfontsQCF2557 =
-      'assets/fonts/QCF2BSMLfonts/QCF2557.ttf';
-  static const String qCF2BSMLfontsQCF2558 =
-      'assets/fonts/QCF2BSMLfonts/QCF2558.ttf';
-  static const String qCF2BSMLfontsQCF2559 =
-      'assets/fonts/QCF2BSMLfonts/QCF2559.ttf';
-  static const String qCF2BSMLfontsQCF2560 =
-      'assets/fonts/QCF2BSMLfonts/QCF2560.ttf';
-  static const String qCF2BSMLfontsQCF2561 =
-      'assets/fonts/QCF2BSMLfonts/QCF2561.ttf';
-  static const String qCF2BSMLfontsQCF2562 =
-      'assets/fonts/QCF2BSMLfonts/QCF2562.ttf';
-  static const String qCF2BSMLfontsQCF2563 =
-      'assets/fonts/QCF2BSMLfonts/QCF2563.ttf';
-  static const String qCF2BSMLfontsQCF2564 =
-      'assets/fonts/QCF2BSMLfonts/QCF2564.ttf';
-  static const String qCF2BSMLfontsQCF2565 =
-      'assets/fonts/QCF2BSMLfonts/QCF2565.ttf';
-  static const String qCF2BSMLfontsQCF2566 =
-      'assets/fonts/QCF2BSMLfonts/QCF2566.ttf';
-  static const String qCF2BSMLfontsQCF2567 =
-      'assets/fonts/QCF2BSMLfonts/QCF2567.ttf';
-  static const String qCF2BSMLfontsQCF2568 =
-      'assets/fonts/QCF2BSMLfonts/QCF2568.ttf';
-  static const String qCF2BSMLfontsQCF2569 =
-      'assets/fonts/QCF2BSMLfonts/QCF2569.ttf';
-  static const String qCF2BSMLfontsQCF2570 =
-      'assets/fonts/QCF2BSMLfonts/QCF2570.ttf';
-  static const String qCF2BSMLfontsQCF2571 =
-      'assets/fonts/QCF2BSMLfonts/QCF2571.ttf';
-  static const String qCF2BSMLfontsQCF2572 =
-      'assets/fonts/QCF2BSMLfonts/QCF2572.ttf';
-  static const String qCF2BSMLfontsQCF2573 =
-      'assets/fonts/QCF2BSMLfonts/QCF2573.ttf';
-  static const String qCF2BSMLfontsQCF2574 =
-      'assets/fonts/QCF2BSMLfonts/QCF2574.ttf';
-  static const String qCF2BSMLfontsQCF2575 =
-      'assets/fonts/QCF2BSMLfonts/QCF2575.ttf';
-  static const String qCF2BSMLfontsQCF2576 =
-      'assets/fonts/QCF2BSMLfonts/QCF2576.ttf';
-  static const String qCF2BSMLfontsQCF2577 =
-      'assets/fonts/QCF2BSMLfonts/QCF2577.ttf';
-  static const String qCF2BSMLfontsQCF2578 =
-      'assets/fonts/QCF2BSMLfonts/QCF2578.ttf';
-  static const String qCF2BSMLfontsQCF2579 =
-      'assets/fonts/QCF2BSMLfonts/QCF2579.ttf';
-  static const String qCF2BSMLfontsQCF2580 =
-      'assets/fonts/QCF2BSMLfonts/QCF2580.ttf';
-  static const String qCF2BSMLfontsQCF2581 =
-      'assets/fonts/QCF2BSMLfonts/QCF2581.ttf';
-  static const String qCF2BSMLfontsQCF2582 =
-      'assets/fonts/QCF2BSMLfonts/QCF2582.ttf';
-  static const String qCF2BSMLfontsQCF2583 =
-      'assets/fonts/QCF2BSMLfonts/QCF2583.ttf';
-  static const String qCF2BSMLfontsQCF2584 =
-      'assets/fonts/QCF2BSMLfonts/QCF2584.ttf';
-  static const String qCF2BSMLfontsQCF2585 =
-      'assets/fonts/QCF2BSMLfonts/QCF2585.ttf';
-  static const String qCF2BSMLfontsQCF2586 =
-      'assets/fonts/QCF2BSMLfonts/QCF2586.ttf';
-  static const String qCF2BSMLfontsQCF2587 =
-      'assets/fonts/QCF2BSMLfonts/QCF2587.ttf';
-  static const String qCF2BSMLfontsQCF2588 =
-      'assets/fonts/QCF2BSMLfonts/QCF2588.ttf';
-  static const String qCF2BSMLfontsQCF2589 =
-      'assets/fonts/QCF2BSMLfonts/QCF2589.ttf';
-  static const String qCF2BSMLfontsQCF2590 =
-      'assets/fonts/QCF2BSMLfonts/QCF2590.ttf';
-  static const String qCF2BSMLfontsQCF2591 =
-      'assets/fonts/QCF2BSMLfonts/QCF2591.ttf';
-  static const String qCF2BSMLfontsQCF2592 =
-      'assets/fonts/QCF2BSMLfonts/QCF2592.ttf';
-  static const String qCF2BSMLfontsQCF2593 =
-      'assets/fonts/QCF2BSMLfonts/QCF2593.ttf';
-  static const String qCF2BSMLfontsQCF2594 =
-      'assets/fonts/QCF2BSMLfonts/QCF2594.ttf';
-  static const String qCF2BSMLfontsQCF2595 =
-      'assets/fonts/QCF2BSMLfonts/QCF2595.ttf';
-  static const String qCF2BSMLfontsQCF2596 =
-      'assets/fonts/QCF2BSMLfonts/QCF2596.ttf';
-  static const String qCF2BSMLfontsQCF2597 =
-      'assets/fonts/QCF2BSMLfonts/QCF2597.ttf';
-  static const String qCF2BSMLfontsQCF2598 =
-      'assets/fonts/QCF2BSMLfonts/QCF2598.ttf';
-  static const String qCF2BSMLfontsQCF2599 =
-      'assets/fonts/QCF2BSMLfonts/QCF2599.ttf';
-  static const String qCF2BSMLfontsQCF2600 =
-      'assets/fonts/QCF2BSMLfonts/QCF2600.ttf';
-  static const String qCF2BSMLfontsQCF2601 =
-      'assets/fonts/QCF2BSMLfonts/QCF2601.ttf';
-  static const String qCF2BSMLfontsQCF2602 =
-      'assets/fonts/QCF2BSMLfonts/QCF2602.ttf';
-  static const String qCF2BSMLfontsQCF2603 =
-      'assets/fonts/QCF2BSMLfonts/QCF2603.ttf';
-  static const String qCF2BSMLfontsQCF2604 =
-      'assets/fonts/QCF2BSMLfonts/QCF2604.ttf';
+  static const String qCF2BSMLfontsQCF2001 = 'assets/fonts/QCF2BSMLfonts/QCF2001.ttf';
+  static const String qCF2BSMLfontsQCF2002 = 'assets/fonts/QCF2BSMLfonts/QCF2002.ttf';
+  static const String qCF2BSMLfontsQCF2003 = 'assets/fonts/QCF2BSMLfonts/QCF2003.ttf';
+  static const String qCF2BSMLfontsQCF2004 = 'assets/fonts/QCF2BSMLfonts/QCF2004.ttf';
+  static const String qCF2BSMLfontsQCF2005 = 'assets/fonts/QCF2BSMLfonts/QCF2005.ttf';
+  static const String qCF2BSMLfontsQCF2006 = 'assets/fonts/QCF2BSMLfonts/QCF2006.ttf';
+  static const String qCF2BSMLfontsQCF2007 = 'assets/fonts/QCF2BSMLfonts/QCF2007.ttf';
+  static const String qCF2BSMLfontsQCF2008 = 'assets/fonts/QCF2BSMLfonts/QCF2008.ttf';
+  static const String qCF2BSMLfontsQCF2009 = 'assets/fonts/QCF2BSMLfonts/QCF2009.ttf';
+  static const String qCF2BSMLfontsQCF2010 = 'assets/fonts/QCF2BSMLfonts/QCF2010.ttf';
+  static const String qCF2BSMLfontsQCF2011 = 'assets/fonts/QCF2BSMLfonts/QCF2011.ttf';
+  static const String qCF2BSMLfontsQCF2012 = 'assets/fonts/QCF2BSMLfonts/QCF2012.ttf';
+  static const String qCF2BSMLfontsQCF2013 = 'assets/fonts/QCF2BSMLfonts/QCF2013.ttf';
+  static const String qCF2BSMLfontsQCF2014 = 'assets/fonts/QCF2BSMLfonts/QCF2014.ttf';
+  static const String qCF2BSMLfontsQCF2015 = 'assets/fonts/QCF2BSMLfonts/QCF2015.ttf';
+  static const String qCF2BSMLfontsQCF2016 = 'assets/fonts/QCF2BSMLfonts/QCF2016.ttf';
+  static const String qCF2BSMLfontsQCF2017 = 'assets/fonts/QCF2BSMLfonts/QCF2017.ttf';
+  static const String qCF2BSMLfontsQCF2018 = 'assets/fonts/QCF2BSMLfonts/QCF2018.ttf';
+  static const String qCF2BSMLfontsQCF2019 = 'assets/fonts/QCF2BSMLfonts/QCF2019.ttf';
+  static const String qCF2BSMLfontsQCF2020 = 'assets/fonts/QCF2BSMLfonts/QCF2020.ttf';
+  static const String qCF2BSMLfontsQCF2021 = 'assets/fonts/QCF2BSMLfonts/QCF2021.ttf';
+  static const String qCF2BSMLfontsQCF2022 = 'assets/fonts/QCF2BSMLfonts/QCF2022.ttf';
+  static const String qCF2BSMLfontsQCF2023 = 'assets/fonts/QCF2BSMLfonts/QCF2023.ttf';
+  static const String qCF2BSMLfontsQCF2024 = 'assets/fonts/QCF2BSMLfonts/QCF2024.ttf';
+  static const String qCF2BSMLfontsQCF2025 = 'assets/fonts/QCF2BSMLfonts/QCF2025.ttf';
+  static const String qCF2BSMLfontsQCF2026 = 'assets/fonts/QCF2BSMLfonts/QCF2026.ttf';
+  static const String qCF2BSMLfontsQCF2027 = 'assets/fonts/QCF2BSMLfonts/QCF2027.ttf';
+  static const String qCF2BSMLfontsQCF2028 = 'assets/fonts/QCF2BSMLfonts/QCF2028.ttf';
+  static const String qCF2BSMLfontsQCF2029 = 'assets/fonts/QCF2BSMLfonts/QCF2029.ttf';
+  static const String qCF2BSMLfontsQCF2030 = 'assets/fonts/QCF2BSMLfonts/QCF2030.ttf';
+  static const String qCF2BSMLfontsQCF2031 = 'assets/fonts/QCF2BSMLfonts/QCF2031.ttf';
+  static const String qCF2BSMLfontsQCF2032 = 'assets/fonts/QCF2BSMLfonts/QCF2032.ttf';
+  static const String qCF2BSMLfontsQCF2033 = 'assets/fonts/QCF2BSMLfonts/QCF2033.ttf';
+  static const String qCF2BSMLfontsQCF2034 = 'assets/fonts/QCF2BSMLfonts/QCF2034.ttf';
+  static const String qCF2BSMLfontsQCF2035 = 'assets/fonts/QCF2BSMLfonts/QCF2035.ttf';
+  static const String qCF2BSMLfontsQCF2036 = 'assets/fonts/QCF2BSMLfonts/QCF2036.ttf';
+  static const String qCF2BSMLfontsQCF2037 = 'assets/fonts/QCF2BSMLfonts/QCF2037.ttf';
+  static const String qCF2BSMLfontsQCF2038 = 'assets/fonts/QCF2BSMLfonts/QCF2038.ttf';
+  static const String qCF2BSMLfontsQCF2039 = 'assets/fonts/QCF2BSMLfonts/QCF2039.ttf';
+  static const String qCF2BSMLfontsQCF2040 = 'assets/fonts/QCF2BSMLfonts/QCF2040.ttf';
+  static const String qCF2BSMLfontsQCF2041 = 'assets/fonts/QCF2BSMLfonts/QCF2041.ttf';
+  static const String qCF2BSMLfontsQCF2042 = 'assets/fonts/QCF2BSMLfonts/QCF2042.ttf';
+  static const String qCF2BSMLfontsQCF2043 = 'assets/fonts/QCF2BSMLfonts/QCF2043.ttf';
+  static const String qCF2BSMLfontsQCF2044 = 'assets/fonts/QCF2BSMLfonts/QCF2044.ttf';
+  static const String qCF2BSMLfontsQCF2045 = 'assets/fonts/QCF2BSMLfonts/QCF2045.ttf';
+  static const String qCF2BSMLfontsQCF2046 = 'assets/fonts/QCF2BSMLfonts/QCF2046.ttf';
+  static const String qCF2BSMLfontsQCF2047 = 'assets/fonts/QCF2BSMLfonts/QCF2047.ttf';
+  static const String qCF2BSMLfontsQCF2048 = 'assets/fonts/QCF2BSMLfonts/QCF2048.ttf';
+  static const String qCF2BSMLfontsQCF2049 = 'assets/fonts/QCF2BSMLfonts/QCF2049.ttf';
+  static const String qCF2BSMLfontsQCF2050 = 'assets/fonts/QCF2BSMLfonts/QCF2050.ttf';
+  static const String qCF2BSMLfontsQCF2051 = 'assets/fonts/QCF2BSMLfonts/QCF2051.ttf';
+  static const String qCF2BSMLfontsQCF2052 = 'assets/fonts/QCF2BSMLfonts/QCF2052.ttf';
+  static const String qCF2BSMLfontsQCF2053 = 'assets/fonts/QCF2BSMLfonts/QCF2053.ttf';
+  static const String qCF2BSMLfontsQCF2054 = 'assets/fonts/QCF2BSMLfonts/QCF2054.ttf';
+  static const String qCF2BSMLfontsQCF2055 = 'assets/fonts/QCF2BSMLfonts/QCF2055.ttf';
+  static const String qCF2BSMLfontsQCF2056 = 'assets/fonts/QCF2BSMLfonts/QCF2056.ttf';
+  static const String qCF2BSMLfontsQCF2057 = 'assets/fonts/QCF2BSMLfonts/QCF2057.ttf';
+  static const String qCF2BSMLfontsQCF2058 = 'assets/fonts/QCF2BSMLfonts/QCF2058.ttf';
+  static const String qCF2BSMLfontsQCF2059 = 'assets/fonts/QCF2BSMLfonts/QCF2059.ttf';
+  static const String qCF2BSMLfontsQCF2060 = 'assets/fonts/QCF2BSMLfonts/QCF2060.ttf';
+  static const String qCF2BSMLfontsQCF2061 = 'assets/fonts/QCF2BSMLfonts/QCF2061.ttf';
+  static const String qCF2BSMLfontsQCF2062 = 'assets/fonts/QCF2BSMLfonts/QCF2062.ttf';
+  static const String qCF2BSMLfontsQCF2063 = 'assets/fonts/QCF2BSMLfonts/QCF2063.ttf';
+  static const String qCF2BSMLfontsQCF2064 = 'assets/fonts/QCF2BSMLfonts/QCF2064.ttf';
+  static const String qCF2BSMLfontsQCF2065 = 'assets/fonts/QCF2BSMLfonts/QCF2065.ttf';
+  static const String qCF2BSMLfontsQCF2066 = 'assets/fonts/QCF2BSMLfonts/QCF2066.ttf';
+  static const String qCF2BSMLfontsQCF2067 = 'assets/fonts/QCF2BSMLfonts/QCF2067.ttf';
+  static const String qCF2BSMLfontsQCF2068 = 'assets/fonts/QCF2BSMLfonts/QCF2068.ttf';
+  static const String qCF2BSMLfontsQCF2069 = 'assets/fonts/QCF2BSMLfonts/QCF2069.ttf';
+  static const String qCF2BSMLfontsQCF2070 = 'assets/fonts/QCF2BSMLfonts/QCF2070.ttf';
+  static const String qCF2BSMLfontsQCF2071 = 'assets/fonts/QCF2BSMLfonts/QCF2071.ttf';
+  static const String qCF2BSMLfontsQCF2072 = 'assets/fonts/QCF2BSMLfonts/QCF2072.ttf';
+  static const String qCF2BSMLfontsQCF2073 = 'assets/fonts/QCF2BSMLfonts/QCF2073.ttf';
+  static const String qCF2BSMLfontsQCF2074 = 'assets/fonts/QCF2BSMLfonts/QCF2074.ttf';
+  static const String qCF2BSMLfontsQCF2075 = 'assets/fonts/QCF2BSMLfonts/QCF2075.ttf';
+  static const String qCF2BSMLfontsQCF2076 = 'assets/fonts/QCF2BSMLfonts/QCF2076.ttf';
+  static const String qCF2BSMLfontsQCF2077 = 'assets/fonts/QCF2BSMLfonts/QCF2077.ttf';
+  static const String qCF2BSMLfontsQCF2078 = 'assets/fonts/QCF2BSMLfonts/QCF2078.ttf';
+  static const String qCF2BSMLfontsQCF2079 = 'assets/fonts/QCF2BSMLfonts/QCF2079.ttf';
+  static const String qCF2BSMLfontsQCF2080 = 'assets/fonts/QCF2BSMLfonts/QCF2080.ttf';
+  static const String qCF2BSMLfontsQCF2081 = 'assets/fonts/QCF2BSMLfonts/QCF2081.ttf';
+  static const String qCF2BSMLfontsQCF2082 = 'assets/fonts/QCF2BSMLfonts/QCF2082.ttf';
+  static const String qCF2BSMLfontsQCF2083 = 'assets/fonts/QCF2BSMLfonts/QCF2083.ttf';
+  static const String qCF2BSMLfontsQCF2084 = 'assets/fonts/QCF2BSMLfonts/QCF2084.ttf';
+  static const String qCF2BSMLfontsQCF2085 = 'assets/fonts/QCF2BSMLfonts/QCF2085.ttf';
+  static const String qCF2BSMLfontsQCF2086 = 'assets/fonts/QCF2BSMLfonts/QCF2086.ttf';
+  static const String qCF2BSMLfontsQCF2087 = 'assets/fonts/QCF2BSMLfonts/QCF2087.ttf';
+  static const String qCF2BSMLfontsQCF2088 = 'assets/fonts/QCF2BSMLfonts/QCF2088.ttf';
+  static const String qCF2BSMLfontsQCF2089 = 'assets/fonts/QCF2BSMLfonts/QCF2089.ttf';
+  static const String qCF2BSMLfontsQCF2090 = 'assets/fonts/QCF2BSMLfonts/QCF2090.ttf';
+  static const String qCF2BSMLfontsQCF2091 = 'assets/fonts/QCF2BSMLfonts/QCF2091.ttf';
+  static const String qCF2BSMLfontsQCF2092 = 'assets/fonts/QCF2BSMLfonts/QCF2092.ttf';
+  static const String qCF2BSMLfontsQCF2093 = 'assets/fonts/QCF2BSMLfonts/QCF2093.ttf';
+  static const String qCF2BSMLfontsQCF2094 = 'assets/fonts/QCF2BSMLfonts/QCF2094.ttf';
+  static const String qCF2BSMLfontsQCF2095 = 'assets/fonts/QCF2BSMLfonts/QCF2095.ttf';
+  static const String qCF2BSMLfontsQCF2096 = 'assets/fonts/QCF2BSMLfonts/QCF2096.ttf';
+  static const String qCF2BSMLfontsQCF2097 = 'assets/fonts/QCF2BSMLfonts/QCF2097.ttf';
+  static const String qCF2BSMLfontsQCF2098 = 'assets/fonts/QCF2BSMLfonts/QCF2098.ttf';
+  static const String qCF2BSMLfontsQCF2099 = 'assets/fonts/QCF2BSMLfonts/QCF2099.ttf';
+  static const String qCF2BSMLfontsQCF2100 = 'assets/fonts/QCF2BSMLfonts/QCF2100.ttf';
+  static const String qCF2BSMLfontsQCF2101 = 'assets/fonts/QCF2BSMLfonts/QCF2101.ttf';
+  static const String qCF2BSMLfontsQCF2102 = 'assets/fonts/QCF2BSMLfonts/QCF2102.ttf';
+  static const String qCF2BSMLfontsQCF2103 = 'assets/fonts/QCF2BSMLfonts/QCF2103.ttf';
+  static const String qCF2BSMLfontsQCF2104 = 'assets/fonts/QCF2BSMLfonts/QCF2104.ttf';
+  static const String qCF2BSMLfontsQCF2105 = 'assets/fonts/QCF2BSMLfonts/QCF2105.ttf';
+  static const String qCF2BSMLfontsQCF2106 = 'assets/fonts/QCF2BSMLfonts/QCF2106.ttf';
+  static const String qCF2BSMLfontsQCF2107 = 'assets/fonts/QCF2BSMLfonts/QCF2107.ttf';
+  static const String qCF2BSMLfontsQCF2108 = 'assets/fonts/QCF2BSMLfonts/QCF2108.ttf';
+  static const String qCF2BSMLfontsQCF2109 = 'assets/fonts/QCF2BSMLfonts/QCF2109.ttf';
+  static const String qCF2BSMLfontsQCF2110 = 'assets/fonts/QCF2BSMLfonts/QCF2110.ttf';
+  static const String qCF2BSMLfontsQCF2111 = 'assets/fonts/QCF2BSMLfonts/QCF2111.ttf';
+  static const String qCF2BSMLfontsQCF2112 = 'assets/fonts/QCF2BSMLfonts/QCF2112.ttf';
+  static const String qCF2BSMLfontsQCF2113 = 'assets/fonts/QCF2BSMLfonts/QCF2113.ttf';
+  static const String qCF2BSMLfontsQCF2114 = 'assets/fonts/QCF2BSMLfonts/QCF2114.ttf';
+  static const String qCF2BSMLfontsQCF2115 = 'assets/fonts/QCF2BSMLfonts/QCF2115.ttf';
+  static const String qCF2BSMLfontsQCF2116 = 'assets/fonts/QCF2BSMLfonts/QCF2116.ttf';
+  static const String qCF2BSMLfontsQCF2117 = 'assets/fonts/QCF2BSMLfonts/QCF2117.ttf';
+  static const String qCF2BSMLfontsQCF2118 = 'assets/fonts/QCF2BSMLfonts/QCF2118.ttf';
+  static const String qCF2BSMLfontsQCF2119 = 'assets/fonts/QCF2BSMLfonts/QCF2119.ttf';
+  static const String qCF2BSMLfontsQCF2120 = 'assets/fonts/QCF2BSMLfonts/QCF2120.ttf';
+  static const String qCF2BSMLfontsQCF2121 = 'assets/fonts/QCF2BSMLfonts/QCF2121.ttf';
+  static const String qCF2BSMLfontsQCF2122 = 'assets/fonts/QCF2BSMLfonts/QCF2122.ttf';
+  static const String qCF2BSMLfontsQCF2123 = 'assets/fonts/QCF2BSMLfonts/QCF2123.ttf';
+  static const String qCF2BSMLfontsQCF2124 = 'assets/fonts/QCF2BSMLfonts/QCF2124.ttf';
+  static const String qCF2BSMLfontsQCF2125 = 'assets/fonts/QCF2BSMLfonts/QCF2125.ttf';
+  static const String qCF2BSMLfontsQCF2126 = 'assets/fonts/QCF2BSMLfonts/QCF2126.ttf';
+  static const String qCF2BSMLfontsQCF2127 = 'assets/fonts/QCF2BSMLfonts/QCF2127.ttf';
+  static const String qCF2BSMLfontsQCF2128 = 'assets/fonts/QCF2BSMLfonts/QCF2128.ttf';
+  static const String qCF2BSMLfontsQCF2129 = 'assets/fonts/QCF2BSMLfonts/QCF2129.ttf';
+  static const String qCF2BSMLfontsQCF2130 = 'assets/fonts/QCF2BSMLfonts/QCF2130.ttf';
+  static const String qCF2BSMLfontsQCF2131 = 'assets/fonts/QCF2BSMLfonts/QCF2131.ttf';
+  static const String qCF2BSMLfontsQCF2132 = 'assets/fonts/QCF2BSMLfonts/QCF2132.ttf';
+  static const String qCF2BSMLfontsQCF2133 = 'assets/fonts/QCF2BSMLfonts/QCF2133.ttf';
+  static const String qCF2BSMLfontsQCF2134 = 'assets/fonts/QCF2BSMLfonts/QCF2134.ttf';
+  static const String qCF2BSMLfontsQCF2135 = 'assets/fonts/QCF2BSMLfonts/QCF2135.ttf';
+  static const String qCF2BSMLfontsQCF2136 = 'assets/fonts/QCF2BSMLfonts/QCF2136.ttf';
+  static const String qCF2BSMLfontsQCF2137 = 'assets/fonts/QCF2BSMLfonts/QCF2137.ttf';
+  static const String qCF2BSMLfontsQCF2138 = 'assets/fonts/QCF2BSMLfonts/QCF2138.ttf';
+  static const String qCF2BSMLfontsQCF2139 = 'assets/fonts/QCF2BSMLfonts/QCF2139.ttf';
+  static const String qCF2BSMLfontsQCF2140 = 'assets/fonts/QCF2BSMLfonts/QCF2140.ttf';
+  static const String qCF2BSMLfontsQCF2141 = 'assets/fonts/QCF2BSMLfonts/QCF2141.ttf';
+  static const String qCF2BSMLfontsQCF2142 = 'assets/fonts/QCF2BSMLfonts/QCF2142.ttf';
+  static const String qCF2BSMLfontsQCF2143 = 'assets/fonts/QCF2BSMLfonts/QCF2143.ttf';
+  static const String qCF2BSMLfontsQCF2144 = 'assets/fonts/QCF2BSMLfonts/QCF2144.ttf';
+  static const String qCF2BSMLfontsQCF2145 = 'assets/fonts/QCF2BSMLfonts/QCF2145.ttf';
+  static const String qCF2BSMLfontsQCF2146 = 'assets/fonts/QCF2BSMLfonts/QCF2146.ttf';
+  static const String qCF2BSMLfontsQCF2147 = 'assets/fonts/QCF2BSMLfonts/QCF2147.ttf';
+  static const String qCF2BSMLfontsQCF2148 = 'assets/fonts/QCF2BSMLfonts/QCF2148.ttf';
+  static const String qCF2BSMLfontsQCF2149 = 'assets/fonts/QCF2BSMLfonts/QCF2149.ttf';
+  static const String qCF2BSMLfontsQCF2150 = 'assets/fonts/QCF2BSMLfonts/QCF2150.ttf';
+  static const String qCF2BSMLfontsQCF2151 = 'assets/fonts/QCF2BSMLfonts/QCF2151.ttf';
+  static const String qCF2BSMLfontsQCF2152 = 'assets/fonts/QCF2BSMLfonts/QCF2152.ttf';
+  static const String qCF2BSMLfontsQCF2153 = 'assets/fonts/QCF2BSMLfonts/QCF2153.ttf';
+  static const String qCF2BSMLfontsQCF2154 = 'assets/fonts/QCF2BSMLfonts/QCF2154.ttf';
+  static const String qCF2BSMLfontsQCF2155 = 'assets/fonts/QCF2BSMLfonts/QCF2155.ttf';
+  static const String qCF2BSMLfontsQCF2156 = 'assets/fonts/QCF2BSMLfonts/QCF2156.ttf';
+  static const String qCF2BSMLfontsQCF2157 = 'assets/fonts/QCF2BSMLfonts/QCF2157.ttf';
+  static const String qCF2BSMLfontsQCF2158 = 'assets/fonts/QCF2BSMLfonts/QCF2158.ttf';
+  static const String qCF2BSMLfontsQCF2159 = 'assets/fonts/QCF2BSMLfonts/QCF2159.ttf';
+  static const String qCF2BSMLfontsQCF2160 = 'assets/fonts/QCF2BSMLfonts/QCF2160.ttf';
+  static const String qCF2BSMLfontsQCF2161 = 'assets/fonts/QCF2BSMLfonts/QCF2161.ttf';
+  static const String qCF2BSMLfontsQCF2162 = 'assets/fonts/QCF2BSMLfonts/QCF2162.ttf';
+  static const String qCF2BSMLfontsQCF2163 = 'assets/fonts/QCF2BSMLfonts/QCF2163.ttf';
+  static const String qCF2BSMLfontsQCF2164 = 'assets/fonts/QCF2BSMLfonts/QCF2164.ttf';
+  static const String qCF2BSMLfontsQCF2165 = 'assets/fonts/QCF2BSMLfonts/QCF2165.ttf';
+  static const String qCF2BSMLfontsQCF2166 = 'assets/fonts/QCF2BSMLfonts/QCF2166.ttf';
+  static const String qCF2BSMLfontsQCF2167 = 'assets/fonts/QCF2BSMLfonts/QCF2167.ttf';
+  static const String qCF2BSMLfontsQCF2168 = 'assets/fonts/QCF2BSMLfonts/QCF2168.ttf';
+  static const String qCF2BSMLfontsQCF2169 = 'assets/fonts/QCF2BSMLfonts/QCF2169.ttf';
+  static const String qCF2BSMLfontsQCF2170 = 'assets/fonts/QCF2BSMLfonts/QCF2170.ttf';
+  static const String qCF2BSMLfontsQCF2171 = 'assets/fonts/QCF2BSMLfonts/QCF2171.ttf';
+  static const String qCF2BSMLfontsQCF2172 = 'assets/fonts/QCF2BSMLfonts/QCF2172.ttf';
+  static const String qCF2BSMLfontsQCF2173 = 'assets/fonts/QCF2BSMLfonts/QCF2173.ttf';
+  static const String qCF2BSMLfontsQCF2174 = 'assets/fonts/QCF2BSMLfonts/QCF2174.ttf';
+  static const String qCF2BSMLfontsQCF2175 = 'assets/fonts/QCF2BSMLfonts/QCF2175.ttf';
+  static const String qCF2BSMLfontsQCF2176 = 'assets/fonts/QCF2BSMLfonts/QCF2176.ttf';
+  static const String qCF2BSMLfontsQCF2177 = 'assets/fonts/QCF2BSMLfonts/QCF2177.ttf';
+  static const String qCF2BSMLfontsQCF2178 = 'assets/fonts/QCF2BSMLfonts/QCF2178.ttf';
+  static const String qCF2BSMLfontsQCF2179 = 'assets/fonts/QCF2BSMLfonts/QCF2179.ttf';
+  static const String qCF2BSMLfontsQCF2180 = 'assets/fonts/QCF2BSMLfonts/QCF2180.ttf';
+  static const String qCF2BSMLfontsQCF2181 = 'assets/fonts/QCF2BSMLfonts/QCF2181.ttf';
+  static const String qCF2BSMLfontsQCF2182 = 'assets/fonts/QCF2BSMLfonts/QCF2182.ttf';
+  static const String qCF2BSMLfontsQCF2183 = 'assets/fonts/QCF2BSMLfonts/QCF2183.ttf';
+  static const String qCF2BSMLfontsQCF2184 = 'assets/fonts/QCF2BSMLfonts/QCF2184.ttf';
+  static const String qCF2BSMLfontsQCF2185 = 'assets/fonts/QCF2BSMLfonts/QCF2185.ttf';
+  static const String qCF2BSMLfontsQCF2186 = 'assets/fonts/QCF2BSMLfonts/QCF2186.ttf';
+  static const String qCF2BSMLfontsQCF2187 = 'assets/fonts/QCF2BSMLfonts/QCF2187.ttf';
+  static const String qCF2BSMLfontsQCF2188 = 'assets/fonts/QCF2BSMLfonts/QCF2188.ttf';
+  static const String qCF2BSMLfontsQCF2189 = 'assets/fonts/QCF2BSMLfonts/QCF2189.ttf';
+  static const String qCF2BSMLfontsQCF2190 = 'assets/fonts/QCF2BSMLfonts/QCF2190.ttf';
+  static const String qCF2BSMLfontsQCF2191 = 'assets/fonts/QCF2BSMLfonts/QCF2191.ttf';
+  static const String qCF2BSMLfontsQCF2192 = 'assets/fonts/QCF2BSMLfonts/QCF2192.ttf';
+  static const String qCF2BSMLfontsQCF2193 = 'assets/fonts/QCF2BSMLfonts/QCF2193.ttf';
+  static const String qCF2BSMLfontsQCF2194 = 'assets/fonts/QCF2BSMLfonts/QCF2194.ttf';
+  static const String qCF2BSMLfontsQCF2195 = 'assets/fonts/QCF2BSMLfonts/QCF2195.ttf';
+  static const String qCF2BSMLfontsQCF2196 = 'assets/fonts/QCF2BSMLfonts/QCF2196.ttf';
+  static const String qCF2BSMLfontsQCF2197 = 'assets/fonts/QCF2BSMLfonts/QCF2197.ttf';
+  static const String qCF2BSMLfontsQCF2198 = 'assets/fonts/QCF2BSMLfonts/QCF2198.ttf';
+  static const String qCF2BSMLfontsQCF2199 = 'assets/fonts/QCF2BSMLfonts/QCF2199.ttf';
+  static const String qCF2BSMLfontsQCF2200 = 'assets/fonts/QCF2BSMLfonts/QCF2200.ttf';
+  static const String qCF2BSMLfontsQCF2201 = 'assets/fonts/QCF2BSMLfonts/QCF2201.ttf';
+  static const String qCF2BSMLfontsQCF2202 = 'assets/fonts/QCF2BSMLfonts/QCF2202.ttf';
+  static const String qCF2BSMLfontsQCF2203 = 'assets/fonts/QCF2BSMLfonts/QCF2203.ttf';
+  static const String qCF2BSMLfontsQCF2204 = 'assets/fonts/QCF2BSMLfonts/QCF2204.ttf';
+  static const String qCF2BSMLfontsQCF2205 = 'assets/fonts/QCF2BSMLfonts/QCF2205.ttf';
+  static const String qCF2BSMLfontsQCF2206 = 'assets/fonts/QCF2BSMLfonts/QCF2206.ttf';
+  static const String qCF2BSMLfontsQCF2207 = 'assets/fonts/QCF2BSMLfonts/QCF2207.ttf';
+  static const String qCF2BSMLfontsQCF2208 = 'assets/fonts/QCF2BSMLfonts/QCF2208.ttf';
+  static const String qCF2BSMLfontsQCF2209 = 'assets/fonts/QCF2BSMLfonts/QCF2209.ttf';
+  static const String qCF2BSMLfontsQCF2210 = 'assets/fonts/QCF2BSMLfonts/QCF2210.ttf';
+  static const String qCF2BSMLfontsQCF2211 = 'assets/fonts/QCF2BSMLfonts/QCF2211.ttf';
+  static const String qCF2BSMLfontsQCF2212 = 'assets/fonts/QCF2BSMLfonts/QCF2212.ttf';
+  static const String qCF2BSMLfontsQCF2213 = 'assets/fonts/QCF2BSMLfonts/QCF2213.ttf';
+  static const String qCF2BSMLfontsQCF2214 = 'assets/fonts/QCF2BSMLfonts/QCF2214.ttf';
+  static const String qCF2BSMLfontsQCF2215 = 'assets/fonts/QCF2BSMLfonts/QCF2215.ttf';
+  static const String qCF2BSMLfontsQCF2216 = 'assets/fonts/QCF2BSMLfonts/QCF2216.ttf';
+  static const String qCF2BSMLfontsQCF2217 = 'assets/fonts/QCF2BSMLfonts/QCF2217.ttf';
+  static const String qCF2BSMLfontsQCF2218 = 'assets/fonts/QCF2BSMLfonts/QCF2218.ttf';
+  static const String qCF2BSMLfontsQCF2219 = 'assets/fonts/QCF2BSMLfonts/QCF2219.ttf';
+  static const String qCF2BSMLfontsQCF2220 = 'assets/fonts/QCF2BSMLfonts/QCF2220.ttf';
+  static const String qCF2BSMLfontsQCF2221 = 'assets/fonts/QCF2BSMLfonts/QCF2221.ttf';
+  static const String qCF2BSMLfontsQCF2222 = 'assets/fonts/QCF2BSMLfonts/QCF2222.ttf';
+  static const String qCF2BSMLfontsQCF2223 = 'assets/fonts/QCF2BSMLfonts/QCF2223.ttf';
+  static const String qCF2BSMLfontsQCF2224 = 'assets/fonts/QCF2BSMLfonts/QCF2224.ttf';
+  static const String qCF2BSMLfontsQCF2225 = 'assets/fonts/QCF2BSMLfonts/QCF2225.ttf';
+  static const String qCF2BSMLfontsQCF2226 = 'assets/fonts/QCF2BSMLfonts/QCF2226.ttf';
+  static const String qCF2BSMLfontsQCF2227 = 'assets/fonts/QCF2BSMLfonts/QCF2227.ttf';
+  static const String qCF2BSMLfontsQCF2228 = 'assets/fonts/QCF2BSMLfonts/QCF2228.ttf';
+  static const String qCF2BSMLfontsQCF2229 = 'assets/fonts/QCF2BSMLfonts/QCF2229.ttf';
+  static const String qCF2BSMLfontsQCF2230 = 'assets/fonts/QCF2BSMLfonts/QCF2230.ttf';
+  static const String qCF2BSMLfontsQCF2231 = 'assets/fonts/QCF2BSMLfonts/QCF2231.ttf';
+  static const String qCF2BSMLfontsQCF2232 = 'assets/fonts/QCF2BSMLfonts/QCF2232.ttf';
+  static const String qCF2BSMLfontsQCF2233 = 'assets/fonts/QCF2BSMLfonts/QCF2233.ttf';
+  static const String qCF2BSMLfontsQCF2234 = 'assets/fonts/QCF2BSMLfonts/QCF2234.ttf';
+  static const String qCF2BSMLfontsQCF2235 = 'assets/fonts/QCF2BSMLfonts/QCF2235.ttf';
+  static const String qCF2BSMLfontsQCF2236 = 'assets/fonts/QCF2BSMLfonts/QCF2236.ttf';
+  static const String qCF2BSMLfontsQCF2237 = 'assets/fonts/QCF2BSMLfonts/QCF2237.ttf';
+  static const String qCF2BSMLfontsQCF2238 = 'assets/fonts/QCF2BSMLfonts/QCF2238.ttf';
+  static const String qCF2BSMLfontsQCF2239 = 'assets/fonts/QCF2BSMLfonts/QCF2239.ttf';
+  static const String qCF2BSMLfontsQCF2240 = 'assets/fonts/QCF2BSMLfonts/QCF2240.ttf';
+  static const String qCF2BSMLfontsQCF2241 = 'assets/fonts/QCF2BSMLfonts/QCF2241.ttf';
+  static const String qCF2BSMLfontsQCF2242 = 'assets/fonts/QCF2BSMLfonts/QCF2242.ttf';
+  static const String qCF2BSMLfontsQCF2243 = 'assets/fonts/QCF2BSMLfonts/QCF2243.ttf';
+  static const String qCF2BSMLfontsQCF2244 = 'assets/fonts/QCF2BSMLfonts/QCF2244.ttf';
+  static const String qCF2BSMLfontsQCF2245 = 'assets/fonts/QCF2BSMLfonts/QCF2245.ttf';
+  static const String qCF2BSMLfontsQCF2246 = 'assets/fonts/QCF2BSMLfonts/QCF2246.ttf';
+  static const String qCF2BSMLfontsQCF2247 = 'assets/fonts/QCF2BSMLfonts/QCF2247.ttf';
+  static const String qCF2BSMLfontsQCF2248 = 'assets/fonts/QCF2BSMLfonts/QCF2248.ttf';
+  static const String qCF2BSMLfontsQCF2249 = 'assets/fonts/QCF2BSMLfonts/QCF2249.ttf';
+  static const String qCF2BSMLfontsQCF2250 = 'assets/fonts/QCF2BSMLfonts/QCF2250.ttf';
+  static const String qCF2BSMLfontsQCF2251 = 'assets/fonts/QCF2BSMLfonts/QCF2251.ttf';
+  static const String qCF2BSMLfontsQCF2252 = 'assets/fonts/QCF2BSMLfonts/QCF2252.ttf';
+  static const String qCF2BSMLfontsQCF2253 = 'assets/fonts/QCF2BSMLfonts/QCF2253.ttf';
+  static const String qCF2BSMLfontsQCF2254 = 'assets/fonts/QCF2BSMLfonts/QCF2254.ttf';
+  static const String qCF2BSMLfontsQCF2255 = 'assets/fonts/QCF2BSMLfonts/QCF2255.ttf';
+  static const String qCF2BSMLfontsQCF2256 = 'assets/fonts/QCF2BSMLfonts/QCF2256.ttf';
+  static const String qCF2BSMLfontsQCF2257 = 'assets/fonts/QCF2BSMLfonts/QCF2257.ttf';
+  static const String qCF2BSMLfontsQCF2258 = 'assets/fonts/QCF2BSMLfonts/QCF2258.ttf';
+  static const String qCF2BSMLfontsQCF2259 = 'assets/fonts/QCF2BSMLfonts/QCF2259.ttf';
+  static const String qCF2BSMLfontsQCF2260 = 'assets/fonts/QCF2BSMLfonts/QCF2260.ttf';
+  static const String qCF2BSMLfontsQCF2261 = 'assets/fonts/QCF2BSMLfonts/QCF2261.ttf';
+  static const String qCF2BSMLfontsQCF2262 = 'assets/fonts/QCF2BSMLfonts/QCF2262.ttf';
+  static const String qCF2BSMLfontsQCF2263 = 'assets/fonts/QCF2BSMLfonts/QCF2263.ttf';
+  static const String qCF2BSMLfontsQCF2264 = 'assets/fonts/QCF2BSMLfonts/QCF2264.ttf';
+  static const String qCF2BSMLfontsQCF2265 = 'assets/fonts/QCF2BSMLfonts/QCF2265.ttf';
+  static const String qCF2BSMLfontsQCF2266 = 'assets/fonts/QCF2BSMLfonts/QCF2266.ttf';
+  static const String qCF2BSMLfontsQCF2267 = 'assets/fonts/QCF2BSMLfonts/QCF2267.ttf';
+  static const String qCF2BSMLfontsQCF2268 = 'assets/fonts/QCF2BSMLfonts/QCF2268.ttf';
+  static const String qCF2BSMLfontsQCF2269 = 'assets/fonts/QCF2BSMLfonts/QCF2269.ttf';
+  static const String qCF2BSMLfontsQCF2270 = 'assets/fonts/QCF2BSMLfonts/QCF2270.ttf';
+  static const String qCF2BSMLfontsQCF2271 = 'assets/fonts/QCF2BSMLfonts/QCF2271.ttf';
+  static const String qCF2BSMLfontsQCF2272 = 'assets/fonts/QCF2BSMLfonts/QCF2272.ttf';
+  static const String qCF2BSMLfontsQCF2273 = 'assets/fonts/QCF2BSMLfonts/QCF2273.ttf';
+  static const String qCF2BSMLfontsQCF2274 = 'assets/fonts/QCF2BSMLfonts/QCF2274.ttf';
+  static const String qCF2BSMLfontsQCF2275 = 'assets/fonts/QCF2BSMLfonts/QCF2275.ttf';
+  static const String qCF2BSMLfontsQCF2276 = 'assets/fonts/QCF2BSMLfonts/QCF2276.ttf';
+  static const String qCF2BSMLfontsQCF2277 = 'assets/fonts/QCF2BSMLfonts/QCF2277.ttf';
+  static const String qCF2BSMLfontsQCF2278 = 'assets/fonts/QCF2BSMLfonts/QCF2278.ttf';
+  static const String qCF2BSMLfontsQCF2279 = 'assets/fonts/QCF2BSMLfonts/QCF2279.ttf';
+  static const String qCF2BSMLfontsQCF2280 = 'assets/fonts/QCF2BSMLfonts/QCF2280.ttf';
+  static const String qCF2BSMLfontsQCF2281 = 'assets/fonts/QCF2BSMLfonts/QCF2281.ttf';
+  static const String qCF2BSMLfontsQCF2282 = 'assets/fonts/QCF2BSMLfonts/QCF2282.ttf';
+  static const String qCF2BSMLfontsQCF2283 = 'assets/fonts/QCF2BSMLfonts/QCF2283.ttf';
+  static const String qCF2BSMLfontsQCF2284 = 'assets/fonts/QCF2BSMLfonts/QCF2284.ttf';
+  static const String qCF2BSMLfontsQCF2285 = 'assets/fonts/QCF2BSMLfonts/QCF2285.ttf';
+  static const String qCF2BSMLfontsQCF2286 = 'assets/fonts/QCF2BSMLfonts/QCF2286.ttf';
+  static const String qCF2BSMLfontsQCF2287 = 'assets/fonts/QCF2BSMLfonts/QCF2287.ttf';
+  static const String qCF2BSMLfontsQCF2288 = 'assets/fonts/QCF2BSMLfonts/QCF2288.ttf';
+  static const String qCF2BSMLfontsQCF2289 = 'assets/fonts/QCF2BSMLfonts/QCF2289.ttf';
+  static const String qCF2BSMLfontsQCF2290 = 'assets/fonts/QCF2BSMLfonts/QCF2290.ttf';
+  static const String qCF2BSMLfontsQCF2291 = 'assets/fonts/QCF2BSMLfonts/QCF2291.ttf';
+  static const String qCF2BSMLfontsQCF2292 = 'assets/fonts/QCF2BSMLfonts/QCF2292.ttf';
+  static const String qCF2BSMLfontsQCF2293 = 'assets/fonts/QCF2BSMLfonts/QCF2293.ttf';
+  static const String qCF2BSMLfontsQCF2294 = 'assets/fonts/QCF2BSMLfonts/QCF2294.ttf';
+  static const String qCF2BSMLfontsQCF2295 = 'assets/fonts/QCF2BSMLfonts/QCF2295.ttf';
+  static const String qCF2BSMLfontsQCF2296 = 'assets/fonts/QCF2BSMLfonts/QCF2296.ttf';
+  static const String qCF2BSMLfontsQCF2297 = 'assets/fonts/QCF2BSMLfonts/QCF2297.ttf';
+  static const String qCF2BSMLfontsQCF2298 = 'assets/fonts/QCF2BSMLfonts/QCF2298.ttf';
+  static const String qCF2BSMLfontsQCF2299 = 'assets/fonts/QCF2BSMLfonts/QCF2299.ttf';
+  static const String qCF2BSMLfontsQCF2300 = 'assets/fonts/QCF2BSMLfonts/QCF2300.ttf';
+  static const String qCF2BSMLfontsQCF2301 = 'assets/fonts/QCF2BSMLfonts/QCF2301.ttf';
+  static const String qCF2BSMLfontsQCF2302 = 'assets/fonts/QCF2BSMLfonts/QCF2302.ttf';
+  static const String qCF2BSMLfontsQCF2303 = 'assets/fonts/QCF2BSMLfonts/QCF2303.ttf';
+  static const String qCF2BSMLfontsQCF2304 = 'assets/fonts/QCF2BSMLfonts/QCF2304.ttf';
+  static const String qCF2BSMLfontsQCF2305 = 'assets/fonts/QCF2BSMLfonts/QCF2305.ttf';
+  static const String qCF2BSMLfontsQCF2306 = 'assets/fonts/QCF2BSMLfonts/QCF2306.ttf';
+  static const String qCF2BSMLfontsQCF2307 = 'assets/fonts/QCF2BSMLfonts/QCF2307.ttf';
+  static const String qCF2BSMLfontsQCF2308 = 'assets/fonts/QCF2BSMLfonts/QCF2308.ttf';
+  static const String qCF2BSMLfontsQCF2309 = 'assets/fonts/QCF2BSMLfonts/QCF2309.ttf';
+  static const String qCF2BSMLfontsQCF2310 = 'assets/fonts/QCF2BSMLfonts/QCF2310.ttf';
+  static const String qCF2BSMLfontsQCF2311 = 'assets/fonts/QCF2BSMLfonts/QCF2311.ttf';
+  static const String qCF2BSMLfontsQCF2312 = 'assets/fonts/QCF2BSMLfonts/QCF2312.ttf';
+  static const String qCF2BSMLfontsQCF2313 = 'assets/fonts/QCF2BSMLfonts/QCF2313.ttf';
+  static const String qCF2BSMLfontsQCF2314 = 'assets/fonts/QCF2BSMLfonts/QCF2314.ttf';
+  static const String qCF2BSMLfontsQCF2315 = 'assets/fonts/QCF2BSMLfonts/QCF2315.ttf';
+  static const String qCF2BSMLfontsQCF2316 = 'assets/fonts/QCF2BSMLfonts/QCF2316.ttf';
+  static const String qCF2BSMLfontsQCF2317 = 'assets/fonts/QCF2BSMLfonts/QCF2317.ttf';
+  static const String qCF2BSMLfontsQCF2318 = 'assets/fonts/QCF2BSMLfonts/QCF2318.ttf';
+  static const String qCF2BSMLfontsQCF2319 = 'assets/fonts/QCF2BSMLfonts/QCF2319.ttf';
+  static const String qCF2BSMLfontsQCF2320 = 'assets/fonts/QCF2BSMLfonts/QCF2320.ttf';
+  static const String qCF2BSMLfontsQCF2321 = 'assets/fonts/QCF2BSMLfonts/QCF2321.ttf';
+  static const String qCF2BSMLfontsQCF2322 = 'assets/fonts/QCF2BSMLfonts/QCF2322.ttf';
+  static const String qCF2BSMLfontsQCF2323 = 'assets/fonts/QCF2BSMLfonts/QCF2323.ttf';
+  static const String qCF2BSMLfontsQCF2324 = 'assets/fonts/QCF2BSMLfonts/QCF2324.ttf';
+  static const String qCF2BSMLfontsQCF2325 = 'assets/fonts/QCF2BSMLfonts/QCF2325.ttf';
+  static const String qCF2BSMLfontsQCF2326 = 'assets/fonts/QCF2BSMLfonts/QCF2326.ttf';
+  static const String qCF2BSMLfontsQCF2327 = 'assets/fonts/QCF2BSMLfonts/QCF2327.ttf';
+  static const String qCF2BSMLfontsQCF2328 = 'assets/fonts/QCF2BSMLfonts/QCF2328.ttf';
+  static const String qCF2BSMLfontsQCF2329 = 'assets/fonts/QCF2BSMLfonts/QCF2329.ttf';
+  static const String qCF2BSMLfontsQCF2330 = 'assets/fonts/QCF2BSMLfonts/QCF2330.ttf';
+  static const String qCF2BSMLfontsQCF2331 = 'assets/fonts/QCF2BSMLfonts/QCF2331.ttf';
+  static const String qCF2BSMLfontsQCF2332 = 'assets/fonts/QCF2BSMLfonts/QCF2332.ttf';
+  static const String qCF2BSMLfontsQCF2333 = 'assets/fonts/QCF2BSMLfonts/QCF2333.ttf';
+  static const String qCF2BSMLfontsQCF2334 = 'assets/fonts/QCF2BSMLfonts/QCF2334.ttf';
+  static const String qCF2BSMLfontsQCF2335 = 'assets/fonts/QCF2BSMLfonts/QCF2335.ttf';
+  static const String qCF2BSMLfontsQCF2336 = 'assets/fonts/QCF2BSMLfonts/QCF2336.ttf';
+  static const String qCF2BSMLfontsQCF2337 = 'assets/fonts/QCF2BSMLfonts/QCF2337.ttf';
+  static const String qCF2BSMLfontsQCF2338 = 'assets/fonts/QCF2BSMLfonts/QCF2338.ttf';
+  static const String qCF2BSMLfontsQCF2339 = 'assets/fonts/QCF2BSMLfonts/QCF2339.ttf';
+  static const String qCF2BSMLfontsQCF2340 = 'assets/fonts/QCF2BSMLfonts/QCF2340.ttf';
+  static const String qCF2BSMLfontsQCF2341 = 'assets/fonts/QCF2BSMLfonts/QCF2341.ttf';
+  static const String qCF2BSMLfontsQCF2342 = 'assets/fonts/QCF2BSMLfonts/QCF2342.ttf';
+  static const String qCF2BSMLfontsQCF2343 = 'assets/fonts/QCF2BSMLfonts/QCF2343.ttf';
+  static const String qCF2BSMLfontsQCF2344 = 'assets/fonts/QCF2BSMLfonts/QCF2344.ttf';
+  static const String qCF2BSMLfontsQCF2345 = 'assets/fonts/QCF2BSMLfonts/QCF2345.ttf';
+  static const String qCF2BSMLfontsQCF2346 = 'assets/fonts/QCF2BSMLfonts/QCF2346.ttf';
+  static const String qCF2BSMLfontsQCF2347 = 'assets/fonts/QCF2BSMLfonts/QCF2347.ttf';
+  static const String qCF2BSMLfontsQCF2348 = 'assets/fonts/QCF2BSMLfonts/QCF2348.ttf';
+  static const String qCF2BSMLfontsQCF2349 = 'assets/fonts/QCF2BSMLfonts/QCF2349.ttf';
+  static const String qCF2BSMLfontsQCF2350 = 'assets/fonts/QCF2BSMLfonts/QCF2350.ttf';
+  static const String qCF2BSMLfontsQCF2351 = 'assets/fonts/QCF2BSMLfonts/QCF2351.ttf';
+  static const String qCF2BSMLfontsQCF2352 = 'assets/fonts/QCF2BSMLfonts/QCF2352.ttf';
+  static const String qCF2BSMLfontsQCF2353 = 'assets/fonts/QCF2BSMLfonts/QCF2353.ttf';
+  static const String qCF2BSMLfontsQCF2354 = 'assets/fonts/QCF2BSMLfonts/QCF2354.ttf';
+  static const String qCF2BSMLfontsQCF2355 = 'assets/fonts/QCF2BSMLfonts/QCF2355.ttf';
+  static const String qCF2BSMLfontsQCF2356 = 'assets/fonts/QCF2BSMLfonts/QCF2356.ttf';
+  static const String qCF2BSMLfontsQCF2357 = 'assets/fonts/QCF2BSMLfonts/QCF2357.ttf';
+  static const String qCF2BSMLfontsQCF2358 = 'assets/fonts/QCF2BSMLfonts/QCF2358.ttf';
+  static const String qCF2BSMLfontsQCF2359 = 'assets/fonts/QCF2BSMLfonts/QCF2359.ttf';
+  static const String qCF2BSMLfontsQCF2360 = 'assets/fonts/QCF2BSMLfonts/QCF2360.ttf';
+  static const String qCF2BSMLfontsQCF2361 = 'assets/fonts/QCF2BSMLfonts/QCF2361.ttf';
+  static const String qCF2BSMLfontsQCF2362 = 'assets/fonts/QCF2BSMLfonts/QCF2362.ttf';
+  static const String qCF2BSMLfontsQCF2363 = 'assets/fonts/QCF2BSMLfonts/QCF2363.ttf';
+  static const String qCF2BSMLfontsQCF2364 = 'assets/fonts/QCF2BSMLfonts/QCF2364.ttf';
+  static const String qCF2BSMLfontsQCF2365 = 'assets/fonts/QCF2BSMLfonts/QCF2365.ttf';
+  static const String qCF2BSMLfontsQCF2366 = 'assets/fonts/QCF2BSMLfonts/QCF2366.ttf';
+  static const String qCF2BSMLfontsQCF2367 = 'assets/fonts/QCF2BSMLfonts/QCF2367.ttf';
+  static const String qCF2BSMLfontsQCF2368 = 'assets/fonts/QCF2BSMLfonts/QCF2368.ttf';
+  static const String qCF2BSMLfontsQCF2369 = 'assets/fonts/QCF2BSMLfonts/QCF2369.ttf';
+  static const String qCF2BSMLfontsQCF2370 = 'assets/fonts/QCF2BSMLfonts/QCF2370.ttf';
+  static const String qCF2BSMLfontsQCF2371 = 'assets/fonts/QCF2BSMLfonts/QCF2371.ttf';
+  static const String qCF2BSMLfontsQCF2372 = 'assets/fonts/QCF2BSMLfonts/QCF2372.ttf';
+  static const String qCF2BSMLfontsQCF2373 = 'assets/fonts/QCF2BSMLfonts/QCF2373.ttf';
+  static const String qCF2BSMLfontsQCF2374 = 'assets/fonts/QCF2BSMLfonts/QCF2374.ttf';
+  static const String qCF2BSMLfontsQCF2375 = 'assets/fonts/QCF2BSMLfonts/QCF2375.ttf';
+  static const String qCF2BSMLfontsQCF2376 = 'assets/fonts/QCF2BSMLfonts/QCF2376.ttf';
+  static const String qCF2BSMLfontsQCF2377 = 'assets/fonts/QCF2BSMLfonts/QCF2377.ttf';
+  static const String qCF2BSMLfontsQCF2378 = 'assets/fonts/QCF2BSMLfonts/QCF2378.ttf';
+  static const String qCF2BSMLfontsQCF2379 = 'assets/fonts/QCF2BSMLfonts/QCF2379.ttf';
+  static const String qCF2BSMLfontsQCF2380 = 'assets/fonts/QCF2BSMLfonts/QCF2380.ttf';
+  static const String qCF2BSMLfontsQCF2381 = 'assets/fonts/QCF2BSMLfonts/QCF2381.ttf';
+  static const String qCF2BSMLfontsQCF2382 = 'assets/fonts/QCF2BSMLfonts/QCF2382.ttf';
+  static const String qCF2BSMLfontsQCF2383 = 'assets/fonts/QCF2BSMLfonts/QCF2383.ttf';
+  static const String qCF2BSMLfontsQCF2384 = 'assets/fonts/QCF2BSMLfonts/QCF2384.ttf';
+  static const String qCF2BSMLfontsQCF2385 = 'assets/fonts/QCF2BSMLfonts/QCF2385.ttf';
+  static const String qCF2BSMLfontsQCF2386 = 'assets/fonts/QCF2BSMLfonts/QCF2386.ttf';
+  static const String qCF2BSMLfontsQCF2387 = 'assets/fonts/QCF2BSMLfonts/QCF2387.ttf';
+  static const String qCF2BSMLfontsQCF2388 = 'assets/fonts/QCF2BSMLfonts/QCF2388.ttf';
+  static const String qCF2BSMLfontsQCF2389 = 'assets/fonts/QCF2BSMLfonts/QCF2389.ttf';
+  static const String qCF2BSMLfontsQCF2390 = 'assets/fonts/QCF2BSMLfonts/QCF2390.ttf';
+  static const String qCF2BSMLfontsQCF2391 = 'assets/fonts/QCF2BSMLfonts/QCF2391.ttf';
+  static const String qCF2BSMLfontsQCF2392 = 'assets/fonts/QCF2BSMLfonts/QCF2392.ttf';
+  static const String qCF2BSMLfontsQCF2393 = 'assets/fonts/QCF2BSMLfonts/QCF2393.ttf';
+  static const String qCF2BSMLfontsQCF2394 = 'assets/fonts/QCF2BSMLfonts/QCF2394.ttf';
+  static const String qCF2BSMLfontsQCF2395 = 'assets/fonts/QCF2BSMLfonts/QCF2395.ttf';
+  static const String qCF2BSMLfontsQCF2396 = 'assets/fonts/QCF2BSMLfonts/QCF2396.ttf';
+  static const String qCF2BSMLfontsQCF2397 = 'assets/fonts/QCF2BSMLfonts/QCF2397.ttf';
+  static const String qCF2BSMLfontsQCF2398 = 'assets/fonts/QCF2BSMLfonts/QCF2398.ttf';
+  static const String qCF2BSMLfontsQCF2399 = 'assets/fonts/QCF2BSMLfonts/QCF2399.ttf';
+  static const String qCF2BSMLfontsQCF2400 = 'assets/fonts/QCF2BSMLfonts/QCF2400.ttf';
+  static const String qCF2BSMLfontsQCF2401 = 'assets/fonts/QCF2BSMLfonts/QCF2401.ttf';
+  static const String qCF2BSMLfontsQCF2402 = 'assets/fonts/QCF2BSMLfonts/QCF2402.ttf';
+  static const String qCF2BSMLfontsQCF2403 = 'assets/fonts/QCF2BSMLfonts/QCF2403.ttf';
+  static const String qCF2BSMLfontsQCF2404 = 'assets/fonts/QCF2BSMLfonts/QCF2404.ttf';
+  static const String qCF2BSMLfontsQCF2405 = 'assets/fonts/QCF2BSMLfonts/QCF2405.ttf';
+  static const String qCF2BSMLfontsQCF2406 = 'assets/fonts/QCF2BSMLfonts/QCF2406.ttf';
+  static const String qCF2BSMLfontsQCF2407 = 'assets/fonts/QCF2BSMLfonts/QCF2407.ttf';
+  static const String qCF2BSMLfontsQCF2408 = 'assets/fonts/QCF2BSMLfonts/QCF2408.ttf';
+  static const String qCF2BSMLfontsQCF2409 = 'assets/fonts/QCF2BSMLfonts/QCF2409.ttf';
+  static const String qCF2BSMLfontsQCF2410 = 'assets/fonts/QCF2BSMLfonts/QCF2410.ttf';
+  static const String qCF2BSMLfontsQCF2411 = 'assets/fonts/QCF2BSMLfonts/QCF2411.ttf';
+  static const String qCF2BSMLfontsQCF2412 = 'assets/fonts/QCF2BSMLfonts/QCF2412.ttf';
+  static const String qCF2BSMLfontsQCF2413 = 'assets/fonts/QCF2BSMLfonts/QCF2413.ttf';
+  static const String qCF2BSMLfontsQCF2414 = 'assets/fonts/QCF2BSMLfonts/QCF2414.ttf';
+  static const String qCF2BSMLfontsQCF2415 = 'assets/fonts/QCF2BSMLfonts/QCF2415.ttf';
+  static const String qCF2BSMLfontsQCF2416 = 'assets/fonts/QCF2BSMLfonts/QCF2416.ttf';
+  static const String qCF2BSMLfontsQCF2417 = 'assets/fonts/QCF2BSMLfonts/QCF2417.ttf';
+  static const String qCF2BSMLfontsQCF2418 = 'assets/fonts/QCF2BSMLfonts/QCF2418.ttf';
+  static const String qCF2BSMLfontsQCF2419 = 'assets/fonts/QCF2BSMLfonts/QCF2419.ttf';
+  static const String qCF2BSMLfontsQCF2420 = 'assets/fonts/QCF2BSMLfonts/QCF2420.ttf';
+  static const String qCF2BSMLfontsQCF2421 = 'assets/fonts/QCF2BSMLfonts/QCF2421.ttf';
+  static const String qCF2BSMLfontsQCF2422 = 'assets/fonts/QCF2BSMLfonts/QCF2422.ttf';
+  static const String qCF2BSMLfontsQCF2423 = 'assets/fonts/QCF2BSMLfonts/QCF2423.ttf';
+  static const String qCF2BSMLfontsQCF2424 = 'assets/fonts/QCF2BSMLfonts/QCF2424.ttf';
+  static const String qCF2BSMLfontsQCF2425 = 'assets/fonts/QCF2BSMLfonts/QCF2425.ttf';
+  static const String qCF2BSMLfontsQCF2426 = 'assets/fonts/QCF2BSMLfonts/QCF2426.ttf';
+  static const String qCF2BSMLfontsQCF2427 = 'assets/fonts/QCF2BSMLfonts/QCF2427.ttf';
+  static const String qCF2BSMLfontsQCF2428 = 'assets/fonts/QCF2BSMLfonts/QCF2428.ttf';
+  static const String qCF2BSMLfontsQCF2429 = 'assets/fonts/QCF2BSMLfonts/QCF2429.ttf';
+  static const String qCF2BSMLfontsQCF2430 = 'assets/fonts/QCF2BSMLfonts/QCF2430.ttf';
+  static const String qCF2BSMLfontsQCF2431 = 'assets/fonts/QCF2BSMLfonts/QCF2431.ttf';
+  static const String qCF2BSMLfontsQCF2432 = 'assets/fonts/QCF2BSMLfonts/QCF2432.ttf';
+  static const String qCF2BSMLfontsQCF2433 = 'assets/fonts/QCF2BSMLfonts/QCF2433.ttf';
+  static const String qCF2BSMLfontsQCF2434 = 'assets/fonts/QCF2BSMLfonts/QCF2434.ttf';
+  static const String qCF2BSMLfontsQCF2435 = 'assets/fonts/QCF2BSMLfonts/QCF2435.ttf';
+  static const String qCF2BSMLfontsQCF2436 = 'assets/fonts/QCF2BSMLfonts/QCF2436.ttf';
+  static const String qCF2BSMLfontsQCF2437 = 'assets/fonts/QCF2BSMLfonts/QCF2437.ttf';
+  static const String qCF2BSMLfontsQCF2438 = 'assets/fonts/QCF2BSMLfonts/QCF2438.ttf';
+  static const String qCF2BSMLfontsQCF2439 = 'assets/fonts/QCF2BSMLfonts/QCF2439.ttf';
+  static const String qCF2BSMLfontsQCF2440 = 'assets/fonts/QCF2BSMLfonts/QCF2440.ttf';
+  static const String qCF2BSMLfontsQCF2441 = 'assets/fonts/QCF2BSMLfonts/QCF2441.ttf';
+  static const String qCF2BSMLfontsQCF2442 = 'assets/fonts/QCF2BSMLfonts/QCF2442.ttf';
+  static const String qCF2BSMLfontsQCF2443 = 'assets/fonts/QCF2BSMLfonts/QCF2443.ttf';
+  static const String qCF2BSMLfontsQCF2444 = 'assets/fonts/QCF2BSMLfonts/QCF2444.ttf';
+  static const String qCF2BSMLfontsQCF2445 = 'assets/fonts/QCF2BSMLfonts/QCF2445.ttf';
+  static const String qCF2BSMLfontsQCF2446 = 'assets/fonts/QCF2BSMLfonts/QCF2446.ttf';
+  static const String qCF2BSMLfontsQCF2447 = 'assets/fonts/QCF2BSMLfonts/QCF2447.ttf';
+  static const String qCF2BSMLfontsQCF2448 = 'assets/fonts/QCF2BSMLfonts/QCF2448.ttf';
+  static const String qCF2BSMLfontsQCF2449 = 'assets/fonts/QCF2BSMLfonts/QCF2449.ttf';
+  static const String qCF2BSMLfontsQCF2450 = 'assets/fonts/QCF2BSMLfonts/QCF2450.ttf';
+  static const String qCF2BSMLfontsQCF2451 = 'assets/fonts/QCF2BSMLfonts/QCF2451.ttf';
+  static const String qCF2BSMLfontsQCF2452 = 'assets/fonts/QCF2BSMLfonts/QCF2452.ttf';
+  static const String qCF2BSMLfontsQCF2453 = 'assets/fonts/QCF2BSMLfonts/QCF2453.ttf';
+  static const String qCF2BSMLfontsQCF2454 = 'assets/fonts/QCF2BSMLfonts/QCF2454.ttf';
+  static const String qCF2BSMLfontsQCF2455 = 'assets/fonts/QCF2BSMLfonts/QCF2455.ttf';
+  static const String qCF2BSMLfontsQCF2456 = 'assets/fonts/QCF2BSMLfonts/QCF2456.ttf';
+  static const String qCF2BSMLfontsQCF2457 = 'assets/fonts/QCF2BSMLfonts/QCF2457.ttf';
+  static const String qCF2BSMLfontsQCF2458 = 'assets/fonts/QCF2BSMLfonts/QCF2458.ttf';
+  static const String qCF2BSMLfontsQCF2459 = 'assets/fonts/QCF2BSMLfonts/QCF2459.ttf';
+  static const String qCF2BSMLfontsQCF2460 = 'assets/fonts/QCF2BSMLfonts/QCF2460.ttf';
+  static const String qCF2BSMLfontsQCF2461 = 'assets/fonts/QCF2BSMLfonts/QCF2461.ttf';
+  static const String qCF2BSMLfontsQCF2462 = 'assets/fonts/QCF2BSMLfonts/QCF2462.ttf';
+  static const String qCF2BSMLfontsQCF2463 = 'assets/fonts/QCF2BSMLfonts/QCF2463.ttf';
+  static const String qCF2BSMLfontsQCF2464 = 'assets/fonts/QCF2BSMLfonts/QCF2464.ttf';
+  static const String qCF2BSMLfontsQCF2465 = 'assets/fonts/QCF2BSMLfonts/QCF2465.ttf';
+  static const String qCF2BSMLfontsQCF2466 = 'assets/fonts/QCF2BSMLfonts/QCF2466.ttf';
+  static const String qCF2BSMLfontsQCF2467 = 'assets/fonts/QCF2BSMLfonts/QCF2467.ttf';
+  static const String qCF2BSMLfontsQCF2468 = 'assets/fonts/QCF2BSMLfonts/QCF2468.ttf';
+  static const String qCF2BSMLfontsQCF2469 = 'assets/fonts/QCF2BSMLfonts/QCF2469.ttf';
+  static const String qCF2BSMLfontsQCF2470 = 'assets/fonts/QCF2BSMLfonts/QCF2470.ttf';
+  static const String qCF2BSMLfontsQCF2471 = 'assets/fonts/QCF2BSMLfonts/QCF2471.ttf';
+  static const String qCF2BSMLfontsQCF2472 = 'assets/fonts/QCF2BSMLfonts/QCF2472.ttf';
+  static const String qCF2BSMLfontsQCF2473 = 'assets/fonts/QCF2BSMLfonts/QCF2473.ttf';
+  static const String qCF2BSMLfontsQCF2474 = 'assets/fonts/QCF2BSMLfonts/QCF2474.ttf';
+  static const String qCF2BSMLfontsQCF2475 = 'assets/fonts/QCF2BSMLfonts/QCF2475.ttf';
+  static const String qCF2BSMLfontsQCF2476 = 'assets/fonts/QCF2BSMLfonts/QCF2476.ttf';
+  static const String qCF2BSMLfontsQCF2477 = 'assets/fonts/QCF2BSMLfonts/QCF2477.ttf';
+  static const String qCF2BSMLfontsQCF2478 = 'assets/fonts/QCF2BSMLfonts/QCF2478.ttf';
+  static const String qCF2BSMLfontsQCF2479 = 'assets/fonts/QCF2BSMLfonts/QCF2479.ttf';
+  static const String qCF2BSMLfontsQCF2480 = 'assets/fonts/QCF2BSMLfonts/QCF2480.ttf';
+  static const String qCF2BSMLfontsQCF2481 = 'assets/fonts/QCF2BSMLfonts/QCF2481.ttf';
+  static const String qCF2BSMLfontsQCF2482 = 'assets/fonts/QCF2BSMLfonts/QCF2482.ttf';
+  static const String qCF2BSMLfontsQCF2483 = 'assets/fonts/QCF2BSMLfonts/QCF2483.ttf';
+  static const String qCF2BSMLfontsQCF2484 = 'assets/fonts/QCF2BSMLfonts/QCF2484.ttf';
+  static const String qCF2BSMLfontsQCF2485 = 'assets/fonts/QCF2BSMLfonts/QCF2485.ttf';
+  static const String qCF2BSMLfontsQCF2486 = 'assets/fonts/QCF2BSMLfonts/QCF2486.ttf';
+  static const String qCF2BSMLfontsQCF2487 = 'assets/fonts/QCF2BSMLfonts/QCF2487.ttf';
+  static const String qCF2BSMLfontsQCF2488 = 'assets/fonts/QCF2BSMLfonts/QCF2488.ttf';
+  static const String qCF2BSMLfontsQCF2489 = 'assets/fonts/QCF2BSMLfonts/QCF2489.ttf';
+  static const String qCF2BSMLfontsQCF2490 = 'assets/fonts/QCF2BSMLfonts/QCF2490.ttf';
+  static const String qCF2BSMLfontsQCF2491 = 'assets/fonts/QCF2BSMLfonts/QCF2491.ttf';
+  static const String qCF2BSMLfontsQCF2492 = 'assets/fonts/QCF2BSMLfonts/QCF2492.ttf';
+  static const String qCF2BSMLfontsQCF2493 = 'assets/fonts/QCF2BSMLfonts/QCF2493.ttf';
+  static const String qCF2BSMLfontsQCF2494 = 'assets/fonts/QCF2BSMLfonts/QCF2494.ttf';
+  static const String qCF2BSMLfontsQCF2495 = 'assets/fonts/QCF2BSMLfonts/QCF2495.ttf';
+  static const String qCF2BSMLfontsQCF2496 = 'assets/fonts/QCF2BSMLfonts/QCF2496.ttf';
+  static const String qCF2BSMLfontsQCF2497 = 'assets/fonts/QCF2BSMLfonts/QCF2497.ttf';
+  static const String qCF2BSMLfontsQCF2498 = 'assets/fonts/QCF2BSMLfonts/QCF2498.ttf';
+  static const String qCF2BSMLfontsQCF2499 = 'assets/fonts/QCF2BSMLfonts/QCF2499.ttf';
+  static const String qCF2BSMLfontsQCF2500 = 'assets/fonts/QCF2BSMLfonts/QCF2500.ttf';
+  static const String qCF2BSMLfontsQCF2501 = 'assets/fonts/QCF2BSMLfonts/QCF2501.ttf';
+  static const String qCF2BSMLfontsQCF2502 = 'assets/fonts/QCF2BSMLfonts/QCF2502.ttf';
+  static const String qCF2BSMLfontsQCF2503 = 'assets/fonts/QCF2BSMLfonts/QCF2503.ttf';
+  static const String qCF2BSMLfontsQCF2504 = 'assets/fonts/QCF2BSMLfonts/QCF2504.ttf';
+  static const String qCF2BSMLfontsQCF2505 = 'assets/fonts/QCF2BSMLfonts/QCF2505.ttf';
+  static const String qCF2BSMLfontsQCF2506 = 'assets/fonts/QCF2BSMLfonts/QCF2506.ttf';
+  static const String qCF2BSMLfontsQCF2507 = 'assets/fonts/QCF2BSMLfonts/QCF2507.ttf';
+  static const String qCF2BSMLfontsQCF2508 = 'assets/fonts/QCF2BSMLfonts/QCF2508.ttf';
+  static const String qCF2BSMLfontsQCF2509 = 'assets/fonts/QCF2BSMLfonts/QCF2509.ttf';
+  static const String qCF2BSMLfontsQCF2510 = 'assets/fonts/QCF2BSMLfonts/QCF2510.ttf';
+  static const String qCF2BSMLfontsQCF2511 = 'assets/fonts/QCF2BSMLfonts/QCF2511.ttf';
+  static const String qCF2BSMLfontsQCF2512 = 'assets/fonts/QCF2BSMLfonts/QCF2512.ttf';
+  static const String qCF2BSMLfontsQCF2513 = 'assets/fonts/QCF2BSMLfonts/QCF2513.ttf';
+  static const String qCF2BSMLfontsQCF2514 = 'assets/fonts/QCF2BSMLfonts/QCF2514.ttf';
+  static const String qCF2BSMLfontsQCF2515 = 'assets/fonts/QCF2BSMLfonts/QCF2515.ttf';
+  static const String qCF2BSMLfontsQCF2516 = 'assets/fonts/QCF2BSMLfonts/QCF2516.ttf';
+  static const String qCF2BSMLfontsQCF2517 = 'assets/fonts/QCF2BSMLfonts/QCF2517.ttf';
+  static const String qCF2BSMLfontsQCF2518 = 'assets/fonts/QCF2BSMLfonts/QCF2518.ttf';
+  static const String qCF2BSMLfontsQCF2519 = 'assets/fonts/QCF2BSMLfonts/QCF2519.ttf';
+  static const String qCF2BSMLfontsQCF2520 = 'assets/fonts/QCF2BSMLfonts/QCF2520.ttf';
+  static const String qCF2BSMLfontsQCF2521 = 'assets/fonts/QCF2BSMLfonts/QCF2521.ttf';
+  static const String qCF2BSMLfontsQCF2522 = 'assets/fonts/QCF2BSMLfonts/QCF2522.ttf';
+  static const String qCF2BSMLfontsQCF2523 = 'assets/fonts/QCF2BSMLfonts/QCF2523.ttf';
+  static const String qCF2BSMLfontsQCF2524 = 'assets/fonts/QCF2BSMLfonts/QCF2524.ttf';
+  static const String qCF2BSMLfontsQCF2525 = 'assets/fonts/QCF2BSMLfonts/QCF2525.ttf';
+  static const String qCF2BSMLfontsQCF2526 = 'assets/fonts/QCF2BSMLfonts/QCF2526.ttf';
+  static const String qCF2BSMLfontsQCF2527 = 'assets/fonts/QCF2BSMLfonts/QCF2527.ttf';
+  static const String qCF2BSMLfontsQCF2528 = 'assets/fonts/QCF2BSMLfonts/QCF2528.ttf';
+  static const String qCF2BSMLfontsQCF2529 = 'assets/fonts/QCF2BSMLfonts/QCF2529.ttf';
+  static const String qCF2BSMLfontsQCF2530 = 'assets/fonts/QCF2BSMLfonts/QCF2530.ttf';
+  static const String qCF2BSMLfontsQCF2531 = 'assets/fonts/QCF2BSMLfonts/QCF2531.ttf';
+  static const String qCF2BSMLfontsQCF2532 = 'assets/fonts/QCF2BSMLfonts/QCF2532.ttf';
+  static const String qCF2BSMLfontsQCF2533 = 'assets/fonts/QCF2BSMLfonts/QCF2533.ttf';
+  static const String qCF2BSMLfontsQCF2534 = 'assets/fonts/QCF2BSMLfonts/QCF2534.ttf';
+  static const String qCF2BSMLfontsQCF2535 = 'assets/fonts/QCF2BSMLfonts/QCF2535.ttf';
+  static const String qCF2BSMLfontsQCF2536 = 'assets/fonts/QCF2BSMLfonts/QCF2536.ttf';
+  static const String qCF2BSMLfontsQCF2537 = 'assets/fonts/QCF2BSMLfonts/QCF2537.ttf';
+  static const String qCF2BSMLfontsQCF2538 = 'assets/fonts/QCF2BSMLfonts/QCF2538.ttf';
+  static const String qCF2BSMLfontsQCF2539 = 'assets/fonts/QCF2BSMLfonts/QCF2539.ttf';
+  static const String qCF2BSMLfontsQCF2540 = 'assets/fonts/QCF2BSMLfonts/QCF2540.ttf';
+  static const String qCF2BSMLfontsQCF2541 = 'assets/fonts/QCF2BSMLfonts/QCF2541.ttf';
+  static const String qCF2BSMLfontsQCF2542 = 'assets/fonts/QCF2BSMLfonts/QCF2542.ttf';
+  static const String qCF2BSMLfontsQCF2543 = 'assets/fonts/QCF2BSMLfonts/QCF2543.ttf';
+  static const String qCF2BSMLfontsQCF2544 = 'assets/fonts/QCF2BSMLfonts/QCF2544.ttf';
+  static const String qCF2BSMLfontsQCF2545 = 'assets/fonts/QCF2BSMLfonts/QCF2545.ttf';
+  static const String qCF2BSMLfontsQCF2546 = 'assets/fonts/QCF2BSMLfonts/QCF2546.ttf';
+  static const String qCF2BSMLfontsQCF2547 = 'assets/fonts/QCF2BSMLfonts/QCF2547.ttf';
+  static const String qCF2BSMLfontsQCF2548 = 'assets/fonts/QCF2BSMLfonts/QCF2548.ttf';
+  static const String qCF2BSMLfontsQCF2549 = 'assets/fonts/QCF2BSMLfonts/QCF2549.ttf';
+  static const String qCF2BSMLfontsQCF2550 = 'assets/fonts/QCF2BSMLfonts/QCF2550.ttf';
+  static const String qCF2BSMLfontsQCF2551 = 'assets/fonts/QCF2BSMLfonts/QCF2551.ttf';
+  static const String qCF2BSMLfontsQCF2552 = 'assets/fonts/QCF2BSMLfonts/QCF2552.ttf';
+  static const String qCF2BSMLfontsQCF2553 = 'assets/fonts/QCF2BSMLfonts/QCF2553.ttf';
+  static const String qCF2BSMLfontsQCF2554 = 'assets/fonts/QCF2BSMLfonts/QCF2554.ttf';
+  static const String qCF2BSMLfontsQCF2555 = 'assets/fonts/QCF2BSMLfonts/QCF2555.ttf';
+  static const String qCF2BSMLfontsQCF2556 = 'assets/fonts/QCF2BSMLfonts/QCF2556.ttf';
+  static const String qCF2BSMLfontsQCF2557 = 'assets/fonts/QCF2BSMLfonts/QCF2557.ttf';
+  static const String qCF2BSMLfontsQCF2558 = 'assets/fonts/QCF2BSMLfonts/QCF2558.ttf';
+  static const String qCF2BSMLfontsQCF2559 = 'assets/fonts/QCF2BSMLfonts/QCF2559.ttf';
+  static const String qCF2BSMLfontsQCF2560 = 'assets/fonts/QCF2BSMLfonts/QCF2560.ttf';
+  static const String qCF2BSMLfontsQCF2561 = 'assets/fonts/QCF2BSMLfonts/QCF2561.ttf';
+  static const String qCF2BSMLfontsQCF2562 = 'assets/fonts/QCF2BSMLfonts/QCF2562.ttf';
+  static const String qCF2BSMLfontsQCF2563 = 'assets/fonts/QCF2BSMLfonts/QCF2563.ttf';
+  static const String qCF2BSMLfontsQCF2564 = 'assets/fonts/QCF2BSMLfonts/QCF2564.ttf';
+  static const String qCF2BSMLfontsQCF2565 = 'assets/fonts/QCF2BSMLfonts/QCF2565.ttf';
+  static const String qCF2BSMLfontsQCF2566 = 'assets/fonts/QCF2BSMLfonts/QCF2566.ttf';
+  static const String qCF2BSMLfontsQCF2567 = 'assets/fonts/QCF2BSMLfonts/QCF2567.ttf';
+  static const String qCF2BSMLfontsQCF2568 = 'assets/fonts/QCF2BSMLfonts/QCF2568.ttf';
+  static const String qCF2BSMLfontsQCF2569 = 'assets/fonts/QCF2BSMLfonts/QCF2569.ttf';
+  static const String qCF2BSMLfontsQCF2570 = 'assets/fonts/QCF2BSMLfonts/QCF2570.ttf';
+  static const String qCF2BSMLfontsQCF2571 = 'assets/fonts/QCF2BSMLfonts/QCF2571.ttf';
+  static const String qCF2BSMLfontsQCF2572 = 'assets/fonts/QCF2BSMLfonts/QCF2572.ttf';
+  static const String qCF2BSMLfontsQCF2573 = 'assets/fonts/QCF2BSMLfonts/QCF2573.ttf';
+  static const String qCF2BSMLfontsQCF2574 = 'assets/fonts/QCF2BSMLfonts/QCF2574.ttf';
+  static const String qCF2BSMLfontsQCF2575 = 'assets/fonts/QCF2BSMLfonts/QCF2575.ttf';
+  static const String qCF2BSMLfontsQCF2576 = 'assets/fonts/QCF2BSMLfonts/QCF2576.ttf';
+  static const String qCF2BSMLfontsQCF2577 = 'assets/fonts/QCF2BSMLfonts/QCF2577.ttf';
+  static const String qCF2BSMLfontsQCF2578 = 'assets/fonts/QCF2BSMLfonts/QCF2578.ttf';
+  static const String qCF2BSMLfontsQCF2579 = 'assets/fonts/QCF2BSMLfonts/QCF2579.ttf';
+  static const String qCF2BSMLfontsQCF2580 = 'assets/fonts/QCF2BSMLfonts/QCF2580.ttf';
+  static const String qCF2BSMLfontsQCF2581 = 'assets/fonts/QCF2BSMLfonts/QCF2581.ttf';
+  static const String qCF2BSMLfontsQCF2582 = 'assets/fonts/QCF2BSMLfonts/QCF2582.ttf';
+  static const String qCF2BSMLfontsQCF2583 = 'assets/fonts/QCF2BSMLfonts/QCF2583.ttf';
+  static const String qCF2BSMLfontsQCF2584 = 'assets/fonts/QCF2BSMLfonts/QCF2584.ttf';
+  static const String qCF2BSMLfontsQCF2585 = 'assets/fonts/QCF2BSMLfonts/QCF2585.ttf';
+  static const String qCF2BSMLfontsQCF2586 = 'assets/fonts/QCF2BSMLfonts/QCF2586.ttf';
+  static const String qCF2BSMLfontsQCF2587 = 'assets/fonts/QCF2BSMLfonts/QCF2587.ttf';
+  static const String qCF2BSMLfontsQCF2588 = 'assets/fonts/QCF2BSMLfonts/QCF2588.ttf';
+  static const String qCF2BSMLfontsQCF2589 = 'assets/fonts/QCF2BSMLfonts/QCF2589.ttf';
+  static const String qCF2BSMLfontsQCF2590 = 'assets/fonts/QCF2BSMLfonts/QCF2590.ttf';
+  static const String qCF2BSMLfontsQCF2591 = 'assets/fonts/QCF2BSMLfonts/QCF2591.ttf';
+  static const String qCF2BSMLfontsQCF2592 = 'assets/fonts/QCF2BSMLfonts/QCF2592.ttf';
+  static const String qCF2BSMLfontsQCF2593 = 'assets/fonts/QCF2BSMLfonts/QCF2593.ttf';
+  static const String qCF2BSMLfontsQCF2594 = 'assets/fonts/QCF2BSMLfonts/QCF2594.ttf';
+  static const String qCF2BSMLfontsQCF2595 = 'assets/fonts/QCF2BSMLfonts/QCF2595.ttf';
+  static const String qCF2BSMLfontsQCF2596 = 'assets/fonts/QCF2BSMLfonts/QCF2596.ttf';
+  static const String qCF2BSMLfontsQCF2597 = 'assets/fonts/QCF2BSMLfonts/QCF2597.ttf';
+  static const String qCF2BSMLfontsQCF2598 = 'assets/fonts/QCF2BSMLfonts/QCF2598.ttf';
+  static const String qCF2BSMLfontsQCF2599 = 'assets/fonts/QCF2BSMLfonts/QCF2599.ttf';
+  static const String qCF2BSMLfontsQCF2600 = 'assets/fonts/QCF2BSMLfonts/QCF2600.ttf';
+  static const String qCF2BSMLfontsQCF2601 = 'assets/fonts/QCF2BSMLfonts/QCF2601.ttf';
+  static const String qCF2BSMLfontsQCF2602 = 'assets/fonts/QCF2BSMLfonts/QCF2602.ttf';
+  static const String qCF2BSMLfontsQCF2603 = 'assets/fonts/QCF2BSMLfonts/QCF2603.ttf';
+  static const String qCF2BSMLfontsQCF2604 = 'assets/fonts/QCF2BSMLfonts/QCF2604.ttf';
   static const String splashSplash = 'assets/splash/splash.png';
   static const String tasbeehTabeeh = 'assets/tasbeeh/tabeeh.json';
+
 }

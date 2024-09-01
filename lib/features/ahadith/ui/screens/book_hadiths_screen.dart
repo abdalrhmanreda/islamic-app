@@ -7,6 +7,7 @@ import 'package:hadith/classes.dart';
 import 'package:hadith/hadith.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:muslim_app/config/colors/app_colors.dart';
+import 'package:share_plus/share_plus.dart';
 
 class BookHadithsScreen extends StatelessWidget {
   const BookHadithsScreen({
@@ -43,7 +44,7 @@ class BookHadithsScreen extends StatelessWidget {
                 const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
             width: MediaQuery.of(context).size.width,
             padding:
-                const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
+                const EdgeInsets.symmetric(horizontal: 5.0, vertical: 10.0),
             decoration: BoxDecoration(
               color: AppColors.kCircleAvatarColor,
               borderRadius: BorderRadius.circular(25),
@@ -58,7 +59,7 @@ class BookHadithsScreen extends StatelessWidget {
                   style: TextStyle(
                     color: AppColors.kButtonColor,
                     fontWeight: FontWeight.w400,
-                    fontSize: 17.0.sp,
+                    fontSize: 18.0.sp,
                     fontFamily: 'amiri',
                     height: 2,
                   ),
@@ -66,8 +67,19 @@ class BookHadithsScreen extends StatelessWidget {
                 const SizedBox(height: 15.0),
                 const Divider(),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
+                    Transform.rotate(
+                      angle: -45,
+                      child: IconButton(
+                        onPressed: () {
+                          // share text
+                          Share.share(
+                            removeNonArabic(hadith.hadith[1].body),
+                          );
+                        },
+                        icon: const Icon(Iconsax.direct_right_outline),
+                      ),
+                    ),
                     IconButton(
                         onPressed: () {
                           Clipboard.setData(

@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../../../../config/colors/app_colors.dart';
 import '../../../../config/themes/font_weight.dart';
@@ -33,7 +34,7 @@ class PrayerItemDetails extends StatelessWidget {
           ),
           width: AppConstant.deviceWidth(context),
           padding: EdgeInsets.symmetric(
-            horizontal: 20.w,
+            horizontal: 10.w,
             vertical: 10.h,
           ),
           decoration: BoxDecoration(
@@ -49,7 +50,7 @@ class PrayerItemDetails extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                       color: AppColors.kButtonColor,
                       fontWeight: FontWeightHelper.regular,
-                      fontSize: 17.sp,
+                      fontSize: 18.sp,
                       fontFamily: 'amiri',
                       height: 2,
                     ),
@@ -58,6 +59,18 @@ class PrayerItemDetails extends StatelessWidget {
               myDivider(AppConstant.deviceWidth(context), 1),
               Row(
                 children: [
+                  Transform.rotate(
+                    angle: -45,
+                    child: IconButton(
+                      onPressed: () {
+                        // share text
+                        Share.share(
+                          prayer.arabicText!,
+                        );
+                      },
+                      icon: const Icon(Iconsax.direct_right_outline),
+                    ),
+                  ),
                   IconButton(
                     onPressed: () {
                       // Handle copy to clipboard

@@ -7,6 +7,7 @@ import 'package:muslim_app/features/azkar/logic/azkar_cubit.dart';
 import 'package:muslim_app/features/azkar/ui/screens/azkar_details_screen.dart';
 import 'package:muslim_app/features/azkar/ui/screens/azkar_screen.dart';
 import 'package:muslim_app/features/location/ui/screens/enable_location.dart';
+import 'package:muslim_app/features/rookia/ui/screens/rookia_screen.dart';
 import 'package:muslim_app/features/tafseer/ui/screens/tafseer_screen.dart';
 
 import '../../features/ahadith/logic/ahadith_cubit.dart';
@@ -117,6 +118,10 @@ class AppRouter {
       case RoutePath.calendarScreen:
         return MaterialPageRoute(
           builder: (_) => const CalendarScreen(),
+        );
+      case RoutePath.rookiaScreen:
+        return MaterialPageRoute(
+          builder: (_) => const RookiaScreen(),
         );
     }
     return null;
