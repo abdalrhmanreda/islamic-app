@@ -1,25 +1,28 @@
+import 'package:arabic_numbers/arabic_numbers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:quran/quran.dart';
+import 'package:muslim_app/core/methods/app_functions/app_functions.dart';
 
-import '../screens/surah_details_screen.dart';
+import '../../../../config/themes/font_weight.dart';
 
 class Header extends StatelessWidget {
   const Header({
     super.key,
-    required this.widget,
     required this.index,
+    required this.name,
+    required this.juz,
   });
 
-  final SurahDetailsScreen widget;
+  final String name;
   final int index;
+  final int juz;
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(
-        top: 15.w,
+        top: 25.w,
         left: 15.w,
         right: 15.w,
       ),
@@ -27,9 +30,27 @@ class Header extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            '${AppLocalizations.of(context)!.surah} ${widget.jsonData[getPageData(index)[0]['surah'] - 1].name}',
+            '${AppLocalizations.of(context)!.juz} ${AppFunctions.getArabicOrdinal(juz)}',
             style: TextStyle(
-              fontFamily: 'uthmanic',
+              fontFamily: 'hafc',
+              color: Colors.black,
+              fontSize: 22.sp,
+            ),
+          ),
+          Text(
+            ArabicNumbers().convert(index),
+            style: TextStyle(
+              fontSize: 16.sp,
+              fontWeight: FontWeightHelper.regular,
+              fontFamily: 'Amiri',
+              color: Colors.black,
+            ),
+          ),
+          Text(
+            '${AppLocalizations.of(context)!.surah} $name',
+            style: TextStyle(
+              fontFamily: 'hafc',
+              color: Colors.black,
               fontSize: 22.sp,
             ),
           ),

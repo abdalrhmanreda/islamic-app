@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:icons_plus/icons_plus.dart';
 import 'package:toggle_switch/toggle_switch.dart';
 
 import '../../../../config/colors/app_colors.dart';
-import '../../../../config/themes/font_weight.dart';
-import '../../../../core/components/custom_divider.dart';
 import '../../../../core/constant/app_constant.dart';
 import '../widgets/rookia_item.dart';
 

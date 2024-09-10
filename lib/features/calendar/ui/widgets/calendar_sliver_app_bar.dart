@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hijri/hijri_calendar.dart';
 import 'package:intl/intl.dart';
 import 'package:muslim_app/core/helpers/extensions.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:hijri/digits_converter.dart';
-import 'package:hijri/hijri_array.dart';
-import 'package:hijri/hijri_calendar.dart';
+
 import '../../../../config/colors/app_colors.dart';
 import '../../../../config/routes/routes_path.dart';
 import '../../../../config/themes/font_weight.dart';
 import '../../../../core/constant/app_constant.dart';
-import '../../../../core/helpers/local_notify.dart';
 import '../../../../core/helpers/spacing.dart';
 import '../../../../generated/assets.dart';
 

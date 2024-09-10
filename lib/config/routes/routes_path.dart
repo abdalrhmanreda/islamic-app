@@ -17,11 +17,13 @@ class RoutePath {
   static const String prayersListScreen = '/prayersListScreen';
   static const String prayerScreenDetails = '/prayerScreenDetails';
   static const String prayerScreen = '/prayerScreen';
-
   static const String radioScreen = '/radioScreen';
   static const String namesOfAlluh = '/namesOfAlluh';
   static const String tafsirScreen = '/tafsirScreen';
   static const String quranTest = '/quranTest';
   static const String calendarScreen = '/calendarScreen';
   static const String rookiaScreen = '/rookiaScreen';
+  static const String quranKareem = '/quranKareem';
+  static const String zakatScreen = '/zakatScreen';
+  static const String zakatMoneyDetailsScreen = '/zakatDetailsScreen';
 }

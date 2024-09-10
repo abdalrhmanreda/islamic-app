@@ -170,4 +170,94 @@ class AppFunctions {
       return 'wakeUpAzkar';
     }
   }
+
+  static String convertNumberToArabic(String number) {
+    const Map<String, String> arabicDigits = {
+      '0': '٠',
+      '1': '١',
+      '2': '٢',
+      '3': '٣',
+      '4': '٤',
+      '5': '٥',
+      '6': '٦',
+      '7': '٧',
+      '8': '٨',
+      '9': '٩',
+    };
+    StringBuffer arabicNumber = StringBuffer();
+
+    for (int i = 0; i < number.length; i++) {
+      if (arabicDigits.containsKey(number[i])) {
+        arabicNumber.write(arabicDigits[number[i]]);
+      } else {
+        arabicNumber
+            .write(number[i]); // If not a digit, keep the character as is
+      }
+    }
+
+    return arabicNumber.toString();
+  }
+
+  static int getPartForPage(int pageNumber) {
+    if (pageNumber < 1 || pageNumber > 604) {
+      throw ArgumentError('رقم الصفحة يجب أن يكون بين 1 و 604');
+    }
+
+    // Define the start pages for each part
+    List<int> partStartPages = [
+      1,
+      22,
+      42,
+      62,
+      82,
+      102,
+      122,
+      142,
+      162,
+      182,
+      201,
+      221,
+      241,
+      261,
+      281,
+      301,
+      321,
+      341,
+      361,
+      381,
+      401,
+      421,
+      441,
+      461,
+      481,
+      501,
+      521,
+      541,
+      561,
+      582
+    ];
+
+    // Determine the part based on the page number
+    for (int i = 0; i < partStartPages.length; i++) {
+      if (pageNumber >= partStartPages[i] &&
+          (i == partStartPages.length - 1 ||
+              pageNumber < partStartPages[i + 1])) {
+        return i + 1; // Parts are 1-indexed
+      }
+    }
+
+    throw ArgumentError('رقم الصفحة غير صالح');
+  }
+
+  static double calculateZakat(double totalWealth, double nisabThreshold) {
+    // Ensure the wealth exceeds the Nisab threshold
+    if (totalWealth < nisabThreshold) {
+      return 0.0; // No Zakat is due if wealth is below the Nisab threshold
+    }
+
+    // Calculate 2.5% of the total wealth
+    double zakatAmount = totalWealth * 0.025;
+
+    return zakatAmount;
+  }
 }

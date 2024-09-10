@@ -60,4 +60,9 @@ List<FeatureModel> featuredItems(context) => [
         image: Assets.iconsRokia,
         widget: RoutePath.rookiaScreen,
       ),
+      FeatureModel(
+        title: AppLocalizations.of(context)!.zakat,
+        image: Assets.iconsDonation,
+        widget: RoutePath.zakatScreen,
+      ),
     ];

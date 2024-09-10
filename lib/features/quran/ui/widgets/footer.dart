@@ -1,18 +1,15 @@
+import 'package:arabic_numbers/arabic_numbers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:muslim_app/config/themes/font_weight.dart';
 
 class Footer extends StatelessWidget {
-  final int index;
-  final String surahName;
-  final int surahNumber;
-
   const Footer({
     Key? key,
     required this.index,
-    required this.surahName,
-    required this.surahNumber,
   }) : super(key: key);
 
+  final int index;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -22,10 +19,12 @@ class Footer extends StatelessWidget {
         children: [
           const Spacer(flex: 1),
           Text(
-            "$index",
+            ArabicNumbers().convert(index),
             style: TextStyle(
               fontSize: 16.sp,
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeightHelper.regular,
+              fontFamily: 'Amiri',
+              color: Colors.black,
             ),
           ),
           const Spacer(flex: 1),
@@ -33,10 +32,4 @@ class Footer extends StatelessWidget {
       ),
     );
   }
-}
-
-String getAudioURLBySurah(int surahNumber, String reciter) {
-  // Dummy URL for demonstration. Replace with actual logic to get the audio URL
-  // You might need to format the URL based on the surahNumber and reciter
-  return 'https://www.example.com/audio/${surahNumber}_$reciter.mp3';
 }
