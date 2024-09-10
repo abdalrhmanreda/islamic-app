@@ -64,14 +64,6 @@ class ContactWithDeveloper extends StatelessWidget {
               ),
               IconButton(
                 onPressed: () {
-                  launchUrlMethod(link: 'https://wa.me/+2001098584630');
-                },
-                icon: const Icon(
-                  Bootstrap.whatsapp,
-                ),
-              ),
-              IconButton(
-                onPressed: () {
                   launchUrlMethod(
                       link:
                           'https://www.linkedin.com/in/abdalrhman-reda-3b3b3b1b4/');

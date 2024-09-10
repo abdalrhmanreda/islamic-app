@@ -19,13 +19,11 @@ class Assets {
   static const String fontsAmiriQuran = 'assets/fonts/amiri_quran.ttf';
   static const String fontsKFGQPCUthmanicScriptHAFS =
       'assets/fonts/KFGQPCUthmanicScriptHAFS.otf';
-  static const String fontsUthmanicHafsV22 =
-      'assets/fonts/uthmanic_hafs_v22.ttf';
   static const String iconsAllah = 'assets/icons/Allah.svg';
   static const String iconsDonation = 'assets/icons/donation.svg';
   static const String iconsEndOfVerse = 'assets/icons/end_of_verse.svg';
   static const String iconsExplanation = 'assets/icons/explanation.svg';
-  static const String iconsGoldIngots = 'assets/icons/gold.svg';
+  static const String iconsGold = 'assets/icons/gold.svg';
   static const String iconsHadisDetails = 'assets/icons/hadis_details.svg';
   static const String iconsHadiths = 'assets/icons/hadiths.svg';
   static const String iconsHand = 'assets/icons/hand.svg';
@@ -34,6 +32,7 @@ class Assets {
   static const String iconsMoon = 'assets/icons/moon.svg';
   static const String iconsMosque = 'assets/icons/mosque.svg';
   static const String iconsQibla = 'assets/icons/qibla.svg';
+  static const String iconsQuranReading = 'assets/icons/quran-reading.png';
   static const String iconsRokia = 'assets/icons/rokia.svg';
   static const String iconsSilver = 'assets/icons/silver.svg';
   static const String iconsTasbih = 'assets/icons/tasbih.svg';
@@ -42,7 +41,6 @@ class Assets {
   static const String iconsZakat = 'assets/icons/zakat.svg';
   static const String images88802 = 'assets/images/888-02.png';
   static const String imagesBasmala = 'assets/images/Basmala.png';
-  static const String imagesBg = 'assets/images/bg.png';
   static const String imagesLogo = 'assets/images/logo.png';
   static const String imagesPrayerTiming = 'assets/images/prayer_timing.png';
   static const String imagesQuranImage = 'assets/images/quran_image.png';

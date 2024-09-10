@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:muslim_app/core/methods/url_lunch/url_lunch.dart';
 
 import '../../../../config/themes/font_weight.dart';
-import '../../../../core/components/custom_button.dart';
 import '../../../../core/components/custom_divider.dart';
 import '../../../../core/constant/app_constant.dart';
 import '../../../../core/helpers/spacing.dart';
@@ -46,11 +46,11 @@ class AboutAppScreen extends StatelessWidget {
                   ),
             ),
             Spacing.verticalSpace(10.h),
-            CustomButton(
-              width: AppConstant.deviceWidth(context) / 2,
-              onPressed: () {},
-              text: AppLocalizations.of(context)!.shareApp,
-            ),
+            // CustomButton(
+            //   width: AppConstant.deviceWidth(context) / 2,
+            //   onPressed: () {},
+            //   text: AppLocalizations.of(context)!.shareApp,
+            // ),
             SizedBox(
               height: 47.h,
               width: AppConstant.deviceWidth(context) / 2,
@@ -64,7 +64,9 @@ class AboutAppScreen extends StatelessWidget {
                     color: Theme.of(context).colorScheme.primary,
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  launchUrlMethod(link: 'https://forms.gle/noEzDzNYBDYS6kfQ6');
+                },
                 child: Text(
                   AppLocalizations.of(context)!.rateApp,
                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(
