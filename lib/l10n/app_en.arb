@@ -154,5 +154,30 @@
   "rookie": "Rokia",
   "ayat": "اليات الواردة ",
   "wardPraise": "الدعية الواردة" ,
-  "rookiaCopyToClipboard": "Copy To Clipboard"
+  "rookiaCopyToClipboard": "Copy To Clipboard",
+  "zakat": "Zakat",
+  "zakatk": "Zakat",
+  "moneyZakat": "Money Zakat",
+  "moneyZakatDescription": "لا تجب الزكاة على:",
+  "moneyZakatDescription1": "ديون معدومة لايستطيع صاحبها السداد",
+  "moneyZakatDescription2": "في حالة رجوعه دين لا يرجي سداده يزكى عنه مرة عند رجوعه اذا امر عليه حول واحد او اكتر ",
+  "moneyZakatDescription3": "في حالة وجود دين تكون الزكاة علي من اقرض المال",
+  "goldZakat": "Gold Zakat",
+  "silverZakat": "Silver Zakat" ,
+  "calculateZakat": "احسب",
+  "valueOfZakat": "قيمة الزكاة" ,
+  "notes": "ملاحظات",
+  "fillTheFields":  "قم بحساب الزكاة من خلال ملأ البيانات التالية",
+  "goldWeight": "وزن الذهب",
+  "moneySave":"المال المدخر" ,
+  "bankMoney": "المال المودع في البنك",
+  "chooseTypeOfIncome": "اختر نوع الدخل",
+  "enterTheAcullValue": "ادخل القيمة الفعلية",
+  "notesZakat": "النصاب هو الحد الأدنى من المال الذي يجب أن يمتلكه المسلم قبل أن تجب عليه الزكاة، وهو ما يعادل 85 جرامًا من الذهب أو 595 جرامًا من الفضة. يتم حساب النصاب بناءً على سعر الذهب أو الفضة في السوق. إذا تجاوزت أموالك أو أصولك هذا النصاب وبقيت لديك لمدة سنة قمرية كاملة، يجب إخراج 2.5% منها كزكاة. يُنصح عادة باستخدام نصاب الذهب لحساب زكاة الأموال النقدية.",
+  "goldPrice": "سعر الذهب",
+  "noZakat": "لا تجب الزكاة حتي يبلغ النصاب",
+  "ok": "موافق"
+
+
+
 }

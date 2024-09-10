@@ -10,7 +10,7 @@ import '../../../../config/colors/app_colors.dart';
 import '../../../../config/themes/font_weight.dart';
 import '../../../../core/components/custom_app_bar.dart';
 import '../../../../core/constant/app_constant.dart';
-import '../../../quran/ui/screens/surah_details_screen.dart';
+import '../../../quran_kariem/ui/screens/quran_kariem_screen.dart';
 import '../../data/models/surha.dart';
 import '../widgets/surahs_part.dart';
 
@@ -129,12 +129,12 @@ class _SurahsListState extends State<SurahsList> {
                   onTap: () {
                     context.navigateToWidget(
                       context,
-                      SurahDetailsScreen(
-                          pageNumber:
-                              getPageNumber(filteredData[index].number, 1),
-                          shouldHighlightText: false,
-                          highlightVerse: "",
-                          jsonData: (filteredData)),
+                      QuranKariemScreen(
+                        pageNumber:
+                            getPageNumber(filteredData[index].number, 1),
+                        jsonData: filteredData,
+                        surahNumber: filteredData[index].number,
+                      ),
                     );
                   },
                   child: Container(
@@ -153,77 +153,6 @@ class _SurahsListState extends State<SurahsList> {
                     ),
                   ),
                 ),
-              ),
-            if (ayatFiltered != null)
-              ListView.separated(
-                separatorBuilder: (context, index) => Padding(
-                  padding: EdgeInsets.symmetric(vertical: 10.h),
-                  child: const Divider(),
-                ),
-                physics: const NeverScrollableScrollPhysics(),
-                shrinkWrap: true,
-                itemCount: ayatFiltered!["occurences"] > 15
-                    ? 15
-                    : ayatFiltered!["occurences"],
-                itemBuilder: (context, index) {
-                  final ayat = ayatFiltered!["result"][index];
-                  return GestureDetector(
-                    onTap: () {
-                      context.navigateToWidget(
-                        context,
-                        SurahDetailsScreen(
-                          pageNumber: getPageNumber(
-                              ayatFiltered!['result'][index]['surah'],
-                              ayatFiltered!['result'][index]['verse']),
-                          shouldHighlightText: true,
-                          highlightVerse: getVerse(
-                              ayatFiltered!['result'][index]['surah'],
-                              ayatFiltered!['result'][index]['verse']),
-                          jsonData: widget.surahs,
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: AppColors.kCircleAvatarColor,
-                        borderRadius: BorderRadius.circular(10),
-                        boxShadow: const [
-                          BoxShadow(
-                            color: AppColors.kLightGreyColor,
-                            blurRadius: 5,
-                            offset: Offset(0, 2),
-                          ),
-                        ],
-                      ),
-                      child: Column(
-                        children: [
-                          Text(
-                            "${AppLocalizations.of(context)!.surah} ${getSurahNameArabic(ayat["surah"])}",
-                            style: Theme.of(context)
-                                .textTheme
-                                .bodyMedium!
-                                .copyWith(
-                                  fontSize: 18.sp,
-                                  fontFamily: 'Amiri',
-                                  fontWeight: FontWeightHelper.semiBold,
-                                ),
-                          ),
-                          Text(
-                            " ${getVerse(ayat["surah"], ayat["verse"], verseEndSymbol: true)}",
-                            style: Theme.of(context)
-                                .textTheme
-                                .bodyMedium!
-                                .copyWith(
-                                  fontSize: 16.sp,
-                                  fontFamily: 'Amiri',
-                                  fontWeight: FontWeightHelper.regular,
-                                ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  );
-                },
               ),
           ],
         ),

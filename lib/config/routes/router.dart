@@ -7,12 +7,16 @@ import 'package:muslim_app/features/azkar/logic/azkar_cubit.dart';
 import 'package:muslim_app/features/azkar/ui/screens/azkar_details_screen.dart';
 import 'package:muslim_app/features/azkar/ui/screens/azkar_screen.dart';
 import 'package:muslim_app/features/location/ui/screens/enable_location.dart';
+import 'package:muslim_app/features/quran_kariem/ui/screens/quran_kariem_screen.dart';
 import 'package:muslim_app/features/rookia/ui/screens/rookia_screen.dart';
 import 'package:muslim_app/features/tafseer/ui/screens/tafseer_screen.dart';
+import 'package:muslim_app/features/zakat/ui/screen/zakat_details_screen.dart';
+import 'package:muslim_app/features/zakat/ui/screen/zakat_screen.dart';
 
 import '../../features/ahadith/logic/ahadith_cubit.dart';
 import '../../features/ahadith/ui/screens/ahadith_screen.dart';
 import '../../features/calendar/ui/screens/calendar_screen.dart';
+import '../../features/home/data/model/feature_model.dart';
 import '../../features/layout/ui/layout_screen.dart';
 import '../../features/list_of_surahs/data/models/surha.dart';
 import '../../features/list_of_surahs/ui/screens/surahs_list.dart';
@@ -122,6 +126,16 @@ class AppRouter {
       case RoutePath.rookiaScreen:
         return MaterialPageRoute(
           builder: (_) => const RookiaScreen(),
+        );
+      case RoutePath.zakatScreen:
+        return MaterialPageRoute(
+          builder: (_) => const ZakatScreen(),
+        );
+      case RoutePath.zakatMoneyDetailsScreen:
+        return MaterialPageRoute(
+          builder: (_) => ZakatMoneyDetailsScreen(
+            featureModel: arguments as FeatureModel,
+          ),
         );
     }
     return null;
