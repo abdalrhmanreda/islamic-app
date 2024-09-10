@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:iconly/iconly.dart';
-import 'package:icons_plus/icons_plus.dart';
 import 'package:muslim_app/config/colors/app_colors.dart';
-import 'package:muslim_app/core/components/app_text_form_feild.dart';
 import 'package:muslim_app/core/components/custom_button.dart';
 import 'package:muslim_app/core/constant/app_constant.dart';
 import 'package:muslim_app/core/helpers/spacing.dart';
 import 'package:muslim_app/core/methods/app_functions/app_functions.dart';
-import 'package:muslim_app/core/methods/get_responsive_text/responsive_text.dart';
 import 'package:muslim_app/features/home/data/model/feature_model.dart';
 import 'package:muslim_app/features/zakat/ui/widgets/value_of_zakat.dart';
 

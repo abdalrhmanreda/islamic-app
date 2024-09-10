@@ -297,14 +297,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
-  circular_countdown_timer:
-    dependency: "direct main"
-    description:
-      name: circular_countdown_timer
-      sha256: "608d166c8c659af5740ffec8859e1429a4849b706675a529dc381ef40784697b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.4"
   clock:
     dependency: transitive
     description:
@@ -361,14 +353,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
-  countdown_progress_indicator:
-    dependency: "direct main"
-    description:
-      name: countdown_progress_indicator
-      sha256: cc928462449b917db5dd485bdec7661d0c65a63e626b21bdf0af683d6a67e188
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.3"
   cross_file:
     dependency: transitive
     description:
@@ -457,14 +441,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
-  easy_container:
-    dependency: "direct main"
-    description:
-      name: easy_container
-      sha256: b3264401acca9c6a512e4221169b619320e489451bae2213832aee68fb741196
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.4+1"
   fake_async:
     dependency: transitive
     description:
@@ -510,14 +486,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_advanced_drawer:
-    dependency: "direct main"
-    description:
-      name: flutter_advanced_drawer
-      sha256: "4d475bf48b30fcafe5ba9822ca302ea0aa9240317882fffd8450ba96a7e33105"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.6"
   flutter_bloc:
     dependency: "direct main"
     description:
@@ -1305,14 +1273,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  sleek_circular_slider:
-    dependency: "direct main"
-    description:
-      name: sleek_circular_slider
-      sha256: "8844d036269a13e60dda4e16534d30d27cacaff8d2f10d042d9d61d111468b13"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.1"
   smooth_page_indicator:
     dependency: "direct main"
     description:
@@ -1377,14 +1337,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.1"
-  step_progress_indicator:
-    dependency: "direct main"
-    description:
-      name: step_progress_indicator
-      sha256: b51bb1fcfc78454359f0658c5a2c21548c3825ebf76e826308e9ca10f383bbb8
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.2"
   stream_channel:
     dependency: transitive
     description:
@@ -1410,29 +1362,13 @@ packages:
     source: hosted
     version: "1.2.0"
   string_validator:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: string_validator
       sha256: "50dd8ecf91db6a732f4a851eeae81ee12406eedc62d0da72f2d91a04a2d10dd8"
       url: "https://pub.dev"
     source: hosted
     version: "0.3.0"
-  syncfusion_flutter_core:
-    dependency: transitive
-    description:
-      name: syncfusion_flutter_core
-      sha256: "266e71319ebf7e7a1b7cf8bf79b5f8ed2730f50d4de4bca6ff670a6b2dbba62a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "26.2.8"
-  syncfusion_flutter_gauges:
-    dependency: "direct main"
-    description:
-      name: syncfusion_flutter_gauges
-      sha256: c36fa1f6458b27a99e29178fd5e4a2ad30b3f100826f875876557eff1f262242
-      url: "https://pub.dev"
-    source: hosted
-    version: "26.2.8"
   synchronized:
     dependency: transitive
     description:

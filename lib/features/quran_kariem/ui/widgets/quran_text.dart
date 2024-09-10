@@ -7,7 +7,6 @@ import 'package:quran/quran.dart';
 import '../../../list_of_surahs/data/models/surha.dart';
 import '../../../quran/ui/widgets/basmallah.dart';
 import '../../../quran/ui/widgets/footer.dart';
-import '../../../quran/ui/widgets/header.dart';
 import '../widgets/end_of_verse.dart';
 import '../widgets/name_of_surah.dart';
 

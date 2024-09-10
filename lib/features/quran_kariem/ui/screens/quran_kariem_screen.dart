@@ -2,13 +2,14 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:muslim_app/core/cache/hive_cache.dart';
 import 'package:muslim_app/core/helpers/spacing.dart';
 import 'package:muslim_app/core/methods/app_functions/app_functions.dart';
 import 'package:quran/quran.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
-import 'package:quran/quran.dart' as quran;
+
+import '../../../../core/methods/app_functions/hizb_data.dart';
 import '../../../list_of_surahs/data/models/surha.dart';
-import '../../../quran/ui/widgets/footer.dart';
 import '../../../quran/ui/widgets/header.dart';
 import '../../../quran/ui/widgets/quran_intro.dart';
 
@@ -17,11 +18,9 @@ class QuranKariemScreen extends StatefulWidget {
     super.key,
     required this.pageNumber,
     required this.jsonData,
-    required this.surahNumber,
   });
   final int pageNumber;
   final List<Surah> jsonData;
-  final int surahNumber;
 
   @override
   State<QuranKariemScreen> createState() => _QuranKariemScreenState();
@@ -64,6 +63,7 @@ class _QuranKariemScreenState extends State<QuranKariemScreen> {
             juz = AppFunctions.getPartForPage(a);
           });
           index = a;
+          HiveCache.saveData(key: 'lastPage', value: index);
         },
         controller: _pageController,
         itemCount: totalPagesCount + 1,
@@ -79,15 +79,21 @@ class _QuranKariemScreenState extends State<QuranKariemScreen> {
                       widget.jsonData[getPageData(index)[0]['surah'] - 1].name,
                   juz: juz,
                 ),
+                Spacing.verticalSpace(10),
                 Expanded(
-                  child: Center(
-                    child: Image.asset(
-                      'assets/quran-images/$index.png',
-                      fit: BoxFit.fill,
-                    ),
-                  ),
+                  child: index == 1 || index == 2
+                      ? Center(
+                          child: Image.asset(
+                            'assets/quran-images/$index.png',
+                            fit: BoxFit.fill,
+                          ),
+                        )
+                      : Image.asset(
+                          'assets/quran-images/$index.png',
+                          fit: BoxFit.fill,
+                        ),
                 ),
-                Spacing.verticalSpace(15),
+                Spacing.verticalSpace(25),
               ],
             );
           }

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:muslim_app/core/components/custom_sliver_app_bar.dart';
 import 'package:muslim_app/core/helpers/extensions.dart';
 import 'package:muslim_app/features/home/data/model/feature_model.dart';
-import 'package:muslim_app/features/home/ui/widgets/feature_item.dart';
 import 'package:muslim_app/generated/assets.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../../config/routes/routes_path.dart';
 import '../../../ahadith/ui/widgets/ahadith_item.dart';
@@ -23,7 +22,7 @@ class ZakatScreen extends StatelessWidget {
       ),
       FeatureModel(
         title: AppLocalizations.of(context)!.goldZakat,
-        image: Assets.iconsGoldIngots,
+        image: Assets.iconsGold,
         widget: RoutePath.sliverGoldZakatScreen,
       ),
       FeatureModel(
