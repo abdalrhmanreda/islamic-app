@@ -26,4 +26,5 @@ class RoutePath {
   static const String quranKareem = '/quranKareem';
   static const String zakatScreen = '/zakatScreen';
   static const String zakatMoneyDetailsScreen = '/zakatDetailsScreen';
+  static const String sliverGoldZakatScreen = '/sliverGoldZakatScreen';
 }

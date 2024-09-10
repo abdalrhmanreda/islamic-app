@@ -24,12 +24,12 @@ class ZakatScreen extends StatelessWidget {
       FeatureModel(
         title: AppLocalizations.of(context)!.goldZakat,
         image: Assets.iconsGoldIngots,
-        widget: RoutePath.zakatMoneyDetailsScreen,
+        widget: RoutePath.sliverGoldZakatScreen,
       ),
       FeatureModel(
         title: AppLocalizations.of(context)!.silverZakat,
         image: Assets.iconsSilver,
-        widget: RoutePath.zakatMoneyDetailsScreen,
+        widget: RoutePath.sliverGoldZakatScreen,
       ),
     ];
     return Scaffold(
