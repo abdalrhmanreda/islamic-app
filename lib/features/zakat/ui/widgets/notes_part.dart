@@ -12,8 +12,9 @@ import '../../../../config/colors/app_colors.dart';
 class NotesPart extends StatelessWidget {
   const NotesPart({
     super.key,
+    this.isGold,
   });
-
+  final bool? isGold;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -35,7 +36,10 @@ class NotesPart extends StatelessWidget {
           ],
         ),
         Spacing.verticalSpace(15),
-        Text(AppLocalizations.of(context)!.notesZakat,
+        Text(
+            isGold!
+                ? AppLocalizations.of(context)!.notesGold
+                : AppLocalizations.of(context)!.notesZakat,
             style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                   color: Colors.grey,
                   fontSize: getResponsiveFontSize(context, fontSize: 15),

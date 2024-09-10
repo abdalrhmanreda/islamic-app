@@ -10,6 +10,7 @@ import 'package:muslim_app/features/location/ui/screens/enable_location.dart';
 import 'package:muslim_app/features/quran_kariem/ui/screens/quran_kariem_screen.dart';
 import 'package:muslim_app/features/rookia/ui/screens/rookia_screen.dart';
 import 'package:muslim_app/features/tafseer/ui/screens/tafseer_screen.dart';
+import 'package:muslim_app/features/zakat/ui/screen/sliver_gold_zakat_screen.dart';
 import 'package:muslim_app/features/zakat/ui/screen/zakat_details_screen.dart';
 import 'package:muslim_app/features/zakat/ui/screen/zakat_screen.dart';
 
@@ -134,6 +135,12 @@ class AppRouter {
       case RoutePath.zakatMoneyDetailsScreen:
         return MaterialPageRoute(
           builder: (_) => ZakatMoneyDetailsScreen(
+            featureModel: arguments as FeatureModel,
+          ),
+        );
+      case RoutePath.sliverGoldZakatScreen:
+        return MaterialPageRoute(
+          builder: (_) => SliverGoldZakatScreen(
             featureModel: arguments as FeatureModel,
           ),
         );
