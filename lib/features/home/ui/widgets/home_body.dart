@@ -49,9 +49,8 @@ class _HomeBodyState extends State<HomeBody> {
                       gridDelegate:
                           const SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 3,
-                        mainAxisSpacing: 5,
                         crossAxisSpacing: 15,
-                        childAspectRatio: .95,
+                        childAspectRatio: .88,
                       ),
                       itemBuilder: (context, index) {
                         final feature = featuredItems(context)[index];

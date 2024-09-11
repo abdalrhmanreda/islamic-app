@@ -38,7 +38,7 @@ class PrayerContainer extends StatelessWidget {
             horizontal: 10.w,
           ),
           width: AppConstant.deviceWidth(context),
-          height: AppConstant.deviceHeight(context) / 4,
+          height: AppConstant.deviceHeight(context) / 4.3,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             image: DecorationImage(

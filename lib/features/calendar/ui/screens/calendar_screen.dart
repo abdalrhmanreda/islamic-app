@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jhijri/jHijri.dart';
 import 'package:muslim_app/core/helpers/spacing.dart';
+import 'package:muslim_app/core/methods/get_responsive_text/responsive_text.dart';
 
 import '../../data/hiji_model.dart';
 import '../widgets/calendar_sliver_app_bar.dart';
@@ -112,12 +113,16 @@ class CalendarScreen extends StatelessWidget {
                     children: [
                       Text(
                         hijriEvent.description,
-                        style: const TextStyle(fontSize: 17),
+                        style: TextStyle(
+                            fontSize:
+                                getResponsiveFontSize(context, fontSize: 17)),
                       ),
                       Spacing.verticalSpace(5),
                       Text(
                         'التاريخ: ${hijriEvent.date} (${gregorianDate.year}-${gregorianDate.month}-${gregorianDate.day})',
-                        style: const TextStyle(fontSize: 16),
+                        style: TextStyle(
+                            fontSize:
+                                getResponsiveFontSize(context, fontSize: 17)),
                       ),
                     ],
                   ),

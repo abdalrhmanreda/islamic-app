@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:muslim_app/core/methods/get_responsive_text/responsive_text.dart';
 
 import '../../config/colors/app_colors.dart';
 import '../constant/app_constant.dart';
@@ -42,7 +43,7 @@ class CustomSliverAppBar extends StatelessWidget {
           ),
           child: Padding(
             padding: EdgeInsets.only(
-              top: 60.h,
+              top: 50.h,
               left: 10.w,
               right: 10.w,
             ),
@@ -56,7 +57,8 @@ class CustomSliverAppBar extends StatelessWidget {
                       title,
                       style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                             color: AppColors.kWhiteColor,
-                            fontSize: 20,
+                            fontSize:
+                                getResponsiveFontSize(context, fontSize: 20),
                           ),
                     ),
                     SvgPicture.asset(
@@ -72,9 +74,11 @@ class CustomSliverAppBar extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.bodySmall!.copyWith(
                         color: AppColors.kWhiteColor,
-                        fontSize: 14,
+                        fontSize: getResponsiveFontSize(context, fontSize: 14),
                         height: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
+                  maxLines: 4,
                 ),
               ],
             ),

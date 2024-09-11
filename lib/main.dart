@@ -1,7 +1,9 @@
 import 'package:bloc/bloc.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:timezone/data/latest.dart' as tz;
+import 'package:device_preview/device_preview.dart';
 
 import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';

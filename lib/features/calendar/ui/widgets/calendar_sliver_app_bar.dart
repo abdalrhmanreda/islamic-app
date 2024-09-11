@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hijri/hijri_calendar.dart';
 import 'package:intl/intl.dart';
 import 'package:muslim_app/core/helpers/extensions.dart';
+import 'package:muslim_app/core/methods/get_responsive_text/responsive_text.dart';
 
 import '../../../../config/colors/app_colors.dart';
 import '../../../../config/routes/routes_path.dart';
@@ -32,7 +33,7 @@ class CalendarSliverAppBar extends StatelessWidget {
         style: Theme.of(context).textTheme.bodyMedium!.copyWith(
               color: AppColors.kWhiteColor,
               fontWeight: FontWeightHelper.regular,
-              fontSize: 18.sp,
+              fontSize: getResponsiveFontSize(context, fontSize: 20),
             ),
       ),
       backgroundColor: AppColors.kPrimaryColor,
@@ -74,8 +75,9 @@ class CalendarSliverAppBar extends StatelessWidget {
                     AppLocalizations.of(context)!.calendar,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                           color: AppColors.kWhiteColor,
-                          fontWeight: FontWeightHelper.bold,
-                          fontSize: 19.sp,
+                          fontWeight: FontWeightHelper.regular,
+                          fontSize:
+                              getResponsiveFontSize(context, fontSize: 19),
                         ),
                   ),
                   Spacing.verticalSpace(5),
@@ -83,8 +85,9 @@ class CalendarSliverAppBar extends StatelessWidget {
                     hijriDate,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                           color: AppColors.kWhiteColor,
-                          fontWeight: FontWeightHelper.bold,
-                          fontSize: 19.sp,
+                          fontWeight: FontWeightHelper.regular,
+                          fontSize:
+                              getResponsiveFontSize(context, fontSize: 19),
                         ),
                   ),
                   Spacing.verticalSpace(5),
@@ -92,8 +95,9 @@ class CalendarSliverAppBar extends StatelessWidget {
                     formattedDate,
                     style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                           color: AppColors.kWhiteColor,
-                          fontWeight: FontWeightHelper.bold,
-                          fontSize: 19.sp,
+                          fontWeight: FontWeightHelper.regular,
+                          fontSize:
+                              getResponsiveFontSize(context, fontSize: 19),
                         ),
                   ),
                 ],

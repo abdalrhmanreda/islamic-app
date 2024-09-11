@@ -46,11 +46,12 @@ class NotificationService {
         channelKey: 'scheduled_channel',
         title: 'وَذَكِّرْ فَإِنَّ الذِّكْرَىٰ تَنفَعُ الْمُؤْمِنِينَ',
         body: body,
-
         notificationLayout: NotificationLayout.Default,
+        displayOnBackground: true,
+        displayOnForeground: true,
       ),
       schedule: NotificationInterval(
-        interval: 10 * 60, // 15 minutes in seconds
+        interval: 15 * 60, // 15 minutes in seconds
         timeZone: await AwesomeNotifications().getLocalTimeZoneIdentifier(),
         repeats: true,
       ),
