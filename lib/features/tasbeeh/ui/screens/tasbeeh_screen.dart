@@ -39,43 +39,44 @@ class TasbeehScreen extends StatelessWidget {
         builder: (context, state) {
           return state is TasbeehLoading
               ? const CustomLoadingIndicator()
-              : Column(
-                  children: [
-                    SizedBox(
-                      height: 260.h,
-                      child: PageView.builder(
-                          controller:
-                              context.watch<TasbeehCubit>().pageController,
-                          itemCount: context
-                              .watch<TasbeehCubit>()
-                              .generalTasbeeh
-                              .length,
-                          itemBuilder: (context, index) {
-                            final tasbeeh = context
+              : SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        height: 250.h,
+                        child: PageView.builder(
+                            controller:
+                                context.watch<TasbeehCubit>().pageController,
+                            itemCount: context
                                 .watch<TasbeehCubit>()
-                                .generalTasbeeh[index];
-                            return TasbeehItem(
-                              tasbeeh: tasbeeh.content,
-                              count: tasbeeh.count,
-                              description: tasbeeh.description,
-                            );
-                          },
-                          onPageChanged: (index) {
-                            context
-                                .read<TasbeehCubit>()
-                                .pageController
-                                .jumpToPage(
-                                  index,
-                                );
-                            context.read<TasbeehCubit>().decreaseCount();
-                          }),
-                    ),
-                    Spacing.verticalSpace(25),
-                    TasbeehButtons(
-                      pageController:
-                          context.read<TasbeehCubit>().pageController,
-                    ),
-                  ],
+                                .generalTasbeeh
+                                .length,
+                            itemBuilder: (context, index) {
+                              final tasbeeh = context
+                                  .watch<TasbeehCubit>()
+                                  .generalTasbeeh[index];
+                              return TasbeehItem(
+                                tasbeeh: tasbeeh.content,
+                                count: tasbeeh.count,
+                                description: tasbeeh.description,
+                              );
+                            },
+                            onPageChanged: (index) {
+                              context
+                                  .read<TasbeehCubit>()
+                                  .pageController
+                                  .jumpToPage(
+                                    index,
+                                  );
+                              context.read<TasbeehCubit>().decreaseCount();
+                            }),
+                      ),
+                      TasbeehButtons(
+                        pageController:
+                            context.read<TasbeehCubit>().pageController,
+                      ),
+                    ],
+                  ),
                 );
         },
       ),

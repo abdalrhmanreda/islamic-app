@@ -1,4 +1,3 @@
-import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -14,8 +13,6 @@ import '../../../../config/themes/font_weight.dart';
 import '../../../../core/constant/app_constant.dart';
 import '../../logic/names_of_alluh_cubit.dart';
 import '../../logic/names_of_alluh_state.dart';
-import '../widgets/back_side.dart';
-import '../widgets/front_side.dart';
 import '../widgets/name_of_alluh_item.dart';
 
 class NamesOfAlluh extends StatelessWidget {
@@ -82,6 +79,7 @@ class NamesOfAlluh extends StatelessWidget {
                 ),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
+                  childAspectRatio: .91,
                 ),
               ),
             ],

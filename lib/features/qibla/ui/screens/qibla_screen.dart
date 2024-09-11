@@ -80,9 +80,7 @@ class _QiblahScreenState extends State<QiblahScreen>
           begin = (qiblahDirection.qiblah * (pi / 180) * -1);
           _animationController!.forward(from: 0);
 
-          return Center(
-            child: QiblaScreenBody(qiblahDirection: qiblahDirection),
-          );
+          return QiblaScreenBody(qiblahDirection: qiblahDirection);
         },
       ),
     );

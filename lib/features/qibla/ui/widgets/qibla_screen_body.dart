@@ -20,29 +20,31 @@ class QiblaScreenBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      children: [
-        const QiblaAya(),
-        Spacing.verticalSpace(20),
-        SizedBox(
-          height: 250.h,
-          child: AnimatedBuilder(
-            animation: animation!,
-            builder: (context, child) => Transform.rotate(
-                angle: animation!.value,
-                child: SvgPicture.asset(Assets.iconsQibla)),
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          const QiblaAya(),
+          Spacing.verticalSpace(20),
+          SizedBox(
+            height: 220.h,
+            child: AnimatedBuilder(
+              animation: animation!,
+              builder: (context, child) => Transform.rotate(
+                  angle: animation!.value,
+                  child: SvgPicture.asset(Assets.iconsQibla)),
+            ),
           ),
-        ),
-        Spacing.verticalSpace(25),
-        Text(
-          ' ${AppLocalizations.of(context)!.qibla} ${qiblahDirection!.direction.toInt()}° ${angleToCardinalDirection(qiblahDirection!.direction)}',
-          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                fontWeight: FontWeight.bold,
-                fontSize: 20.sp,
-              ),
-        ),
-      ],
+          Spacing.verticalSpace(25),
+          Text(
+            ' ${AppLocalizations.of(context)!.qibla} ${qiblahDirection!.direction.toInt()}° ${angleToCardinalDirection(qiblahDirection!.direction)}',
+            style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20.sp,
+                ),
+          ),
+        ],
+      ),
     );
   }
 }

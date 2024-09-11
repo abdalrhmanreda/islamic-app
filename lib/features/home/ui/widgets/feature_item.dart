@@ -35,7 +35,7 @@ class FeatureItem extends StatelessWidget {
               vertical: 15.h,
             ),
             margin: EdgeInsets.symmetric(
-              horizontal: 10.w,
+              horizontal: 5.w,
             ),
             decoration: BoxDecoration(
               color: AppColors.kWhiteColor,
@@ -53,7 +53,8 @@ class FeatureItem extends StatelessWidget {
           Spacing.verticalSpace(5),
           Text(
             title,
-            maxLines: 3,
+            maxLines: 1,
+
             overflow: TextOverflow.ellipsis, // Ensures text doesn't overflow
             textAlign: TextAlign.center, // Center-aligns the text
             style: Theme.of(context).textTheme.bodyMedium!.copyWith(

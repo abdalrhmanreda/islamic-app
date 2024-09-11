@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:muslim_app/core/components/progress_indector.dart';
 
 import '../../../../config/colors/app_colors.dart';
 import '../../../../core/helpers/spacing.dart';
+import '../../../../core/methods/check_internet/check_internet.dart';
 import '../../logic/radio_cubit.dart';
 
 class RadioListView extends StatefulWidget {
@@ -19,15 +21,22 @@ class _RadioListViewState extends State<RadioListView> {
   final AudioPlayer audioPlayer = AudioPlayer();
   int? currentlyPlayingIndex;
   bool isPlaying = false;
+  bool isLoading = false;
 
   @override
   void initState() {
     super.initState();
+
+    // Listen for player state changes
     audioPlayer.onPlayerStateChanged.listen((state) {
       if (state == PlayerState.completed) {
         setState(() {
           isPlaying = false;
           currentlyPlayingIndex = null;
+        });
+      } else if (state == PlayerState.playing) {
+        setState(() {
+          isLoading = false;
         });
       }
     });
@@ -46,13 +55,45 @@ class _RadioListViewState extends State<RadioListView> {
         isPlaying = false;
       });
     } else {
-      await audioPlayer.stop();
-      await audioPlayer.play(UrlSource(url));
       setState(() {
-        currentlyPlayingIndex = index;
-        isPlaying = true;
+        isLoading =
+            true; // Start showing loading when new audio is being prepared
       });
+      try {
+        if (await checkInternet()) {
+          await audioPlayer.stop();
+          await audioPlayer.play(UrlSource(url));
+          setState(() {
+            currentlyPlayingIndex = index;
+            isPlaying = true;
+            isLoading = false; // Stop showing loading once audio starts playing
+          });
+        } else {
+          _showErrorDialog('لا يوجد اتصال بالإنترنت');
+        }
+      } catch (e) {
+        setState(() {
+          isLoading = false;
+        });
+        _showErrorDialog('حدث خطأ أثناء تشغيل الصوت. حاول مرة أخرى.');
+      }
     }
+  }
+
+  void _showErrorDialog(String message) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('خطأ'),
+        content: Text(message),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('موافق'),
+          ),
+        ],
+      ),
+    );
   }
 
   @override
@@ -66,7 +107,6 @@ class _RadioListViewState extends State<RadioListView> {
         return Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20.0),
-            // color: AppColors.kPrimaryColor.withOpacity(0.1),
           ),
           child: ListTile(
             title: Text(
@@ -75,17 +115,23 @@ class _RadioListViewState extends State<RadioListView> {
                     fontSize: 16.sp,
                   ),
             ),
-            trailing: IconButton(
-              icon: Icon(
-                isCurrentlyPlaying
-                    ? Iconsax.pause_outline
-                    : Iconsax.play_outline,
-                color: AppColors.kPrimaryColor,
-              ),
-              onPressed: () {
-                _playPauseAudio(index, radio.url!);
-              },
-            ),
+            trailing: isCurrentlyPlaying && isLoading
+                ? SizedBox(
+                    width: 24.w,
+                    height: 24.h,
+                    child: const CustomLoadingIndicator(),
+                  )
+                : IconButton(
+                    icon: Icon(
+                      isCurrentlyPlaying
+                          ? Iconsax.pause_outline
+                          : Iconsax.play_outline,
+                      color: AppColors.kPrimaryColor,
+                    ),
+                    onPressed: () {
+                      _playPauseAudio(index, radio.url!);
+                    },
+                  ),
             onTap: () {
               _playPauseAudio(index, radio.url!);
             },

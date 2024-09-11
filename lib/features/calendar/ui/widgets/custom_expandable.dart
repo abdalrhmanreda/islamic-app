@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:muslim_app/core/methods/get_responsive_text/responsive_text.dart';
 
 import '../../../../config/themes/font_weight.dart';
 
@@ -66,7 +67,7 @@ class _CustomExpandableState extends State<CustomExpandable>
                 Text(
                   widget.title,
                   style: TextStyle(
-                    fontSize: 18.sp,
+                    fontSize: getResponsiveFontSize(context, fontSize: 18),
                     fontWeight: FontWeightHelper.regular,
                   ),
                 ),

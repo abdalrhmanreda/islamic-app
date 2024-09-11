@@ -1,2 +1,0 @@
-String? userId;
-String? address;
