@@ -1,8 +1,5 @@
 flutter_native_splash:
-
-
   color: "#00494b"
-
   image: assets/images/splash.png
 
   #branding: assets/dart.png
@@ -25,8 +22,7 @@ flutter_native_splash:
   # Please visit https://developer.android.com/guide/topics/ui/splash-screen
   # Following are specific parameters for Android 12+.
   android_12:
-    image: assets/images/splash.png
     color: "#00494b"
-
+    image: assets/images/splash.png
 
 

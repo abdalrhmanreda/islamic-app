@@ -27,6 +27,7 @@ class _ReciterListViewState extends State<ReciterListView> {
   int? _currentlyPlayingIndex;
   bool _isPlaying = false;
   bool _isMounted = false;
+  bool _isLoading = false;
 
   @override
   void initState() {
@@ -43,20 +44,47 @@ class _ReciterListViewState extends State<ReciterListView> {
 
   void _playAudio(int index, String url, Function setStateBottomSheet) async {
     try {
-      // Load the audio source
+      // تعيين حالة التحميل إلى true قبل بدء التحميل
+      setStateBottomSheet(() {
+        _isLoading = true;
+      });
+
+      // تحميل الملف الصوتي
       await _audioPlayer.setUrl(url);
 
-      // Start playing
+      // بدء التشغيل
       _audioPlayer.play();
 
       if (_isMounted) {
         setStateBottomSheet(() {
           _currentlyPlayingIndex = index;
           _isPlaying = true;
+          _isLoading = false; // تعيين حالة التحميل إلى false بعد بدء التشغيل
         });
       }
     } catch (e) {
-      print("Error playing audio: $e");
+      setStateBottomSheet(() {
+        _isLoading = false; // تعيين حالة التحميل إلى false عند حدوث خطأ
+      });
+
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          title: Text(AppLocalizations.of(context)!.errorHappened),
+          content: Text(AppLocalizations.of(context)!.enSureInternetConnection),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text(AppLocalizations.of(context)!.ok),
+            ),
+          ],
+        ),
+      );
     }
   }
 
@@ -66,6 +94,7 @@ class _ReciterListViewState extends State<ReciterListView> {
       setStateBottomSheet(() {
         _isPlaying = false;
         _currentlyPlayingIndex = null;
+        _isLoading = false; // تعيين حالة التحميل إلى false عند التوقف
       });
     }
   }
@@ -175,11 +204,19 @@ class _ReciterListViewState extends State<ReciterListView> {
           subtitle: Text(
               '${quran.getVerseCount(surahIndices[surahIndex])} ${AppLocalizations.of(context)!.theNumberOfItsVerses}'),
           trailing: IconButton(
-            icon: Icon(
-              _isPlaying && _currentlyPlayingIndex == surahIndices[surahIndex]
-                  ? Iconsax.pause_outline
-                  : Iconsax.play_outline,
-            ),
+            icon: _isLoading &&
+                    _currentlyPlayingIndex == surahIndices[surahIndex]
+                ? SizedBox(
+                    width: 24.w,
+                    height: 24.h,
+                    child: const CircularProgressIndicator(),
+                  )
+                : Icon(
+                    _isPlaying &&
+                            _currentlyPlayingIndex == surahIndices[surahIndex]
+                        ? Iconsax.pause_outline
+                        : Iconsax.play_outline,
+                  ),
             onPressed: () {
               _isPlaying && _currentlyPlayingIndex == surahIndices[surahIndex]
                   ? _stopAudio(setStateBottomSheet)

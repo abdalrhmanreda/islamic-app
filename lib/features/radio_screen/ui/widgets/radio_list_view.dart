@@ -60,7 +60,7 @@ class _RadioListViewState extends State<RadioListView> {
             true; // Start showing loading when new audio is being prepared
       });
       try {
-        if (await checkInternet()) {
+        if (!await checkInternet()) {
           await audioPlayer.stop();
           await audioPlayer.play(UrlSource(url));
           setState(() {
@@ -69,7 +69,7 @@ class _RadioListViewState extends State<RadioListView> {
             isLoading = false; // Stop showing loading once audio starts playing
           });
         } else {
-          _showErrorDialog('لا يوجد اتصال بالإنترنت');
+          _showErrorDialog('تأكد من اتصالك بالإنترنت.');
         }
       } catch (e) {
         setState(() {

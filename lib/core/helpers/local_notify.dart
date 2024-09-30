@@ -14,7 +14,6 @@ class NotificationService {
 
   void _initializeNotifications() {
     AwesomeNotifications().initialize(
-      // Use 'resource://drawable/res_app_icon' if your app icon is in the drawable folder
       'resource://mipmap/ic_launcher',
       [
         NotificationChannel(

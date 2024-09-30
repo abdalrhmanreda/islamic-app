@@ -47,8 +47,11 @@ class Assets {
   static const String imagesSplash = 'assets/images/splash.png';
   static const String locationLocation = 'assets/images/location/location.svg';
   static const String logoLogo = 'assets/images/logo/logo.svg';
+  static const String muslimAppFlutterNativeSplash =
+      'flutter_native_splash.yaml';
   static const String noInternetNoInternet =
       'assets/no_internet/no_internet.json';
+  static const String onBoardingLoc = 'assets/images/on_boarding/loc.svg';
   static const String onBoardingOnBorading =
       'assets/images/on_boarding/on_borading.svg';
   static const String onBoardingOnBorading2 =

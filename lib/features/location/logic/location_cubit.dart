@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:adhan_dart/adhan_dart.dart';
 import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 
 import '../../../core/methods/get_current_location/get_current_location.dart';
@@ -17,7 +18,9 @@ class LocationCubit extends Cubit<LocationState> {
 
   Stream<double> get qiblaDirectionStream => _qiblaDirectionController.stream;
 
-  void getLocation({bool? isQibla}) async {
+  void getLocation({
+    bool? isQibla,
+  }) async {
     emit(const LocationState.loading());
     try {
       position = await GetCurrentLocation().getCurrentPosition();

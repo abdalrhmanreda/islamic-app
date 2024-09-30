@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:adhan_dart/adhan_dart.dart';
 import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 
@@ -22,19 +23,34 @@ class HomeCubit extends Cubit<HomeState> {
 
   void getLocation(context) async {
     emit(const HomeState.loading());
-    GetCurrentLocation().getCurrentPosition().then((value) {
-      position = value;
-      GetCurrentLocation()
-          .getAddressFromCoordinates(
-              position!.latitude, position!.longitude, 'ar')
-          .then((value) {
-        address = value;
-        getPrayerTimes();
-      });
+
+    // التأكد من صلاحيات الموقع
+    bool hasPermission = await GetCurrentLocation().checkPermission();
+    if (!hasPermission) {
+      emit(HomeState.error("Permission Denied"));
+      return;
+    }
+
+    // الاستماع لتحديثات الموقع عبر stream
+    GetCurrentLocation().getPositionStream().listen((Position position) async {
+      // تحديث الموقع
+      this.position = position;
+
+      // الحصول على العنوان بناءً على الموقع الجديد
+      String address = await GetCurrentLocation().getAddressFromCoordinates(
+          position.latitude, position.longitude, 'ar');
+      this.address = address;
+
+      // تحديث مواقيت الصلاة بناءً على الموقع الجديد
+      getPrayerTimes();
+
+      // عمليات أخرى مثل تحميل البيانات أو إرسال الإشعارات
       loadJsonAsset();
       sendNotification();
+
+      // Emit حالة الموقع المحدّث
       emit(HomeState.loaded(position));
-    }).catchError((e) {
+    }).onError((e) {
       emit(HomeState.error(e.toString()));
     });
   }
@@ -55,7 +71,9 @@ class HomeCubit extends Cubit<HomeState> {
     return prayerTimes;
   }
 
-  void getPrayerTimesForSelectedDay({DateTime? date}) async {
+  void getPrayerTimesForSelectedDay({
+    DateTime? date,
+  }) async {
     emit(const HomeState.loading());
     try {
       Position position = await GetCurrentLocation().getCurrentPosition();

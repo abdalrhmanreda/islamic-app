@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 1.0.0+4
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
@@ -100,7 +100,6 @@ dependencies:
   # toggle button
   toggle_switch: ^2.3.0
   # splash
-  flutter_native_splash: ^2.4.0
   # arabic tools
   arabic_tools: ^0.0.4
   # conditional builder
@@ -130,6 +129,8 @@ dependencies:
   arabic_numbers: ^1.0.0
   device_preview: ^1.2.0
   firebase_core: ^3.4.0
+  sentry_flutter: ^8.9.0
+  flutter_native_splash: ^2.4.1
 
 
 
@@ -201,6 +202,7 @@ flutter:
     - assets/images/
     - assets/fonts/KFGQPCUthmanicScriptHAFS.otf
     - assets/quran-images/
+    - flutter_native_splash.yaml
   fonts:
     - family: hafc
       fonts:

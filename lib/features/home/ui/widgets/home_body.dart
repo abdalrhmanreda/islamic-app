@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:muslim_app/core/helpers/spacing.dart';
 import 'package:muslim_app/features/home/ui/widgets/prayer_container.dart';
 
@@ -20,10 +22,48 @@ class _HomeBodyState extends State<HomeBody> {
   @override
   void initState() {
     super.initState();
-    // Initialize the state
-    context.read<HomeCubit>().position == null
-        ? context.read<HomeCubit>().getLocation(context)
-        : null;
+    // Check and request location permission
+    context.read<HomeCubit>().position == null ? _checkPermission() : null;
+  }
+
+  Future<void> _checkPermission() async {
+    var status = await Permission.location.status;
+
+    if (status.isDenied) {
+      // Request the permission
+      if (await Permission.location.request().isDenied) {
+        // If denied, show an alert dialog explaining why it's needed
+        _showPermissionDeniedAlert();
+      } else {
+        // Permission granted, proceed to get location
+        context.read<HomeCubit>().getLocation(context);
+      }
+    } else if (status.isGranted) {
+      // If permission is already granted, get location
+      context.read<HomeCubit>().getLocation(context);
+    }
+  }
+
+  void _showPermissionDeniedAlert() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text("مهم: إذن الموقع"),
+          content: const Text(
+              "التطبيق يحتاج الوصول إلى موقعك لتوفير مواقيت الصلاة بدون اتصال بالإنترنت. يُرجى تفعيل إذن الموقع."),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+                Geolocator.openLocationSettings();
+              },
+              child: const Text("حسنًا"),
+            ),
+          ],
+        );
+      },
+    );
   }
 
   @override
@@ -31,6 +71,13 @@ class _HomeBodyState extends State<HomeBody> {
     return BlocConsumer<HomeCubit, HomeState>(
       listener: (context, state) {
         // Handle state changes
+        if (state is Error) {
+          if (state.message == 'Permission Denied' ||
+              state.message ==
+                  'The location service on the device is disabled.') {
+            _showPermissionDeniedAlert();
+          }
+        }
       },
       builder: (context, state) {
         return context.read<HomeCubit>().position != null
