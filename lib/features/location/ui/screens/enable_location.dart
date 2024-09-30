@@ -20,7 +20,7 @@ class EnableLocation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     OnBoardingItemContent onBoardingItemContent = OnBoardingItemContent(
-      description: AppLocalizations.of(context)!.enableLocationDescription,
+      description: AppLocalizations.of(context)!.enableLocationTitle,
       image: Assets.locationLocation,
     );
     return Scaffold(
@@ -49,6 +49,15 @@ class EnableLocation extends StatelessWidget {
                   text: AppLocalizations.of(context)!.enableLocationButtonText,
                   width: AppConstant.deviceWidth(context) / 2,
                   radius: 10.r,
+                ),
+                Spacing.verticalSpace(15),
+                GestureDetector(
+                  onTap: () {
+                    context.navigateAndFinishNyNamed(context, RoutePath.layout);
+                  },
+                  child: Text(
+                    AppLocalizations.of(context)!.skip,
+                  ),
                 ),
               ],
             ),

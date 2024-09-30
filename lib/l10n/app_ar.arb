@@ -6,7 +6,8 @@
   "onBoardingTextButtonText": "تخطى",
   "onBoardingButtonText": "التالي",
   "enableLocationButtonText": "تمكين الموقع",
-  "enableLocationDescription": "يُرجى منح الإذن بالوصول إلى موقعك",
+  "enableLocationDescription": "يستخدم مسلم بيانات الموقع لتوفير مواقيت الصلاة بدون الحاجة إلى الإنترنت. يُرجى السماح بالوصول إلى الموقع حتى عندما يكون التطبيق غير مستخدم.",
+    "enableLocationTitle": "السماح بالوصول إلى الموقع",
   "drawerContactUs": "تواصل معانا",
   "drawerTheme": "الثيمات",
   "drawerLanguage": "اللغة",
@@ -184,7 +185,9 @@
   "enterThePrice": "ادخل سعر الجرام" ,
   "lastRead": "آخر ما تلاوته",
   "continueReading": "استمر في القراءة" ,
-  "page": "صفحة"
+  "page": "صفحة" ,
+  "enSureInternetConnection": "تأكد من اتصال الإنترنت" ,
+  "skip": "تخطي"
 
 
 

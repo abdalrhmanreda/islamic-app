@@ -1,9 +1,11 @@
+import 'dart:async';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
-
 import '../app_functions/app_functions.dart';
 
 class GetCurrentLocation {
+  StreamSubscription<Position>? _positionStreamSubscription;
+
   Future<bool> checkPermission() async {
     bool serviceEnabled;
     LocationPermission permission;
@@ -38,9 +40,18 @@ class GetCurrentLocation {
         desiredAccuracy: LocationAccuracy.high,
       );
     } else {
-      Geolocator.openAppSettings();
       return Future.error('Permission Denied');
     }
+  }
+
+  Stream<Position> getPositionStream() {
+    return Geolocator.getPositionStream(
+      locationSettings: const LocationSettings(
+        accuracy: LocationAccuracy.high,
+        distanceFilter:
+            10, // سيتم إرسال التحديثات عندما يتحرك المستخدم على الأقل 10 متر
+      ),
+    );
   }
 
   Future<String> getAddressFromCoordinates(
@@ -64,5 +75,9 @@ class GetCurrentLocation {
       print("Error: $e");
       return 'Error getting address';
     }
+  }
+
+  void stopPositionStream() {
+    _positionStreamSubscription?.cancel();
   }
 }

@@ -28,13 +28,6 @@ class CalendarScreen extends StatelessWidget {
         monthNumber: 1,
       ),
       HijriEvent(
-        name: 'المولد النبوي',
-        description:
-            'يُحتفل بمولد النبي محمد (صلى الله عليه وسلم) في 12 ربيع الأول من كل عام هجري.',
-        date: '12 ربيع الأول',
-        monthNumber: 3,
-      ),
-      HijriEvent(
         name: 'الإسراء والمعراج',
         description:
             'ذكرى رحلة الإسراء والمعراج التي عرج فيها النبي محمد (صلى الله عليه وسلم) إلى السماوات السبع.',

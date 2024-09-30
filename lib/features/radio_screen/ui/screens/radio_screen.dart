@@ -23,12 +23,16 @@ class RadioScreen extends StatefulWidget {
 }
 
 class _RadioScreenState extends State<RadioScreen> {
-  final AudioPlayer _audioPlayer = AudioPlayer();
   bool _isRecitersView = true; // Toggle state
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
   void dispose() {
-    _audioPlayer.dispose();
     super.dispose();
   }
 

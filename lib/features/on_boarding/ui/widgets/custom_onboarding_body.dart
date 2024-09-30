@@ -32,8 +32,8 @@ class _CustomOnBoardingBodyState extends State<CustomOnBoardingBody> {
         image: Assets.onBoardingOnBorading2,
       ),
       OnBoardingItemContent(
-        description: AppLocalizations.of(context)!.onBoardingDescription3,
-        image: Assets.onBoardingOnBorading3,
+        description: AppLocalizations.of(context)!.enableLocationDescription,
+        image: Assets.onBoardingLoc,
       ),
     ];
   }
